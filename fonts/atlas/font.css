@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Atlas Grotesk';
+  src: url('atlas-black.eot'); /* IE9 Compat Modes */
+  src: url('atlas-black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('atlas-black.woff') format('woff'), /* Modern Browsers */
+       url('atlas-black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('atlas-black.svg#3ad80ac7df2b0d0f21340c081225ece9') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

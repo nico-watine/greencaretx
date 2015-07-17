@@ -1,0 +1,143 @@
+@import "../settings/_settings.scss";
+
+
+
+main {
+	border-left: $ten solid $dark-brown;
+	border-right: $ten solid $dark-brown;
+	box-shadow: em(1) em(-2) em(2) 0px #000 inset;
+	background-size: cover;
+	background-color: $dark-brown;
+
+	@include span-columns(14 of 16);
+	@include shift(1);
+
+	@include media($large) {
+		border-left: em(7) solid $dark-brown;
+		border-right: em(7) solid $dark-brown;
+		@include span-columns(11 of 12);
+		@include shift(0.5);
+	}
+}
+
+#page-title {
+	@include span-columns(1 of 10);
+	@include shift(0);
+
+	@include media($large) {
+		@include span-columns(1 of 10);
+	}
+
+	@include media($medium) {
+		display: none;
+		visibility: hidden;
+	}
+
+	.h1-wrap {
+		margin-left: em(-5);
+		padding-top: em(450);
+
+		@include media($default-break) {
+			margin-left: em(-15);
+		}
+
+		@include media($large) {
+			margin-left: em(-18);
+			padding-top: em(500);
+		}
+
+		h1#our-plants {
+			padding: 0;
+			width: rem(250);
+		}
+	}
+
+	.vertical-title {
+		@include transform(rotate(-90deg));
+		color: white;
+		padding: rem(40) 0 0 0;
+		font-size: rem(42);
+		margin: 0;
+		letter-spacing: rem(2.5);
+		font-weight: normal;
+		font-family: 'atlas';
+	}
+
+	.h1-wrap#our-plants {
+		padding-top: em(400);
+
+		.vertical-title {
+			padding: 0;
+			width: rem(250);
+			margin-left: rem(-65);
+		}
+	}
+
+	.h1-wrap#project-galleries,
+	.h1-wrap#contact {
+		padding-top: em(270);
+		margin-left: em(-150);
+
+		@include media($default-break) {
+			margin-left: em(-155);
+			padding-top: em(320);
+		}
+
+		@include media($large) {
+			margin-left: em(-160);
+		}
+
+		.vertical-title {
+			padding: 0;
+			width: rem(400);
+		}
+	}
+}
+
+#page-content {
+	box-shadow: em(-1) 0 em(2) 0 #000;
+	@include span-columns(9 of 10);
+	padding-top: em(20);
+	background-color: $content-bg;
+	background-image: url('/img/misc/flower-bg.png');
+	background-position: bottom right;
+	background-size: 300px;
+	background-repeat: no-repeat;
+	height: auto;
+
+	@include media($large) {
+		@include span-columns(9 of 10);
+	}
+
+	@include media($medium) {
+		@include span-columns(10 of 10);
+		@include shift(0);
+	}
+}
+
+.page-header {
+	text-align: center;
+	@include row;
+	margin-bottom: em(10);
+
+	h1 {
+		font-size: em(42);
+		margin-bottom: 0;
+	}
+
+	h3 {
+		font-size: rem(21);
+		line-height: rem(24);
+		margin-bottom: 0;
+	}
+
+	@include media($small-plus) {
+		h1 {
+			font-size: em(36);
+		}
+
+		h2 {
+			font-size: rem(19);
+		}
+	}
+}

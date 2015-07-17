@@ -1,0 +1,9 @@
+.ie8-hide {
+	visibility: hidden !important;
+	display: none !important;
+}
+
+#ie8-last,
+.ie8-last {
+	@include omega();
+}

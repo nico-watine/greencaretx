@@ -1,0 +1,381 @@
+// colors
+$dark-brown: #4c3211;
+$lime-green: #a0cc39;
+$tan: #ded8cc;
+$logo-brown: #624011;
+$content-bg: #eeeeee;
+
+#top-bar {
+	@include span-columns(14);
+	@include shift(1);
+	z-index: 3;
+	background: $dark-brown;
+	border-radius: em(12) em(12) 0 0;
+	border-top: em(2) solid white;
+	border-bottom: em(2) solid white;	
+	text-align: right;
+	position: relative;
+
+	@include media($large) {
+		@include span-columns(11);
+		@include shift(0.5);
+	}
+
+	@include media($medium) {
+		background: $dark-brown;
+		border-top: em(2) solid $tan;
+		border-radius: 0;
+		width: 100%;
+		@include shift(0);
+	}
+
+	@include media($small-plus) {
+		z-index: 20;
+		background: $logo-brown;
+		border-bottom: em(1) solid #fff;
+	}
+}
+
+
+
+@include media($small-plus) {
+.nav-collapse ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+	list-style: none;
+}
+
+.nav-collapse li {
+	width: 100%;
+	display: block;
+}
+
+.js .nav-collapse {
+	clip: rect(0 0 0 0);
+	max-height: 0;
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.nav-collapse.opened {
+	max-height: 9999px;
+}
+
+.disable-pointer-events {
+	pointer-events: none !important;
+}
+
+.nav-toggle {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------
+MASK
+--------------------------------------------- */
+
+.mask {
+	-webkit-transition: opacity 300ms;
+	-moz-transition: opacity 300ms;
+	transition: opacity 300ms;
+	background: rgba(0,0,0, .5);
+	visibility: hidden;
+	position: fixed;
+	opacity: 0;
+	z-index: 11; //////
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+}
+
+.android .mask {
+	-webkit-transition: none;
+	transition: none;
+}
+
+.js-nav-active .mask {
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+/* ------------------------------------------
+NAVIGATION STYLES
+--------------------------------------------- */
+
+.fixed {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.nav-collapse,
+.nav-collapse * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.nav-collapse,
+.nav-collapse ul {
+	list-style: none;
+	width: 100%;
+	float: left;
+}
+
+
+
+.nav-collapse li {
+	float: left;
+	width: 100%;
+}
+
+
+
+.nav-collapse a {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	border-top: 1px solid white;
+	text-decoration: none;
+	background: $dark-brown;
+	padding: 0.7em 1em;
+	color: #fff;
+	width: 100%;
+	float: left;
+	font-size: 18px;
+
+	&:hover {
+		background: $lime-green;
+		// background: lighten( $lime-green, 8% );
+		// text-shadow: rem(0) rem(1) rem(1) $dark-brown;
+		// box-shadow: inset rem(0) rem(0) rem(3) rem(4) #88AF2D;
+	}
+}
+
+.nav-collapse a:active,
+.nav-collapse .active a {
+	background: $lime-green;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+
+
+.nav-collapse a#last {
+	border-radius: 0 10px 0 0;
+	border-right: 2px solid white;
+
+	@include media($medium) {
+		border-right: 0;
+		border-radius: 0;
+	}
+}
+
+.nav-collapse ul ul a {
+	background: #ca3716;
+	padding-left: 2em;
+}
+
+
+
+/* ------------------------------------------
+NAV TOGGLE STYLES
+--------------------------------------------- */
+
+
+.nav-toggle {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none;
+	text-indent: -300px;
+	position: relative;
+	overflow: hidden;
+	width: 60px;
+	height: 3em;
+	float: right;
+}
+
+.nav-toggle:before {
+	color: #fff; /* Edit this to change the icon color */
+	font: normal 35px/48px "nav"; /* Edit font-size (28px) to change the icon size */
+	text-transform: none;
+	text-align: center;
+	position: absolute;
+	content: "\2261"; /* Hamburger icon */
+	text-indent: 0;
+	speak: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.nav-toggle.active:before {
+	font-size: 26px;
+	content: "\78"; /* Close icon */
+}
+
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 40.6255em) {
+
+	.nav-collapse.closed {
+		max-height: 53px;
+	}
+	.nav-toggle {
+		display: none;
+	}
+	.mask {
+		display: none !important;
+		opacity: 0 !important;
+	}
+
+///////////////////////////////////////
+
+
+// #top-bar {
+// 	// border-bottom: 4px solid white;
+// 	// box-shadow: 0px 1px 2px 0px #333333;
+// }
+
+	.nav-collapse {
+		float: right;
+		width: auto;
+	}
+
+	.nav-collapse a {
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		border-left: 2px solid white;
+		text-decoration: none;
+		background: $dark-brown;
+		padding: 0.7em 1em;
+		color: #fff;
+		width: 100%;
+		text-align: center;
+		border-top: 0;
+		float: left;
+		margin: 0;
+		font-size: 21px;
+
+		&:hover {
+			background: $lime-green;
+			text-shadow: 0px rem(1) rem(0) #668625;
+			box-shadow: 0px 1px 1px 0px #668625 inset;
+		}
+	}
+
+	.nav-collapse li {
+		width: auto;
+		float: left;
+	}
+
+	.nav-collapse a:active,
+	.nav-collapse .active a {
+		background: $lime-green;
+		box-shadow: none;
+		text-shadow: 0px rem(1) rem(0) #668625;
+		box-shadow: 0px 1px 1px 0px #668625 inset;
+	}
+
+
+
+	.nav-collapse a#last {
+		border-radius: 0 10px 0 0;
+		border-right: 2px solid white;
+
+		@include media($medium) {
+			border-radius: 0;
+		}
+	}
+
+	.nav-collapse ul ul a {
+		background: #ca3716;
+		padding-left: 2em;
+	}
+
+	.nav-collapse,
+	.nav-collapse * {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.nav-collapse,
+	.nav-collapse ul {
+		list-style: none;
+		float: right;
+	}
+
+	.nav-collapse ul {
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		list-style: none;
+	}
+
+
+
+	.nav-collapse {
+		position: absolute;
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+@include media($medium) {
+	.nav-collapse {
+		width: 100% !important;
+		text-align: center !important;
+		ul {
+			float: none !important;
+			li {
+			}
+		}
+	}
+}
+
+@include media($small-plus) {
+	.nav-collapse {
+		text-align: right !important;
+
+		ul {
+			float: left !important;
+		}
+	}
+}

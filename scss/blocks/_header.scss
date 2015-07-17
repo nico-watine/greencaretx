@@ -1,0 +1,224 @@
+@import "../settings/_settings.scss";
+
+$mobile: 'max-width: 480px';
+
+header#index {
+
+	.default {
+		visibility: visible;
+		display: block;
+	}
+}
+
+header {
+	.logo-container {
+		@include span-columns(4 of 16);
+		position: relative;
+		padding: 1px;
+
+		#medium-logo {
+			visibility: hidden;
+			display: none;
+		}
+
+		@include media($large) {
+			padding: 0;
+			@include span-columns(3 of 12);
+		}
+
+		@include media($medium) {
+			@include span-columns(10 of 10);
+			background: #4C3211;
+			text-align: center;
+			z-index: 55;
+			
+			img#medium-logo {
+				margin: 1em auto;
+				visibility: visible;
+				display: inline-block;
+				max-width: 300px;
+			}
+		}
+		
+		#default-logo {
+			max-width: 200px;
+			width: 100%;
+			margin-left: -85px;
+			left: 50%;
+			position: absolute;
+			z-index: 999;
+			height: auto;
+
+			@include media($large) {
+				max-width: 150px;
+				margin-left: -80px;
+				left: 45%;
+				height: auto;
+			}
+
+			@include media($medium) {
+				visibility: hidden;
+				display: none;
+			}
+		}
+	}
+
+	.phone-container {
+		@include span-columns(6);
+		@include shift(5);
+
+		aside {
+			height: em(45);
+			border-radius: 0.625em 0.625em 0px 0px;
+			text-align: center;
+			width: em(355);
+			background: $lime-green;
+			border-top: 0.125em solid #fff;
+			border-left: 0.125em solid #fff;
+			border-right: 0.125em solid #fff;
+
+			h3,
+			h3 a.phone-number {
+				font-size: rem(28);
+				margin: 0;
+				line-height: rem(45);
+				color: #fff;
+				text-shadow: rem(1) rem(1) 0px #000;
+			}
+		}
+
+		@include media($default-break) {
+			@include span-columns(7);
+			@include shift(4);
+
+			aside {
+				margin: 0 auto;
+			}
+		}
+
+		@include media($large) {
+			@include span-columns(5 of 12);
+			@include shift(6);
+
+			aside {
+				width: em(340);
+			}
+		}
+
+		@include media($medium) {
+			visibility: hidden;
+			display: none;
+		}
+	}
+}
+
+header {
+	.default {
+		@include media($small-plus) {
+			visibility: hidden;
+			display: none;
+		}
+	}
+}
+
+$mini-mobile: "only screen and (max-width : 450px)";
+
+
+header {
+
+	.mini {
+		visibility: hidden;
+		display: none;
+	}
+
+	@include media($small-plus) {
+		width: 100%;
+		background: $logo-brown;
+		position: relative;
+		z-index: 55;
+
+		.mini {
+			visibility: visible;
+			display: block;
+			height: em(65);
+			padding-top: em(8);
+			background: $logo-brown;
+
+			.logo-container {
+				background: $logo-brown;
+				height: 50px;
+				@include span-columns(5 of 8);
+				text-align: left;
+				margin: 0;
+			}
+
+			.phone-container {
+				visibility: visible;
+				display: block;
+				@include span-columns(3 of 8);
+				margin: 0;
+				background: $logo-brown;
+				position: relative;
+				z-index: 55;
+
+				aside {
+					background: $logo-brown;
+					width: 100%;
+					margin: 0;
+					border: 0;
+					border-radius: none;
+					text-align: right;
+
+					h3 {
+						text-shadow: none;
+						margin-top: 0;
+						line-height: rem(50);
+					}
+
+					i.icon-phone {
+						visibility: hidden;
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	@media #{$mini-mobile} {
+		.mini {
+
+			.phone-container {
+				aside {
+
+					h3 {
+						visibility: hidden;
+						display: none;
+					}
+
+					i.icon-phone {
+						font-size: em(36);
+						color: #fff;
+						visibility: visible;
+						display: block;
+						padding: rem(6);
+						border-radius: rem(5);
+					}
+				}
+			}
+		}	
+	}
+}
+
+#small-logo {
+	display: none;
+	visibility: hidden;
+
+	@include media($small-plus) {
+		display: block;
+		visibility: visible;
+		position: absolute;
+		top: 0;
+		left: 5px;
+		max-height: 3em;
+	}
+}

@@ -1,0 +1,46 @@
+@import "settings/_settings.scss";
+
+
+body {
+	background: #ded8cc;
+	font-family: sans-serif;
+}
+
+header {
+	text-align: center;
+	img {
+		max-width: 200px;
+	}
+	h1 {
+		font-size: rem(45);
+		font-weight: 400;
+	}
+}
+
+main {
+	text-align: center;
+
+	h2 {
+		font-size: rem(38);
+		font-weight: 400;
+		margin-bottom: rem(18);
+	}
+
+	h3 {
+		color: #333;
+		font-size: rem(34);
+		font-weight: 400;
+		margin: 7px;
+		
+		a {
+			// text-decoration: none;
+			color: #333;
+
+			&:hover {
+				// text-decoration: underline;
+				text-decoration: none;
+			}
+		}
+	}
+}
+

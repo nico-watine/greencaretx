@@ -1,0 +1,15 @@
+@import "../settings/_settings.scss";
+
+#top-bar {
+	@include span-columns(14);
+	@include shift(1);
+	background: $dark-brown;
+	height: 57px;
+	position: relative;
+
+	.nav-collapse {
+		@include span-columns(14 of 14);
+	}
+}
+
+

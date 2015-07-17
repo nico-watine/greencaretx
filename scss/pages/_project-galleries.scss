@@ -1,0 +1,73 @@
+@import "../settings/_settings.scss";
+
+
+main#project-galleries {
+	background-image: url('/img/project-galleries/bg.jpg');
+
+	.main-content {
+		background-image: url('/img/project-galleries/bg-blur.jpg');
+		background-size: cover;
+	}
+
+	#page-content {
+		min-height: em(510);
+	}
+
+	.page-header {
+		margin-bottom: em(38);
+	}
+}
+
+.project-galleries-gallery {
+	margin-bottom: em(38);
+
+	.image-grid {
+		padding: 0 em(16);
+
+		.thumb {
+			@include span-columns(2 of 12);
+			@include omega(6n);
+			text-align: center;
+			margin-bottom: em(22);
+
+			a {
+
+				img {
+					border: em(2) solid #fff;
+					box-shadow: 0px em(1) em(2) 0 #333;
+					margin-bottom: em(1);
+				}
+
+				&:hover {
+
+					img {
+						box-shadow: 0px em(1) em(1) 0 #000;
+						margin-top: em(1);
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+
+		@include media($default-break) {
+			.thumb {
+				@include omega-reset(6n);
+				@include span-columns(4 of 16);
+				@include omega(4n);
+			}
+		}
+
+		@include media($small-plus) {
+			.thumb {
+				@include omega-reset(4n);
+				@include span-columns(4 of 8);
+				@include omega(2n);
+
+				img {
+					max-width: 200px;
+					width: 100%;
+				}
+			}
+		}
+	}
+}

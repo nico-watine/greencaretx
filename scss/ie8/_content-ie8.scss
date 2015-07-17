@@ -1,0 +1,14 @@
+@import "../settings/_settings.scss";
+
+#page-title {
+	.h1-wrap {
+		visibility: hidden;
+		display: none;
+	}
+}
+
+#page-content {
+	@include span-columns(9 of 10);
+	@include shift(1);
+}
+

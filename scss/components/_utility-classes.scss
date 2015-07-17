@@ -1,0 +1,22 @@
+@import "../settings/_settings.scss";
+
+.row {
+	@include row;
+}
+
+.padding-horizontal,
+.padding-sides {
+	padding: 0 1em;
+}
+
+.padding-vertical {
+	padding: 1em 0;
+}
+
+.img-container {
+	text-align: center;
+}
+
+.one-half {
+	@include span-columns(8 of 16);
+}

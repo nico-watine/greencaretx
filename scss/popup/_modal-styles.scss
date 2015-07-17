@@ -1,0 +1,22 @@
+@import "../settings/_settings.scss";
+
+.white-popup {
+	position: relative;
+	background: #fff;
+	padding: em(30) em(16);
+	width: auto;
+	max-width: 80%;
+	text-align: center;
+	margin: em(20) auto;
+	border: em(6) solid $dark-brown;
+	border-radius: em(10);
+
+	@include media($medium) {
+		max-width: 90%;
+	}
+
+	@include media($small) {
+		max-width: 95%;
+	}
+}
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>
+Created by FontPrep 20130207 at Tue Feb 17 09:55:05 2015
+ By Nico Watine
+</metadata>
+<defs>
+<font id="1da3456e837ae6ef244abd56d21c2bc6" horiz-adv-x='1024' >
+  <font-face 
+    font-family="responsivenav"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="2048"
+    panose-1="0 0 0 0 0 0 0 0 0 0"
+    ascent="1920"
+    descent="-128"
+    x-height="1664"
+    bbox="0 -4 1796 1664"
+    underline-thickness="0"
+    underline-position="0"
+    unicode-range="U+0001-FFFD"
+  />
+<missing-glyph 
+ />
+    <glyph glyph-name=".notdef" unicode="&#xfffd;" 
+ />
+    <glyph glyph-name="glyph1" 
+ />
+    <glyph glyph-name="glyph1" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="680" 
+ />
+    <glyph glyph-name="uni0001" 
+ />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="1024" 
+ />
+    <glyph glyph-name="x" unicode="x" horiz-adv-x="2048" 
+d="M1276 876q-16 -16 -16 -42t16 -50l500 -496q20 -30 20 -51t-20 -41l-180 -180q-30 -20 -51 -20t-41 20l-496 496q-20 20 -49 20t-43 -20l-496 -496q-30 -20 -51 -20t-41 20l-180 180q-20 20 -20 49t20 43l496 496q20 30 20 51t-20 41l-496 496q-20 20 -20 49t20 43
+l180 180q13 20 43 20q29 0 49 -20l496 -496q20 -20 46 -20t46 20l496 496q13 20 43 20q29 0 49 -20l180 -180q20 -20 20 -41t-20 -51z" />
+    <glyph glyph-name="equivalence" unicode="&#x2261;" horiz-adv-x="1756" 
+d="M1756 1536v-152q0 -24 -22 -46t-50 -26l-1612 4q-28 -4 -52 24q-20 16 -20 48v144q0 32 22 54t50 18l1612 4q28 -4 48 -20q24 -28 24 -52zM0 952q0 62 72 72l1612 -4q28 4 48 -20q24 -20 24 -52v-144q0 -32 -24 -52q-20 -24 -48 -20l-1612 -4q-72 10 -72 72v152z
+M1756 364v-148q0 -28 -24 -52q-20 -16 -48 -20l-1612 4q-28 -4 -50 16t-22 56v140q0 36 20 52q24 28 52 24l1612 4q28 -4 50 -26t22 -50z" />
+  </font>
+</defs></svg>

@@ -1,0 +1,232 @@
+@import "../settings/_settings.scss";
+
+$mini-mobile: "only screen and (max-width : 410px)";
+
+
+main#index {
+	background-image: url('/img/index/bg.jpg');
+
+	.main-content {
+		background-image: url('/img/index/bg-blur.jpg');
+		background-size: cover;
+	}
+}
+
+
+.index-header {
+	text-align: center;
+	@include row;
+	margin-bottom: em(10);
+
+	h1 {
+		font-size: em(42);
+		margin-bottom: 0;
+	}
+
+	h2 {
+		font-family: 'atlas';
+		font-size: rem(21);
+		line-height: rem(24);
+		letter-spacing: rem(1.4);
+	}
+
+	@include media($small-plus) {
+		h1 {
+			font-size: em(36);
+		}
+
+		h2 {
+			font-size: rem(19);
+		}
+	}
+}
+
+.widget-links {
+	@include row();
+	padding: 0 em(10);
+	text-align: center;
+	margin-bottom: em(30);
+
+	@include media($default-break) {
+		margin-bottom: em(16);
+	}
+
+	.widget {
+		a {
+			text-align: center;
+			width: 100%;
+			text-decoration: none;
+
+			h4 {
+				color: #fff;
+				border-top: 2px solid #fff;
+				background: rgba(68,68,68,0.60);
+				box-shadow: inset 0px 0px 3px 0px #000;
+				margin-top: 246px;
+				margin-bottom: 0;
+				padding: rem(10) 0;
+
+				@include media($large) {
+					margin-top: 346px;
+				}
+
+				@include media($small-plus) {
+					margin-top: 181px;
+					font-size: rem(19);
+				}
+			}
+
+			&:hover {
+				h4 {
+					// background: rgba(160,204,57,0.70);
+					background: rgba(50,50,50,0.70);
+					box-shadow: inset 0px 1px 2px 1px #000;
+					text-shadow: 0px 2px 1px #000;
+				}
+			}
+		}
+
+		@include media($small-plus) {
+			margin-bottom: em(16);
+		}
+	}
+
+	.widget#project-galleries,
+	.widget#plant-selection {
+		@include span-columns(6 of 12);
+		height: 300px;
+		border: em(2) solid #fff;
+		box-shadow: 0px em(1) em(2) 0 #333;
+
+		@include media($large) {
+			height: 400px;
+		}
+
+		@include media($small-plus) {
+			@include span-columns(10 of 10);
+			height: 230px;
+		}
+	}
+
+	.widget#project-galleries {
+		background: url('/img/index/widgets/project-galleries/default/project-galleries.jpg');
+		background-size: auto 105%;
+		background-repeat: no-repeat;
+		background-position: center;
+
+		@include media($large) {
+			background: url('/img/index/widgets/project-galleries/large/project-galleries.jpg');
+			background-size: auto 100%;
+			background-repeat: no-repeat;
+			background-position: left;
+		}
+
+		@include media($small-plus) {
+			background: url('/img/index/widgets/project-galleries/default/project-galleries.jpg');
+			background-size: 100% auto;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		@media #{$mini-mobile} {
+			background: url('/img/index/widgets/project-galleries/default/project-galleries.jpg');
+			background-size: auto 110%;
+			background-repeat: no-repeat;
+			background-position: right;
+		}
+	}
+
+	.widget#plant-selection {
+		background: url('/img/index/widgets/plant-selection/default/plant-selection.jpg');
+		background-size: auto 105%;
+		background-repeat: no-repeat;
+		background-position: center;
+
+		@include media($large) {
+			background-size: auto 100%;
+		}
+
+		@include media($small-plus) {
+			background-size: 100% auto;
+		}
+
+		@media #{$mini-mobile} {
+			background-size: auto 110%;
+		}
+	}
+} 
+
+.index-verbiage {
+	text-align: center;
+
+	h4 {
+		font-size: rem(20);
+		padding: 0 rem(10);
+	}
+
+	.row {
+		margin-bottom: em(16);
+	}
+
+	a {
+		color: #fff;
+		font-size: rem(20);
+	}
+
+	#services-text,
+	#contact-text {
+		@include span-columns(6 of 12);
+
+		a {
+			visibility: hidden;
+			display: none;
+		}
+	}
+
+	#contact-text {
+		h4 {
+			margin-top: rem(5);
+			margin-bottom: 0;
+
+			span {
+				display: inline-block;
+			}
+		}
+
+		@include media($default-break) {
+			h4 {
+				margin-top: rem(12);
+			}
+		}
+	}
+
+	.row#standard-buttons {
+		margin-bottom: em(30);
+		height: em(45);
+	}
+
+	@include media($small) {
+		#services-text,
+		#contact-text {
+			@include span-columns(10 of 10);
+
+			a.big-green-button {
+				visibility: visible;
+				display: inline-block;
+
+				margin: rem(20) rem(45);
+
+				&:hover {
+					margin: rem(21) rem(45) rem(18) rem(45);
+				}
+			}
+		}
+
+		.row#standard-buttons {
+			display: none;
+			visibility: hidden;
+		}
+	}
+}
+
+

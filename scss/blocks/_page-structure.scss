@@ -1,0 +1,24 @@
+@import "../settings/_settings.scss";
+
+
+
+body {
+    background: $tan;
+	@include outer-container;
+	margin: 1.250em auto 1.875em;
+
+	@include media($medium) {
+		margin: 0;
+	}
+}
+
+
+.main-cover#index-cover,
+.main-cover#services-cover,
+.main-cover#project-galleries-cover,
+.main-cover#our-plants-cover {
+	
+	@include media($small-plus) {
+		background-image: none;
+	}
+}

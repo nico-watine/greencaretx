@@ -1,0 +1,32 @@
+.big-green-button {
+	background: $lime-green;
+	// margin-top:
+	box-shadow: 0px rem(2) 0px 0px #668625;
+	border-radius: em(4);
+	color: #fff;
+	text-decoration: none;
+	font-size: rem(23);
+	padding: rem(10) rem(16) rem(10) rem(16);
+	border: rem(1) solid $lime-green;
+	display: inline-block;
+
+	&:hover {
+		text-shadow: 0px rem(1) 0px #668625;
+		border-top: 0;
+		margin-top: rem(1);
+		// padding: rem(6) rem(16) rem(4) rem(16);
+		box-shadow: 0px rem(1) 0px 0px #668625;
+		border-bottom: rem(3) solid $lime-green;
+	}
+}
+
+.opaque-button {
+	background: rgba(51,51,51,0.50);
+	border: 1px solid #333333;
+	border-radius: 4px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+

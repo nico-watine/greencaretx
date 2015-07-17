@@ -1,0 +1,34 @@
+
+@font-face {
+	font-family: 'inai';
+		src: url('/fonts/inai/inaimathi-webfont.eot'); /* IE9 Compat Modes */
+		src: url('/fonts/inai/inaimathi-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('/fonts/inai/inaimathi-webfont.woff') format('woff'), /* Modern Browsers */
+		url('/fonts/inai/inaimathi-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+		url('/fonts/inai/inaimathi-webfont.svg#2a39c9c7f950b63ac6008bb9a626c2c6') format('svg'); /* Legacy iOS */
+	font-style:   normal;
+	font-weight:  400;
+}
+
+@font-face {
+	font-family: 'nav';
+		src: url('/fonts/nav/nav.eot'); /* IE9 Compat Modes */
+		src: url('/fonts/nav/nav.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('/fonts/nav/nav.woff') format('woff'), /* Modern Browsers */
+		url('/fonts/nav/nav.ttf')  format('truetype'), /* Safari, Android, iOS */
+		url('/fonts/nav/nav.svg#1da3456e837ae6ef244abd56d21c2bc6') format('svg'); /* Legacy iOS */
+	font-style:   normal;
+	font-weight:  400;
+}
+
+@font-face {
+  font-family: 'atlas';
+  src: url('/fonts/atlas/atlas-black.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/atlas/atlas-black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/atlas/atlas-black.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/atlas/atlas-black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/atlas/atlas-black.svg#3ad80ac7df2b0d0f21340c081225ece9') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}

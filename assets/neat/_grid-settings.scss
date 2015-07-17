@@ -1,0 +1,9 @@
+@import "neat-helpers";
+
+$default-break: new-breakpoint(max-width em(1070) 16);
+$large: new-breakpoint(max-width em(940) 12);
+$medium: new-breakpoint(max-width em(820) 10);
+$small-plus: new-breakpoint(max-width 40.625em 8);
+// $small-medium: new-breakpoint(max-width em(540) 8);
+$small: new-breakpoint(max-width em(565) 8);
+

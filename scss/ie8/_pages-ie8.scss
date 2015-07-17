@@ -1,0 +1,38 @@
+@import "../settings/_settings.scss";
+
+
+main#project-galleries {
+	background-image: url('/img/project-galleries/bg-blur.jpg');
+	background-size: cover;
+}
+
+main#our-plants {
+	background-image: url('/img/our-plants/bg-blur.jpg');
+	background-size: cover;
+}
+
+main#index {
+	background-image: url('/img/index/bg-blur.jpg');
+	background-size: cover;
+}
+
+main#services {
+	background-image: url('/img/services/bg-blur.jpg');
+	background-size: cover;
+}
+
+main#about-us {
+	background-image: url('/img/about-us/bg-blur.jpg');
+	background-size: cover;
+}
+
+.widget-links {
+	.widget#project-galleries,
+	.widget#plant-selection {
+		@include span-columns(6 of 12);
+	}
+
+	.widget#plant-selection {
+		@include omega();
+	}
+}

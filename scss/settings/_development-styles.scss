@@ -1,0 +1,66 @@
+@import "../settings/_settings.scss";
+
+// MISC STYLING NOTES
+
+
+
+
+body {
+	@include media($default-break) {
+		background: purple;
+	}
+
+	@include media($large) {
+		background: red; //dev purposes
+	}
+
+	@include media($medium) {
+		background: blue; //dev purposes
+	}
+
+	@include media($small-plus) {
+		background: yellow; //dev purposes
+	}
+
+	@include media($small) {
+		background: orange;
+	}
+}
+
+// SINGLE-SIDED BORDERS
+.border-top {
+	border-top: 2px solid red;
+}
+
+.border-bottom {
+	border-bottom: 2px solid red;
+}
+
+.border-right {
+	border-right: 2px solid red;
+}
+
+.border-left {
+	border-left: 2px solid red;
+}
+
+// FULL BOX BORDERS
+.border-red {
+	border: 2px solid red;
+}
+
+.border-blue {
+	border: 2px solid blue;
+}
+
+.border-yellow {
+	border: 2px solid yellow;
+}
+
+.border-white {
+	border: 2px solid white;
+}
+
+.border-black {
+	border: 2px solid black;
+}

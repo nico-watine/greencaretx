@@ -1,0 +1,116 @@
+@import "../settings/_settings.scss";
+
+footer {
+	background: $dark-brown;
+	border-radius: 0 0 $ten $ten;
+	height: auto;
+	padding-top: em(10);
+	padding-bottom: em(20);
+	color: #fff;
+
+	a {
+		color: #fff;
+	}
+
+	@include span-columns(14);
+	@include shift(1);
+
+	@include media($large) {
+		@include span-columns(11 of 12);
+		@include shift(0.5);
+		height: auto;
+		font-size: rem(15);
+	}
+
+	@include media($medium) {
+		margin-bottom: em(30);
+		padding-bottom: em(10);
+		border-radius: 0 0 em(12) em(12);
+	}
+
+	#store-link {
+		@include span-columns(5 of 14);
+		padding: 2.313em 0 0 1.250em;
+
+		h4 {
+			margin: 0;
+		}
+
+		@include media($large) {
+			padding-top: em(35);
+		}
+
+		@include media($medium) {
+			padding: rem(12) 0 0 0;
+			width: 100%;
+			text-align: center;
+		}
+
+		@include media($small-plus) {
+			margin-bottom: rem(6);
+		}
+
+		@include media($small) {
+			margin-bottom: 0;
+		}
+	}
+
+	#contact-info {
+		@include span-columns(9 of 14);
+		text-align: right;
+		padding: $ten 1.250em 0 0; // 10px 20px 0 0
+
+		span {
+			display: inline-block;
+		}
+			
+		#address,
+		#contact-us {
+			margin: 0;
+
+			a {
+				color: #fff;
+			}
+		}
+
+		// #contact-us {
+		// 	a.phone-number {
+
+		// 		display: inline-block;
+		// 	}
+		// }
+
+		@include media($large) {
+			padding-top: em(15);
+		}
+
+		@include media($medium) {
+			width: 100%;
+			margin: 0;
+			text-align: center;
+			padding: $ten;
+
+			#address {
+				margin-bottom: rem(10);
+			}
+
+			span {
+				display: inline-block;
+			}
+		}
+
+		@include media($small-plus) {
+			#address {
+				margin-bottom: rem(16);
+			}
+		}
+
+		@include media($small) {
+			#address {
+				margin-bottom: rem(10);
+				font-size: rem(19);
+			}
+		}
+	}
+}
+

@@ -1,0 +1,217 @@
+@import "../settings/_settings.scss";
+
+
+main#contact {
+	background-image: url('/img/project-galleries/bg.jpg');
+
+	.main-content {
+		background-image: url('/img/project-galleries/bg-blur.jpg');
+		background-size: cover;
+	}
+
+	#page-content {
+		min-height: em(510);
+		padding-left: 1em;
+		padding-right: 1em;
+
+		h2 {
+			font-family: 'atlas', sans-serif;
+			font-size: rem(19);
+		}
+
+		p {
+			font-size: rem(19);
+		}
+
+		p.large {
+			font-size: rem(21);
+		}
+	}
+
+	.page-header {
+		margin-bottom: em(38);
+	}
+
+	@include media($small) {
+		text-align: center;
+	}
+}
+
+
+section.page-header#contact {
+	margin-bottom: em(12);
+}
+
+.primary-contact-info {
+	@include span-columns(4 of 12);
+	border: em(1) solid #A0CC39;
+	box-shadow: 0px em(1) em(2) 0px #333;
+	background: #fff;
+	padding: em(10) em(8) 0 em(8);
+	height: em(315);
+}
+
+.office-map {
+	@include span-columns(8 of 12);
+	padding-top: em(10);
+}
+
+.consultation-details {
+	@include span-columns(9 of 10);
+	@include shift(0.5);
+
+	p {
+		margin: rem(10) auto rem(12);
+	}
+
+	h4 {
+		margin-bottom: 0;
+	}
+}
+
+@include media($medium) {
+	.primary-contact-info,
+	.office-map {
+		@include span-columns(9 of 10);
+		@include shift(0.5);
+	}
+
+	.primary-contact-info {
+		height: auto;
+		margin-top: em(16);
+		margin-bottom: em(16);
+		text-align: center;
+
+		p#address,
+		p#phone {
+			@include span-columns(5 of 10);
+		}
+
+		p#phone {
+			@include omega();
+		}
+
+		p#email {
+			@include span-columns(10 of 10);
+		}
+	}
+}
+
+@include media($small) {
+	.primary-contact-info {
+		p#address,
+		p#phone,
+		p#email {
+			@include span-columns(8 of 8);
+			margin-bottom: rem(16);
+		}
+	}
+}
+.row#plant-purchases {
+	padding-top: em(21);
+
+	.purchase-options {
+		@include span-columns(9 of 10);
+		@include shift(0.5);
+
+		.row {
+			margin-bottom: em(20);
+			.logo {
+				@include span-columns(2 of 10);
+
+				img {
+					max-width: em(140);
+					width: 100%;
+				}
+			}
+			.verbiage {
+				@include span-columns(8 of 10);
+
+				p {
+					margin: rem(10) auto rem(12);
+				}
+			}
+
+			@include media($small) {
+				.logo {
+					@include span-columns(8 of 8);
+					margin-bottom: rem(10);
+				}
+
+				.verbiage {
+					@include span-columns(8 of 8);
+				}
+			}
+		}
+
+		.row#jdf {
+
+			.row#jdf-details {
+				margin-bottom: 0;
+			}
+
+			.street-address,
+			.web-address {
+				@include span-columns(5 of 10);
+			}
+
+			.street-address {
+				text-align: left;
+			}
+
+			.web-address {
+				text-align: right;
+				padding-right: rem(16);
+			}
+
+			@include media($small-plus) {
+				.street-address,
+				.web-address {
+					@include span-columns(10 of 10);
+					text-align: left;
+					padding: 0;
+				}
+			}
+
+			@include media($small) {
+				.street-address,
+				.web-address {
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+.office-map {
+	h2 {
+		margin-bottom: rem(14);
+	}
+
+	.map,
+	.iframe-container {
+		height: em(265);
+	}
+}
+
+.jdf-map {
+	h4 {
+		margin-bottom: rem(14);
+	}
+	.map,
+	.iframe-container {
+		height: em(210);
+	}
+}
+
+.iframe-container {
+	border: rem(2) solid #fff;
+}
+
+.office-map,
+.jdf-map {
+	@include media($small) {
+		display: none;
+		visibility: hidden;
+	}
+}

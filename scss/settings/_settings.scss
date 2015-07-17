@@ -1,0 +1,36 @@
+// 860
+
+// Typography Variables
+$text-color: #333;
+$link-color: #222;
+$hr-color: #ccc;
+
+$baseline: 1.4em;
+
+$body-font-family: 'inai', sans-serif;
+
+$h1-size: 2.369em; // 37px
+$h2-size: 2.050em; // 32px
+$h3-size: 1.777em; // 28px
+$h4-size: em(23); // 23px
+$h5-size: 1em; // 16px
+$h6-size: .75em; // 12px
+
+// Visual Components
+// 10px Default Radial Border
+$radius-default: 0.625em;
+
+// Colors
+$dark-brown: #4c3211;
+$lime-green: #a0cc39;
+$tan: #ded8cc;
+$logo-brown: #624011;
+$content-bg: #eeeeee;
+
+// Border Pixel Widths
+$one: 0.063em;
+$two: 0.125em;
+$three: 0.188em;
+$four: 0.250em;
+$five: 0.313em;
+$ten: 0.625em;

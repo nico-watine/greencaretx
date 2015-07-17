@@ -1,0 +1,40 @@
+@import "settings/_normalize.scss";
+@import "bourbon";
+@import "grid-settings";
+@import "neat";
+
+// SITE COMPONENTS
+// @import "components/_typography.scss"; 
+@import "components/_resets.scss";
+@import "ie8/_utility-classes-ie8.scss";
+// @import "components/_utility-classes.scss";
+
+// PAGE BLOCKS
+@import "blocks/_page-structure.scss";
+
+// NAVIGATION STYLES
+@import "ie8/_nav-ie8.scss";
+@import "ie8/_header-ie8.scss";
+
+@import "ie8/_pages-ie8.scss";
+@import "ie8/_index-ie8.scss";
+@import "ie8/_content-ie8.scss";
+@import "ie8/_footer-ie8.scss";
+
+// @import "ie8/_project-galleries-ie8.scss";
+// @import "blocks/_header.scss";
+// @import "blocks/_content.scss";
+// @import "blocks/_footer.scss";
+
+
+// INDIVIDUAL PAGE STYLES
+// @import "pages/_index.scss";
+// @import "pages/_services.scss";
+// @import "pages/_project-galleries.scss";
+// @import "pages/_our-plants.scss";
+// @import "pages/_about-us.scss";
+
+
+
+// DEVELOPER LINKS
+// @import "settings/_development-styles.scss";
