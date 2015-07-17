@@ -1,22 +1,20 @@
+<?php 
+	include($_SERVER['DOCUMENT_ROOT'].'/php/autoVer.php');
+?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	<title>Greencare Interior Plants</title>
+	<title>Our Diverse Plant Selection | Greencare Interior Plants - Houston, TX</title>
 
-	<meta name="description" content="">
+	<meta name="description" content="We have a diverse plant selection available for you to choose from.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<link type="text/plain" rel="author" href="/humans.txt">
 
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	<link rel="icon" sizes="192x192" href="/touch-icon-192x192.png">
-	<link rel="shortcut icon" href="/favicon.ico" >
-
-	<link rel="stylesheet" href="/css/style.css">
-	<script src="/assets/bower_components/modernizr/modernizr.js"></script>
+	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>"/>
 	
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="/css/ie8.css">
@@ -177,8 +175,8 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="/js/scripts.min.js"></script>
-<script src="/js/nav.min.js"></script>
+<script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
+<script src="<?php autoVer('/js/nav-min.js'); ?>"></script>
 <!--[if lt IE 9]>
 <script src="/js/rem.min.js"></script>
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>

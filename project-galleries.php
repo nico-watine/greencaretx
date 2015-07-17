@@ -1,3 +1,6 @@
+<?php 
+	include($_SERVER['DOCUMENT_ROOT'].'/php/autoVer.php');
+?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
@@ -11,12 +14,7 @@
 	<meta name="format-detection" content="telephone=no">
 	<link type="text/plain" rel="author" href="/humans.txt">
 
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	<link rel="icon" sizes="192x192" href="/touch-icon-192x192.png">
-	<link rel="shortcut icon" href="/favicon.ico" >
-
-	<link rel="stylesheet" href="/css/style.css">
-	<script src="/assets/bower_components/modernizr/modernizr.js"></script>
+	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>"/>
 	
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="/css/ie8.css">
@@ -159,8 +157,8 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="/js/scripts.min.js"></script>
-<script src="/js/nav.min.js"></script>
+<script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
+<script src="<?php autoVer('/js/nav-min.js'); ?>"></script>
 <!--[if lt IE 9]>
 <script src="/js/rem.min.js"></script>
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>

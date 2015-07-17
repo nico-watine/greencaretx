@@ -1,22 +1,20 @@
+<?php 
+	include($_SERVER['DOCUMENT_ROOT'].'/php/autoVer.php');
+?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	<title>Greencare Interior Plants | Interior Plant Design & Service - Houston, TX</title>
+	<title>Interior Plant Design & Maintenance Service | Greencare Interior Plants - Houston, TX</title>
 
-	<meta name="description" content="Greencare Interior Plants is a premier Interior Plant Design & Service company in Houston, TX">
+	<meta name="description" content="Greencare Interior Plants is a premier Interior Plant Design & Service company in Houston, TX, servicing both Commerical and Residential accounts.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<link type="text/plain" rel="author" href="/humans.txt">
 
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	<link rel="icon" sizes="192x192" href="/touch-icon-192x192.png">
-	<link rel="shortcut icon" href="/favicon.ico">
-
-	<link rel="stylesheet" href="/css/style.css">
-	<script src="/assets/bower_components/modernizr/modernizr.js"></script>
+	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>"/>
 	
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="/css/ie8.css">
@@ -46,10 +44,10 @@
 	<div class="nav-collapse">
 		<ul>
 			<li class="active"><a href="#">home</a></li>
-			<li><a href="/services.html">services</a></li>
-			<li><a href="/project-galleries.html">project galleries</a></li>
-			<li><a href="/our-plants.html">our plants</a></li>
-			<li><a id="last" href="/contact.html">contact</a></li>
+			<li><a href="/services.php">services</a></li>
+			<li><a href="/project-galleries.php">project galleries</a></li>
+			<li><a href="/our-plants.php">our plants</a></li>
+			<li><a id="last" href="/contact.php">contact</a></li>
 		</ul>
 	</div>
 </nav>
@@ -114,8 +112,8 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="/js/scripts.min.js"></script>
-<script src="/js/nav.min.js"></script>
+<script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
+<script src="<?php autoVer('/js/nav-min.js'); ?>"></script>
 <!--[if lt IE 9]>
 <script src="/js/rem.min.js"></script>
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
