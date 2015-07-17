@@ -167,7 +167,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
-<script src="<?php autoVer('/js/nav-min.js'); ?>"></script>
 <!--[if lt IE 9]>
 <script src="/js/rem.min.js"></script>
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
