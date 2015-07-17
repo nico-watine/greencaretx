@@ -44,10 +44,10 @@
 	<div class="nav-collapse">
 		<ul>
 			<li class="active"><a href="#">home</a></li>
-			<li><a href="/services.php">services</a></li>
-			<li><a href="/project-galleries.php">project galleries</a></li>
-			<li><a href="/our-plants.php">our plants</a></li>
-			<li><a id="last" href="/contact.php">contact</a></li>
+			<li><a href="/services">services</a></li>
+			<li><a href="/project-galleries">project galleries</a></li>
+			<li><a href="/our-plants">our plants</a></li>
+			<li><a id="last" href="/contact">contact</a></li>
 		</ul>
 	</div>
 </nav>
@@ -69,10 +69,10 @@
 			<section class="widget-links">
 				<div class="row">
 					<div class="widget" id="project-galleries">
-						<a href="/project-galleries.html"><h4>project galleries</h4></a>
+						<a href="/project-galleries"><h4>project galleries</h4></a>
 					</div>
 					<div class="widget" id="plant-selection">
-						<a href="our-plants.html"><h4>plant selection</h4></a>
+						<a href="/our-plants"><h4>plant selection</h4></a>
 					</div>
 				</div>
 			</section>
@@ -80,19 +80,19 @@
 				<div class="row">
 					<div id="services-text">
 						<h4>We take pride in our work and are committed to our customers’ total satisfaction</h4>
-						<a href="/services.html" class="big-green-button ie8-hide">our services</a>
+						<a href="/services" class="big-green-button ie8-hide">our services</a>
 					</div>
 					<div id="contact-text">
 						<h4>Receive a free consultation and <span style="display: inline-block;">next day quote</span></h4>
-						<a href="/contact.html" class="big-green-button ie8-hide">schedule yours today</a>
+						<a href="/contact" class="big-green-button ie8-hide">schedule yours today</a>
 					</div>
 				</div>
 				<div class="row" id="standard-buttons">
 					<div class="one-half">
-						<a href="/services.html" class="big-green-button">our services</a>
+						<a href="/services" class="big-green-button">our services</a>
 					</div>
 					<div class="one-half" id="ie8-last">
-						<a href="/contact.html" class="big-green-button">schedule yours today</a>
+						<a href="/contact" class="big-green-button">schedule yours today</a>
 					</div>
 				</div>
 			</section>
@@ -106,7 +106,7 @@
 	</div>
 	<div id="contact-info">
 		<h4 id="address"><a href="https://goo.gl/maps/1l2Fw" target="_blank">5221 Center St Houston, TX 77007</a></h4>
-		<h4 id="contact-us">request a free quote at <a href="tel://713-864-5300" class="phone-number">713-864-5300</a> <span>or <a href="contact.html">contact us</a></span></h4>
+		<h4 id="contact-us">request a free quote at <a href="tel://713-864-5300" class="phone-number">713-864-5300</a> <span>or <a href="/contact">contact us</a></span></h4>
 	</div>
 </footer>
 

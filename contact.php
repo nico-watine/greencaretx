@@ -55,9 +55,9 @@
 	<div class="nav-collapse">
 		<ul>
 			<li><a href="/">home</a></li>
-			<li><a href="services.html">services</a></li>
-			<li><a href="project-galleries.html">project galleries</a></li>
-			<li><a href="our-plants.html">our plants</a></li>
+			<li><a href="/services">services</a></li>
+			<li><a href="/project-galleries">project galleries</a></li>
+			<li><a href="/our-plants">our plants</a></li>
 			<li class="active"><a id="last" href="#">contact</a></li>
 		</ul>
 	</div>
