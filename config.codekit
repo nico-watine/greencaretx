@@ -5331,17 +5331,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/js\/nav-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/nav-min.js",
-		"outputAbbreviatedPath": "\/js\/min\/nav-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/js\/rem.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -5361,17 +5350,6 @@
 		"outputAbbreviatedPath": "\/js\/min\/scripts-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/src\/nav.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/src\/nav.js",
-		"outputAbbreviatedPath": "\/js\/nav-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
@@ -6074,38 +6052,36 @@
 	],
 "lastSavedByUser": "Nico Watine",
 "manualImportLinks": {
-	"\/js\/src\/nav.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/responsive-nav.js",
-			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/fastclick.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/scroll.js",
-			"position": 2,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/fixed-responsive-nav.js",
-			"position": 3,
-			"type": 0
-			}
-		],
 	"\/js\/src\/scripts.js": [
 		{
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/assets\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js",
 			"position": 0,
 			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/responsive-nav.js",
+			"position": 1,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/fastclick.js",
+			"position": 2,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/scroll.js",
+			"position": 3,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/fixed-responsive-nav.js",
+			"position": 4,
+			"type": 1
 			}
 		]
 	},
