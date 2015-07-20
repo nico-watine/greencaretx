@@ -62,7 +62,7 @@
 			<section class="index-header">
 				<div class="row">
 					<h1>Greencare Interior Plants</h1>
-					<h2>interior plant design & service <br>Houston, TX</h2>
+					<h2>Interior Plant Design & Service <br>Houston, TX</h2>
 				</div>
 			</section>
 			<section class="widget-links">

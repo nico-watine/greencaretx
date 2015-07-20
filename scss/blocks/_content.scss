@@ -1,7 +1,5 @@
 @import "../settings/_settings.scss";
 
-
-
 main {
 	border-left: $ten solid $dark-brown;
 	border-right: $ten solid $dark-brown;
@@ -17,6 +15,20 @@ main {
 		border-right: em(7) solid $dark-brown;
 		@include span-columns(11 of 12);
 		@include shift(0.5);
+	}
+
+	.main-content {
+		opacity: 0;
+	}
+
+	@include media($medium) {
+		background-image: none !important;
+		background-color: $content-bg;
+
+		.main-content {
+			background-image: none !important;
+			opacity: 1;
+		}
 	}
 }
 
@@ -95,6 +107,8 @@ main {
 }
 
 #page-content {
+	opacity: 0;
+
 	box-shadow: em(-1) 0 em(2) 0 #000;
 	@include span-columns(9 of 10);
 	padding-top: em(20);

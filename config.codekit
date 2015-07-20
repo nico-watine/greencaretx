@@ -4772,6 +4772,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/project-galleries\/_ignores\/bg-blur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54931,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/_ignores\/bg-blur.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/_ignores\/bg-blur.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project-galleries\/_ignores\/bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 219851,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/_ignores\/bg.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/_ignores\/bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/project-galleries\/bg-blur.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

@@ -226,10 +226,10 @@ img { max-width: 100%; }
 .one-half { float: left; display: block; margin-right: 1.75788%; width: 49.12106%; }
 .one-half:last-child { margin-right: 0; }
 
-.big-green-button { background: #a0cc39; box-shadow: 0px 0.125rem 0px 0px #668625; border-radius: 0.25em; color: #fff; text-decoration: none; font-size: 1.4375rem; padding: 0.625rem 1rem 0.625rem 1rem; border: 0.0625rem solid #a0cc39; display: inline-block; }
+.big-green-button { background: #a0cc39; box-shadow: 0px 0.125rem 0px 0px #668625; border-radius: 0.25em; color: #fff; text-decoration: none; font-size: 1.4375rem; padding: 0.625rem 1rem 0.625rem 1rem; border: 0.0625rem solid #a0cc39; display: inline-block; outline: none; }
 .big-green-button:hover { text-shadow: 0px 0.0625rem 0px #668625; border-top: 0; margin-top: 0.0625rem; box-shadow: 0px 0.0625rem 0px 0px #668625; border-bottom: 0.1875rem solid #a0cc39; }
 
-.opaque-button { background: rgba(51, 51, 51, 0.5); border: 1px solid #333333; border-radius: 4px; color: #FFFFFF; text-decoration: none; text-shadow: 1px 1px 2px #000000; }
+.opaque-button { background: rgba(51, 51, 51, 0.5); border: 1px solid #333333; border-radius: 4px; color: #FFFFFF; text-decoration: none; text-shadow: 0.0625rem 0.0625rem 0.125rem #000; }
 
 header#index .default { visibility: visible; display: block; }
 
@@ -278,6 +278,9 @@ main { border-left: 0.625em solid #4c3211; border-right: 0.625em solid #4c3211; 
 main:last-child { margin-right: 0; }
 @media screen and (max-width: 58.75em) { main { border-left: 0.4375em solid #4c3211; border-right: 0.4375em solid #4c3211; float: left; display: block; margin-right: 2.35765%; width: 91.4702%; margin-left: 4.2649%; }
   main:last-child { margin-right: 0; } }
+main .main-content { opacity: 0; }
+@media screen and (max-width: 51.25em) { main { background-image: none !important; background-color: #eeeeee; }
+  main .main-content { background-image: none !important; opacity: 1; } }
 
 #page-title { float: left; display: block; margin-right: 2.84259%; width: 7.44167%; margin-left: 0%; }
 #page-title:last-child { margin-right: 0; }
@@ -296,7 +299,7 @@ main:last-child { margin-right: 0; }
 @media screen and (max-width: 58.75em) { #page-title .h1-wrap#project-galleries, #page-title .h1-wrap#contact { margin-left: -10em; } }
 #page-title .h1-wrap#project-galleries .vertical-title, #page-title .h1-wrap#contact .vertical-title { padding: 0; width: 25rem; }
 
-#page-content { box-shadow: -0.0625em 0 0.125em 0 #000; float: left; display: block; margin-right: 2.84259%; width: 89.71574%; padding-top: 1.25em; background-color: #eeeeee; background-image: url("/img/misc/flower-bg.png"); background-position: bottom right; background-size: 300px; background-repeat: no-repeat; height: auto; }
+#page-content { opacity: 0; box-shadow: -0.0625em 0 0.125em 0 #000; float: left; display: block; margin-right: 2.84259%; width: 89.71574%; padding-top: 1.25em; background-color: #eeeeee; background-image: url("/img/misc/flower-bg.png"); background-position: bottom right; background-size: 300px; background-repeat: no-repeat; height: auto; }
 #page-content:last-child { margin-right: 0; }
 @media screen and (max-width: 58.75em) { #page-content { float: left; display: block; margin-right: 2.84259%; width: 89.71574%; }
   #page-content:last-child { margin-right: 0; } }
