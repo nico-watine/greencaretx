@@ -4123,17 +4123,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/index\/index-.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 114508,
-		"inputAbbreviatedPath": "\/img\/index\/index-.jpg",
-		"outputAbbreviatedPath": "\/img\/index\/index-.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/index\/index-blur.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4141,6 +4130,17 @@
 		"initialSize": 40526,
 		"inputAbbreviatedPath": "\/img\/index\/index-blur.jpg",
 		"outputAbbreviatedPath": "\/img\/index\/index-blur.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/index\/index.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114508,
+		"inputAbbreviatedPath": "\/img\/index\/index.jpg",
+		"outputAbbreviatedPath": "\/img\/index\/index.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4772,24 +4772,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/project-galleries\/bg-blur.jpg": {
+	"\/img\/project-galleries\/_ignores\/bg-blur.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 54931,
-		"inputAbbreviatedPath": "\/img\/project-galleries\/bg-blur.jpg",
-		"outputAbbreviatedPath": "\/img\/project-galleries\/bg-blur.jpg",
+		"inputAbbreviatedPath": "\/img\/project-galleries\/_ignores\/bg-blur.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/_ignores\/bg-blur.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/project-galleries\/bg.jpg": {
+	"\/img\/project-galleries\/_ignores\/bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 219851,
-		"inputAbbreviatedPath": "\/img\/project-galleries\/bg.jpg",
-		"outputAbbreviatedPath": "\/img\/project-galleries\/bg.jpg",
+		"inputAbbreviatedPath": "\/img\/project-galleries\/_ignores\/bg.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/_ignores\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
