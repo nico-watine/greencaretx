@@ -175,6 +175,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/js/src/scripts.js",
+			"settings":
+			{
+				"buffer_size": 755,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/index.php",
+			"settings":
+			{
+				"buffer_size": 4054,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/contact.php",
+			"settings":
+			{
+				"buffer_size": 6810,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -281,11 +305,29 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com",
-		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/_ignores"
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com"
 	],
 	"file_history":
 	[
+		"/Users/nico/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/nico/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/contact.php",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/our-plants.php",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/project-galleries.php",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/services.php",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/scss/style.scss",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/js/src/scripts.js",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/index.php",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/.htaccess",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/assets/bower_components/retina.js/dist/retina.js",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/scss/ie8.scss",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/services.html",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/js/src/nav.js",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/scss/blocks/_nav-compiled.scss",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/scss/pages/_index.scss",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/assets/neat/settings/_disable-warnings.scss",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/css/style.css",
+		"/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/php/autoVer.php",
 		"/Users/nico/SNC Projects/GreencareTX/Site Folder/STAGING/greencaretx.com/scss/popup/_modal-styles.scss",
 		"/Users/nico/SNC Projects/GreencareTX/Site Folder/STAGING/greencaretx.com/scss/pages/_services.scss",
 		"/Users/nico/SNC Projects/GreencareTX/Site Folder/STAGING/greencaretx.com/js/src/scripts.js",
@@ -394,30 +436,11 @@
 		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/scss/blocks/_body.scss",
 		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/index(old).html",
 		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/scss/pages/_about-us.scss",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/scss/blocks/_header.scss",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/scss/pages/portfolio/_featured.scss",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/services/index.html",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/scss/pages/portfolio/_portfolio.scss",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/scss/pages/_index.scss",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/scss/pages/_thanks.scss",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/css/index.css",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/assets/neat/_grid-settings.scss",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/assets/bower_components/semantic-ui/tasks/install.js",
-		"/Users/nico/SNC Projects/Quattro Stig/Site Resources/Fonts/a-beat/font.css",
-		"/Users/nico/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/nico/SNC Projects/Houston Oculofacial/Site Folder/_ignores/HOF.sublime-workspace",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/portfolio/the-deck-on-fountainview/index.html",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/git/2.3/README.md",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/scss/pages/services/_how.scss",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/scss/pages/portfolio/_dmesa.scss",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/snippets.html",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/git/2.1/README.md",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/git/2.2/README.md",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/assets/bower_components/picturefill/index.html"
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/scss/blocks/_header.scss"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -432,6 +455,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"RewriteCond",
+			".php",
+			"php",
+			"multi",
+			".html",
+			".php",
+			"html",
 			"text-sha",
 			"center",
 			"h5",
@@ -552,14 +582,7 @@
 			"/js/",
 			"/img/portfolio",
 			"excerpt",
-			"/contact.html",
-			"/contact/index.html",
-			"width",
-			"inline",
-			"body",
-			"small",
-			"<br>",
-			"</li>"
+			"/contact.html"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -599,8 +622,276 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/js/src/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								592,
+								592
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3242,
+								3242
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1456.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/nico/SNC Projects/GreencareTX/Site Folder/greencaretx.com/contact.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1126,
+								1126
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -653,12 +944,84 @@
 		"selected_items":
 		[
 			[
-				"ser",
-				"services.html"
+				"in",
+				"index.php"
 			],
 			[
-				"in",
-				"index.html"
+				"con",
+				"contact.php"
+			],
+			[
+				"sc",
+				"js/src/scripts.js"
+			],
+			[
+				"cont",
+				"contact.php"
+			],
+			[
+				"our",
+				"our-plants.php"
+			],
+			[
+				"pro",
+				"project-galleries.php"
+			],
+			[
+				"ser",
+				"services.php"
+			],
+			[
+				"st",
+				"scss/style.scss"
+			],
+			[
+				"hta",
+				".htaccess"
+			],
+			[
+				"por",
+				"project-galleries.php"
+			],
+			[
+				"ret",
+				"assets/bower_components/retina.js/dist/retina.js"
+			],
+			[
+				"co",
+				"contact.php"
+			],
+			[
+				"contp",
+				"contact.php"
+			],
+			[
+				"serp",
+				"services.php"
+			],
+			[
+				"scj",
+				"js/src/scripts.js"
+			],
+			[
+				"ies",
+				"scss/ie8.scss"
+			],
+			[
+				"naj",
+				"js/src/nav.js"
+			],
+			[
+				"navsc",
+				"scss/blocks/_nav-compiled.scss"
+			],
+			[
+				"insc",
+				"scss/pages/_index.scss"
+			],
+			[
+				"stc",
+				"css/style.css"
 			],
 			[
 				"font",
@@ -749,10 +1112,6 @@
 				"js/src/scripts.js"
 			],
 			[
-				"sc",
-				"js/src/scripts.js"
-			],
-			[
 				"scij",
 				"js/src/scripts.js"
 			],
@@ -789,10 +1148,6 @@
 				"scss/index.scss"
 			],
 			[
-				"st",
-				"scss/style.scss"
-			],
-			[
 				"stys",
 				"scss/style.scss"
 			],
@@ -801,16 +1156,8 @@
 				"thanks.html"
 			],
 			[
-				"con",
-				"contact.html"
-			],
-			[
 				"abou",
 				"about-us.html"
-			],
-			[
-				"por",
-				"portfolio/index.html"
 			],
 			[
 				"wh",
@@ -855,10 +1202,6 @@
 			[
 				"contmai",
 				"scss/style/pages/contact/_main.scss"
-			],
-			[
-				"cont",
-				"contact.html"
 			],
 			[
 				"contaiesc",
@@ -955,10 +1298,6 @@
 			[
 				"nav",
 				"scss/style/blocks/_nav.scss"
-			],
-			[
-				"stc",
-				"css/style.css"
 			],
 			[
 				"pori",
@@ -1115,54 +1454,6 @@
 			[
 				"dmesin",
 				"portfolio/dmesa-home/index.html"
-			],
-			[
-				"dmes",
-				"scss/pages/portfolio/_dmesa.scss"
-			],
-			[
-				"zai",
-				"portfolio/zaraza-design/index.html"
-			],
-			[
-				"howin",
-				"services/how-we-do-it/index.html"
-			],
-			[
-				"hows",
-				"scss/pages/services/_how.scss"
-			],
-			[
-				"f",
-				"scss/blocks/_footer.scss"
-			],
-			[
-				"bo",
-				"scss/blocks/_body.scss"
-			],
-			[
-				"dmesas",
-				"scss/pages/portfolio/_dmesa.scss"
-			],
-			[
-				"dmeho",
-				"portfolio/dmesa-home/index.html"
-			],
-			[
-				"navs",
-				"scss/blocks/_nav.scss"
-			],
-			[
-				"indh",
-				"index.html"
-			],
-			[
-				"conf",
-				"config.rb"
-			],
-			[
-				"port",
-				"portfolio/index.html"
 			]
 		],
 		"width": 0.0
@@ -1268,7 +1559,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 206.0,
 	"status_bar_visible": true,
 	"template_settings":

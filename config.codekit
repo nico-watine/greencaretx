@@ -4101,24 +4101,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/index\/bg-blur.jpg": {
+	"\/img\/index\/_ignores\/bg-blur.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 75519,
-		"inputAbbreviatedPath": "\/img\/index\/bg-blur.jpg",
-		"outputAbbreviatedPath": "\/img\/index\/bg-blur.jpg",
+		"inputAbbreviatedPath": "\/img\/index\/_ignores\/bg-blur.jpg",
+		"outputAbbreviatedPath": "\/img\/index\/_ignores\/bg-blur.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/index\/bg.jpg": {
+	"\/img\/index\/_ignores\/bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 353149,
-		"inputAbbreviatedPath": "\/img\/index\/bg.jpg",
-		"outputAbbreviatedPath": "\/img\/index\/bg.jpg",
+		"inputAbbreviatedPath": "\/img\/index\/_ignores\/bg.jpg",
+		"outputAbbreviatedPath": "\/img\/index\/_ignores\/bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/index\/index-.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114508,
+		"inputAbbreviatedPath": "\/img\/index\/index-.jpg",
+		"outputAbbreviatedPath": "\/img\/index\/index-.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/index\/index-blur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40526,
+		"inputAbbreviatedPath": "\/img\/index\/index-blur.jpg",
+		"outputAbbreviatedPath": "\/img\/index\/index-blur.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5300,24 +5322,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/services\/bg-blur.jpg": {
+	"\/img\/services\/_ignores\/bg-blur.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 56340,
-		"inputAbbreviatedPath": "\/img\/services\/bg-blur.jpg",
-		"outputAbbreviatedPath": "\/img\/services\/bg-blur.jpg",
+		"inputAbbreviatedPath": "\/img\/services\/_ignores\/bg-blur.jpg",
+		"outputAbbreviatedPath": "\/img\/services\/_ignores\/bg-blur.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/services\/bg.jpg": {
+	"\/img\/services\/_ignores\/bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 207819,
-		"inputAbbreviatedPath": "\/img\/services\/bg.jpg",
-		"outputAbbreviatedPath": "\/img\/services\/bg.jpg",
+		"inputAbbreviatedPath": "\/img\/services\/_ignores\/bg.jpg",
+		"outputAbbreviatedPath": "\/img\/services\/_ignores\/bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/services\/services-blur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44865,
+		"inputAbbreviatedPath": "\/img\/services\/services-blur.jpg",
+		"outputAbbreviatedPath": "\/img\/services\/services-blur.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/services\/services.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105540,
+		"inputAbbreviatedPath": "\/img\/services\/services.jpg",
+		"outputAbbreviatedPath": "\/img\/services\/services.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

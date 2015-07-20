@@ -5,8 +5,10 @@ if (mq.matches) {
 	$('#page-content').css('opacity','1');
 } 
 else {
-	$('.main-content').css('opacity','0').delay(1400).animate({opacity:1});
-	$('#page-content').css('opacity','0').delay(2100).animate({opacity:1});
+	// $('.main-content').css('opacity','0');
+	// $('#page-content').css('opacity','0');
+	$('.main-content').css('opacity','0').delay(2000).animate({opacity:1});
+	$('#page-content').css('opacity','0').delay(2500).animate({opacity:1});
 }
 
 $(document).ready(function() {
@@ -30,4 +32,5 @@ $(document).ready(function() {
 	});
 
 });
+
 

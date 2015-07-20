@@ -393,8 +393,8 @@ footer #contact-info #address a, footer #contact-info #contact-us a { color: #ff
   .nav-collapse ul { float: none !important; } }
 @media screen and (max-width: 40.625em) { .nav-collapse { text-align: right !important; }
   .nav-collapse ul { float: left !important; } }
-main#index { background-image: url("/img/index/bg.jpg"); }
-main#index .main-content { background-image: url("/img/index/bg-blur.jpg"); background-size: cover; }
+main#index { background-image: url("/img/index/index.jpg"); }
+main#index .main-content { background-image: url("/img/index/index-blur.jpg"); background-size: cover; }
 
 .index-header { text-align: center; display: block; margin-bottom: 0.625em; }
 .index-header::after { clear: both; content: ""; display: table; }
@@ -443,8 +443,8 @@ main#index .main-content { background-image: url("/img/index/bg-blur.jpg"); back
   .index-verbiage #services-text a.big-green-button:hover, .index-verbiage #contact-text a.big-green-button:hover { margin: 1.3125rem 2.8125rem 1.125rem 2.8125rem; }
   .index-verbiage .row#standard-buttons { display: none; visibility: hidden; } }
 
-main#services { background-image: url("/img/services/bg.jpg"); }
-main#services .main-content { background-image: url("/img/services/bg-blur.jpg"); background-size: cover; }
+main#services { background-image: url("/img/services/services.jpg"); }
+main#services .main-content { background-image: url("/img/services/services-blur.jpg"); background-size: cover; }
 
 .page-header#services-header { padding: 0 1em; }
 .page-header#services-header h1 { margin: 0.5rem 0 1rem; }

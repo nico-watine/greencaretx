@@ -8,8 +8,7 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
 	<title>Interior Plant Design & Maintenance Service | Greencare Interior Plants - Houston, TX</title>
-
-	<meta name="description" content="Greencare Interior Plants is a premier Interior Plant Design & Service company in Houston, TX, servicing both Commerical and Residential accounts.">
+	<meta name="description" content="Greencare Interior Plants is Houston's top Indoor Plant Design & Service company, maintaining both Commerical and Residential accounts.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<link type="text/plain" rel="author" href="/humans.txt">
