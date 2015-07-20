@@ -4079,6 +4079,28 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/img\/contact\/contact-blur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60334,
+		"inputAbbreviatedPath": "\/img\/contact\/contact-blur.jpg",
+		"outputAbbreviatedPath": "\/img\/contact\/contact-blur.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/contact\/contact.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91907,
+		"inputAbbreviatedPath": "\/img\/contact\/contact.jpg",
+		"outputAbbreviatedPath": "\/img\/contact\/contact.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/contact\/houston-interior-plants-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4101,24 +4123,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/index\/_ignores\/bg-blur.jpg": {
+	"\/img\/contact\/jardin-de-france.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 75519,
-		"inputAbbreviatedPath": "\/img\/index\/_ignores\/bg-blur.jpg",
-		"outputAbbreviatedPath": "\/img\/index\/_ignores\/bg-blur.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/index\/_ignores\/bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 353149,
-		"inputAbbreviatedPath": "\/img\/index\/_ignores\/bg.jpg",
-		"outputAbbreviatedPath": "\/img\/index\/_ignores\/bg.jpg",
+		"initialSize": 28017,
+		"inputAbbreviatedPath": "\/img\/contact\/jardin-de-france.jpg",
+		"outputAbbreviatedPath": "\/img\/contact\/jardin-de-france.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4218,28 +4229,6 @@
 		"initialSize": 7847,
 		"inputAbbreviatedPath": "\/img\/misc\/flower-bg.png",
 		"outputAbbreviatedPath": "\/img\/misc\/flower-bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/our-plants\/bg-blur.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 49851,
-		"inputAbbreviatedPath": "\/img\/our-plants\/bg-blur.jpg",
-		"outputAbbreviatedPath": "\/img\/our-plants\/bg-blur.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/our-plants\/bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 285415,
-		"inputAbbreviatedPath": "\/img\/our-plants\/bg.jpg",
-		"outputAbbreviatedPath": "\/img\/our-plants\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4508,6 +4497,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/our-plants\/our-plants-blur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71775,
+		"inputAbbreviatedPath": "\/img\/our-plants\/our-plants-blur.jpg",
+		"outputAbbreviatedPath": "\/img\/our-plants\/our-plants-blur.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/our-plants\/our-plants-blur@l.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48620,
+		"inputAbbreviatedPath": "\/img\/our-plants\/our-plants-blur@l.jpg",
+		"outputAbbreviatedPath": "\/img\/our-plants\/our-plants-blur@l.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/our-plants\/our-plants.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103114,
+		"inputAbbreviatedPath": "\/img\/our-plants\/our-plants.jpg",
+		"outputAbbreviatedPath": "\/img\/our-plants\/our-plants.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/our-plants\/our-plants@l.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111013,
+		"inputAbbreviatedPath": "\/img\/our-plants\/our-plants@l.jpg",
+		"outputAbbreviatedPath": "\/img\/our-plants\/our-plants@l.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/our-plants\/thumbs\/bird-of-paradise.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4768,50 +4801,6 @@
 		"initialSize": 21848,
 		"inputAbbreviatedPath": "\/img\/our-plants\/thumbs\/zz-plant.jpg",
 		"outputAbbreviatedPath": "\/img\/our-plants\/thumbs\/zz-plant.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/project-galleries\/_ignores\/bg-blur.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 54931,
-		"inputAbbreviatedPath": "\/img\/project-galleries\/_ignores\/bg-blur.jpg",
-		"outputAbbreviatedPath": "\/img\/project-galleries\/_ignores\/bg-blur.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/project-galleries\/_ignores\/bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 219851,
-		"inputAbbreviatedPath": "\/img\/project-galleries\/_ignores\/bg.jpg",
-		"outputAbbreviatedPath": "\/img\/project-galleries\/_ignores\/bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/project-galleries\/bg-blur.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 54931,
-		"inputAbbreviatedPath": "\/img\/project-galleries\/bg-blur.jpg",
-		"outputAbbreviatedPath": "\/img\/project-galleries\/bg-blur.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/project-galleries\/bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 219851,
-		"inputAbbreviatedPath": "\/img\/project-galleries\/bg.jpg",
-		"outputAbbreviatedPath": "\/img\/project-galleries\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5080,6 +5069,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/project-galleries\/galleries-blur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34917,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/galleries-blur.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/galleries-blur.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project-galleries\/galleries.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92226,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/galleries.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/galleries.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/project-galleries\/thumbs\/01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5340,28 +5351,6 @@
 		"initialSize": 43978,
 		"inputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/pre-opt\/12.jpg",
 		"outputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/pre-opt\/12.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/services\/_ignores\/bg-blur.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 56340,
-		"inputAbbreviatedPath": "\/img\/services\/_ignores\/bg-blur.jpg",
-		"outputAbbreviatedPath": "\/img\/services\/_ignores\/bg-blur.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/services\/_ignores\/bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 207819,
-		"inputAbbreviatedPath": "\/img\/services\/_ignores\/bg.jpg",
-		"outputAbbreviatedPath": "\/img\/services\/_ignores\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

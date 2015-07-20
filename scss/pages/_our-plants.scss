@@ -2,11 +2,20 @@
 
 
 main#our-plants {
-	background-image: url('/img/our-plants/bg.jpg');
+	background-image: url('/img/our-plants/our-plants.jpg');
 
 	.main-content {
-		background-image: url('/img/our-plants/bg-blur.jpg');
+		background-image: url('/img/our-plants/our-plants-blur.jpg');
 		background-size: cover;
+	}
+
+	@include media($default-break) {
+		background-image: url('/img/our-plants/our-plants@l.jpg');
+
+		.main-content {
+			background-image: url('/img/our-plants/our-plants-blur@l.jpg');
+			background-size: cover;
+		}
 	}
 }
 

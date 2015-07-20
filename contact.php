@@ -90,11 +90,10 @@
 				</section>
 				<section class="office-map">
 					<h2>Office Map</h2>
-					<div class="map">
+						<div class="overlay" onClick="style.pointerEvents='none'"></div>
 						<div class="iframe-container">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6926.457764101761!2d-95.4149757!3d29.7710226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c74aaab17a9d%3A0x8a44165392f19130!2s5221+Center+St%2C+Houston%2C+TX+77007!5e0!3m2!1sen!2sus!4v1431023787579" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
 						</div>
-					</div>
 				</section>
 			</div>
 			<hr>
@@ -123,7 +122,7 @@
 					</div>
 					<div class="row" id="jdf">
 						<div class="logo">
-							<a href="http://www.jardindefrancetx.com" target="_blank"><img src="/img/contact/jardin-de-france-logo.jpg" alt="Jardin de France Logo"></a>
+							<a href="http://www.jardindefrancetx.com" target="_blank"><img src="/img/contact/jardin-de-france.jpg" alt="Jardin de France Logo"></a>
 						</div>
 						<div class="verbiage">
 							<h4>Jardin de France</h4>
@@ -142,10 +141,9 @@
 					<div class="row">
 						<div class="jdf-map">
 							<h4>Jardin de France Map</h4>
-							<div class="map">
-								<div class="iframe-container">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.3573815909826!2d-95.410378!3d29.767306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c0b46e30ca21%3A0x9fb821a40a5d7107!2s4819+Blossom+St%2C+Houston%2C+TX+77007!5e0!3m2!1sen!2sus!4v1431025386221" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
-								</div>
+							<div class="overlay" onClick="style.pointerEvents='none'"></div>
+							<div class="iframe-container">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.3573815909826!2d-95.410378!3d29.767306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c0b46e30ca21%3A0x9fb821a40a5d7107!2s4819+Blossom+St%2C+Houston%2C+TX+77007!5e0!3m2!1sen!2sus!4v1431025386221" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
 							</div>
 						</div>
 					</div>

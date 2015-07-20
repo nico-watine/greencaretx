@@ -2,10 +2,10 @@
 
 
 main#contact {
-	background-image: url('/img/project-galleries/bg.jpg');
+	background-image: url('/img/contact/contact.jpg');
 
 	.main-content {
-		background-image: url('/img/project-galleries/bg-blur.jpg');
+		background-image: url('/img/contact/contact-blur.jpg');
 		background-size: cover;
 	}
 
@@ -183,22 +183,44 @@ section.page-header#contact {
 	}
 }
 
+.office-map h2,
+.jdf-map h4 {
+	margin-bottom: rem(14);
+}
+
 .office-map {
-	h2 {
-		margin-bottom: rem(14);
+	// h2 {
+	// 	margin-bottom: rem(14);
+	// }
+
+	.overlay {
+		background:transparent; 
+		position:relative; 
+		width:100%;
+		height: em(265);
+		top: em(265);
+		margin-top: em(-265);
 	}
 
-	.map,
 	.iframe-container {
 		height: em(265);
 	}
 }
 
 .jdf-map {
-	h4 {
-		margin-bottom: rem(14);
+	// h4 {
+	// 	margin-bottom: rem(14);
+	// }
+
+	.overlay {
+		background:transparent; 
+		position:relative; 
+		width:100%;
+		height: em(210);
+		top: em(210);
+		margin-top: em(-210);
 	}
-	.map,
+
 	.iframe-container {
 		height: em(210);
 	}
