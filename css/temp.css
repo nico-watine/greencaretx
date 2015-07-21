@@ -1,0 +1,36 @@
+body {
+  background: #ded8cc;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+}
+header img {
+  max-width: 200px;
+}
+header h1 {
+  font-size: rem(45);
+  font-weight: 400;
+}
+
+main {
+  text-align: center;
+}
+main h2 {
+  font-size: rem(38);
+  font-weight: 400;
+  margin-bottom: rem(18);
+}
+main h3 {
+  color: #333;
+  font-size: rem(34);
+  font-weight: 400;
+  margin: 7px;
+}
+main h3 a {
+  color: #333;
+}
+main h3 a:hover {
+  text-decoration: none;
+}

@@ -112,7 +112,7 @@
 					<h2>Plant Purchases</h2>
 					<div class="row" id="hip">
 						<div class="logo">
-							<a href="http://www.houstoninteriorplants.com" target="_blank"><img src="/img/contact/houston-interior-plants-logo.jpg" alt="Houston Interior Plants Logo"></a>
+							<a href="http://www.houstoninteriorplants.com" target="_blank"><img src="/img/contact/houston-interior-plants.jpg" alt="Houston Interior Plants Logo"></a>
 						</div>
 						<div class="verbiage">
 							<h4>HoustonInteriorPlants.com</h4>
@@ -163,6 +163,9 @@
 	</div>
 </footer>
 
+<div id="snc-link">
+	<a href="http://studioncreations.com" target="_blank">A <span>STUDIO N</span> CREATION</a>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 <!--[if lt IE 9]>

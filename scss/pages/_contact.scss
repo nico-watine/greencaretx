@@ -15,7 +15,7 @@ main#contact {
 		padding-right: 1em;
 
 		h2 {
-			font-family: 'atlas', sans-serif;
+			font-family: $bold-font-family;
 			font-size: rem(19);
 		}
 
@@ -235,5 +235,28 @@ section.page-header#contact {
 	@include media($small) {
 		display: none;
 		visibility: hidden;
+	}
+}
+
+#snc-link {
+	@include span-columns(14);
+	@include shift(1);
+	text-align: center;
+	margin-top: em(6);
+
+	a {
+		font-size: rem(14);
+		letter-spacing: rem(1);
+		text-decoration: none;
+		color: #888;
+
+		span {
+			text-decoration: underline;
+		}
+
+		&:hover {
+			text-decoration: underline;
+			color: #444;
+		}
 	}
 }

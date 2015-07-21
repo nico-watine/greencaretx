@@ -4029,6 +4029,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/temp.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/temp.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4039,15 +4048,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/fonts\/atlas\/font.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/fonts\/atlas\/font.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/fonts\/nav\/font.css": {
 		"fileType": 16,
@@ -4112,6 +4112,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/contact\/houston-interior-plants.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14129,
+		"inputAbbreviatedPath": "\/img\/contact\/houston-interior-plants.jpg",
+		"outputAbbreviatedPath": "\/img\/contact\/houston-interior-plants.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/contact\/jardin-de-france-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4127,9 +4138,31 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 28017,
+		"initialSize": 19884,
 		"inputAbbreviatedPath": "\/img\/contact\/jardin-de-france.jpg",
 		"outputAbbreviatedPath": "\/img\/contact\/jardin-de-france.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/index\/_ignores\/index-blur.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40526,
+		"inputAbbreviatedPath": "\/img\/index\/_ignores\/index-blur.jpg",
+		"outputAbbreviatedPath": "\/img\/index\/_ignores\/index-blur.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/index\/_ignores\/index.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114508,
+		"inputAbbreviatedPath": "\/img\/index\/_ignores\/index.jpg",
+		"outputAbbreviatedPath": "\/img\/index\/_ignores\/index.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4138,7 +4171,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 40526,
+		"initialSize": 37665,
 		"inputAbbreviatedPath": "\/img\/index\/index-blur.jpg",
 		"outputAbbreviatedPath": "\/img\/index\/index-blur.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -4149,7 +4182,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 114508,
+		"initialSize": 127487,
 		"inputAbbreviatedPath": "\/img\/index\/index.jpg",
 		"outputAbbreviatedPath": "\/img\/index\/index.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -5073,7 +5106,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 34917,
+		"initialSize": 40526,
 		"inputAbbreviatedPath": "\/img\/project-galleries\/galleries-blur.jpg",
 		"outputAbbreviatedPath": "\/img\/project-galleries\/galleries-blur.jpg",
 		"outputPathIsOutsideProject": 0,
