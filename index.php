@@ -8,7 +8,8 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
 	<title>Interior Plant Design &amp; Maintenance Service | Greencare Interior Plants - Houston, TX</title>
-	<meta name="description" content="Greencare Interior Plants provides plant maintenance &amp; design services to both Commercial and Residential accounts in the greater Houston, TX area.">
+	
+	<meta name="description" content="Commercial &amp; Residential Indoor Plant Care Services - Call 832-651-3136 for your free consultation and next day quote!">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<link type="text/plain" rel="author" href="/humans.txt">
@@ -110,7 +111,7 @@
 </footer>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 
 <!--[if lt IE 9]>

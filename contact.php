@@ -9,7 +9,7 @@
 
 	<title>Get in touch with us! Greencare Interior Plants - Houston, TX</title>
 
-	<meta name="description" content="Give us a call to schedule your interior plant design & service consultation!">
+	<meta name="description" content="Call 832-651-3136 to schedule your complimentary interior plant design &amp; service consultation!">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<link type="text/plain" rel="author" href="/humans.txt">
@@ -166,7 +166,8 @@
 <div id="snc-link">
 	<a href="http://studioncreations.com" target="_blank">A <span>STUDIO N</span> CREATION</a>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 <!--[if lt IE 9]>
 <script src="/js/rem.min.js"></script>

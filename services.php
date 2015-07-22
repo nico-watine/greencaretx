@@ -115,7 +115,7 @@
 	<h2>With both options, you receive the same great service!</h2>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 <!--[if lt IE 9]>
 <script src="/js/rem.min.js"></script>
