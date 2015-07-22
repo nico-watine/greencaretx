@@ -7,8 +7,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	<title>Interior Plant Design & Maintenance Service | Greencare Interior Plants - Houston, TX</title>
-	<meta name="description" content="Greencare Interior Plants provides plant maintenance & design services to both Commercial and Residential accounts in the greater Houston, TX area.">
+	<title>Interior Plant Design &amp; Maintenance Service | Greencare Interior Plants - Houston, TX</title>
+	<meta name="description" content="Greencare Interior Plants provides plant maintenance &amp; design services to both Commercial and Residential accounts in the greater Houston, TX area.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<link type="text/plain" rel="author" href="/humans.txt">
@@ -62,7 +62,7 @@
 			<section class="index-header">
 				<div class="row">
 					<h1>Greencare Interior Plants</h1>
-					<h2>Interior Plant Design & Service <br>Houston, TX</h2>
+					<h2>Interior Plant Design &amp; Service <br>Houston, TX</h2>
 				</div>
 			</section>
 			<section class="widget-links">

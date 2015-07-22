@@ -7,9 +7,9 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	<title>Plant Maintenance Services for Office & Residential | Greencare Interior Plants - Houston, TX</title>
+	<title>Plant Maintenance Services for Office &amp; Residential | Greencare Interior Plants - Houston, TX</title>
 
-	<meta name="description" content="We offer a variety of Plant Maintenance Services for Office & Residential Accounts in Houston, TX">
+	<meta name="description" content="We offer a variety of Plant Maintenance Services for Office &amp; Residential Accounts in Houston, TX">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<link type="text/plain" rel="author" href="/humans.txt">

@@ -4255,6 +4255,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo\/logo_flat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38736,
+		"inputAbbreviatedPath": "\/img\/logo\/logo_flat.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logo_flat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/logo_hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42299,
+		"inputAbbreviatedPath": "\/img\/logo\/logo_hover.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logo_hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/misc\/flower-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
