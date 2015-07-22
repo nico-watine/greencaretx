@@ -242,7 +242,8 @@ section.page-header#contact {
 	@include span-columns(14);
 	@include shift(1);
 	text-align: center;
-	margin-top: em(6);
+	margin-top: em(20);
+	margin-bottom: em(26);
 
 	a {
 		font-size: rem(14);

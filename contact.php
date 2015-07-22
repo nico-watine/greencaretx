@@ -153,7 +153,7 @@
 	</div>
 </main>
 
-<footer>
+<footer id="contact">
 	<div id="store-link">
 		<h4><a href="http://houstoninteriorplants.com/" target="_blank">visit our online plant store!</a></h4>
 	</div>

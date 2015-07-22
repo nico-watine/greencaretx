@@ -114,3 +114,12 @@ footer {
 	}
 }
 
+
+@include media($medium) {
+	footer#contact {
+		margin-bottom: 0;
+	}
+	// #snc-link {
+	// 	margin-bottom: rem(18);
+	// }
+}

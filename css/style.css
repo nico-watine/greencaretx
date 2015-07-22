@@ -334,6 +334,7 @@ footer #contact-info #address a, footer #contact-info #contact-us a { color: #ff
 @media screen and (max-width: 40.625em) { footer #contact-info #address { margin-bottom: 1rem; } }
 @media screen and (max-width: 35.3125em) { footer #contact-info #address { margin-bottom: 0.625rem; font-size: 1.1875rem; } }
 
+@media screen and (max-width: 51.25em) { footer#contact { margin-bottom: 0; } }
 #top-bar { float: left; display: block; margin-right: 1.75788%; width: 87.28027%; margin-left: 6.35987%; z-index: 3; background: #4c3211; border-radius: 0.75em 0.75em 0 0; border-top: 0.125em solid white; border-bottom: 0.125em solid white; text-align: right; position: relative; }
 #top-bar:last-child { margin-right: 0; }
 @media screen and (max-width: 58.75em) { #top-bar { float: left; display: block; margin-right: 2.35765%; width: 91.4702%; margin-left: 4.2649%; }
@@ -586,7 +587,7 @@ section.page-header#contact { margin-bottom: 0.75em; }
 
 @media screen and (max-width: 35.3125em) { .office-map, .jdf-map { display: none; visibility: hidden; } }
 
-#snc-link { float: left; display: block; margin-right: 1.75788%; width: 87.28027%; margin-left: 6.35987%; text-align: center; margin-top: 0.375em; }
+#snc-link { float: left; display: block; margin-right: 1.75788%; width: 87.28027%; margin-left: 6.35987%; text-align: center; margin-top: 1.25em; margin-bottom: 1.625em; }
 #snc-link:last-child { margin-right: 0; }
 #snc-link a { font-size: 0.875rem; letter-spacing: 0.0625rem; text-decoration: none; color: #888; }
 #snc-link a span { text-decoration: underline; }
