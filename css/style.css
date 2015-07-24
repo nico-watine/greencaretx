@@ -539,6 +539,8 @@ section.page-header#contact { margin-bottom: 0.75em; }
 .primary-contact-info { float: left; display: block; margin-right: 2.35765%; width: 31.76157%; border: 0.0625em solid #A0CC39; box-shadow: 0px 0.0625em 0.125em 0px #333; background: #fff; padding: 0.625em 0.5em 0 0.5em; height: 19.6875em; }
 .primary-contact-info:last-child { margin-right: 0; }
 
+p#address, p#phone, p#email { margin-bottom: 0.75rem; }
+
 .office-map { float: left; display: block; margin-right: 2.35765%; width: 65.88078%; padding-top: 0.625em; margin-right: 0; }
 .office-map:last-child { margin-right: 0; }
 

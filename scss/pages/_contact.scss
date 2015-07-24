@@ -51,6 +51,12 @@ section.page-header#contact {
 	height: em(315);
 }
 
+p#address,
+p#phone,
+p#email {
+	margin-bottom: rem(12);
+}
+
 .office-map {
 	@include span-columns(8 of 12);
 	padding-top: em(10);
