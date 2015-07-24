@@ -4244,6 +4244,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo\/logo-flat2@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16273,
+		"inputAbbreviatedPath": "\/img\/logo\/logo-flat2@2x.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logo-flat2@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo\/logo@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4251,28 +4262,6 @@
 		"initialSize": 17095,
 		"inputAbbreviatedPath": "\/img\/logo\/logo@2x.png",
 		"outputAbbreviatedPath": "\/img\/logo\/logo@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/logo_flat.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 38736,
-		"inputAbbreviatedPath": "\/img\/logo\/logo_flat.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logo_flat.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/logo_hover.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 42299,
-		"inputAbbreviatedPath": "\/img\/logo\/logo_hover.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logo_hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
