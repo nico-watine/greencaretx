@@ -28,7 +28,7 @@
 <header id="index">
 	<div class="default">
 		<div class="logo-container">
-			<img id="default-logo-flat" src="/img/logo/logo_flat@2x.png" alt="Greencare Interior Plants Logo">
+			<img class="ie8-hide" id="default-logo-flat" src="/img/logo/logo_flat@2x.png" alt="Greencare Interior Plants Logo">
 			<img id="default-logo" src="/img/logo/logo@2x.png" alt="Greencare Interior Plants Logo">
 			<img id="medium-logo" src="/img/logo/logo@m.gif" alt="Greencare Interior Plants Logo">
 		</div>
@@ -116,7 +116,8 @@
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 
 <!--[if lt IE 9]>
-<script src="/js/rem.min.js"></script>
+<script src="/js/rem-min.js"></script>
+<script src="<?php autoVer('/js/scripts-ie8-min.js'); ?>"></script>
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 </body>

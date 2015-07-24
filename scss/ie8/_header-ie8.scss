@@ -3,8 +3,6 @@
 
 header {
 	.logo-container {
-		@include span-columns(4 of 16);
-		
 		img#default-logo {
 			height: 190px;
 		}

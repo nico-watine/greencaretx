@@ -1,0 +1,1 @@
+var mq=window.matchMedia("(min-width: 821px)");mq.matches?($(".main-content").css("visibility","hidden").delay(2e3).css("visibility","visible"),$("#page-content").css("visibility","hidden").delay(2700).css("visibility","visible")):($(".main-content").css("opacity","1"),$("#page-content").css("opacity","1"));

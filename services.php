@@ -18,6 +18,7 @@
 	
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="/css/ie8.css">
+		<link rel="stylesheet" href="/assets/bower_components/magnific-popup/dist/magnific-popup.css">
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 
@@ -28,7 +29,7 @@
 <header>
 	<div class="default">
 		<div class="logo-container">
-			<a href="/"><img id="default-logo-flat" src="/img/logo/logo_flat@2x.png" alt="Greencare Interior Plants Logo"></a>
+			<a class="ie8-hide" href="/"><img id="default-logo-flat" src="/img/logo/logo_flat@2x.png" alt="Greencare Interior Plants Logo"></a>
 			<a href="/"><img id="default-logo" src="/img/logo/logo@2x.png" alt="Greencare Logo"></a>
 			<a href="/"><img id="medium-logo" src="/img/logo/logo@m.gif" alt="Greencare Logo"></a>
 		</div>
@@ -108,7 +109,7 @@
 	</div>
 </footer>
 
-<div id="services-modal" class="white-popup mfp-hide mfp-zoom-in">
+<div id="services-modal" class="white-popup mfp-hide">
 	<h1>purchasing vs. leasing</h1>
 	<br>
 	<h3>By leasing your plants, the initial expense of a purchase is avoided. However, the monthly fee of a lease can be up to 50% higher than that of a purchase.</h3>
@@ -117,9 +118,10 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/assets/bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 <!--[if lt IE 9]>
-<script src="/js/rem.min.js"></script>
+<script src="/js/rem-min.js"></script>
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 </body>
