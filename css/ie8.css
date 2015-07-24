@@ -521,10 +521,27 @@ main#services {
   background-image: url("/img/services/services-blur.jpg");
   background-size: cover;
 }
+main#services .purchase-lease-verbiage {
+  padding: 0 26px 26px;
+  visibility: visible;
+  display: block;
+  text-align: center;
+}
+main#services .purchase-lease-verbiage p {
+  font-size: 19px;
+}
 
 main#contact {
   background-image: url("/img/contact/contact-blur.jpg");
   background-size: cover;
+}
+main#contact .row#main-info {
+  margin-bottom: 18px;
+  height: 320px;
+}
+main#contact .consultation-details {
+  height: 120px;
+  margin-bottom: 18px;
 }
 
 .widget-links .widget#project-galleries,

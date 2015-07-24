@@ -54,11 +54,13 @@ section.page-header#contact {
 .office-map {
 	@include span-columns(8 of 12);
 	padding-top: em(10);
+	@include omega;
 }
 
 .consultation-details {
 	@include span-columns(9 of 10);
 	@include shift(0.5);
+	@include omega;
 
 	p {
 		margin: rem(10) auto rem(12);
@@ -116,6 +118,9 @@ section.page-header#contact {
 
 		.row {
 			margin-bottom: em(20);
+			@include span-columns(10 of 10);
+			margin-right: 0;
+			
 			.logo {
 				@include span-columns(2 of 10);
 

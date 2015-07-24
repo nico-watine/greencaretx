@@ -222,6 +222,8 @@ img { max-width: 100%; }
 .one-half { float: left; display: block; margin-right: 1.75788%; width: 49.12106%; }
 .one-half:last-child { margin-right: 0; }
 
+.omega { margin-right: 0; margin-right: 0 !important; }
+
 .big-green-button { background: #a0cc39; box-shadow: 0px 0.125rem 0px 0px #668625; border-radius: 0.25em; color: #fff; text-decoration: none; font-size: 1.4375rem; padding: 0.625rem 1rem 0.625rem 1rem; border: 0.0625rem solid #a0cc39; display: inline-block; outline: none; }
 .big-green-button:hover { text-shadow: 0px 0.0625rem 0px #668625; border-top: 0; margin-top: 0.0625rem; box-shadow: 0px 0.0625rem 0px 0px #668625; border-bottom: 0.1875rem solid #a0cc39; }
 
@@ -460,6 +462,8 @@ main#services .main-content { background-image: url("/img/services/services-blur
 .purchase-lease-button a.big-green-button { margin: 1.25rem auto 2.8125rem; padding: 0.625rem 1rem; }
 .purchase-lease-button a.big-green-button:hover { margin: 1.3125rem auto 2.6875rem; }
 
+.purchase-lease-verbiage { visibility: hidden; display: none; }
+
 #services-modal h1 { font-family: 'atlas', sans-serif; letter-spacing: 0.0875rem; }
 #services-modal h3 { padding: 0 1.25rem; }
 @media screen and (max-width: 40.625em) { #services-modal h3 { padding: 0; } }
@@ -535,10 +539,10 @@ section.page-header#contact { margin-bottom: 0.75em; }
 .primary-contact-info { float: left; display: block; margin-right: 2.35765%; width: 31.76157%; border: 0.0625em solid #A0CC39; box-shadow: 0px 0.0625em 0.125em 0px #333; background: #fff; padding: 0.625em 0.5em 0 0.5em; height: 19.6875em; }
 .primary-contact-info:last-child { margin-right: 0; }
 
-.office-map { float: left; display: block; margin-right: 2.35765%; width: 65.88078%; padding-top: 0.625em; }
+.office-map { float: left; display: block; margin-right: 2.35765%; width: 65.88078%; padding-top: 0.625em; margin-right: 0; }
 .office-map:last-child { margin-right: 0; }
 
-.consultation-details { float: left; display: block; margin-right: 2.84259%; width: 89.71574%; margin-left: 5.14213%; }
+.consultation-details { float: left; display: block; margin-right: 2.84259%; width: 89.71574%; margin-left: 5.14213%; margin-right: 0; }
 .consultation-details:last-child { margin-right: 0; }
 .consultation-details p { margin: 0.625rem auto 0.75rem; }
 .consultation-details h4 { margin-bottom: 0; }
@@ -556,7 +560,8 @@ section.page-header#contact { margin-bottom: 0.75em; }
 .row#plant-purchases { padding-top: 1.3125em; }
 .row#plant-purchases .purchase-options { float: left; display: block; margin-right: 2.84259%; width: 89.71574%; margin-left: 5.14213%; }
 .row#plant-purchases .purchase-options:last-child { margin-right: 0; }
-.row#plant-purchases .purchase-options .row { margin-bottom: 1.25em; }
+.row#plant-purchases .purchase-options .row { margin-bottom: 1.25em; float: left; display: block; margin-right: 2.84259%; width: 100%; margin-right: 0; }
+.row#plant-purchases .purchase-options .row:last-child { margin-right: 0; }
 .row#plant-purchases .purchase-options .row .logo { float: left; display: block; margin-right: 2.84259%; width: 17.72593%; }
 .row#plant-purchases .purchase-options .row .logo:last-child { margin-right: 0; }
 .row#plant-purchases .purchase-options .row .logo img { max-width: 8.75em; width: 100%; }

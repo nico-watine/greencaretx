@@ -19,11 +19,32 @@ main#index {
 main#services {
 	background-image: url('/img/services/services-blur.jpg');
 	background-size: cover;
+
+	.purchase-lease-verbiage {
+		padding: 0 26px 26px;
+		visibility: visible;
+		display: block;
+		text-align: center;
+
+		p {
+			font-size: 19px;
+		}
+	}
 }
 
 main#contact {
 	background-image: url('/img/contact/contact-blur.jpg');
 	background-size: cover;
+
+	.row#main-info {
+		margin-bottom: 18px;
+		height: 320px;
+	}
+
+	.consultation-details {
+		height: 120px;
+		margin-bottom: 18px;
+	}
 }
 
 .widget-links {
@@ -36,3 +57,4 @@ main#contact {
 		@include omega();
 	}
 }
+
