@@ -5443,12 +5443,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/scripts-ie8-min.js": {
+	"\/js\/scripts-ie-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/scripts-ie8-min.js",
-		"outputAbbreviatedPath": "\/scripts-ie8-min-min.js",
+		"inputAbbreviatedPath": "\/js\/scripts-ie-min.js",
+		"outputAbbreviatedPath": "\/scripts-ie-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -5509,12 +5509,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/src\/scripts-ie8.js": {
+	"\/js\/src\/scripts-ie.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/src\/scripts-ie8.js",
-		"outputAbbreviatedPath": "\/js\/scripts-ie8-min.js",
+		"inputAbbreviatedPath": "\/js\/src\/scripts-ie.js",
+		"outputAbbreviatedPath": "\/js\/scripts-ie-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
