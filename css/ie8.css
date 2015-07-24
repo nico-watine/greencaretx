@@ -412,37 +412,6 @@ html {
   box-sizing: inherit;
 }
 
-audio,
-canvas,
-img,
-video {
-  vertical-align: middle;
-}
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-textarea {
-  resize: vertical;
-}
-
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-img {
-  max-width: 100%;
-}
-
 .ie8-hide {
   visibility: hidden !important;
   display: none !important;
@@ -454,30 +423,56 @@ img {
 }
 
 body {
-  background: #ded8cc;
   max-width: 73.75em;
   margin-left: auto;
   margin-right: auto;
-  margin: 1.250em auto 1.875em;
+  margin: 25px auto 35px;
 }
 body::after {
   clear: both;
   content: "";
   display: table;
 }
-@media screen and (max-width: 51.25em) {
-  body {
-    margin: 0;
-  }
+
+#page-title .h1-wrap {
+  visibility: hidden;
+  display: none;
 }
 
-@media screen and (max-width: 40.625em) {
-  .main-cover#index-cover,
-  .main-cover#services-cover,
-  .main-cover#project-galleries-cover,
-  .main-cover#our-plants-cover {
-    background-image: none;
-  }
+#page-content {
+  float: left;
+  display: block;
+  margin-right: 2.84259%;
+  width: 89.71574%;
+  margin-left: 10.28426%;
+}
+#page-content:last-child {
+  margin-right: 0;
+}
+
+.big-green-button {
+  border: none !important;
+  box-shadow: none;
+  text-shadow: none;
+  margin: 0 !important;
+}
+.big-green-button:hover {
+  border: none !important;
+  margin: 0 !important;
+  text-decoration: underline;
+  box-shadow: none;
+}
+
+.white-popup {
+  position: relative;
+  background: #fff;
+  padding: 30px 16px;
+  width: auto;
+  max-width: 80%;
+  text-align: center;
+  margin: 20px auto;
+  border: 6px solid #4c3211;
+  border-radius: 10px;
 }
 
 #top-bar {
@@ -503,41 +498,32 @@ body::after {
   margin-right: 0;
 }
 
-header .logo-container {
-  float: left;
-  display: block;
-  margin-right: 1.75788%;
-  width: 23.68159%;
-}
-header .logo-container:last-child {
-  margin-right: 0;
-}
 header .logo-container img#default-logo {
   height: 190px;
 }
 
 main#project-galleries {
-  background-image: url("/img/project-galleries/bg-blur.jpg");
+  background-image: url("/img/project-galleries/galleries-blur.jpg");
   background-size: cover;
 }
 
 main#our-plants {
-  background-image: url("/img/our-plants/bg-blur.jpg");
+  background-image: url("/img/our-plants/our-plants-blur.jpg");
   background-size: cover;
 }
 
 main#index {
-  background-image: url("/img/index/bg-blur.jpg");
+  background-image: url("/img/index/index-blur.jpg");
   background-size: cover;
 }
 
 main#services {
-  background-image: url("/img/services/bg-blur.jpg");
+  background-image: url("/img/services/services-blur.jpg");
   background-size: cover;
 }
 
-main#about-us {
-  background-image: url("/img/about-us/bg-blur.jpg");
+main#contact {
+  background-image: url("/img/contact/contact-blur.jpg");
   background-size: cover;
 }
 
@@ -560,69 +546,18 @@ main#about-us {
   background: #624011;
   color: #fff;
 }
+.widget-links .widget a:hover h4 {
+  text-decoration: underline;
+}
 
 .index-verbiage #contact-text {
   margin-right: 0;
 }
-.index-verbiage #standard-buttons {
+.index-verbiage #standard-buttons .one-half {
   margin-bottom: 30px;
   padding-bottom: 15px;
 }
 
-.big-green-button {
-  border: 1px solid #a0cc39;
-  box-shadow: none;
-}
-.big-green-button:hover {
-  text-shadow: none;
-  box-shadow: none;
-  border-bottom: 1px solid #a0cc39;
-  border-top: 1px solid #a0cc39;
-  margin-top: 0 !important;
-}
-
-#page-title .h1-wrap {
-  visibility: hidden;
-  display: none;
-}
-
-#page-content {
-  float: left;
-  display: block;
-  margin-right: 2.84259%;
-  width: 89.71574%;
-  margin-left: 10.28426%;
-}
-#page-content:last-child {
-  margin-right: 0;
-}
-
-footer {
-  float: left;
-  display: block;
-  margin-right: 1.75788%;
-  width: 87.28027%;
-  margin-left: 6.35987%;
-}
-footer:last-child {
-  margin-right: 0;
-}
-footer #store-link {
-  float: left;
-  display: block;
-  margin-right: 2.01406%;
-  width: 34.41953%;
-}
-footer #store-link:last-child {
-  margin-right: 0;
-}
 footer #contact-info {
-  float: left;
-  display: block;
-  margin-right: 2.01406%;
-  width: 63.56641%;
-  margin-right: 0;
-}
-footer #contact-info:last-child {
   margin-right: 0;
 }
