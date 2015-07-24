@@ -13,15 +13,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/about-us.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about-us.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/apple-touch-icon-120x120-precomposed.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6151,6 +6142,38 @@
 	],
 "lastSavedByUser": "Nico Watine",
 "manualImportLinks": {
+	"\/js\/src\/scripts.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/responsive-nav.js",
+			"position": 1,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/fastclick.js",
+			"position": 2,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/scroll.js",
+			"position": 3,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/fixed-responsive-nav.js",
+			"position": 4,
+			"type": 1
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "assets",
