@@ -115,7 +115,7 @@
 						<div class="logo">
 							<a href="http://www.houstoninteriorplants.com" target="_blank"><img src="/img/contact/houston-interior-plants.jpg" alt="Houston Interior Plants Logo"></a>
 						</div>
-						<div class="verbiage">
+						<div class="verbiage omega">
 							<h4>HoustonInteriorPlants.com</h4>
 							<p>For your convenience we also have an online plant store where you can browse our entire selection of plants.</p>
 							<p><a href="http://www.houstoninteriorplants.com" target="_blank">www.houstoninteriorplants.com</a></p>
@@ -125,7 +125,7 @@
 						<div class="logo">
 							<a href="http://www.jardindefrancetx.com" target="_blank"><img src="/img/contact/jardin-de-france.jpg" alt="Jardin de France Logo"></a>
 						</div>
-						<div class="verbiage">
+						<div class="verbiage omega">
 							<h4>Jardin de France</h4>
 							<p>For plant purchases, please visit our retail store, Jardin de France. We are open Monday to Saturday 10am to 6pm.</p>
 							<div class="row" id="jdf-details">
@@ -133,7 +133,7 @@
 									<p><a href="https://goo.gl/maps/iiLgA" target="_blank">4819 Blossom St.
 									<br>Houston TX 77007</a></p>
 								</div>
-								<div class="web-address">
+								<div class="web-address omega">
 									<p><a href="http://www.jardindefrancetx.com" target="_blank">www.jardindefrancetx.com</a></p>
 								</div>
 							</div>

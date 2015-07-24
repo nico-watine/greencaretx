@@ -18,7 +18,6 @@
 	
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="/css/ie8.css">
-		<link rel="stylesheet" href="/assets/bower_components/magnific-popup/dist/magnific-popup.css">
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 
@@ -92,7 +91,14 @@
 					<p>If you happen to already have your own plants, we can take over their guaranteed maintenance.</p>
 				</div>
 			</section>
-			<section class="purchase-lease-button">
+			<section class="purchase-lease-verbiage">
+				<div class="row">
+					<h3>Purchasing vs. Leasing</h3>
+					<p>By leasing your plants, the initial expense of a purchase is avoided. However, the monthly fee of a lease can be up to 50% higher than that of a purchase.</p>
+					<h4>With both options, you receive the same great service!</h4>
+				</div>
+			</section>
+			<section class="purchase-lease-button ie8-hide">
 				<a href="#services-modal" class="open-popup-link big-green-button mfp-zoom-in">What is the difference between a purchase and a lease?</a>
 			</section>
 		</div>
@@ -118,8 +124,8 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/assets/bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
+
 <!--[if lt IE 9]>
 <script src="/js/rem-min.js"></script>
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>

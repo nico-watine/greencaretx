@@ -20,3 +20,8 @@
 .one-half {
 	@include span-columns(8 of 16);
 }
+
+.omega {
+	@include omega;
+	margin-right: 0 !important;
+}
