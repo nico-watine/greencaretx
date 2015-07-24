@@ -28,6 +28,7 @@
 <header id="index">
 	<div class="default">
 		<div class="logo-container">
+			<img id="default-logo-flat" src="/img/logo/logo_flat@2x.png" alt="Greencare Interior Plants Logo">
 			<img id="default-logo" src="/img/logo/logo@2x.png" alt="Greencare Interior Plants Logo">
 			<img id="medium-logo" src="/img/logo/logo@m.gif" alt="Greencare Interior Plants Logo">
 		</div>

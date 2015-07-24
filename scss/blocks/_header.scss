@@ -39,8 +39,13 @@ header {
 				max-width: 300px;
 			}
 		}
-		
+
 		#default-logo {
+			opacity: 0;
+		}
+		
+		#default-logo,
+		#default-logo-flat {
 			max-width: 200px;
 			width: 100%;
 			margin-left: -85px;
