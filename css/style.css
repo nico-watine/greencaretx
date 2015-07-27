@@ -273,7 +273,7 @@ header .mini { visibility: hidden; display: none; }
 #small-logo { display: none; visibility: hidden; }
 @media screen and (max-width: 40.625em) { #small-logo { display: block; visibility: visible; position: absolute; top: 0; left: 5px; max-height: 3em; } }
 
-main { border-left: 0.625em solid #4c3211; border-right: 0.625em solid #4c3211; box-shadow: 0.0625em -0.125em 0.125em 0px #000 inset; background-size: cover; background-color: #4c3211; float: left; display: block; margin-right: 1.75788%; width: 87.28027%; margin-left: 6.35987%; }
+main { border-left: 0.625em solid #4c3211; border-right: 0.625em solid #4c3211; box-shadow: 0.0625em -0.125em 0.125em 0 #000 inset; background-size: cover; background-color: #4c3211; float: left; display: block; margin-right: 1.75788%; width: 87.28027%; margin-left: 6.35987%; }
 main:last-child { margin-right: 0; }
 @media screen and (max-width: 58.75em) { main { border-left: 0.4375em solid #4c3211; border-right: 0.4375em solid #4c3211; float: left; display: block; margin-right: 2.35765%; width: 91.4702%; margin-left: 4.2649%; }
   main:last-child { margin-right: 0; } }

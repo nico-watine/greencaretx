@@ -4268,6 +4268,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/misc\/contact-button.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159,
+		"inputAbbreviatedPath": "\/img\/misc\/contact-button.png",
+		"outputAbbreviatedPath": "\/img\/misc\/contact-button.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/misc\/flower-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4275,6 +4286,28 @@
 		"initialSize": 7847,
 		"inputAbbreviatedPath": "\/img\/misc\/flower-bg.png",
 		"outputAbbreviatedPath": "\/img\/misc\/flower-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/ie8-button.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242,
+		"inputAbbreviatedPath": "\/img\/misc\/ie8-button.png",
+		"outputAbbreviatedPath": "\/img\/misc\/ie8-button.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/services-button.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152,
+		"inputAbbreviatedPath": "\/img\/misc\/services-button.png",
+		"outputAbbreviatedPath": "\/img\/misc\/services-button.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

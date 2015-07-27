@@ -3,7 +3,7 @@
 main {
 	border-left: $ten solid $dark-brown;
 	border-right: $ten solid $dark-brown;
-	box-shadow: em(1) em(-2) em(2) 0px #000 inset;
+	box-shadow: em(1) em(-2) em(2) 0 #000 inset;
 	background-size: cover;
 	background-color: $dark-brown;
 

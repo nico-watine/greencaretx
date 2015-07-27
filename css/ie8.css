@@ -434,12 +434,23 @@ body::after {
   display: table;
 }
 
+#page-title {
+  width: 100%;
+  margin: 0;
+}
 #page-title .h1-wrap {
-  visibility: hidden;
-  display: none;
+  padding: 0;
+  margin: 0;
+  width: 500px;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+#page-title .h1-wrap .vertical-title {
+  padding-top: 30px;
+  margin: 0;
 }
 
 #page-content {
+  margin-top: -80px;
   float: left;
   display: block;
   margin-right: 2.84259%;
@@ -451,6 +462,7 @@ body::after {
 }
 
 .big-green-button {
+  background: none;
   border: none !important;
   box-shadow: none;
   text-shadow: none;
@@ -463,16 +475,14 @@ body::after {
   box-shadow: none;
 }
 
-.white-popup {
-  position: relative;
-  background: #fff;
-  padding: 30px 16px;
-  width: auto;
-  max-width: 80%;
-  text-align: center;
-  margin: 20px auto;
-  border: 6px solid #4c3211;
-  border-radius: 10px;
+.big-green-button#services {
+  background: url("/img/misc/services-button.png") center;
+  background-repeat: no-repeat;
+}
+
+.big-green-button#contact {
+  background: url("/img/misc/contact-button.png") center;
+  background-repeat: no-repeat;
 }
 
 #top-bar {
@@ -506,10 +516,27 @@ main#project-galleries {
   background-image: url("/img/project-galleries/galleries-blur.jpg");
   background-size: cover;
 }
+main#project-galleries .h1-wrap#project-galleries {
+  padding-top: 170px;
+}
+main#project-galleries #page-content {
+  margin-top: -220px;
+}
 
 main#our-plants {
   background-image: url("/img/our-plants/our-plants-blur.jpg");
   background-size: cover;
+}
+main#our-plants .h1-wrap#our-plants {
+  padding-top: 30px;
+  width: 500px;
+}
+main#our-plants .h1-wrap#our-plants .vertical-title {
+  padding: 0;
+  margin: 0;
+}
+main#our-plants #page-content {
+  margin-top: -80px;
 }
 
 main#index {
@@ -534,6 +561,10 @@ main#services .purchase-lease-verbiage p {
 main#contact {
   background-image: url("/img/contact/contact-blur.jpg");
   background-size: cover;
+}
+main#contact .h1-wrap#contact {
+  padding-top: 30px;
+  margin: 0;
 }
 main#contact .row#main-info {
   margin-bottom: 18px;
@@ -569,6 +600,9 @@ main#contact .consultation-details {
 .index-verbiage #standard-buttons .one-half {
   margin-bottom: 30px;
   padding-bottom: 15px;
+}
+.index-verbiage #standard-buttons .one-half a {
+  margin-top: -8px;
 }
 
 footer #contact-info {

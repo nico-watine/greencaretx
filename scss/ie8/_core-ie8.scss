@@ -7,21 +7,35 @@ body {
 
 
 #page-title {
+	width: 100%;
+	margin: 0;
+
 	.h1-wrap {
-		visibility: hidden;
-		display: none;
+		padding: 0;
+		margin: 0;
+		width: 500px;
+
+
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+	    .vertical-title {
+	    	padding-top: 30px;
+	    	margin: 0;
+	    }
 	}
 }
 
-// behavior: url('/php/PIE.htc');
+
 
 #page-content {
+	margin-top: -80px;
 	@include span-columns(9 of 10);
-	@include shift(1);
+	@include shift(1 of 10);
 }
 
 
 .big-green-button {
+	background: none;
 	border: none !important;
 	box-shadow: none;
 	text-shadow: none;
@@ -35,14 +49,12 @@ body {
 	}
 }
 
-.white-popup {
-	position: relative;
-	background: #fff;
-	padding: 30px 16px;
-	width: auto;
-	max-width: 80%;
-	text-align: center;
-	margin: 20px auto;
-	border: 6px solid $dark-brown;
-	border-radius: 10px;
+.big-green-button#services {
+	background: url('/img/misc/services-button.png') center;
+	background-repeat: no-repeat;
+}
+
+.big-green-button#contact {
+	background: url('/img/misc/contact-button.png') center;
+	background-repeat: no-repeat;
 }
