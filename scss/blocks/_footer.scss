@@ -3,6 +3,7 @@
 footer {
 	background: $dark-brown;
 	border-radius: 0 0 $ten $ten;
+	behavior: url('/php/PIE.htc');
 	height: auto;
 	padding-top: em(10);
 	padding-bottom: em(20);

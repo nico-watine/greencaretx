@@ -90,10 +90,10 @@
 				</div>
 				<div class="row" id="standard-buttons">
 					<div class="one-half">
-						<a href="/services" class="big-green-button">our services</a>
+						<a href="/services" class="big-green-button" id="services">our services</a>
 					</div>
 					<div class="one-half" id="ie8-last">
-						<a href="/contact" class="big-green-button">schedule yours today</a>
+						<a href="/contact" class="big-green-button" id="contact">schedule yours today</a>
 					</div>
 				</div>
 			</section>
@@ -116,8 +116,9 @@
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 
 <!--[if lt IE 9]>
-<script src="/js/rem-min.js"></script>
-<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="/js/rem-min.js"></script>
+	<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
+
 </body>
 </html>

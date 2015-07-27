@@ -1,13 +1,9 @@
 @import "../settings/_settings.scss";
 
+
 .widget-links {
 	.widget {
 		a {
-			h4 {
-				background: $logo-brown;
-				color: #fff;
-			}
-
 			&:hover {
 				h4 {
 					text-decoration: underline;
@@ -17,6 +13,8 @@
 	}
 }
 
+
+
 .index-verbiage {
 	#contact-text {
 		@include omega();
@@ -25,7 +23,11 @@
 	#standard-buttons {
 		.one-half {
 			margin-bottom: 30px;
-			padding-bottom: 15px;			
+			padding-bottom: 15px;	
+
+			a {
+				margin-top: -8px;
+			}		
 		}
 	}
 }

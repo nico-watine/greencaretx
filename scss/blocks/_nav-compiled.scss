@@ -12,6 +12,7 @@ $content-bg: #eeeeee;
 	z-index: 3;
 	background: $dark-brown;
 	border-radius: em(12) em(12) 0 0;
+	behavior: url('/php/PIE.htc');
 	border-top: em(2) solid white;
 	border-bottom: em(2) solid white;	
 	text-align: right;
@@ -181,6 +182,7 @@ NAVIGATION STYLES
 
 .nav-collapse a#last {
 	border-radius: 0 10px 0 0;
+	behavior: url('/php/PIE.htc');
 	border-right: 2px solid white;
 
 	@include media($medium) {
@@ -189,10 +191,7 @@ NAVIGATION STYLES
 	}
 }
 
-.nav-collapse ul ul a {
-	background: #ca3716;
-	padding-left: 2em;
-}
+
 
 
 
@@ -313,6 +312,7 @@ NAV TOGGLE STYLES
 	.nav-collapse a#last {
 		border-radius: 0 10px 0 0;
 		border-right: 2px solid white;
+		behavior: url('/php/PIE.htc');
 
 		@include media($medium) {
 			border-radius: 0;
