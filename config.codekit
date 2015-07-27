@@ -4169,6 +4169,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/index\/index-ie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127487,
+		"inputAbbreviatedPath": "\/img\/index\/index-ie.jpg",
+		"outputAbbreviatedPath": "\/img\/index\/index-ie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/index\/index.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

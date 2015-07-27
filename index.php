@@ -93,9 +93,7 @@
 				</div>
 				<div class="row" id="standard-buttons">
 					<div class="one-half">
-						<a href="/services" class="green-button-container">
-							<h4>our services</h4>
-						</a>
+						<a href="/services" class="big-green-button">our services</a>
 					</div>
 					<div class="one-half" id="ie8-last">
 						<a href="/contact" class="big-green-button">schedule yours today</a>
