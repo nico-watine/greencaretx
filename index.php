@@ -15,6 +15,9 @@
 	<link type="text/plain" rel="author" href="/humans.txt">
 
 	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>"/>
+
+	<script src="/assets/bower_components/modernizr/modernizr.js"></script>
+	
 	
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="<?php autoVer('/css/ie8.css'); ?>"/>
@@ -90,7 +93,9 @@
 				</div>
 				<div class="row" id="standard-buttons">
 					<div class="one-half">
-						<a href="/services" class="big-green-button">our services</a>
+						<a href="/services" class="green-button-container">
+							<h4>our services</h4>
+						</a>
 					</div>
 					<div class="one-half" id="ie8-last">
 						<a href="/contact" class="big-green-button">schedule yours today</a>
@@ -116,8 +121,8 @@
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 
 <!--[if lt IE 9]>
-<script src="/js/rem-min.js"></script>
-<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="/js/rem-min.js"></script>
+	<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 </body>
 </html>

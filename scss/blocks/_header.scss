@@ -75,6 +75,7 @@ header {
 		aside {
 			height: em(45);
 			border-radius: 0.625em 0.625em 0px 0px;
+			behavior: url('/php/PIE.htc');
 			text-align: center;
 			width: em(355);
 			background: $lime-green;

@@ -224,8 +224,8 @@ img { max-width: 100%; }
 
 .omega { margin-right: 0; margin-right: 0 !important; }
 
-.big-green-button { background: #a0cc39; box-shadow: 0px 0.125rem 0px 0px #668625; border-radius: 0.25em; color: #fff; text-decoration: none; font-size: 1.4375rem; padding: 0.625rem 1rem 0.625rem 1rem; border: 0.0625rem solid #a0cc39; display: inline-block; outline: none; }
-.big-green-button:hover { text-shadow: 0px 0.0625rem 0px #668625; border-top: 0; margin-top: 0.0625rem; box-shadow: 0px 0.0625rem 0px 0px #668625; border-bottom: 0.1875rem solid #a0cc39; }
+a.big-green-button { background: #a0cc39; box-shadow: 0px 0.125rem 0px 0px #668625; color: #fff; text-decoration: none; font-size: 1.4375rem; padding: 0.625rem 1rem 0.625rem 1rem; border: 0.0625rem solid #a0cc39; border-radius: 4px; display: inline-block; }
+a.big-green-button:hover { text-shadow: 0px 0.0625rem 0px #668625; border-top: 0; margin-top: 0.0625rem; box-shadow: 0px 0.0625rem 0px 0px #668625; border-bottom: 0.1875rem solid #a0cc39; }
 
 .opaque-button { background: rgba(51, 51, 51, 0.5); border: 1px solid #333333; border-radius: 4px; color: #FFFFFF; text-decoration: none; text-shadow: 0.0625rem 0.0625rem 0.125rem #000; }
 
@@ -245,7 +245,7 @@ header .logo-container #default-logo, header .logo-container #default-logo-flat 
 @media screen and (max-width: 51.25em) { header .logo-container #default-logo, header .logo-container #default-logo-flat { visibility: hidden; display: none; } }
 header .phone-container { float: left; display: block; margin-right: 1.75788%; width: 36.40133%; margin-left: 31.79934%; }
 header .phone-container:last-child { margin-right: 0; }
-header .phone-container aside { height: 2.8125em; border-radius: 0.625em 0.625em 0px 0px; text-align: center; width: 22.1875em; background: #a0cc39; border-top: 0.125em solid #fff; border-left: 0.125em solid #fff; border-right: 0.125em solid #fff; }
+header .phone-container aside { height: 2.8125em; border-radius: 0.625em 0.625em 0px 0px; behavior: url("/php/PIE.htc"); text-align: center; width: 22.1875em; background: #a0cc39; border-top: 0.125em solid #fff; border-left: 0.125em solid #fff; border-right: 0.125em solid #fff; }
 header .phone-container aside h3, header .phone-container aside h3 a.phone-number { font-size: 1.75rem; margin: 0; line-height: 2.8125rem; color: #fff; text-shadow: 0.0625rem 0.0625rem 0px #000; }
 @media screen and (max-width: 66.875em) { header .phone-container { float: left; display: block; margin-right: 1.75788%; width: 42.76119%; margin-left: 25.43947%; }
   header .phone-container:last-child { margin-right: 0; }
@@ -312,7 +312,7 @@ main .main-content { opacity: 0; }
 @media screen and (max-width: 40.625em) { .page-header h1 { font-size: 2.25em; }
   .page-header h2 { font-size: 1.1875rem; } }
 
-footer { background: #4c3211; border-radius: 0 0 0.625em 0.625em; height: auto; padding-top: 0.625em; padding-bottom: 1.25em; color: #fff; float: left; display: block; margin-right: 1.75788%; width: 87.28027%; margin-left: 6.35987%; }
+footer { background: #4c3211; border-radius: 0 0 0.625em 0.625em; behavior: url("/php/PIE.htc"); height: auto; padding-top: 0.625em; padding-bottom: 1.25em; color: #fff; float: left; display: block; margin-right: 1.75788%; width: 87.28027%; margin-left: 6.35987%; }
 footer a { color: #fff; }
 footer:last-child { margin-right: 0; }
 @media screen and (max-width: 58.75em) { footer { float: left; display: block; margin-right: 2.35765%; width: 91.4702%; margin-left: 4.2649%; height: auto; font-size: 0.9375rem; }
@@ -338,7 +338,7 @@ footer #contact-info #address a, footer #contact-info #contact-us a { color: #ff
 @media screen and (max-width: 35.3125em) { footer #contact-info #address { margin-bottom: 0.625rem; font-size: 1.1875rem; } }
 
 @media screen and (max-width: 51.25em) { footer#contact { margin-bottom: 0; } }
-#top-bar { float: left; display: block; margin-right: 1.75788%; width: 87.28027%; margin-left: 6.35987%; z-index: 3; background: #4c3211; border-radius: 0.75em 0.75em 0 0; border-top: 0.125em solid white; border-bottom: 0.125em solid white; text-align: right; position: relative; }
+#top-bar { float: left; display: block; margin-right: 1.75788%; width: 87.28027%; margin-left: 6.35987%; z-index: 3; background: #4c3211; border-radius: 0.75em 0.75em 0 0; behavior: url("/php/PIE.htc"); border-top: 0.125em solid white; border-bottom: 0.125em solid white; text-align: right; position: relative; }
 #top-bar:last-child { margin-right: 0; }
 @media screen and (max-width: 58.75em) { #top-bar { float: left; display: block; margin-right: 2.35765%; width: 91.4702%; margin-left: 4.2649%; }
   #top-bar:last-child { margin-right: 0; } }
@@ -363,11 +363,10 @@ footer #contact-info #address a, footer #contact-info #contact-us a { color: #ff
   .nav-collapse a { -webkit-tap-highlight-color: transparent; border-top: 1px solid white; text-decoration: none; background: #4c3211; padding: 0.7em 1em; color: #fff; width: 100%; float: left; font-size: 18px; }
   .nav-collapse a:hover { background: #a0cc39; }
   .nav-collapse a:active, .nav-collapse .active a { background: #a0cc39; box-shadow: none; text-shadow: none; }
-  .nav-collapse a#last { border-radius: 0 10px 0 0; border-right: 2px solid white; } }
+  .nav-collapse a#last { border-radius: 0 10px 0 0; behavior: url("/php/PIE.htc"); border-right: 2px solid white; } }
 @media screen and (max-width: 40.625em) and (max-width: 51.25em) { .nav-collapse a#last { border-right: 0; border-radius: 0; } }
 
-@media screen and (max-width: 40.625em) { .nav-collapse ul ul a { background: #ca3716; padding-left: 2em; }
-  /* ------------------------------------------ NAV TOGGLE STYLES --------------------------------------------- */
+@media screen and (max-width: 40.625em) { /* ------------------------------------------ NAV TOGGLE STYLES --------------------------------------------- */
   .nav-toggle { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-decoration: none; text-indent: -300px; position: relative; overflow: hidden; width: 60px; height: 3em; float: right; }
   .nav-toggle:before { color: #fff; /* Edit this to change the icon color */ font: normal 35px/48px "nav"; /* Edit font-size (28px) to change the icon size */ text-transform: none; text-align: center; position: absolute; content: "\2261"; /* Hamburger icon */ text-indent: 0; speak: none; width: 100%; left: 0; top: 0; }
   .nav-toggle.active:before { font-size: 26px; content: "\78"; /* Close icon */ }
@@ -384,7 +383,7 @@ footer #contact-info #address a, footer #contact-info #contact-us a { color: #ff
   .nav-collapse a:hover { background: #a0cc39; text-shadow: 0px 0.0625rem 0rem #668625; box-shadow: 0px 1px 1px 0px #668625 inset; }
   .nav-collapse li { width: auto; float: left; }
   .nav-collapse a:active, .nav-collapse .active a { background: #a0cc39; box-shadow: none; text-shadow: 0px 0.0625rem 0rem #668625; box-shadow: 0px 1px 1px 0px #668625 inset; }
-  .nav-collapse a#last { border-radius: 0 10px 0 0; border-right: 2px solid white; } }
+  .nav-collapse a#last { border-radius: 0 10px 0 0; border-right: 2px solid white; behavior: url("/php/PIE.htc"); } }
 @media screen and (min-width: 40.6255em) and (max-width: 51.25em) { .nav-collapse a#last { border-radius: 0; } }
 
 @media screen and (min-width: 40.6255em) { .nav-collapse ul ul a { background: #ca3716; padding-left: 2em; }
@@ -410,24 +409,24 @@ main#index .main-content { background-image: url("/img/index/index-blur.jpg"); b
 .widget-links::after { clear: both; content: ""; display: table; }
 @media screen and (max-width: 66.875em) { .widget-links { margin-bottom: 1em; } }
 .widget-links .widget a { text-align: center; width: 100%; text-decoration: none; }
-.widget-links .widget a h4 { color: #fff; border-top: 2px solid #fff; background: rgba(68, 68, 68, 0.6); box-shadow: inset 0px 0px 3px 0px #000; margin-top: 246px; margin-bottom: 0; padding: 0.625rem 0; }
+.widget-links .widget a h4 { color: #fff; border-top: 0.125rem solid #fff; background: #444444; background: rgba(68, 68, 68, 0.6); box-shadow: inset 0 0 3px 0 #000; margin-top: 246px; margin-bottom: 0; padding: 0.625rem 0; }
 @media screen and (max-width: 58.75em) { .widget-links .widget a h4 { margin-top: 346px; } }
 @media screen and (max-width: 40.625em) { .widget-links .widget a h4 { margin-top: 181px; font-size: 1.1875rem; } }
-.widget-links .widget a:hover h4 { background: rgba(50, 50, 50, 0.7); box-shadow: inset 0px 1px 2px 1px #000; text-shadow: 0px 2px 1px #000; }
+.widget-links .widget a:hover h4 { background: #323232; background: rgba(50, 50, 50, 0.7); box-shadow: inset 0 1px 2px 1px #000; text-shadow: 0 2px 1px #000; }
 @media screen and (max-width: 40.625em) { .widget-links .widget { margin-bottom: 1em; } }
-.widget-links .widget#project-galleries, .widget-links .widget#plant-selection { float: left; display: block; margin-right: 2.35765%; width: 48.82117%; height: 300px; border: 0.125em solid #fff; box-shadow: 0px 0.0625em 0.125em 0 #333; }
+.widget-links .widget#project-galleries, .widget-links .widget#plant-selection { float: left; display: block; margin-right: 2.35765%; width: 48.82117%; height: 300; border: 0.125em solid #fff; box-shadow: 0 0.0625em 0.125em 0 #333; }
 .widget-links .widget#project-galleries:last-child, .widget-links .widget#plant-selection:last-child { margin-right: 0; }
-@media screen and (max-width: 58.75em) { .widget-links .widget#project-galleries, .widget-links .widget#plant-selection { height: 400px; } }
-@media screen and (max-width: 40.625em) { .widget-links .widget#project-galleries, .widget-links .widget#plant-selection { float: left; display: block; margin-right: 2.84259%; width: 100%; height: 230px; }
+@media screen and (max-width: 58.75em) { .widget-links .widget#project-galleries, .widget-links .widget#plant-selection { height: 400; } }
+@media screen and (max-width: 40.625em) { .widget-links .widget#project-galleries, .widget-links .widget#plant-selection { float: left; display: block; margin-right: 2.84259%; width: 100%; height: 230; }
   .widget-links .widget#project-galleries:last-child, .widget-links .widget#plant-selection:last-child { margin-right: 0; } }
 .widget-links .widget#project-galleries { background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg"); background-size: auto 105%; background-repeat: no-repeat; background-position: center; }
 @media screen and (max-width: 58.75em) { .widget-links .widget#project-galleries { background: url("/img/index/widgets/project-galleries/large/project-galleries.jpg"); background-size: auto 100%; background-repeat: no-repeat; background-position: left; } }
 @media screen and (max-width: 40.625em) { .widget-links .widget#project-galleries { background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg"); background-size: 100% auto; background-repeat: no-repeat; background-position: center; } }
-@media only screen and (max-width: 410px) { .widget-links .widget#project-galleries { background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg"); background-size: auto 110%; background-repeat: no-repeat; background-position: right; } }
+@media only screen and (max-width: 410) { .widget-links .widget#project-galleries { background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg"); background-size: auto 110%; background-repeat: no-repeat; background-position: right; } }
 .widget-links .widget#plant-selection { background: url("/img/index/widgets/plant-selection/default/plant-selection.jpg"); background-size: auto 105%; background-repeat: no-repeat; background-position: center; }
 @media screen and (max-width: 58.75em) { .widget-links .widget#plant-selection { background-size: auto 100%; } }
 @media screen and (max-width: 40.625em) { .widget-links .widget#plant-selection { background-size: 100% auto; } }
-@media only screen and (max-width: 410px) { .widget-links .widget#plant-selection { background-size: auto 110%; } }
+@media only screen and (max-width: 410) { .widget-links .widget#plant-selection { background-size: auto 110%; } }
 
 .index-verbiage { text-align: center; }
 .index-verbiage h4 { font-size: 1.25rem; padding: 0 0.625rem; }

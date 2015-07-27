@@ -1,15 +1,17 @@
-.big-green-button {
-	background: $lime-green;
+@import "../settings/_settings.scss";
+
+a.big-green-button {
+	background: #a0cc39;
 	box-shadow: 0px rem(2) 0px 0px #668625;
-	border-radius: em(4);
 	color: #fff;
 	text-decoration: none;
 	font-size: rem(23);
 	padding: rem(10) rem(16) rem(10) rem(16);
-	border: rem(1) solid $lime-green;
+	border: rem(1) solid #a0cc39;
+	border-radius: 4px;
+
 	display: inline-block;
 
-	outline: none;
 
 	&:hover {
 		text-shadow: 0px rem(1) 0px #668625;
