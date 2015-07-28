@@ -4070,6 +4070,15 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/googlecaa4d8934a08c76c.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/googlecaa4d8934a08c76c.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/img\/contact\/contact-blur.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4165,17 +4174,6 @@
 		"initialSize": 37665,
 		"inputAbbreviatedPath": "\/img\/index\/index-blur.jpg",
 		"outputAbbreviatedPath": "\/img\/index\/index-blur.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/index\/index-ie.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 127487,
-		"inputAbbreviatedPath": "\/img\/index\/index-ie.jpg",
-		"outputAbbreviatedPath": "\/img\/index\/index-ie.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4290,17 +4288,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/misc\/ie8-button.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 242,
-		"inputAbbreviatedPath": "\/img\/misc\/ie8-button.png",
-		"outputAbbreviatedPath": "\/img\/misc\/ie8-button.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/misc\/services-button.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4308,6 +4295,72 @@
 		"initialSize": 152,
 		"inputAbbreviatedPath": "\/img\/misc\/services-button.png",
 		"outputAbbreviatedPath": "\/img\/misc\/services-button.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/_v1\/facebook-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2299,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/_v1\/facebook-hover.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/_v1\/facebook-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/_v1\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2375,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/_v1\/facebook.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/_v1\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/facebook-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3929,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/facebook-hover.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/facebook-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3558,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/facebook.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/google-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5185,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/google-hover.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/google-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/google.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4891,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/google.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/google.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

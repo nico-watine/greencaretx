@@ -318,13 +318,16 @@ footer:last-child { margin-right: 0; }
 @media screen and (max-width: 58.75em) { footer { float: left; display: block; margin-right: 2.35765%; width: 91.4702%; margin-left: 4.2649%; height: auto; font-size: 0.9375rem; }
   footer:last-child { margin-right: 0; } }
 @media screen and (max-width: 51.25em) { footer { margin-bottom: 1.875em; padding-bottom: 0.625em; border-radius: 0 0 0.75em 0.75em; } }
-footer #store-link { float: left; display: block; margin-right: 2.01406%; width: 34.41953%; padding: 2.313em 0 0 1.250em; }
-footer #store-link:last-child { margin-right: 0; }
-footer #store-link h4 { margin: 0; }
-@media screen and (max-width: 58.75em) { footer #store-link { padding-top: 2.1875em; } }
-@media screen and (max-width: 51.25em) { footer #store-link { padding: 0.75rem 0 0 0; width: 100%; text-align: center; } }
-@media screen and (max-width: 40.625em) { footer #store-link { margin-bottom: 0.375rem; } }
-@media screen and (max-width: 35.3125em) { footer #store-link { margin-bottom: 0; } }
+footer #store-share { float: left; display: block; margin-right: 2.01406%; width: 34.41953%; padding-left: 1.25em; }
+footer #store-share:last-child { margin-right: 0; }
+footer #store-share #facebook, footer #store-share #google { width: 35px; height: 35px; position: relative; display: inline-block; }
+footer #store-share #facebook img, footer #store-share #google img { position: absolute; top: 0; left: 0; }
+footer #store-share #facebook:hover img.normal, footer #store-share #google:hover img.normal { visibility: hidden; }
+footer #store-share #facebook { margin-right: 6px; }
+footer #store-share h4 { margin: 0; }
+@media screen and (max-width: 51.25em) { footer #store-share { padding: 0.75rem 0 0 0; width: 100%; text-align: center; } }
+@media screen and (max-width: 40.625em) { footer #store-share { margin-bottom: 0.375rem; } }
+@media screen and (max-width: 35.3125em) { footer #store-share { margin-bottom: 0; } }
 footer #contact-info { float: left; display: block; margin-right: 2.01406%; width: 63.56641%; text-align: right; padding: 0.625em 1.25em 0 0; }
 footer #contact-info:last-child { margin-right: 0; }
 footer #contact-info span { display: inline-block; }
