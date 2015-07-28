@@ -4299,6 +4299,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/misc\/social\/_v1\/facebook-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2299,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/_v1\/facebook-hover.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/_v1\/facebook-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/_v1\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2375,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/_v1\/facebook.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/_v1\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/facebook-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3929,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/facebook-hover.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/facebook-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3558,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/facebook.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/google-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5185,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/google-hover.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/google-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/google.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4891,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/google.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/google.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/our-plants\/full\/bird-of-paradise.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
