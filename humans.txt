@@ -12,7 +12,7 @@ The site was coded with <3 by the Studio N Creations team and is powered by HTML
 
 /* SITE COLOPHON */
 Standards: HTML5, CSS3
-Components: jQuery, Modernizr.js, HTML5shiv.js 
+Components: jQuery, HTML5shiv.js 
 Software: Sublime Text + CodeKit + Sketch 3
 
 
