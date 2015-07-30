@@ -173,7 +173,7 @@
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 
 <!--[if lt IE 9]>
-	<script src="/js/scripts-ie-min.js"></script>
+	<script src="<?php autoVer('/js/scripts-ie-min.js'); ?>"></script>
 <![endif]-->
 
 </body>
