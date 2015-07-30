@@ -12,4 +12,54 @@
 	}
 }
 
+.nav-collapse {
+	float: right;
+	width: auto;
+}
+
+.nav-collapse a {
+	border-left: 2px solid white;
+	text-decoration: none;
+	background: $dark-brown;
+	padding: 0.7em 1em;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin: 0;
+	font-size: 21px;
+
+	&:hover {
+		background: $lime-green;
+	}
+}
+
+.nav-collapse li {
+	width: auto;
+	float: left;
+}
+
+.nav-collapse a:active,
+.nav-collapse .active a {
+	background: $lime-green;
+}
+
+.nav-collapse a#last {
+	border-radius: 0 10px 0 0;
+	border-right: 2px solid white;
+	behavior: url('/php/PIE.htc');
+}
+
+.nav-collapse,
+.nav-collapse ul {
+	list-style: none;
+	float: right;
+}
+
+.nav-collapse ul {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	list-style: none;
+}
 
