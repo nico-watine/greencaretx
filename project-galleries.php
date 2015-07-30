@@ -34,7 +34,7 @@
 		</div>
 		<div class="phone-container">
 			<aside>
-				<h3>give us a call! <a href="tel://713-864-5300" class="phone-number">713-864-5300</a></h3>
+				<h3>give us a call! <a href="tel://832-651-3136" class="phone-number">832-651-3136</a></h3>
 			</aside>
 		</div>
 	</div>
@@ -165,7 +165,7 @@
 	</div>
 	<div id="contact-info">
 		<h4 id="address"><a href="https://goo.gl/maps/1l2Fw" target="_blank">5221 Center St Houston, TX 77007</a></h4>
-		<h4 id="contact-us">request a free quote at <a href="tel://713-864-5300" class="phone-number">713-864-5300</a> <span>or <a href="/contact">contact us</a></span></h4>
+		<h4 id="contact-us">request a free quote at <a href="tel://832-651-3136" class="phone-number">832-651-3136</a> <span>or <a href="/contact">contact us</a></span></h4>
 	</div>
 </footer>
 
