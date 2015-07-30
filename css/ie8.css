@@ -450,6 +450,7 @@ body::after {
 }
 
 #page-content {
+  border-left: 1px solid #444;
   margin-top: -80px;
   float: left;
   display: block;

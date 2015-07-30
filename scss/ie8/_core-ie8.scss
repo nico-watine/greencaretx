@@ -28,6 +28,7 @@ body {
 
 
 #page-content {
+	border-left: 1px solid #444;
 	margin-top: -80px;
 	@include span-columns(9 of 10);
 	@include shift(1 of 10);
