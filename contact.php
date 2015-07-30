@@ -186,10 +186,8 @@
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 
 <!--[if lt IE 9]>
-	<script src="/js/rem-min.js"></script>
-	<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="/js/scripts-ie-min.js"></script>
 <![endif]-->
 
 </body>
 </html>
-
