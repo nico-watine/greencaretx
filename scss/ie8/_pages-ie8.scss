@@ -2,8 +2,6 @@
 
 
 main#project-galleries {
-	background-image: url('/img/project-galleries/galleries-blur.jpg');
-	background-size: cover;
 
 	.h1-wrap#project-galleries {
 		padding-top: 170px;
@@ -15,8 +13,6 @@ main#project-galleries {
 }
 
 main#our-plants {
-	background-image: url('/img/our-plants/our-plants-blur.jpg');
-	background-size: cover;
 
 	.h1-wrap#our-plants {
 		padding-top: 30px;
@@ -33,14 +29,7 @@ main#our-plants {
 	}
 }
 
-main#index {
-	background-image: url('/img/index/index-blur.jpg');
-	background-size: cover;
-}
-
 main#services {
-	background-image: url('/img/services/services-blur.jpg');
-	background-size: cover;
 
 	.purchase-lease-verbiage {
 		padding: 0 26px 26px;
@@ -55,8 +44,12 @@ main#services {
 }
 
 main#contact {
-	background-image: url('/img/contact/contact-blur.jpg');
-	background-size: cover;
+	background-image: url('/img/contact/ie/contact.jpg');
+	background-repeat: no-repeat;
+
+	.main-content {
+		background-image: url('/img/contact/ie/contact-blur.jpg');
+	}
 
 	.h1-wrap#contact {
 		padding-top: 30px;
