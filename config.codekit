@@ -5666,7 +5666,7 @@
 		},
 	"\/js\/src\/css3-mediaqueries.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/src\/css3-mediaqueries.js",
 		"outputAbbreviatedPath": "\/js\/css3-mediaqueries-min.js",
@@ -6390,12 +6390,6 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/assets\/bower_components\/REM-unit-polyfill\/js\/rem.js",
 			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/src\/css3-mediaqueries.js",
-			"position": 1,
 			"type": 0
 			}
 		],
