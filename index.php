@@ -21,6 +21,28 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 
+	<script type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "LocalBusiness",
+	  "name": "Greencare Interior Plants",
+	  "logo": "http://greencaretx.com/img/schema/greencare-logo.png",
+	  "description": "Interior plant design &amp; maintenance services for commercial and residential accounts in the Greater Houston area.",
+	  "url" : "http://greencaretx.com",
+	  "telephone": "713-443-3761",
+	  "address": {
+	    "@type": "PostalAddress",
+	    "addressLocality": "Houston",
+	    "addressRegion": "TX",
+	    "postalCode": "77007",
+	    "streetAddress": "5221 Center St"
+	  },
+	  "sameAs" : [
+	    "https://plus.google.com/108713736317109074241/posts?hl=en",
+	    "https://www.facebook.com/GreencareInteriorPlants"
+	  ]
+	}
+	</script>
 </head>
 
 <body>

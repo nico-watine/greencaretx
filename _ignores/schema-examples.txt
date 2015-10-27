@@ -1,0 +1,62 @@
+TAKEN FROM SCHEMA.ORG FOR GENERAL LOCAL BUSINESS PROFILE INFO :: (www.schema.org/LocalBusiness)
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Mexico Beach",
+    "addressRegion": "FL",
+    "streetAddress": "3102 Highway 98"
+  },
+  "description": "A superb collection of fine gifts and clothing to accent your stay in Mexico Beach.",
+  "name": "Beachwalk Beachwear & Giftware",
+  "telephone": "850-648-4200"
+}
+</script>
+
+------------------------
+
+TAKEN FROM GOOGLE DEVELOPERS FOR HOW TO ADD SOCIAL MEDIA PROFILE ICONS INTO RICH SNIPPETS UPON SEARCH :: (www.developers.google.com/structured-data/customize/social-profiles)
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "Your Organization Name",
+  "url" : "http://www.your-site.com",
+  "sameAs" : [
+    "http://www.facebook.com/your-profile",
+    "http://www.twitter.com/yourProfile",
+    "http://plus.google.com/your_profile"
+  ]
+}
+</script>
+
+------------------------
+
+CUSTOM COMPILED SCRIPT BASED ON ABOVE EXAMPLES (WILL BE USED ON INDEX.PHP) ::
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Greencare Interior Plants",
+  "logo": "http://greencaretx.com/img/schema/greencare-logo.png",
+  "description": "Interior plant design &amp; maintenance services for commercial and residential accounts in the Greater Houston area.",
+  "url" : "http://greencaretx.com",
+  "telephone": "713-443-3761",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Houston",
+    "addressRegion": "TX",
+    "postalCode": "77007",
+    "streetAddress": "5221 Center St"
+  },
+  "sameAs" : [
+    "https://plus.google.com/108713736317109074241/posts?hl=en",
+    "https://www.facebook.com/GreencareInteriorPlants"
+  ]
+}
+</script>
