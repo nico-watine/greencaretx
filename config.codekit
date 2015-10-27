@@ -5622,6 +5622,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/schema\/greencare-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36278,
+		"inputAbbreviatedPath": "\/img\/schema\/greencare-logo.png",
+		"outputAbbreviatedPath": "\/img\/schema\/greencare-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/services\/services-blur.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
