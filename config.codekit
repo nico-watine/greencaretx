@@ -4465,6 +4465,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/misc\/social\/_ignores\/facebook-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1031,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/_ignores\/facebook-hover.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/_ignores\/facebook-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/_ignores\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 959,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/_ignores\/facebook.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/_ignores\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/_ignores\/google-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1232,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/_ignores\/google-hover.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/_ignores\/google-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/misc\/social\/_ignores\/google.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1226,
+		"inputAbbreviatedPath": "\/img\/misc\/social\/_ignores\/google.png",
+		"outputAbbreviatedPath": "\/img\/misc\/social\/_ignores\/google.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/misc\/social\/facebook-hover.png": {
 		"fileType": 32768,
 		"ignore": 0,
