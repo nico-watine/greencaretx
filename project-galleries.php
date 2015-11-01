@@ -5,11 +5,9 @@
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-
 	<title>Project Galleries of Residential &amp; Office Locations | Greencare Interior Plants - Houston, TX</title>
-
 	<meta name="description" content="Project Highlights of our Plant Design &amp; Maintenance Services for Residential &amp; Office Locations">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<link type="text/plain" rel="author" href="/humans.txt">
@@ -17,8 +15,8 @@
 	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>"/>
 	
 	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="<?php autoVer('/css/ie8.css'); ?>"/>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<link rel="stylesheet" href="<?php autoVer('/css/ie8.css'); ?>"/>
 	<![endif]-->
 
 </head>
