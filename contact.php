@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Get in touch with us! Greencare Interior Plants - Houston, TX</title>
-	<meta name="description" content="Call 832-651-3136 to schedule your complimentary interior plant design &amp; service consultation!">
+	<meta name="description" content="Call 713-864-5300 to schedule your complimentary interior plant design &amp; service consultation!">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
@@ -32,7 +32,7 @@
 		</div>
 		<div class="phone-container">
 			<aside>
-				<h3>give us a call! <a href="tel://832-651-3136" class="phone-number">832-651-3136</a></h3>
+				<h3>give us a call! <a href="tel://713-864-5300" class="phone-number">713-864-5300</a></h3>
 			</aside>
 		</div>
 	</div>
@@ -42,8 +42,8 @@
 		</div>
 		<div class="phone-container">
 			<aside>
-				<h3><a href="tel://832-651-3136" class="phone-number">832-651-3136</a></h3>
-				<a href="tel://832-651-3136" class="phone-number"><i class="icon-phone"></i></a>
+				<h3><a href="tel://713-864-5300" class="phone-number">713-864-5300</a></h3>
+				<a href="tel://713-864-5300" class="phone-number"><i class="icon-phone"></i></a>
 			</aside>
 		</div>
 	</div>
@@ -78,16 +78,16 @@
 			</section>
 			<div class="row" id="main-info">
 				<section class="primary-contact-info">
-					<h2>Office & Warehouse Info</h2>
+					<h2>Office &amp; Warehouse Info</h2>
 					<p id="address"><strong>Office Address</strong>
 					<br><a href="https://goo.gl/maps/1l2Fw" target="_blank">5221 Center St
 					<br>Houston, TX 77007</a></p>
 					<p id="phone"><strong>Office Phone</strong>
 					<br><a href="tel://713-864-5300" class="phone-number">713-864-5300</a></p>
 					<p id="email"><strong>Office Email</strong>
-					<br><a href="mailto:alice@greencaretx.com" target="_top">alice@greencaretx.com</a></p>
-					<p id="patrice-phone"><strong>Direct Sales Line</strong>
-					<br><a href="tel://832-651-3136" class="phone-number">832-651-3136</a></p>
+					<br><a href="mailto:lissette@greencaretx.com" target="_top">lissette@greencaretx.com</a></p>
+					<p id="office-phone"><strong>Direct Sales Line</strong>
+					<br><a href="tel://713-864-5300" class="phone-number">713-864-5300</a></p>
 				</section>
 				<section class="office-map">
 					<h2>Office Map</h2>
@@ -102,8 +102,8 @@
 				<div class="consultation-details">
 					<section class="consultations">
 						<h2>Consultations</h2>
-						<p>To schedule an appointment and next-day quote, please call or email owner Patrice Watine</p>
-						<h4><a href="tel://832-651-3136" class="phone-number">832-651-3136</a> | <a href="mailto:patrice@greencaretx.com" target="_top">patrice@greencaretx.com</a></h4>
+						<p>To schedule an appointment and next-day quote, please call or email our office administrator Lissette Martinez</p>
+						<h4><a href="tel://713-864-5300" class="phone-number">713-864-5300</a> | <a href="mailto:lissette@greencaretx.com" target="_top">lissette@greencaretx.com</a></h4>
 					</section>
 				</div>
 			</div>
@@ -172,7 +172,7 @@
 	</div>
 	<div id="contact-info">
 		<h4 id="address"><a href="https://goo.gl/maps/1l2Fw" target="_blank">5221 Center St Houston, TX 77007</a></h4>
-		<h4 id="contact-us">request a free quote at <a href="tel://832-651-3136" class="phone-number">832-651-3136</a> <span>or <a href="/contact">contact us</a></span></h4>
+		<h4 id="contact-us">request a free quote at <a href="tel://713-864-5300" class="phone-number">713-864-5300</a> <span>or <a href="/contact">contact us</a></span></h4>
 	</div>
 </footer>
 

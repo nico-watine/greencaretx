@@ -133,14 +133,14 @@ html { box-sizing: border-box; }
 
 @font-face { font-family: 'inai'; src: url("/fonts/inai/inaimathi-webfont.eot");
   /* IE9 Compat Modes */
-  src: url("/fonts/inai/inaimathi-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/inai/inaimathi-webfont.woff") format("woff"), url("/fonts/inai/inaimathi-webfont.ttf") format("truetype"), url("/fonts/inai/inaimathi-webfont.svg#2a39c9c7f950b63ac6008bb9a626c2c6") format("svg");
+src: url("/fonts/inai/inaimathi-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/inai/inaimathi-webfont.woff") format("woff"), url("/fonts/inai/inaimathi-webfont.ttf") format("truetype"), url("/fonts/inai/inaimathi-webfont.svg#2a39c9c7f950b63ac6008bb9a626c2c6") format("svg");
   /* Legacy iOS */
-  font-style: normal; font-weight: 400; }
+font-style: normal; font-weight: 400; }
 @font-face { font-family: 'nav'; src: url("/fonts/nav/nav.eot");
   /* IE9 Compat Modes */
-  src: url("/fonts/nav/nav.eot?#iefix") format("embedded-opentype"), url("/fonts/nav/nav.woff") format("woff"), url("/fonts/nav/nav.ttf") format("truetype"), url("/fonts/nav/nav.svg#1da3456e837ae6ef244abd56d21c2bc6") format("svg");
+src: url("/fonts/nav/nav.eot?#iefix") format("embedded-opentype"), url("/fonts/nav/nav.woff") format("woff"), url("/fonts/nav/nav.ttf") format("truetype"), url("/fonts/nav/nav.svg#1da3456e837ae6ef244abd56d21c2bc6") format("svg");
   /* Legacy iOS */
-  font-style: normal; font-weight: 400; }
+font-style: normal; font-weight: 400; }
 @font-face { font-family: 'fontello'; src: url("/fonts/fontello/fontello.eot?60863212"); src: url("/fonts/fontello/fontello.eot?60863212#iefix") format("embedded-opentype"), url("/fonts/fontello/fontello.woff?60863212") format("woff"), url("/fonts/fontello/fontello.ttf?60863212") format("truetype"), url("/fonts/fontello/fontello.svg?60863212#fontello") format("svg"); font-weight: normal; font-style: normal; }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */

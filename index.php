@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Interior Plant Design &amp; Maintenance Service | Greencare Interior Plants - Houston, TX</title>
-	<meta name="description" content="Commercial &amp; Residential Indoor Plant Care Services - Call 832-651-3136 for your free consultation and next day quote!">
+	<meta name="description" content="Commercial &amp; Residential Indoor Plant Care Services - Call 713-864-5300 for your free consultation and next day quote!">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
@@ -27,7 +27,7 @@
 	  "logo": "http://greencaretx.com/img/schema/greencare-logo.png",
 	  "description": "Interior plant design &amp; maintenance services for commercial and residential accounts in the Greater Houston area.",
 	  "url" : "http://greencaretx.com",
-	  "telephone": "713-443-3761",
+	  "telephone": "713-864-5300",
 	  "address": {
 	    "@type": "PostalAddress",
 	    "addressLocality": "Houston",
@@ -54,7 +54,7 @@
 		</div>
 		<div class="phone-container">
 			<aside>
-				<h3>give us a call! <a href="tel://832-651-3136" class="phone-number">832-651-3136</a></h3>
+				<h3>give us a call! <a href="tel://713-864-5300" class="phone-number">713-864-5300</a></h3>
 			</aside>
 		</div>
 	</div>
@@ -139,7 +139,7 @@
 	</div>
 	<div id="contact-info">
 		<h4 id="address"><a href="https://goo.gl/maps/1l2Fw" target="_blank">5221 Center St Houston, TX 77007</a></h4>
-		<h4 id="contact-us">request a free quote at <a href="tel://832-651-3136" class="phone-number">832-651-3136</a> <span>or <a href="/contact">contact us</a></span></h4>
+		<h4 id="contact-us">request a free quote at <a href="tel://713-864-5300" class="phone-number">713-864-5300</a> <span>or <a href="/contact">contact us</a></span></h4>
 	</div>
 </footer>
 
