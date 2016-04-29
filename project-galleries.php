@@ -26,8 +26,8 @@
 <header>
 	<div class="default">
 		<div class="logo-container">
-			<a class="ie8-hide" href="/"><img id="default-logo-flat" src="/img/logo/logo_flat@2x.png" alt="Greencare Interior Plants Logo"></a>
-			<a href="/"><img id="default-logo" src="/img/logo/logo@2x.png" alt="Greencare Logo"></a>
+			<a class="ie8-hide" href="/"><img id="default-logo-flat" src="/img/logo/logo_flat.png" srcset="/img/logo/logo_flat@2x.png 2x" alt="Greencare Interior Plants Logo"></a>
+			<a href="/"><img id="default-logo" src="/img/logo/logo.png" srcset="/img/logo/logo@2x.png 2x" alt="Greencare Logo"></a>
 			<a href="/"><img id="medium-logo" src="/img/logo/logo@m.gif" alt="Greencare Logo"></a>
 		</div>
 		<div class="phone-container">
@@ -81,62 +81,82 @@
 				<div class="row image-grid gallery">
 					<div class="thumb">
 						<a href="/img/project-galleries/full/01.jpg">
-							<img src="/img/project-galleries/thumbs/01.jpg" alt="">
+							<img src="/img/project-galleries/thumbs/01.jpg" alt="Greencare Interior Plants Project Gallery Example">
 						</a>
 					</div>
 					<div class="thumb">
 						<a href="/img/project-galleries/full/02.jpg">
-							<img src="/img/project-galleries/thumbs/02.jpg" alt="">
+							<img src="/img/project-galleries/thumbs/02.jpg" alt="Greencare Interior Plants Project Gallery Example">
 						</a>
 					</div>
 					<div class="thumb">
 						<a href="/img/project-galleries/full/03.jpg">
-							<img src="/img/project-galleries/thumbs/03.jpg" alt="">
+							<img src="/img/project-galleries/thumbs/03.jpg" alt="Greencare Interior Plants Project Gallery Example">
 						</a>
 					</div>
 					<div class="thumb">
 						<a href="/img/project-galleries/full/04.jpg">
-							<img src="/img/project-galleries/thumbs/04.jpg" alt="">
+							<img src="/img/project-galleries/thumbs/04.jpg" alt="Greencare Interior Plants Project Gallery Example">
 						</a>
 					</div>
 					<div class="thumb">
 						<a href="/img/project-galleries/full/05.jpg">
-							<img src="/img/project-galleries/thumbs/05.jpg" alt="">
+							<img src="/img/project-galleries/thumbs/05.jpg" alt="Greencare Interior Plants Project Gallery Example">
 						</a>
 					</div>
 					<div class="thumb" id="ie8-last">
 						<a href="/img/project-galleries/full/06.jpg">
-							<img src="/img/project-galleries/thumbs/06.jpg" alt="">
+							<img src="/img/project-galleries/thumbs/06.jpg" alt="Greencare Interior Plants Project Gallery Example">
 						</a>
 					</div>
 					<div class="thumb">
 						<a href="/img/project-galleries/full/07.jpg">
-							<img src="/img/project-galleries/thumbs/07.jpg" alt="">
+							<img src="/img/project-galleries/thumbs/07.jpg" alt="Greencare Interior Plants Project Gallery Example">
 						</a>
 					</div>
 					<div class="thumb">
 						<a href="/img/project-galleries/full/08.jpg">
-							<img src="/img/project-galleries/thumbs/08.jpg" alt="">
+							<img src="/img/project-galleries/thumbs/08.jpg" alt="Greencare Interior Plants Project Gallery Example">
 						</a>
 					</div>
 					<div class="thumb">
 						<a href="/img/project-galleries/full/09.jpg">
-							<img src="/img/project-galleries/thumbs/09.jpg" alt="">
+							<img src="/img/project-galleries/thumbs/09.jpg" alt="Greencare Interior Plants Project Gallery Example">
 						</a>
 					</div>
 					<div class="thumb">
 						<a href="/img/project-galleries/full/10.jpg">
-							<img src="/img/project-galleries/thumbs/10.jpg" alt="">
+							<img src="/img/project-galleries/thumbs/10.jpg" alt="Greencare Interior Plants Project Gallery Example">
 						</a>
 					</div>
 					<div class="thumb">
 						<a href="/img/project-galleries/full/11.jpg">
-							<img src="/img/project-galleries/thumbs/11.jpg" alt="">
+							<img src="/img/project-galleries/thumbs/11.jpg" alt="Greencare Interior Plants Project Gallery Example">
 						</a>
 					</div>
 					<div class="thumb" id="ie8-last">
 						<a href="/img/project-galleries/full/12.jpg">
-							<img src="/img/project-galleries/thumbs/12.jpg" alt="">
+							<img src="/img/project-galleries/thumbs/12.jpg" alt="Greencare Interior Plants Project Gallery Example">
+						</a>
+					</div>
+					<div class="thumb">
+						<a href="/img/project-galleries/full/13.jpg">
+							<img src="/img/project-galleries/thumbs/13t.jpg" srcset="/img/project-galleries/thumbs/13t@2x.jpg 2x" alt="Greencare Interior Plants Living Green-Wall Installation">
+						</a>
+					</div>
+					<div class="thumb">
+						<a href="/img/project-galleries/full/14.jpg">
+							<img src="/img/project-galleries/thumbs/14t.jpg" srcset="/img/project-galleries/thumbs/14t@2x.jpg 2x" alt="Greencare Interior Plants Project Gallery Example">
+						</a>
+					</div>
+					<div class="thumb">
+						<a href="/img/project-galleries/full/15.jpg">
+							<img src="/img/project-galleries/thumbs/15t.jpg" srcset="/img/project-galleries/thumbs/15t@2x.jpg 2x" alt="Greencare Interior Plants Project Gallery Example">
+						</a>
+					</div>
+					<div class="thumb" id="ie8-last">
+						<a href="/img/project-galleries/full/16.jpg">
+							<img src="/img/project-galleries/thumbs/16t.jpg" srcset="/img/project-galleries/thumbs/16t@2x.jpg 2x" alt="Greencare Interior Plants Living Green-Wall Installation">
 						</a>
 					</div>
 				</div>

@@ -11,6 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_ignores\/normalize.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_ignores\/normalize.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/apple-touch-icon-120x120-precomposed.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4399,6 +4408,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo\/_ignores\/logo@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17095,
+		"inputAbbreviatedPath": "\/img\/logo\/_ignores\/logo@2x.png",
+		"outputAbbreviatedPath": "\/img\/logo\/_ignores\/logo@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/_ignores\/logo_flat@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16273,
+		"inputAbbreviatedPath": "\/img\/logo\/_ignores\/logo_flat@2x.png",
+		"outputAbbreviatedPath": "\/img\/logo\/_ignores\/logo_flat@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo\/email\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4410,6 +4441,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10586,
+		"inputAbbreviatedPath": "\/img\/logo\/logo.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo\/logo@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4417,6 +4459,17 @@
 		"initialSize": 17095,
 		"inputAbbreviatedPath": "\/img\/logo\/logo@2x.png",
 		"outputAbbreviatedPath": "\/img\/logo\/logo@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo\/logo_flat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5015,
+		"inputAbbreviatedPath": "\/img\/logo\/logo_flat.png",
+		"outputAbbreviatedPath": "\/img\/logo\/logo_flat.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5257,6 +5310,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/project-galleries\/full\/13.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178263,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/full\/13.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/full\/13.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project-galleries\/full\/14.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 158065,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/full\/14.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/full\/14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project-galleries\/full\/15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187695,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/full\/15.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/full\/15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project-galleries\/full\/16.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213244,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/full\/16.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/full\/16.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/project-galleries\/full\/pre-opt\/01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5539,6 +5636,94 @@
 		"initialSize": 43978,
 		"inputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/12.jpg",
 		"outputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/12.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project-galleries\/thumbs\/13t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12800,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/13t.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/13t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project-galleries\/thumbs\/13t@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33004,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/13t@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/13t@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project-galleries\/thumbs\/14t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16340,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/14t.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/14t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project-galleries\/thumbs\/14t@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39106,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/14t@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/14t@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project-galleries\/thumbs\/15t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11470,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/15t.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/15t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project-galleries\/thumbs\/15t@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25258,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/15t@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/15t@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project-galleries\/thumbs\/16t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10497,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/16t.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/16t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project-galleries\/thumbs\/16t@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34178,
+		"inputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/16t@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/project-galleries\/thumbs\/16t@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
