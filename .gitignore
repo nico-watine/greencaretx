@@ -1,2 +1,3 @@
-
-*.codekit
+config.codekit
+*.sublime-project
+*.sublime-workspace

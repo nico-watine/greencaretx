@@ -127,7 +127,7 @@
 						</div>
 						<div class="verbiage omega">
 							<h4>Jardin de France</h4>
-							<p>For plant purchases, please visit our retail store, Jardin de France. We are open Monday to Saturday 10am to 6pm.</p>
+							<p>For plant purchases, please visit our retail store, Jardin de France. We are open Tuesday to Saturday 10am to 5pm.</p>
 							<div class="row" id="jdf-details">
 								<div class="street-address">
 									<p><a href="https://goo.gl/maps/iiLgA" target="_blank">4819 Blossom St.
