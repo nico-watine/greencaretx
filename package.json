@@ -1,0 +1,23 @@
+{
+  "name": "greencaretx.com",
+  "version": "1.0.0",
+  "description": "greencaretx.com website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nico-watine/greencare.git"
+  },
+  "author": "Nico Watine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nico-watine/greencare/issues"
+  },
+  "homepage": "https://github.com/nico-watine/greencare#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uncss": "^1.0.6"
+  }
+}
