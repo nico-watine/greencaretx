@@ -12,7 +12,7 @@
 	<meta name="format-detection" content="telephone=no">
 	<link type="text/plain" rel="author" href="/humans.txt">
 
-	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>"/>
+	<link rel="stylesheet" href="<?php autoVer('/css/opt/style.css'); ?>"/>
 	
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
