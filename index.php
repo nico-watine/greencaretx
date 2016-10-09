@@ -5,14 +5,16 @@
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Interior Plant Design &amp; Maintenance Service | Greencare Interior Plants - Houston, TX</title>
 	<meta name="description" content="Commercial &amp; Residential Indoor Plant Care Services - Call 713-864-5300 for your free consultation and next day quote!">
+	<link href="http://greencaretx.com" rel="canonical">
+	<link href="/humans.txt" rel="author">
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
-	<link type="text/plain" rel="author" href="/humans.txt">
 
-	<link rel="stylesheet" href="<?php autoVer('/css/opt/style.css'); ?>"/>
+	<link href="<?php autoVer('/css/opt/style.css'); ?>" rel="stylesheet">
 	
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
