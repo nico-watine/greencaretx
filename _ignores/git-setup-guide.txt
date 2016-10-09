@@ -4,7 +4,9 @@ Prompt a walkthrough to setup the new project
 
 
 2:
-Install components, in this case, gulp-uncss
+Install components
 	npm install gulp-uncss --save-dev
+	npm install gulp-cssnano --save-dev
 
 
+3:
