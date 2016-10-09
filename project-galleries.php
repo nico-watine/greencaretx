@@ -14,7 +14,7 @@
 	
 	<meta name="format-detection" content="telephone=no">
 
-	<link rel="stylesheet" href="<?php autoVer('/css/opt/style.css'); ?>"/>
+	<link href="<?php autoVer('/css/opt/style.css'); ?>" rel="stylesheet">
 	
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
