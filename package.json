@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nico-watine/greencare.git"
+    "url": "git+https://github.com/nico-watine/greencaretx.git"
   },
   "author": "Nico Watine",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nico-watine/greencare/issues"
+    "url": "https://github.com/nico-watine/greencaretx/issues"
   },
-  "homepage": "https://github.com/nico-watine/greencare#readme",
+  "homepage": "https://github.com/nico-watine/greencaretx#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-uncss": "^1.0.6"
