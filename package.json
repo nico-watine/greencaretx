@@ -1,14 +1,14 @@
 {
-  "name": "greencaretx.com",
+  "name": "greencaretx",
   "version": "1.0.0",
-  "description": "greencaretx.com website",
+  "description": "Repo for greencaretx.com website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nico-watine/greencaretx.git"
+    "url": "git+https://nico-watine@github.com/nico-watine/greencaretx.git"
   },
   "author": "Nico Watine",
   "license": "ISC",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/nico-watine/greencaretx#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
     "gulp-uncss": "^1.0.6"
   }
 }
