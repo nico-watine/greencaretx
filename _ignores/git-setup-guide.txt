@@ -1,0 +1,10 @@
+1:
+Prompt a walkthrough to setup the new project
+	npm init
+
+
+2:
+Install components, in this case, gulp-uncss
+	npm install gulp-uncss --save-dev
+
+

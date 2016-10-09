@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nico-watine/greencaretx/issues"
   },
-  "homepage": "https://github.com/nico-watine/greencaretx#readme"
+  "homepage": "https://github.com/nico-watine/greencaretx#readme",
+  "devDependencies": {
+    "gulp-uncss": "^1.0.6"
+  }
 }
