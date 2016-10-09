@@ -9,4 +9,8 @@ Install components
 	npm install gulp-cssnano --save-dev
 
 
-3:
+
+TO CLONE ::
+
+1:
+npm install
