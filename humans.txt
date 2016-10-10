@@ -1,30 +1,25 @@
 Hello savvy Internet wanderer!
 
-This is the website of Greencare Interior Plants, a family-owned and operated interior-plantscaping company in Houston, Texas
+This site is a Studio N Creation
+www.studioncreations.com
 
-
-The site was coded with <3 by the Studio N Creations team and is powered by HTML5
-
+Coded with <3 and powered by HTML5 for a better web
 
 ================
 
+Need a website? :: nico@studioncreations.com
 
+================
 
 /* SITE COLOPHON */
 Standards: HTML5, CSS3
 Components: jQuery, HTML5shiv.js 
 Software: Sublime Text + CodeKit + Sketch 3
 
-
-
-What is this file??
-humanstxt.org
-
 ================
 
-
-Need a website? :: contact@studioncreations.com
-
+What is this rambling file??
+humanstxt.org
 
 ================
 
