@@ -1,5 +1,4 @@
 config.codekit
-assets/bower_components
 bower_components
 *.sublime-project
 *.sublime-workspace
