@@ -187,5 +187,11 @@
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery/1-12-4/jquery-min.js"><\/script>')</script>
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 
+<script>
+    window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+    ga('create','UA-85408517-3','auto');ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
 </body>
 </html>
