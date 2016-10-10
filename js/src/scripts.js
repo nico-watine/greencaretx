@@ -1,6 +1,6 @@
 // :: IMPORTS :: 
 // PREPENDS :: 
-	// /assets/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js
+	// /bower_components/magnific-popup/dist/jquery.magnific-popup.min.js
 // APPENDS ::
 	// /js/src/nav/responsive-nav.js
 	// /js/src/nav/fastclick.js
