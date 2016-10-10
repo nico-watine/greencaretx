@@ -20,6 +20,7 @@ npm install
 # |            INSTALLED BOWER_COMPONENTS (alphabetical)            |
 # -------------------------------------------------------------------
 
-jquery (installed with magnific-popup)
+
 bower install magnific-popup
+	(this installs jquery as well)
 bower install REM-unit-polyfill
