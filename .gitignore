@@ -1,4 +1,5 @@
 config.codekit
+assets/bower_compontents
 *.sublime-project
 *.sublime-workspace
 .DS_Store
