@@ -20,10 +20,7 @@ npm install
 # |            INSTALLED BOWER_COMPONENTS (alphabetical)            |
 # -------------------------------------------------------------------
 
-fontawesome (probably will delete)
-jquery (delete this)
+
 bower install magnific-popup
-modernizr (delete this)
-picturefill (probably delete this, also what is install command??)
+	(this installs jquery as well)
 bower install REM-unit-polyfill
-retina.js (delete this)

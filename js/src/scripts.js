@@ -1,3 +1,12 @@
+// :: IMPORTS :: 
+// PREPENDS :: 
+	// /bower_components/magnific-popup/dist/jquery.magnific-popup.min.js
+// APPENDS ::
+	// /js/src/nav/responsive-nav.js
+	// /js/src/nav/fastclick.js
+	// /js/src/nav/scroll.js
+	// /js/src/nav/fixed-responsive-nav.js
+
 
 var mq = window.matchMedia("(min-width: 51.313em)"); //821px
 if (mq.matches) {
