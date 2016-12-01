@@ -4588,6 +4588,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
 	"\/js\/scripts-ie-min.js": {
 		"ft": 64,
 		"mi": 1,
