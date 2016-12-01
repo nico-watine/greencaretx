@@ -16,13 +16,15 @@ $gutter: 1.618em !default;
 ///
 /// @type Number (Unitless)
 
-$grid-columns: 12 !default;
+// $grid-columns: 12 !default;
+$grid-columns: 16 !default;
 
 /// Sets the max-width property of the element that includes `outer-container()`. Set with the `!global` flag.
 ///
 /// @type Number (Unit)
 ///
-$max-width: 1200px !default;
+// $max-width: 1200px !default;
+$max-width: 1180px !default;
 
 /// When set to true, it sets the box-sizing property of all elements to `border-box`. Set with a `!global` flag.
 ///
@@ -42,10 +44,14 @@ $border-box-sizing: true !default;
 ///
 /// @type String
 
-$default-feature: min-width; // Default @media feature for the breakpoint() mixin
+// $default-feature: min-width; // Default @media feature for the breakpoint() mixin
+$default-feature: max-width;
 
 ///Sets the default layout direction of the grid. Can be `LTR` or `RTL`. Set with a `!global` flag.
 ///
 ///@type String
 
 $default-layout-direction: LTR !default;
+
+$fg-column: $column;
+$fg-gutter: $gutter;

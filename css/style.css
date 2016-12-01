@@ -856,9 +856,9 @@ header .logo-container #default-logo-flat {
 header .phone-container {
   float: left;
   display: block;
-  margin-right: 2.3576520234%;
-  width: 48.8211739883%;
-  margin-left: 42.6490216764%;
+  margin-right: 1.7578778568%;
+  width: 36.4013263395%;
+  margin-left: 31.7993368303%;
 }
 
 header .phone-container:last-child {
@@ -1268,9 +1268,9 @@ footer {
   color: #fff;
   float: left;
   display: block;
-  margin-right: 2.3576520234%;
-  width: 117.059608671%;
-  margin-left: 8.5298043353%;
+  margin-right: 1.7578778568%;
+  width: 87.2802652679%;
+  margin-left: 6.3598673661%;
 }
 
 footer a {
@@ -1434,9 +1434,9 @@ footer #contact-info #contact-us a {
 #top-bar {
   float: left;
   display: block;
-  margin-right: 2.3576520234%;
-  width: 117.059608671%;
-  margin-left: 8.5298043353%;
+  margin-right: 1.7578778568%;
+  width: 87.2802652679%;
+  margin-left: 6.3598673661%;
   z-index: 3;
   background: #4c3211;
   border-radius: 0.75em 0.75em 0 0;
@@ -2682,9 +2682,9 @@ p#email {
 #snc-link {
   float: left;
   display: block;
-  margin-right: 2.3576520234%;
-  width: 117.059608671%;
-  margin-left: 8.5298043353%;
+  margin-right: 1.7578778568%;
+  width: 87.2802652679%;
+  margin-left: 6.3598673661%;
   text-align: center;
   margin-top: 1.25em;
   margin-bottom: 1.625em;
@@ -2720,7 +2720,7 @@ main#about-us {
 
 body {
   background: #ded8cc;
-  max-width: 1200px;
+  max-width: 1180px;
   margin-left: auto;
   margin-right: auto;
   margin: 1.250em auto 1.875em;
