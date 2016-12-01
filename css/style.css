@@ -1131,10 +1131,7 @@ main .main-content {
 }
 
 #page-title .vertical-title {
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
   color: white;
   padding: 2.5rem 0 0 0;
@@ -1521,8 +1518,6 @@ footer #contact-info #contact-us a {
 MASK
 --------------------------------------------- */
   .mask {
-    -webkit-transition: opacity 300ms;
-    -moz-transition: opacity 300ms;
     transition: opacity 300ms;
     background: rgba(0, 0, 0, 0.5);
     visibility: hidden;
@@ -1535,7 +1530,6 @@ MASK
     top: 0;
   }
   .android .mask {
-    -webkit-transition: none;
     transition: none;
   }
   .js-nav-active .mask {
@@ -1553,8 +1547,6 @@ NAVIGATION STYLES
   }
   .nav-collapse,
   .nav-collapse * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
   .nav-collapse,
@@ -1646,9 +1638,6 @@ NAV TOGGLE STYLES
   @-ms-viewport {
     width: device-width;
   }
-  @-o-viewport {
-    width: device-width;
-  }
   @viewport {
     width: device-width;
   }
@@ -1719,8 +1708,6 @@ NAV TOGGLE STYLES
   }
   .nav-collapse,
   .nav-collapse * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
   .nav-collapse,
@@ -2751,8 +2738,6 @@ body::after {
 /* overlay at start */
 .mfp-zoom-in.mfp-bg {
   opacity: 0;
-  -webkit-transition: all 0.15s ease-out;
-  -moz-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
 }
 
@@ -2769,22 +2754,23 @@ body::after {
 /* content at start */
 .mfp-zoom-in.mfp-wrap .mfp-content {
   opacity: 0;
-  transform: scale(0.8);
-  -webkit-transition: all 0.15s ease-out;
-  -moz-transition: all 0.15s ease-out;
+  -ms-transform: scale(0.8);
+      transform: scale(0.8);
   transition: all 0.15s ease-out;
 }
 
 /* content animate it */
 .mfp-zoom-in.mfp-wrap.mfp-ready .mfp-content {
   opacity: 1;
-  transform: scale(1);
+  -ms-transform: scale(1);
+      transform: scale(1);
 }
 
 /* content animate out */
 .mfp-zoom-in.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
-  transform: scale(0.8);
+  -ms-transform: scale(0.8);
+      transform: scale(0.8);
 }
 
 .mfp-bg {
@@ -2819,8 +2805,6 @@ body::after {
   left: 0;
   top: 0;
   padding: 0 8px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -2855,15 +2839,11 @@ body::after {
 }
 
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-  cursor: -moz-zoom-out;
-  cursor: -webkit-zoom-out;
   cursor: zoom-out;
 }
 
 .mfp-zoom {
   cursor: pointer;
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
   cursor: zoom-in;
 }
 
@@ -2877,7 +2857,8 @@ body::after {
 .mfp-counter {
   -webkit-user-select: none;
   -moz-user-select: none;
-  user-select: none;
+  -ms-user-select: none;
+      user-select: none;
 }
 
 .mfp-loading.mfp-figure {
@@ -2926,7 +2907,6 @@ button.mfp-close, button.mfp-arrow {
   outline: none;
   padding: 0;
   z-index: 1046;
-  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -3107,8 +3087,6 @@ img.mfp-img {
   height: auto;
   display: block;
   line-height: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 40px 0 40px;
   margin: 0 auto;
@@ -3196,8 +3174,6 @@ img.mfp-img {
     top: auto;
     padding: 3px 5px;
     position: fixed;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
   .mfp-img-mobile .mfp-bottom-bar:empty {
@@ -3222,16 +3198,16 @@ img.mfp-img {
 
 @media all and (max-width: 900px) {
   .mfp-arrow {
-    -webkit-transform: scale(0.75);
-    transform: scale(0.75);
+    -ms-transform: scale(0.75);
+        transform: scale(0.75);
   }
   .mfp-arrow-left {
-    -webkit-transform-origin: 0;
-    transform-origin: 0;
+    -ms-transform-origin: 0;
+        transform-origin: 0;
   }
   .mfp-arrow-right {
-    -webkit-transform-origin: 100%;
-    transform-origin: 100%;
+    -ms-transform-origin: 100%;
+        transform-origin: 100%;
   }
   .mfp-container {
     padding-left: 6px;

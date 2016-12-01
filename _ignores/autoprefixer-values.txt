@@ -1,0 +1,7 @@
+DEFAULT CODEKIT::
+> 1%, last 2 versions, Firefox ESR, Opera 12.1
+
+CUSTOM SELECTED VALUES
+Keep in mind, this site has to work on all those old corporate america computer browsers, hence the large string
+
+> 5% in US, last 3 versions, ie >= 8, Firefox ESR, Opera 12.1
