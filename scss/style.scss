@@ -1,7 +1,6 @@
 @import "settings/_normalize.scss";
 @import "bourbon";
-@import "grid-settings";
-@import "neat";
+@import "../assets/neat/_neat.scss";
 
 // SITE COMPONENTS
 @import "components/_typography.scss"; 

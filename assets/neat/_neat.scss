@@ -6,6 +6,8 @@
 // Helpers
 @import "neat-helpers";
 
+@import "_grid-settings.scss";
+
 // Grid
 @import "grid/private";
 @import "grid/box-sizing";
