@@ -1,6 +1,6 @@
-@import "bourbon";
-@import "grid-settings";
-@import "neat";
+@import "settings/_normalize.scss";
+@import "../assets/bourbon/_bourbon.scss";
+@import "../assets/neat/_neat.scss";
 
 // SITE COMPONENTS
 @import "ie8/_utility-classes-ie8.scss";
