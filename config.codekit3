@@ -7,87 +7,101 @@
 		"uuidString": "4035B102-338C-4D67-A2F9-D331A0B0AAAF"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/.htaccess": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
 	"\/403.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/403.html",
 		"oF": 0
 		},
 	"\/404.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/404.html",
 		"oF": 0
 		},
 	"\/_ignores\/autoprefixer-values.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_ignores\/autoprefixer-values.txt",
 		"oF": 0
 		},
 	"\/_ignores\/git-setup-guide.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_ignores\/git-setup-guide.txt",
 		"oF": 0
 		},
 	"\/_ignores\/google-mybusiness-code.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_ignores\/google-mybusiness-code.txt",
 		"oF": 0
 		},
 	"\/_ignores\/google-structure.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_ignores\/google-structure.html",
 		"oF": 0
 		},
 	"\/_ignores\/google-tracking-id.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_ignores\/google-tracking-id.html",
 		"oF": 0
 		},
 	"\/_ignores\/greencare-misc-data.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_ignores\/greencare-misc-data.txt",
 		"oF": 0
 		},
 	"\/_ignores\/greencaretx.sublime-project": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_ignores\/greencaretx.sublime-project",
 		"oF": 0
 		},
 	"\/_ignores\/greencaretx.sublime-workspace": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_ignores\/greencaretx.sublime-workspace",
 		"oF": 0
 		},
 	"\/_ignores\/schema-examples.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_ignores\/schema-examples.txt",
 		"oF": 0
 		},
 	"\/_ignores\/services-text.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_ignores\/services-text.txt",
@@ -99,7 +113,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-120x120-precomposed.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon-152x152-precomposed.png": {
 		"ft": 32768,
@@ -107,7 +124,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-152x152-precomposed.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon-180x180-precomposed.png": {
 		"ft": 32768,
@@ -115,7 +135,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-180x180-precomposed.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon-76x76-precomposed.png": {
 		"ft": 32768,
@@ -123,7 +146,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-76x76-precomposed.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon.png": {
 		"ft": 32768,
@@ -131,7 +157,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/bourbon\/_bourbon-deprecate.scss": {
 		"aP": 0,
@@ -1481,6 +1510,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/jquery\/AUTHORS.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/AUTHORS.txt",
@@ -1496,6 +1526,7 @@
 		},
 	"\/bower_components\/jquery\/dist\/core.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/core.js",
@@ -1505,6 +1536,7 @@
 		},
 	"\/bower_components\/jquery\/dist\/jquery.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.js",
@@ -1514,6 +1546,7 @@
 		},
 	"\/bower_components\/jquery\/dist\/jquery.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.min.js",
@@ -1522,6 +1555,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.min.map",
@@ -1529,6 +1563,7 @@
 		},
 	"\/bower_components\/jquery\/dist\/jquery.slim.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.slim.js",
@@ -1538,6 +1573,7 @@
 		},
 	"\/bower_components\/jquery\/dist\/jquery.slim.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.slim.min.js",
@@ -1546,6 +1582,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.slim.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.slim.min.map",
@@ -1553,6 +1590,7 @@
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.js",
@@ -1562,6 +1600,7 @@
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.js",
@@ -1570,28 +1609,31 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/LICENSE.txt",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 0,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1615,6 +1657,7 @@
 		},
 	"\/bower_components\/jquery\/src\/ajax.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/ajax.js",
@@ -1624,6 +1667,7 @@
 		},
 	"\/bower_components\/jquery\/src\/ajax\/jsonp.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/ajax\/jsonp.js",
@@ -1633,6 +1677,7 @@
 		},
 	"\/bower_components\/jquery\/src\/ajax\/load.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/ajax\/load.js",
@@ -1642,6 +1687,7 @@
 		},
 	"\/bower_components\/jquery\/src\/ajax\/parseXML.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/ajax\/parseXML.js",
@@ -1651,6 +1697,7 @@
 		},
 	"\/bower_components\/jquery\/src\/ajax\/script.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/ajax\/script.js",
@@ -1660,6 +1707,7 @@
 		},
 	"\/bower_components\/jquery\/src\/ajax\/var\/location.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/ajax\/var\/location.js",
@@ -1669,6 +1717,7 @@
 		},
 	"\/bower_components\/jquery\/src\/ajax\/var\/nonce.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/ajax\/var\/nonce.js",
@@ -1678,6 +1727,7 @@
 		},
 	"\/bower_components\/jquery\/src\/ajax\/var\/rquery.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/ajax\/var\/rquery.js",
@@ -1687,6 +1737,7 @@
 		},
 	"\/bower_components\/jquery\/src\/ajax\/xhr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/ajax\/xhr.js",
@@ -1696,6 +1747,7 @@
 		},
 	"\/bower_components\/jquery\/src\/attributes.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/attributes.js",
@@ -1705,6 +1757,7 @@
 		},
 	"\/bower_components\/jquery\/src\/attributes\/attr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/attributes\/attr.js",
@@ -1714,6 +1767,7 @@
 		},
 	"\/bower_components\/jquery\/src\/attributes\/classes.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/attributes\/classes.js",
@@ -1723,6 +1777,7 @@
 		},
 	"\/bower_components\/jquery\/src\/attributes\/prop.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/attributes\/prop.js",
@@ -1732,6 +1787,7 @@
 		},
 	"\/bower_components\/jquery\/src\/attributes\/support.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/attributes\/support.js",
@@ -1741,6 +1797,7 @@
 		},
 	"\/bower_components\/jquery\/src\/attributes\/val.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/attributes\/val.js",
@@ -1750,6 +1807,7 @@
 		},
 	"\/bower_components\/jquery\/src\/callbacks.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/callbacks.js",
@@ -1759,6 +1817,7 @@
 		},
 	"\/bower_components\/jquery\/src\/core.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/core.js",
@@ -1768,6 +1827,7 @@
 		},
 	"\/bower_components\/jquery\/src\/core\/access.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/core\/access.js",
@@ -1777,6 +1837,7 @@
 		},
 	"\/bower_components\/jquery\/src\/core\/DOMEval.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/core\/DOMEval.js",
@@ -1786,6 +1847,7 @@
 		},
 	"\/bower_components\/jquery\/src\/core\/init.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/core\/init.js",
@@ -1795,6 +1857,7 @@
 		},
 	"\/bower_components\/jquery\/src\/core\/parseHTML.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/core\/parseHTML.js",
@@ -1804,6 +1867,7 @@
 		},
 	"\/bower_components\/jquery\/src\/core\/ready-no-deferred.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/core\/ready-no-deferred.js",
@@ -1813,6 +1877,7 @@
 		},
 	"\/bower_components\/jquery\/src\/core\/ready.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/core\/ready.js",
@@ -1822,6 +1887,7 @@
 		},
 	"\/bower_components\/jquery\/src\/core\/readyException.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/core\/readyException.js",
@@ -1831,6 +1897,7 @@
 		},
 	"\/bower_components\/jquery\/src\/core\/stripAndCollapse.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/core\/stripAndCollapse.js",
@@ -1840,6 +1907,7 @@
 		},
 	"\/bower_components\/jquery\/src\/core\/support.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/core\/support.js",
@@ -1849,6 +1917,7 @@
 		},
 	"\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js",
@@ -1858,6 +1927,7 @@
 		},
 	"\/bower_components\/jquery\/src\/css.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/css.js",
@@ -1867,6 +1937,7 @@
 		},
 	"\/bower_components\/jquery\/src\/css\/addGetHookIf.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/css\/addGetHookIf.js",
@@ -1876,6 +1947,7 @@
 		},
 	"\/bower_components\/jquery\/src\/css\/adjustCSS.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/css\/adjustCSS.js",
@@ -1885,6 +1957,7 @@
 		},
 	"\/bower_components\/jquery\/src\/css\/curCSS.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/css\/curCSS.js",
@@ -1894,6 +1967,7 @@
 		},
 	"\/bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js",
@@ -1903,6 +1977,7 @@
 		},
 	"\/bower_components\/jquery\/src\/css\/showHide.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/css\/showHide.js",
@@ -1912,6 +1987,7 @@
 		},
 	"\/bower_components\/jquery\/src\/css\/support.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/css\/support.js",
@@ -1921,6 +1997,7 @@
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/cssExpand.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/css\/var\/cssExpand.js",
@@ -1930,6 +2007,7 @@
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/getStyles.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/css\/var\/getStyles.js",
@@ -1939,6 +2017,7 @@
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/isHiddenWithinTree.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/css\/var\/isHiddenWithinTree.js",
@@ -1948,6 +2027,7 @@
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/rmargin.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/css\/var\/rmargin.js",
@@ -1957,6 +2037,7 @@
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/rnumnonpx.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/css\/var\/rnumnonpx.js",
@@ -1966,6 +2047,7 @@
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/swap.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/css\/var\/swap.js",
@@ -1975,6 +2057,7 @@
 		},
 	"\/bower_components\/jquery\/src\/data.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/data.js",
@@ -1984,6 +2067,7 @@
 		},
 	"\/bower_components\/jquery\/src\/data\/Data.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/data\/Data.js",
@@ -1993,6 +2077,7 @@
 		},
 	"\/bower_components\/jquery\/src\/data\/var\/acceptData.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/data\/var\/acceptData.js",
@@ -2002,6 +2087,7 @@
 		},
 	"\/bower_components\/jquery\/src\/data\/var\/dataPriv.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/data\/var\/dataPriv.js",
@@ -2011,6 +2097,7 @@
 		},
 	"\/bower_components\/jquery\/src\/data\/var\/dataUser.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/data\/var\/dataUser.js",
@@ -2020,6 +2107,7 @@
 		},
 	"\/bower_components\/jquery\/src\/deferred.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/deferred.js",
@@ -2029,6 +2117,7 @@
 		},
 	"\/bower_components\/jquery\/src\/deferred\/exceptionHook.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/deferred\/exceptionHook.js",
@@ -2038,6 +2127,7 @@
 		},
 	"\/bower_components\/jquery\/src\/deprecated.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/deprecated.js",
@@ -2047,6 +2137,7 @@
 		},
 	"\/bower_components\/jquery\/src\/dimensions.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/dimensions.js",
@@ -2056,6 +2147,7 @@
 		},
 	"\/bower_components\/jquery\/src\/effects.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/effects.js",
@@ -2065,6 +2157,7 @@
 		},
 	"\/bower_components\/jquery\/src\/effects\/animatedSelector.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/effects\/animatedSelector.js",
@@ -2074,6 +2167,7 @@
 		},
 	"\/bower_components\/jquery\/src\/effects\/Tween.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/effects\/Tween.js",
@@ -2083,6 +2177,7 @@
 		},
 	"\/bower_components\/jquery\/src\/event.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/event.js",
@@ -2092,6 +2187,7 @@
 		},
 	"\/bower_components\/jquery\/src\/event\/ajax.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/event\/ajax.js",
@@ -2101,6 +2197,7 @@
 		},
 	"\/bower_components\/jquery\/src\/event\/alias.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/event\/alias.js",
@@ -2110,6 +2207,7 @@
 		},
 	"\/bower_components\/jquery\/src\/event\/focusin.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/event\/focusin.js",
@@ -2119,6 +2217,7 @@
 		},
 	"\/bower_components\/jquery\/src\/event\/support.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/event\/support.js",
@@ -2128,6 +2227,7 @@
 		},
 	"\/bower_components\/jquery\/src\/event\/trigger.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/event\/trigger.js",
@@ -2137,6 +2237,7 @@
 		},
 	"\/bower_components\/jquery\/src\/exports\/amd.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/exports\/amd.js",
@@ -2146,6 +2247,7 @@
 		},
 	"\/bower_components\/jquery\/src\/exports\/global.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/exports\/global.js",
@@ -2155,6 +2257,7 @@
 		},
 	"\/bower_components\/jquery\/src\/jquery.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/jquery.js",
@@ -2164,6 +2267,7 @@
 		},
 	"\/bower_components\/jquery\/src\/manipulation.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/manipulation.js",
@@ -2173,6 +2277,7 @@
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js",
@@ -2182,6 +2287,7 @@
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/buildFragment.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/manipulation\/buildFragment.js",
@@ -2191,6 +2297,7 @@
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/getAll.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/manipulation\/getAll.js",
@@ -2200,6 +2307,7 @@
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/setGlobalEval.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/manipulation\/setGlobalEval.js",
@@ -2209,6 +2317,7 @@
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/support.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/manipulation\/support.js",
@@ -2218,6 +2327,7 @@
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js",
@@ -2227,6 +2337,7 @@
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/var\/rscriptType.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/manipulation\/var\/rscriptType.js",
@@ -2236,6 +2347,7 @@
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/var\/rtagName.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/manipulation\/var\/rtagName.js",
@@ -2245,6 +2357,7 @@
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/wrapMap.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/manipulation\/wrapMap.js",
@@ -2254,6 +2367,7 @@
 		},
 	"\/bower_components\/jquery\/src\/offset.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/offset.js",
@@ -2263,6 +2377,7 @@
 		},
 	"\/bower_components\/jquery\/src\/queue.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/queue.js",
@@ -2272,6 +2387,7 @@
 		},
 	"\/bower_components\/jquery\/src\/queue\/delay.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/queue\/delay.js",
@@ -2281,6 +2397,7 @@
 		},
 	"\/bower_components\/jquery\/src\/selector-native.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/selector-native.js",
@@ -2290,6 +2407,7 @@
 		},
 	"\/bower_components\/jquery\/src\/selector-sizzle.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/selector-sizzle.js",
@@ -2299,6 +2417,7 @@
 		},
 	"\/bower_components\/jquery\/src\/selector.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/selector.js",
@@ -2308,6 +2427,7 @@
 		},
 	"\/bower_components\/jquery\/src\/serialize.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/serialize.js",
@@ -2317,6 +2437,7 @@
 		},
 	"\/bower_components\/jquery\/src\/traversing.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/traversing.js",
@@ -2326,6 +2447,7 @@
 		},
 	"\/bower_components\/jquery\/src\/traversing\/findFilter.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/traversing\/findFilter.js",
@@ -2335,6 +2457,7 @@
 		},
 	"\/bower_components\/jquery\/src\/traversing\/var\/dir.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/traversing\/var\/dir.js",
@@ -2344,6 +2467,7 @@
 		},
 	"\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js",
@@ -2353,6 +2477,7 @@
 		},
 	"\/bower_components\/jquery\/src\/traversing\/var\/siblings.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/traversing\/var\/siblings.js",
@@ -2362,6 +2487,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/arr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/arr.js",
@@ -2371,6 +2497,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/class2type.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/class2type.js",
@@ -2380,6 +2507,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/concat.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/concat.js",
@@ -2389,6 +2517,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/document.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/document.js",
@@ -2398,6 +2527,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/documentElement.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/documentElement.js",
@@ -2407,6 +2537,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/fnToString.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/fnToString.js",
@@ -2416,6 +2547,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/getProto.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/getProto.js",
@@ -2425,6 +2557,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/hasOwn.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/hasOwn.js",
@@ -2434,6 +2567,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/indexOf.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/indexOf.js",
@@ -2443,6 +2577,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/ObjectFunctionString.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/ObjectFunctionString.js",
@@ -2452,6 +2587,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/pnum.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/pnum.js",
@@ -2461,6 +2597,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/push.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/push.js",
@@ -2470,6 +2607,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/rcssNum.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/rcssNum.js",
@@ -2479,6 +2617,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/rnothtmlwhite.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/rnothtmlwhite.js",
@@ -2488,6 +2627,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/slice.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/slice.js",
@@ -2497,6 +2637,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/support.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/support.js",
@@ -2506,6 +2647,7 @@
 		},
 	"\/bower_components\/jquery\/src\/var\/toString.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/var\/toString.js",
@@ -2515,6 +2657,7 @@
 		},
 	"\/bower_components\/jquery\/src\/wrap.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/src\/wrap.js",
@@ -2531,18 +2674,21 @@
 		"oS": 1
 		},
 	"\/bower_components\/magnific-popup\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/.gitignore",
 		"oF": 0
 		},
 	"\/bower_components\/magnific-popup\/.jshintrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/.jshintrc",
 		"oF": 0
 		},
 	"\/bower_components\/magnific-popup\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/.travis.yml",
@@ -2566,6 +2712,7 @@
 		},
 	"\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.js",
@@ -2575,6 +2722,7 @@
 		},
 	"\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js",
@@ -2594,6 +2742,7 @@
 		},
 	"\/bower_components\/magnific-popup\/Gruntfile.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/Gruntfile.js",
@@ -2602,6 +2751,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/magnific-popup\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/LICENSE",
@@ -2624,10 +2774,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/magnific-popup\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 0,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2669,6 +2819,7 @@
 		},
 	"\/bower_components\/magnific-popup\/src\/js\/ajax.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/src\/js\/ajax.js",
@@ -2678,6 +2829,7 @@
 		},
 	"\/bower_components\/magnific-popup\/src\/js\/core.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/src\/js\/core.js",
@@ -2687,6 +2839,7 @@
 		},
 	"\/bower_components\/magnific-popup\/src\/js\/gallery.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/src\/js\/gallery.js",
@@ -2696,6 +2849,7 @@
 		},
 	"\/bower_components\/magnific-popup\/src\/js\/iframe.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/src\/js\/iframe.js",
@@ -2705,6 +2859,7 @@
 		},
 	"\/bower_components\/magnific-popup\/src\/js\/image.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/src\/js\/image.js",
@@ -2714,6 +2869,7 @@
 		},
 	"\/bower_components\/magnific-popup\/src\/js\/inline.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/src\/js\/inline.js",
@@ -2723,6 +2879,7 @@
 		},
 	"\/bower_components\/magnific-popup\/src\/js\/retina.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/src\/js\/retina.js",
@@ -2732,6 +2889,7 @@
 		},
 	"\/bower_components\/magnific-popup\/src\/js\/zoom.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/magnific-popup\/src\/js\/zoom.js",
@@ -2853,9 +3011,11 @@
 		"oAP": "\/bower_components\/REM-unit-polyfill\/Gruntfile.coffee",
 		"oF": 0,
 		"oS": 0,
-		"sC": 1
+		"sC": 1,
+		"tS": 1
 		},
 	"\/bower_components\/REM-unit-polyfill\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/REM-unit-polyfill\/index.html",
@@ -2863,6 +3023,7 @@
 		},
 	"\/bower_components\/REM-unit-polyfill\/js\/rem.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/REM-unit-polyfill\/js\/rem.js",
@@ -2872,6 +3033,7 @@
 		},
 	"\/bower_components\/REM-unit-polyfill\/js\/rem.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/REM-unit-polyfill\/js\/rem.min.js",
@@ -2880,10 +3042,10 @@
 		"tS": 0
 		},
 	"\/bower_components\/REM-unit-polyfill\/LICENSE.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 0,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2906,10 +3068,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/REM-unit-polyfill\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 0,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2924,18 +3086,21 @@
 		"uCM": 0
 		},
 	"\/browserconfig.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/browserconfig.xml",
 		"oF": 0
 		},
 	"\/contact.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/contact.php",
 		"oF": 0
 		},
 	"\/crossdomain.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/crossdomain.xml",
@@ -2982,6 +3147,7 @@
 		"oS": 0
 		},
 	"\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
@@ -2993,9 +3159,13 @@
 		"oA": 0,
 		"oAP": "\/favicon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/fonts\/fontello\/fontello.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontello\/fontello.eot",
@@ -3012,18 +3182,21 @@
 		"prP": 0
 		},
 	"\/fonts\/fontello\/fontello.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontello\/fontello.ttf",
 		"oF": 0
 		},
 	"\/fonts\/fontello\/fontello.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontello\/fontello.woff",
 		"oF": 0
 		},
 	"\/fonts\/inai\/inaimathi-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/inai\/inaimathi-webfont.eot",
@@ -3040,18 +3213,21 @@
 		"prP": 0
 		},
 	"\/fonts\/inai\/inaimathi-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/inai\/inaimathi-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/inai\/inaimathi-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/inai\/inaimathi-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/nav\/nav.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/nav\/nav.eot",
@@ -3068,18 +3244,21 @@
 		"prP": 0
 		},
 	"\/fonts\/nav\/nav.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/nav\/nav.ttf",
 		"oF": 0
 		},
 	"\/fonts\/nav\/nav.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/nav\/nav.woff",
 		"oF": 0
 		},
 	"\/googlea536b0ce9879dae9.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/googlea536b0ce9879dae9.html",
@@ -3087,6 +3266,7 @@
 		},
 	"\/gulpfile.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/gulpfile-min.js",
@@ -3095,6 +3275,7 @@
 		"tS": 0
 		},
 	"\/humans.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/humans.txt",
@@ -3103,114 +3284,156 @@
 	"\/img\/contact\/contact-blur.jpg": {
 		"ft": 16384,
 		"iS": 60334,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/contact\/contact-blur.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/contact\/contact.jpg": {
 		"ft": 16384,
 		"iS": 91907,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/contact\/contact.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/contact\/houston-interior-plants-logo.jpg": {
 		"ft": 16384,
 		"iS": 7634,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/contact\/houston-interior-plants-logo.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/contact\/houston-interior-plants.jpg": {
 		"ft": 16384,
 		"iS": 14129,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/contact\/houston-interior-plants.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/contact\/ie\/contact-blur.jpg": {
 		"ft": 16384,
 		"iS": 41365,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/contact\/ie\/contact-blur.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/contact\/ie\/contact.jpg": {
 		"ft": 16384,
 		"iS": 101909,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/contact\/ie\/contact.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/contact\/jardin-de-france-logo.jpg": {
 		"ft": 16384,
 		"iS": 26950,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/contact\/jardin-de-france-logo.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/contact\/jardin-de-france.jpg": {
 		"ft": 16384,
 		"iS": 19884,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/contact\/jardin-de-france.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/index\/index-blur.jpg": {
 		"ft": 16384,
 		"iS": 37665,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/index\/index-blur.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/index\/index.jpg": {
 		"ft": 16384,
 		"iS": 127487,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/index\/index.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/index\/widgets\/plant-selection\/default\/plant-selection.jpg": {
 		"ft": 16384,
 		"iS": 74931,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/index\/widgets\/plant-selection\/default\/plant-selection.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/index\/widgets\/plant-selection\/default\/pre-opt\/plant-selection.jpg": {
 		"ft": 16384,
 		"iS": 92761,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/index\/widgets\/plant-selection\/default\/pre-opt\/plant-selection.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/index\/widgets\/project-galleries\/default\/project-galleries.jpg": {
 		"ft": 16384,
 		"iS": 88452,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/index\/widgets\/project-galleries\/default\/project-galleries.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/index\/widgets\/project-galleries\/large\/project-galleries.jpg": {
 		"ft": 16384,
 		"iS": 82139,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/index\/widgets\/project-galleries\/large\/project-galleries.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/logo\/_ignores\/logo@2x.png": {
 		"ft": 32768,
@@ -3218,7 +3441,10 @@
 		"oA": 0,
 		"oAP": "\/img\/logo\/_ignores\/logo@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/logo\/_ignores\/logo_flat@2x.png": {
 		"ft": 32768,
@@ -3226,7 +3452,10 @@
 		"oA": 0,
 		"oAP": "\/img\/logo\/_ignores\/logo_flat@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/logo\/email\/logo.png": {
 		"ft": 32768,
@@ -3234,7 +3463,10 @@
 		"oA": 0,
 		"oAP": "\/img\/logo\/email\/logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/logo\/logo.png": {
 		"ft": 32768,
@@ -3242,7 +3474,10 @@
 		"oA": 0,
 		"oAP": "\/img\/logo\/logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/logo\/logo@2x.png": {
 		"ft": 32768,
@@ -3250,7 +3485,10 @@
 		"oA": 0,
 		"oAP": "\/img\/logo\/logo@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/logo\/logo@m.gif": {
 		"ft": 4194304,
@@ -3274,7 +3512,10 @@
 		"oA": 0,
 		"oAP": "\/img\/logo\/logo_flat.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/logo\/logo_flat@2x.png": {
 		"ft": 32768,
@@ -3282,7 +3523,10 @@
 		"oA": 0,
 		"oAP": "\/img\/logo\/logo_flat@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/misc\/contact-button.png": {
 		"ft": 32768,
@@ -3290,7 +3534,10 @@
 		"oA": 0,
 		"oAP": "\/img\/misc\/contact-button.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/misc\/flower-bg.png": {
 		"ft": 32768,
@@ -3298,7 +3545,10 @@
 		"oA": 0,
 		"oAP": "\/img\/misc\/flower-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/misc\/services-button.png": {
 		"ft": 32768,
@@ -3306,7 +3556,10 @@
 		"oA": 0,
 		"oAP": "\/img\/misc\/services-button.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/misc\/social\/_ignores\/facebook-hover.png": {
 		"ft": 32768,
@@ -3314,7 +3567,10 @@
 		"oA": 0,
 		"oAP": "\/img\/misc\/social\/_ignores\/facebook-hover.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/misc\/social\/_ignores\/facebook.png": {
 		"ft": 32768,
@@ -3322,7 +3578,10 @@
 		"oA": 0,
 		"oAP": "\/img\/misc\/social\/_ignores\/facebook.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/misc\/social\/_ignores\/google-hover.png": {
 		"ft": 32768,
@@ -3330,7 +3589,10 @@
 		"oA": 0,
 		"oAP": "\/img\/misc\/social\/_ignores\/google-hover.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/misc\/social\/_ignores\/google.png": {
 		"ft": 32768,
@@ -3338,7 +3600,10 @@
 		"oA": 0,
 		"oAP": "\/img\/misc\/social\/_ignores\/google.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/misc\/social\/facebook-hover.png": {
 		"ft": 32768,
@@ -3346,7 +3611,10 @@
 		"oA": 0,
 		"oAP": "\/img\/misc\/social\/facebook-hover.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/misc\/social\/facebook.png": {
 		"ft": 32768,
@@ -3354,7 +3622,10 @@
 		"oA": 0,
 		"oAP": "\/img\/misc\/social\/facebook.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/misc\/social\/google-hover.png": {
 		"ft": 32768,
@@ -3362,7 +3633,10 @@
 		"oA": 0,
 		"oAP": "\/img\/misc\/social\/google-hover.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/misc\/social\/google.png": {
 		"ft": 32768,
@@ -3370,919 +3644,1264 @@
 		"oA": 0,
 		"oAP": "\/img\/misc\/social\/google.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/bird-of-paradise.jpg": {
 		"ft": 16384,
 		"iS": 74584,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/bird-of-paradise.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/chinese-evergreen.jpg": {
 		"ft": 16384,
 		"iS": 41036,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/chinese-evergreen.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/corn-plant.jpg": {
 		"ft": 16384,
 		"iS": 53433,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/corn-plant.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/ficus-lyrata.jpg": {
 		"ft": 16384,
 		"iS": 84502,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/ficus-lyrata.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/janet-craig-carmen.jpg": {
 		"ft": 16384,
 		"iS": 58236,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/janet-craig-carmen.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/kentia-palm.jpg": {
 		"ft": 16384,
 		"iS": 117583,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/kentia-palm.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/lady-palm.jpg": {
 		"ft": 16384,
 		"iS": 104724,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/lady-palm.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/lisa-cane.jpg": {
 		"ft": 16384,
 		"iS": 69698,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/lisa-cane.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/pre-opt\/bird-of-paradise.jpg": {
 		"ft": 16384,
 		"iS": 101119,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/pre-opt\/bird-of-paradise.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/pre-opt\/chinese-evergreen.jpg": {
 		"ft": 16384,
 		"iS": 56383,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/pre-opt\/chinese-evergreen.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/pre-opt\/corn-plant.jpg": {
 		"ft": 16384,
 		"iS": 69528,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/pre-opt\/corn-plant.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/pre-opt\/ficus-lyrata.jpg": {
 		"ft": 16384,
 		"iS": 113491,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/pre-opt\/ficus-lyrata.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/pre-opt\/janet-craig-carmen.jpg": {
 		"ft": 16384,
 		"iS": 80660,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/pre-opt\/janet-craig-carmen.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/pre-opt\/kentia-palm.jpg": {
 		"ft": 16384,
 		"iS": 166690,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/pre-opt\/kentia-palm.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/pre-opt\/lady-palm.jpg": {
 		"ft": 16384,
 		"iS": 148141,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/pre-opt\/lady-palm.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/pre-opt\/lisa-cane.jpg": {
 		"ft": 16384,
 		"iS": 92661,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/pre-opt\/lisa-cane.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/pre-opt\/schefflera-amate.jpg": {
 		"ft": 16384,
 		"iS": 125555,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/pre-opt\/schefflera-amate.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/pre-opt\/snake-plant.jpg": {
 		"ft": 16384,
 		"iS": 45592,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/pre-opt\/snake-plant.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/pre-opt\/warneckii-cane.jpg": {
 		"ft": 16384,
 		"iS": 137595,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/pre-opt\/warneckii-cane.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/pre-opt\/zz-plant.jpg": {
 		"ft": 16384,
 		"iS": 77238,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/pre-opt\/zz-plant.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/schefflera-amate.jpg": {
 		"ft": 16384,
 		"iS": 92349,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/schefflera-amate.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/snake-plant.jpg": {
 		"ft": 16384,
 		"iS": 33574,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/snake-plant.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/warneckii-cane.jpg": {
 		"ft": 16384,
 		"iS": 100903,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/warneckii-cane.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/full\/zz-plant.jpg": {
 		"ft": 16384,
 		"iS": 57579,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/full\/zz-plant.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/our-plants-blur.jpg": {
 		"ft": 16384,
 		"iS": 71775,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/our-plants-blur.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/our-plants-blur@l.jpg": {
 		"ft": 16384,
 		"iS": 48620,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/our-plants-blur@l.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/our-plants.jpg": {
 		"ft": 16384,
 		"iS": 103114,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/our-plants.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/our-plants@l.jpg": {
 		"ft": 16384,
 		"iS": 111013,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/our-plants@l.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/bird-of-paradise.jpg": {
 		"ft": 16384,
 		"iS": 29493,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/bird-of-paradise.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/chinese-evergreen.jpg": {
 		"ft": 16384,
 		"iS": 17685,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/chinese-evergreen.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/corn-plant.jpg": {
 		"ft": 16384,
 		"iS": 22315,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/corn-plant.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/ficus-lyrata.jpg": {
 		"ft": 16384,
 		"iS": 31971,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/ficus-lyrata.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/hawaiian-lisa-cane.jpg": {
 		"ft": 16384,
 		"iS": 26637,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/hawaiian-lisa-cane.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/hawaiian-warneckii-cane.jpg": {
 		"ft": 16384,
 		"iS": 34495,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/hawaiian-warneckii-cane.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/janet-craig-carmen.jpg": {
 		"ft": 16384,
 		"iS": 23887,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/janet-craig-carmen.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/kentia-palm.jpg": {
 		"ft": 16384,
 		"iS": 43030,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/kentia-palm.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/lady-palm.jpg": {
 		"ft": 16384,
 		"iS": 40138,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/lady-palm.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/pre-opt\/bird-of-paradise.jpg": {
 		"ft": 16384,
 		"iS": 29493,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/bird-of-paradise.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/pre-opt\/chinese-evergreen.jpg": {
 		"ft": 16384,
 		"iS": 17685,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/chinese-evergreen.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/pre-opt\/corn-plant.jpg": {
 		"ft": 16384,
 		"iS": 22315,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/corn-plant.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/pre-opt\/ficus-lyrata.jpg": {
 		"ft": 16384,
 		"iS": 31971,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/ficus-lyrata.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/pre-opt\/hawaiian-lisa-cane.jpg": {
 		"ft": 16384,
 		"iS": 26637,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/hawaiian-lisa-cane.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/pre-opt\/hawaiian-warneckii-cane.jpg": {
 		"ft": 16384,
 		"iS": 34495,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/hawaiian-warneckii-cane.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/pre-opt\/janet-craig-carmen.jpg": {
 		"ft": 16384,
 		"iS": 23887,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/janet-craig-carmen.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/pre-opt\/kentia-palm.jpg": {
 		"ft": 16384,
 		"iS": 43030,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/kentia-palm.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/pre-opt\/lady-palm.jpg": {
 		"ft": 16384,
 		"iS": 40138,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/lady-palm.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/pre-opt\/schefflera-amate.jpg": {
 		"ft": 16384,
 		"iS": 34463,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/schefflera-amate.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/pre-opt\/snake-plant.jpg": {
 		"ft": 16384,
 		"iS": 13552,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/snake-plant.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/pre-opt\/zz-plant.jpg": {
 		"ft": 16384,
 		"iS": 21848,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/zz-plant.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/schefflera-amate.jpg": {
 		"ft": 16384,
 		"iS": 34463,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/schefflera-amate.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/snake-plant.jpg": {
 		"ft": 16384,
 		"iS": 13552,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/snake-plant.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/our-plants\/thumbs\/zz-plant.jpg": {
 		"ft": 16384,
 		"iS": 21848,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/our-plants\/thumbs\/zz-plant.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/01.jpg": {
 		"ft": 16384,
 		"iS": 238632,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/01.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/02.jpg": {
 		"ft": 16384,
 		"iS": 223355,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/02.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/03.jpg": {
 		"ft": 16384,
 		"iS": 198458,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/03.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/04.jpg": {
 		"ft": 16384,
 		"iS": 180247,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/04.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/05.jpg": {
 		"ft": 16384,
 		"iS": 98565,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/05.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/06.jpg": {
 		"ft": 16384,
 		"iS": 243753,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/06.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/07.jpg": {
 		"ft": 16384,
 		"iS": 161414,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/07.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/08.jpg": {
 		"ft": 16384,
 		"iS": 76819,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/08.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/09.jpg": {
 		"ft": 16384,
 		"iS": 90512,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/09.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/10.jpg": {
 		"ft": 16384,
 		"iS": 224357,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/11.jpg": {
 		"ft": 16384,
 		"iS": 199079,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/12.jpg": {
 		"ft": 16384,
 		"iS": 166935,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/12.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/13.jpg": {
 		"ft": 16384,
 		"iS": 178263,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/13.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/14.jpg": {
 		"ft": 16384,
 		"iS": 158065,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/14.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/15.jpg": {
 		"ft": 16384,
 		"iS": 187695,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/15.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/16.jpg": {
 		"ft": 16384,
 		"iS": 213244,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/16.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/pre-opt\/01.jpg": {
 		"ft": 16384,
 		"iS": 238632,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/pre-opt\/01.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/pre-opt\/02.jpg": {
 		"ft": 16384,
 		"iS": 223355,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/pre-opt\/02.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/pre-opt\/03.jpg": {
 		"ft": 16384,
 		"iS": 198458,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/pre-opt\/03.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/pre-opt\/04.jpg": {
 		"ft": 16384,
 		"iS": 180247,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/pre-opt\/04.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/pre-opt\/05.jpg": {
 		"ft": 16384,
 		"iS": 98565,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/pre-opt\/05.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/pre-opt\/06.jpg": {
 		"ft": 16384,
 		"iS": 243753,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/pre-opt\/06.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/pre-opt\/07.jpg": {
 		"ft": 16384,
 		"iS": 161414,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/pre-opt\/07.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/pre-opt\/08.jpg": {
 		"ft": 16384,
 		"iS": 76819,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/pre-opt\/08.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/pre-opt\/09.jpg": {
 		"ft": 16384,
 		"iS": 90512,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/pre-opt\/09.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/pre-opt\/10.jpg": {
 		"ft": 16384,
 		"iS": 224357,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/pre-opt\/10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/pre-opt\/11.jpg": {
 		"ft": 16384,
 		"iS": 199079,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/pre-opt\/11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/full\/pre-opt\/12.jpg": {
 		"ft": 16384,
 		"iS": 166935,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/full\/pre-opt\/12.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/galleries-blur.jpg": {
 		"ft": 16384,
 		"iS": 40526,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/galleries-blur.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/galleries.jpg": {
 		"ft": 16384,
 		"iS": 92226,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/galleries.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/01.jpg": {
 		"ft": 16384,
 		"iS": 53691,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/01.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/02.jpg": {
 		"ft": 16384,
 		"iS": 55407,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/02.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/03.jpg": {
 		"ft": 16384,
 		"iS": 54812,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/03.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/04.jpg": {
 		"ft": 16384,
 		"iS": 48586,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/04.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/05.jpg": {
 		"ft": 16384,
 		"iS": 44408,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/05.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/06.jpg": {
 		"ft": 16384,
 		"iS": 68261,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/06.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/07.jpg": {
 		"ft": 16384,
 		"iS": 39758,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/07.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/08.jpg": {
 		"ft": 16384,
 		"iS": 38021,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/08.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/09.jpg": {
 		"ft": 16384,
 		"iS": 47009,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/09.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/10.jpg": {
 		"ft": 16384,
 		"iS": 61713,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/11.jpg": {
 		"ft": 16384,
 		"iS": 57725,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/12.jpg": {
 		"ft": 16384,
 		"iS": 43978,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/12.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/13t.jpg": {
 		"ft": 16384,
 		"iS": 12800,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/13t.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/13t@2x.jpg": {
 		"ft": 16384,
 		"iS": 33004,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/13t@2x.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/14t.jpg": {
 		"ft": 16384,
 		"iS": 16340,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/14t.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/14t@2x.jpg": {
 		"ft": 16384,
 		"iS": 39106,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/14t@2x.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/15t.jpg": {
 		"ft": 16384,
 		"iS": 11470,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/15t.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/15t@2x.jpg": {
 		"ft": 16384,
 		"iS": 25258,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/15t@2x.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/16t.jpg": {
 		"ft": 16384,
 		"iS": 10497,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/16t.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/16t@2x.jpg": {
 		"ft": 16384,
 		"iS": 34178,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/16t@2x.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/pre-opt\/01.jpg": {
 		"ft": 16384,
 		"iS": 53691,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/01.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/pre-opt\/02.jpg": {
 		"ft": 16384,
 		"iS": 55407,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/02.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/pre-opt\/03.jpg": {
 		"ft": 16384,
 		"iS": 54812,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/03.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/pre-opt\/04.jpg": {
 		"ft": 16384,
 		"iS": 48586,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/04.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/pre-opt\/05.jpg": {
 		"ft": 16384,
 		"iS": 44408,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/05.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/pre-opt\/06.jpg": {
 		"ft": 16384,
 		"iS": 68261,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/06.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/pre-opt\/07.jpg": {
 		"ft": 16384,
 		"iS": 39758,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/07.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/pre-opt\/08.jpg": {
 		"ft": 16384,
 		"iS": 38021,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/08.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/pre-opt\/09.jpg": {
 		"ft": 16384,
 		"iS": 47009,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/09.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/pre-opt\/10.jpg": {
 		"ft": 16384,
 		"iS": 61713,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/10.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/pre-opt\/11.jpg": {
 		"ft": 16384,
 		"iS": 57725,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/11.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/project-galleries\/thumbs\/pre-opt\/12.jpg": {
 		"ft": 16384,
 		"iS": 43978,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/12.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/schema\/greencare-logo.png": {
 		"ft": 32768,
@@ -4290,25 +4909,35 @@
 		"oA": 0,
 		"oAP": "\/img\/schema\/greencare-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/services\/services-blur.jpg": {
 		"ft": 16384,
 		"iS": 44865,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/services\/services-blur.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/services\/services.jpg": {
 		"ft": 16384,
 		"iS": 105540,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/services\/services.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
@@ -4316,6 +4945,7 @@
 		},
 	"\/js\/scripts-ie-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/scripts-ie-min-min.js",
@@ -4325,6 +4955,7 @@
 		},
 	"\/js\/scripts-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/scripts-min-min.js",
@@ -4334,6 +4965,7 @@
 		},
 	"\/js\/src\/nav\/fastclick.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/src\/fastclick-min.js",
@@ -4343,6 +4975,7 @@
 		},
 	"\/js\/src\/nav\/fixed-responsive-nav.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/src\/fixed-responsive-nav-min.js",
@@ -4352,6 +4985,7 @@
 		},
 	"\/js\/src\/nav\/responsive-nav.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/src\/responsive-nav-min.js",
@@ -4361,6 +4995,7 @@
 		},
 	"\/js\/src\/nav\/scroll.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/src\/scroll-min.js",
@@ -4370,6 +5005,7 @@
 		},
 	"\/js\/src\/scripts-ie.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/scripts-ie-min.js",
@@ -4379,6 +5015,7 @@
 		},
 	"\/js\/src\/scripts.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/scripts-min.js",
@@ -4388,6 +5025,7 @@
 		},
 	"\/js\/vendor\/jquery\/1-12-4\/jquery-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/vendor\/jquery\/jquery-min-min.js",
@@ -4402,6 +5040,7 @@
 		"oF": 0
 		},
 	"\/our-plants.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/our-plants.php",
@@ -4416,24 +5055,46 @@
 		"oS": 1
 		},
 	"\/php\/autoVer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/php\/autoVer.php",
 		"oF": 0
 		},
 	"\/php\/PIE.htc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/php\/PIE.htc",
 		"oF": 0
 		},
 	"\/project-galleries.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/project-galleries.php",
 		"oF": 0
 		},
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/robots.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/robots.txt",
@@ -4921,12 +5582,14 @@
 		"uL": 1
 		},
 	"\/services.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/services.php",
 		"oF": 0
 		},
 	"\/sitemap.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sitemap.xml",
@@ -4938,7 +5601,10 @@
 		"oA": 0,
 		"oAP": "\/touch-icon-192x192.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		}
 	},
 "hooks": [
@@ -4989,7 +5655,8 @@
 	"creationDate": 502296548,
 	"displayValue": "greencaretx",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/apple-touch-icon.png"
+	"iconImageName": "\/apple-touch-icon.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4997,6 +5664,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 5% in US, last 3 versions, ie >= 8, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -5393,6 +6061,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -5400,6 +6072,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -5497,6 +6173,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -5513,9 +6193,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -5540,6 +6228,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -5573,9 +6265,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -5605,6 +6297,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -5614,14 +6310,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -5637,9 +6325,17 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -5655,6 +6351,10 @@
 			},
 		"no-class-assign": {
 			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
 			"optionString": ""
 			},
 		"no-cond-assign": {
@@ -5857,6 +6557,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -5934,6 +6638,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -6133,6 +6841,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -6169,6 +6881,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -6177,9 +6893,17 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -6229,6 +6953,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -6269,11 +6997,19 @@
 			"active": 0,
 			"optionString": "'safe'"
 			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
 		"symbol-description": {
 			"active": 0,
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -6677,7 +7413,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -6710,6 +7447,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -6720,7 +7458,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -6744,21 +7484,14 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -6790,13 +7523,13 @@
 		"enableFootnotes": 0,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -6805,7 +7538,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -6813,7 +7547,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -6823,7 +7559,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -6851,7 +7588,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -6898,9 +7636,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
