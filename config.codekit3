@@ -44,39 +44,11 @@
 		"oAP": "/_ignores/autoprefixer-values.txt",
 		"oF": 0
 		},
-	"/_ignores/git-setup-guide.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_ignores/git-setup-guide.txt",
-		"oF": 0
-		},
-	"/_ignores/google-mybusiness-code.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_ignores/google-mybusiness-code.txt",
-		"oF": 0
-		},
 	"/_ignores/google-structure.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/_ignores/google-structure.html",
-		"oF": 0
-		},
-	"/_ignores/google-tracking-id.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/_ignores/google-tracking-id.html",
-		"oF": 0
-		},
-	"/_ignores/greencare-misc-data.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_ignores/greencare-misc-data.txt",
 		"oF": 0
 		},
 	"/_ignores/greencaretx.sublime-project": {
