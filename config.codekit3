@@ -3057,25 +3057,11 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/browserconfig.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/browserconfig.xml",
-		"oF": 0
-		},
 	"/contact.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/contact.php",
-		"oF": 0
-		},
-	"/crossdomain.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/crossdomain.xml",
 		"oF": 0
 		},
 	"/css/ie8.css": {
