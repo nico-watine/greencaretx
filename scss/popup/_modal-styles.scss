@@ -9,11 +9,11 @@
 	border: em(6) solid $dark-brown;
 	border-radius: em(10);
 
-	@include media($medium) {
+	@include media($maxWidth-820) {
 		max-width: 90%;
 	}
 
-	@include media($small) {
+	@include media($maxWidth-565) {
 		max-width: 95%;
 	}
 }
