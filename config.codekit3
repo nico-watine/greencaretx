@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "28905",
 "files": {
+	"/.editorconfig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/.editorconfig",
+		"oF": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -42,41 +49,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/_ignores/autoprefixer-values.txt",
-		"oF": 0
-		},
-	"/_ignores/git-setup-guide.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_ignores/git-setup-guide.txt",
-		"oF": 0
-		},
-	"/_ignores/google-mybusiness-code.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_ignores/google-mybusiness-code.txt",
-		"oF": 0
-		},
-	"/_ignores/google-structure.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/_ignores/google-structure.html",
-		"oF": 0
-		},
-	"/_ignores/google-tracking-id.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/_ignores/google-tracking-id.html",
-		"oF": 0
-		},
-	"/_ignores/greencare-misc-data.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_ignores/greencare-misc-data.txt",
 		"oF": 0
 		},
 	"/_ignores/greencaretx.sublime-project": {
@@ -3085,25 +3057,11 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/browserconfig.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/browserconfig.xml",
-		"oF": 0
-		},
 	"/contact.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/contact.php",
-		"oF": 0
-		},
-	"/crossdomain.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/crossdomain.xml",
 		"oF": 0
 		},
 	"/css/ie8.css": {

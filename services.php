@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include($_SERVER['DOCUMENT_ROOT'].'/php/autoVer.php');
 ?>
 <!DOCTYPE html>
@@ -11,11 +11,12 @@
 	<meta name="description" content="We offer a variety of Plant Maintenance Services for Office &amp; Residential Accounts in Houston, TX">
 	<link href="http://greencaretx.com/services" rel="canonical">
 	<link href="/humans.txt" rel="author">
-	
+
 	<meta name="format-detection" content="telephone=no">
 
-	<link href="<?php autoVer('/css/opt/style.css'); ?>" rel="stylesheet">
-	
+	<!-- <link href="<?php autoVer('/css/opt/style.css'); ?>" rel="stylesheet"> -->
+	<link href="<?php autoVer('/css/style.css'); ?>" rel="stylesheet">
+
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<link rel="stylesheet" href="<?php autoVer('/css/ie8.css'); ?>"/>
@@ -141,8 +142,8 @@
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 
 <script>
-    window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-    ga('create','UA-85408517-3','auto');ga('send','pageview')
+	window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+	ga('create','UA-85408517-3','auto');ga('send','pageview')
 </script>
 <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
