@@ -1,35 +1,14 @@
-audio,
-canvas,
-img,
-video {
-	vertical-align: middle;
-}
+// Custom highlight text effect:
 
-fieldset {
-	border: 0;
-	margin: 0;
-	padding: 0;
-}
+// ::-moz-selection {
+// 	background: #b3d4fc;
+// 	text-shadow: none;
+// }
 
-
-textarea {
-	resize: vertical;
-}
-
-// Highlighted Text Effect
-::-moz-selection {
-	background: #b3d4fc;
-	text-shadow: none;
-}
-
-::selection {
-	background: #b3d4fc;
-	text-shadow: none;
-}
-
-img {
-	max-width: 100%;
-}
+// ::selection {
+// 	background: #b3d4fc;
+// 	text-shadow: none;
+// }
 
 // -------------------------------------------------------------------
 // Omega Reset for Bourbon Neat

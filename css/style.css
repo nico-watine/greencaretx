@@ -563,35 +563,12 @@ h6 {
   font-size: 0.75em;
 }
 
-audio,
-canvas,
-img,
-video {
-  vertical-align: middle;
-}
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-textarea {
-  resize: vertical;
-}
-
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
 img {
+  display: inline-block;
+  vertical-align: middle;
   max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
 }
 
 .row {
