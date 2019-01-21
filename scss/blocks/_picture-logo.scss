@@ -1,5 +1,5 @@
 header#index {
-	@include media($small-plus) {
+	@include media($maxWidth-640) {
 		visibility: visible;
 		display: block;
 	}
@@ -11,12 +11,12 @@ header {
 		position: relative;
 		padding: 1px;
 
-		@include media($large) {
+		@include media($maxWidth-940) {
 			padding: 0;
 			@include span-columns(3 of 12);
 		}
 
-		@include media($medium) {
+		@include media($maxWidth-820) {
 			@include span-columns(10 of 10);
 			background: #4c3211;
 			text-align: center;
@@ -31,13 +31,13 @@ header {
 			position: absolute;
 			z-index: 999;
 
-			@include media($large) {
+			@include media($maxWidth-940) {
 				max-width: 160px;
 				margin-left: -75px;
 				left: 45%;
 			}
 
-			@include media($medium) {
+			@include media($maxWidth-820) {
 				max-width: 300px;
 				left: 0;
 				margin: 0;
@@ -61,7 +61,7 @@ header {
 		@include span-columns(6);
 		@include shift(5);
 
-		@include media($large) {
+		@include media($maxWidth-940) {
 			visibility: hidden;
 			display: none;
 		}
