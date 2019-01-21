@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "28905",
 "files": {
+	"/.editorconfig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/.editorconfig",
+		"oF": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -42,13 +49,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/_ignores/autoprefixer-values.txt",
-		"oF": 0
-		},
-	"/_ignores/google-structure.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/_ignores/google-structure.html",
 		"oF": 0
 		},
 	"/_ignores/greencaretx.sublime-project": {
