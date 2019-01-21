@@ -1,0 +1,22 @@
+{
+	"name": "greencaretx",
+	"authors": [
+		"Nico Watine <nico@studioncreations.com> (https://nicowatine.me/)"
+	],
+	"description": "Repo for www.greencaretx.com",
+	"main": [
+		"index.php",
+		"scripts-min.js"
+	],
+	"license": "MIT",
+	"homepage": "https://greencaretx.com/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nico-watine/greencaretx"
+	},
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components"
+	]
+}
