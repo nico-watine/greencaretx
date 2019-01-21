@@ -10,9 +10,11 @@ $medium: new-breakpoint(max-width em(820) 10);
 $maxWidth-820: new-breakpoint(max-width em(820) 10);
 
 $small-plus: new-breakpoint(max-width em(650) 8);
-$maxWidth-640: new-breakpoint(max-width em(650) 8);
+$maxWidth-650: new-breakpoint(max-width em(650) 8);
 
 // $small-medium: new-breakpoint(max-width em(540) 8);
 
 $small: new-breakpoint(max-width em(565) 8);
 $maxWidth-565: new-breakpoint(max-width em(565) 8);
+
+$maxWidth-450: new-breakpoint(max-width em(450) 8);

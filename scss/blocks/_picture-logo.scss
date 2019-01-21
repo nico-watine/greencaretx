@@ -1,5 +1,5 @@
 header#index {
-	@include media($maxWidth-640) {
+	@include media($maxWidth-650) {
 		visibility: visible;
 		display: block;
 	}
