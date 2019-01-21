@@ -1,5 +1,3 @@
-@import "../settings/_settings.scss";
-
 header#index {
 	@include media($small-plus) {
 		visibility: visible;
@@ -8,7 +6,6 @@ header#index {
 }
 
 header {
-
 	#logo-container {
 		@include span-columns(4 of 16);
 		position: relative;
@@ -21,11 +18,11 @@ header {
 
 		@include media($medium) {
 			@include span-columns(10 of 10);
-			background: #4C3211;
+			background: #4c3211;
 			text-align: center;
 			z-index: 55;
 		}
-		
+
 		picture {
 			max-width: 200px;
 			width: 100%;
@@ -51,9 +48,7 @@ header {
 					margin: 1em auto;
 				}
 			}
-
 		}
-
 	}
 
 
@@ -75,10 +70,10 @@ header {
 			margin: 0 auto;
 			height: 45px;
 			background: $dark-brown;
-			border-radius: 0.625em 0.625em 0px 0px;
-			border-top: 0.125em solid #fff;
-			border-left: 0.125em solid #fff;
-			border-right: 0.125em solid #fff;
+			border-radius: .625em .625em 0 0;
+			border-top: .125em solid #fff;
+			border-left: .125em solid #fff;
+			border-right: .125em solid #fff;
 			text-align: center;
 			width: 21.875em;
 
@@ -94,4 +89,3 @@ header {
 		display: none;
 	}
 }
-

@@ -499,8 +499,9 @@ html {
   }
 }
 */
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
+[class^='icon-']:before,
+[class*=' icon-']:before {
+  font-family: 'fontello';
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -648,12 +649,12 @@ h3 {
 
 @media screen and (max-width: 58.75em) {
   h3 {
-    font-size: 1.4375em;
+    font-size: em(23);
   }
 }
 
 h4 {
-  font-size: 1.4375em;
+  font-size: em(23);
 }
 
 h5 {
@@ -813,7 +814,7 @@ header .logo-container #medium-logo {
     display: block;
     margin-right: 2.8425860857%;
     width: 100%;
-    background: #4C3211;
+    background: #4c3211;
     text-align: center;
     z-index: 55;
   }
@@ -875,14 +876,14 @@ header .phone-container:last-child {
 
 header .phone-container aside {
   height: 2.8125em;
-  border-radius: 0.625em 0.625em 0px 0px;
+  border-radius: .625em .625em 0 0;
   behavior: url("/php/PIE.htc");
   text-align: center;
   width: 22.1875em;
   background: #a0cc39;
-  border-top: 0.125em solid #fff;
-  border-left: 0.125em solid #fff;
-  border-right: 0.125em solid #fff;
+  border-top: .125em solid #fff;
+  border-left: .125em solid #fff;
+  border-right: .125em solid #fff;
 }
 
 header .phone-container aside h3,
@@ -891,7 +892,7 @@ header .phone-container aside h3 a.phone-number {
   margin: 0;
   line-height: 2.8125rem;
   color: #fff;
-  text-shadow: 0.0625rem 0.0625rem 0px #000;
+  text-shadow: 0.0625rem 0.0625rem 0 #000;
 }
 
 @media screen and (max-width: 66.875em) {
@@ -1580,7 +1581,7 @@ NAVIGATION STYLES
     border-top: 1px solid white;
     text-decoration: none;
     background: #4c3211;
-    padding: 0.7em 1em;
+    padding: .7em 1em;
     color: #fff;
     width: 100%;
     float: left;
@@ -1628,12 +1629,12 @@ NAV TOGGLE STYLES
   .nav-toggle:before {
     color: #fff;
     /* Edit this to change the icon color */
-    font: normal 35px/48px "nav";
+    font: normal 35px/48px 'nav';
     /* Edit font-size (28px) to change the icon size */
     text-transform: none;
     text-align: center;
     position: absolute;
-    content: "\2261";
+    content: '\2261';
     /* Hamburger icon */
     text-indent: 0;
     speak: none;
@@ -1643,7 +1644,7 @@ NAV TOGGLE STYLES
   }
   .nav-toggle.active:before {
     font-size: 26px;
-    content: "\78";
+    content: '\78';
     /* Close icon */
   }
   @-webkit-viewport {
@@ -1683,7 +1684,7 @@ NAV TOGGLE STYLES
     border-left: 2px solid white;
     text-decoration: none;
     background: #4c3211;
-    padding: 0.7em 1em;
+    padding: .7em 1em;
     color: #fff;
     width: 100%;
     text-align: center;
@@ -1694,9 +1695,9 @@ NAV TOGGLE STYLES
   }
   .nav-collapse a:hover {
     background: #a0cc39;
-    text-shadow: 0px 0.0625rem 0rem #668625;
-    -webkit-box-shadow: 0px 1px 1px 0px #668625 inset;
-            box-shadow: 0px 1px 1px 0px #668625 inset;
+    text-shadow: 0 0.0625rem 0rem #668625;
+    -webkit-box-shadow: 0 1px 1px 0 #668625 inset;
+            box-shadow: 0 1px 1px 0 #668625 inset;
   }
   .nav-collapse li {
     width: auto;
@@ -1707,9 +1708,9 @@ NAV TOGGLE STYLES
     background: #a0cc39;
     -webkit-box-shadow: none;
             box-shadow: none;
-    text-shadow: 0px 0.0625rem 0rem #668625;
-    -webkit-box-shadow: 0px 1px 1px 0px #668625 inset;
-            box-shadow: 0px 1px 1px 0px #668625 inset;
+    text-shadow: 0 0.0625rem 0rem #668625;
+    -webkit-box-shadow: 0 1px 1px 0 #668625 inset;
+            box-shadow: 0 1px 1px 0 #668625 inset;
   }
   .nav-collapse a#last {
     border-radius: 0 10px 0 0;
@@ -1837,7 +1838,7 @@ main#index .main-content {
 .widget-links .widget a h4 {
   color: #fff;
   border-top: 0.125rem solid #fff;
-  background: #444444;
+  background: #444;
   background: rgba(68, 68, 68, 0.6);
   -webkit-box-shadow: inset 0 0 3px 0 #000;
           box-shadow: inset 0 0 3px 0 #000;
@@ -2177,14 +2178,14 @@ main#project-galleries .page-header {
 
 .project-galleries-gallery .image-grid .thumb a img {
   border: 0.125em solid #fff;
-  -webkit-box-shadow: 0px 0.0625em 0.125em 0 #333;
-          box-shadow: 0px 0.0625em 0.125em 0 #333;
+  -webkit-box-shadow: 0 0.0625em 0.125em 0 #333;
+          box-shadow: 0 0.0625em 0.125em 0 #333;
   margin-bottom: 0.0625em;
 }
 
 .project-galleries-gallery .image-grid .thumb a:hover img {
-  -webkit-box-shadow: 0px 0.0625em 0.0625em 0 #000;
-          box-shadow: 0px 0.0625em 0.0625em 0 #000;
+  -webkit-box-shadow: 0 0.0625em 0.0625em 0 #000;
+          box-shadow: 0 0.0625em 0.0625em 0 #000;
   margin-top: 0.0625em;
   margin-bottom: 0;
 }
@@ -2286,14 +2287,14 @@ main#our-plants .main-content {
 
 .plant-selection-gallery .image-grid .thumb a img {
   border: 0.125em solid #fff;
-  -webkit-box-shadow: 0px 0.0625em 0.125em 0 #333;
-          box-shadow: 0px 0.0625em 0.125em 0 #333;
+  -webkit-box-shadow: 0 0.0625em 0.125em 0 #333;
+          box-shadow: 0 0.0625em 0.125em 0 #333;
   margin-bottom: 0.0625em;
 }
 
 .plant-selection-gallery .image-grid .thumb a:hover img {
-  -webkit-box-shadow: 0px 0.0625em 0.0625em 0 #000;
-          box-shadow: 0px 0.0625em 0.0625em 0 #000;
+  -webkit-box-shadow: 0 0.0625em 0.0625em 0 #000;
+          box-shadow: 0 0.0625em 0.0625em 0 #000;
   margin-top: 0.0625em;
   margin-bottom: 0;
 }
@@ -2411,9 +2412,9 @@ section.page-header#contact {
   display: block;
   margin-right: 2.3576520234%;
   width: 31.7615653177%;
-  border: 0.0625em solid #A0CC39;
-  -webkit-box-shadow: 0px 0.0625em 0.125em 0px #333;
-          box-shadow: 0px 0.0625em 0.125em 0px #333;
+  border: 0.0625em solid #a0cc39;
+  -webkit-box-shadow: 0 0.0625em 0.125em 0 #333;
+          box-shadow: 0 0.0625em 0.125em 0 #333;
   background: #fff;
   padding: 0.625em 0.5em 0 0.5em;
   height: 19.6875em;

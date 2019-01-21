@@ -2,29 +2,29 @@ audio,
 canvas,
 img,
 video {
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
 
 textarea {
-    resize: vertical;
+	resize: vertical;
 }
 
 // Highlighted Text Effect
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
 img {
@@ -38,6 +38,6 @@ img {
 // -------------------------------------------------------------------
 
 @mixin omega-reset($nth) {
-  &:nth-child(#{$nth}) { margin-right: flex-gutter($grid-columns, $gutter); }
-  &:nth-child(#{$nth}+1) { clear: none }
+	&:nth-child(#{$nth}) { margin-right: flex-gutter($grid-columns, $gutter); }
+	&:nth-child(#{$nth}+1) { clear: none }
 }

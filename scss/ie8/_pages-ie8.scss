@@ -1,8 +1,4 @@
-@import "../settings/_settings.scss";
-
-
 main#project-galleries {
-
 	.h1-wrap#project-galleries {
 		padding-top: 170px;
 	}
@@ -13,7 +9,6 @@ main#project-galleries {
 }
 
 main#our-plants {
-
 	.h1-wrap#our-plants {
 		padding-top: 30px;
 		width: 500px;
@@ -30,7 +25,6 @@ main#our-plants {
 }
 
 main#services {
-
 	.purchase-lease-verbiage {
 		padding: 0 26px 26px;
 		visibility: visible;
@@ -77,4 +71,3 @@ main#contact {
 		@include omega();
 	}
 }
-
