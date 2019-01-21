@@ -1,6 +1,5 @@
-@import "../settings/_settings.scss";
-@import "_fonts.scss";
-@import "_icon-fonts.scss";
+@import '_fonts.scss';
+@import '_icon-fonts.scss';
 
 html {
 	font-size: 1em;
@@ -37,10 +36,9 @@ a.phone-number {
 	text-decoration: none;
 
 	i.icon-phone {
-
 		&:focus,
 		&:active {
-			background: rgba(0, 0, 0, 0.5);
+			background: rgba(0, 0, 0, .5);
 		}
 	}
 
@@ -55,16 +53,14 @@ a.phone-number {
 
 hr {
 	border: 0;
-
 	background-color: $hr-color;
-
 	height: 1px;
 	margin: $baseline 0;
 }
 
-h1, 
-h2, 
-h3, 
+h1,
+h2,
+h3,
 h4,
 h5,
 h6 {
@@ -105,7 +101,7 @@ h3 {
 	font-size: $h3-size;
 
 	@include media($large) {
-		font-size: $h4-size; 		
+		font-size: $h4-size;
 	}
 }
 
@@ -117,7 +113,7 @@ h5 {
 	font-size: $h5-size;
 
 	@include media($large) {
-		font-size: $h6-size; 		
+		font-size: $h6-size;
 	}
 }
 

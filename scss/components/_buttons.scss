@@ -1,5 +1,3 @@
-@import "../settings/_settings.scss";
-
 a.big-green-button {
 	background: #a0cc39;
 	box-shadow: 0 rem(2) 0 0 #668625;
@@ -9,7 +7,6 @@ a.big-green-button {
 	padding: rem(10) rem(16) rem(10) rem(16);
 	border: rem(1) solid #a0cc39;
 	border-radius: 4px;
-
 	display: inline-block;
 
 
@@ -23,12 +20,10 @@ a.big-green-button {
 }
 
 .opaque-button {
-	background: rgba(51,51,51,0.50);
+	background: rgba(51,51,51,.50);
 	border: rem(1) solid #333;
 	border-radius: rem(4);
 	color: #fff;
 	text-decoration: none;
 	text-shadow: rem(1) rem(1) rem(2) #000;
 }
-
-

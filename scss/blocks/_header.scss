@@ -1,9 +1,6 @@
-@import "../settings/_settings.scss";
-
 $mobile: 'max-width: 480px';
 
 header#index {
-
 	.default {
 		visibility: visible;
 		display: block;
@@ -28,10 +25,10 @@ header {
 
 		@include media($medium) {
 			@include span-columns(10 of 10);
-			background: #4C3211;
+			background: #4c3211;
 			text-align: center;
 			z-index: 55;
-			
+
 			img#medium-logo {
 				margin: 1em auto;
 				visibility: visible;
@@ -43,7 +40,7 @@ header {
 		#default-logo {
 			opacity: 0;
 		}
-		
+
 		#default-logo,
 		#default-logo-flat {
 			max-width: 200px;
@@ -74,14 +71,14 @@ header {
 
 		aside {
 			height: em(45);
-			border-radius: 0.625em 0.625em 0px 0px;
+			border-radius: .625em .625em 0 0;
 			behavior: url('/php/PIE.htc');
 			text-align: center;
 			width: em(355);
 			background: $lime-green;
-			border-top: 0.125em solid #fff;
-			border-left: 0.125em solid #fff;
-			border-right: 0.125em solid #fff;
+			border-top: .125em solid #fff;
+			border-left: .125em solid #fff;
+			border-right: .125em solid #fff;
 
 			h3,
 			h3 a.phone-number {
@@ -89,7 +86,7 @@ header {
 				margin: 0;
 				line-height: rem(45);
 				color: #fff;
-				text-shadow: rem(1) rem(1) 0px #000;
+				text-shadow: rem(1) rem(1) 0 #000;
 			}
 		}
 
@@ -127,11 +124,10 @@ header {
 	}
 }
 
-$mini-mobile: "only screen and (max-width : 450px)";
+$mini-mobile: 'only screen and (max-width : 450px)';
 
 
 header {
-
 	.mini {
 		visibility: hidden;
 		display: none;
@@ -192,10 +188,8 @@ header {
 
 	@media #{$mini-mobile} {
 		.mini {
-
 			.phone-container {
 				aside {
-
 					h3 {
 						visibility: hidden;
 						display: none;
@@ -211,7 +205,7 @@ header {
 					}
 				}
 			}
-		}	
+		}
 	}
 }
 
