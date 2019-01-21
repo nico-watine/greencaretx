@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include($_SERVER['DOCUMENT_ROOT'].'/php/autoVer.php');
 ?>
 <!DOCTYPE html>
@@ -11,11 +11,11 @@
 	<meta name="description" content="Commercial &amp; Residential Indoor Plant Care Services - Call 713-864-5300 for your free consultation and next day quote!">
 	<link href="http://greencaretx.com" rel="canonical">
 	<link href="/humans.txt" rel="author">
-	
+
 	<meta name="format-detection" content="telephone=no">
 
 	<link href="<?php autoVer('/css/opt/style.css'); ?>" rel="stylesheet">
-	
+
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<link rel="stylesheet" href="<?php autoVer('/css/ie8.css'); ?>"/>
@@ -32,15 +32,15 @@
 	  "url" : "http://greencaretx.com",
 	  "telephone": "713-864-5300",
 	  "address": {
-	    "@type": "PostalAddress",
-	    "addressLocality": "Houston",
-	    "addressRegion": "TX",
-	    "postalCode": "77007",
-	    "streetAddress": "5221 Center St"
+		"@type": "PostalAddress",
+		"addressLocality": "Houston",
+		"addressRegion": "TX",
+		"postalCode": "77007",
+		"streetAddress": "5221 Center St"
 	  },
 	  "sameAs" : [
-	    "https://plus.google.com/108713736317109074241/posts?hl=en",
-	    "https://www.facebook.com/GreencareInteriorPlants"
+		"https://plus.google.com/108713736317109074241/posts?hl=en",
+		"https://www.facebook.com/GreencareInteriorPlants"
 	  ]
 	}
 	</script>
@@ -152,8 +152,8 @@
 <script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 
 <script>
-    window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-    ga('create','UA-85408517-3','auto');ga('send','pageview')
+	window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+	ga('create','UA-85408517-3','auto');ga('send','pageview')
 </script>
 <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
