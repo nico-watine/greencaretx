@@ -5539,19 +5539,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/temp.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/temp.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
 	"/services.php": {
 		"cB": 0,
 		"ft": 8192,
