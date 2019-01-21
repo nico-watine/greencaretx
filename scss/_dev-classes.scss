@@ -4,23 +4,23 @@
 
 
 body {
-	@include media($default-break) {
+	@include media($maxWidth-1070) {
 		background: purple;
 	}
 
-	@include media($large) {
+	@include media($maxWidth-940) {
 		background: red; //dev purposes
 	}
 
-	@include media($medium) {
+	@include media($maxWidth-820) {
 		background: blue; //dev purposes
 	}
 
-	@include media($small-plus) {
+	@include media($maxWidth-650) {
 		background: yellow; //dev purposes
 	}
 
-	@include media($small) {
+	@include media($maxWidth-565) {
 		background: orange;
 	}
 }

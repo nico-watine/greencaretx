@@ -44,7 +44,7 @@ main#project-galleries {
 			}
 		}
 
-		@include media($default-break) {
+		@include media($maxWidth-1070) {
 			.thumb {
 				@include omega-reset(6n);
 				@include span-columns(4 of 16);
@@ -52,7 +52,7 @@ main#project-galleries {
 			}
 		}
 
-		@include media($small-plus) {
+		@include media($maxWidth-650) {
 			.thumb {
 				@include omega-reset(4n);
 				@include span-columns(4 of 8);

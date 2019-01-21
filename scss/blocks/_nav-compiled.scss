@@ -17,12 +17,12 @@ $content-bg: #eee;
 	text-align: right;
 	position: relative;
 
-	@include media($large) {
+	@include media($maxWidth-940) {
 		@include span-columns(11);
 		@include shift(.5);
 	}
 
-	@include media($medium) {
+	@include media($maxWidth-820) {
 		background: $dark-brown;
 		border-top: em(2) solid $tan;
 		border-radius: 0;
@@ -30,7 +30,7 @@ $content-bg: #eee;
 		@include shift(0);
 	}
 
-	@include media($small-plus) {
+	@include media($maxWidth-650) {
 		z-index: 20;
 		background: $logo-brown;
 		border-bottom: em(1) solid #fff;
@@ -39,7 +39,7 @@ $content-bg: #eee;
 
 
 
-@include media($small-plus) {
+@include media($maxWidth-650) {
 	.nav-collapse ul {
 		margin: 0;
 		padding: 0;
@@ -184,7 +184,7 @@ NAVIGATION STYLES
 		behavior: url('/php/PIE.htc');
 		border-right: 2px solid white;
 
-		@include media($medium) {
+		@include media($maxWidth-820) {
 			border-right: 0;
 			border-radius: 0;
 		}
@@ -320,7 +320,7 @@ NAV TOGGLE STYLES
 		border-right: 2px solid white;
 		behavior: url('/php/PIE.htc');
 
-		@include media($medium) {
+		@include media($maxWidth-820) {
 			border-radius: 0;
 		}
 	}
@@ -365,7 +365,7 @@ NAV TOGGLE STYLES
 
 
 
-@include media($medium) {
+@include media($maxWidth-820) {
 	.nav-collapse {
 		width: 100% !important;
 		text-align: center !important;
@@ -377,7 +377,7 @@ NAV TOGGLE STYLES
 	}
 }
 
-@include media($small-plus) {
+@include media($maxWidth-650) {
 	.nav-collapse {
 		text-align: right !important;
 

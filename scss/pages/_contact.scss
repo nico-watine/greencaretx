@@ -29,7 +29,7 @@ main#contact {
 		margin-bottom: em(38);
 	}
 
-	@include media($small) {
+	@include media($maxWidth-565) {
 		text-align: center;
 	}
 }
@@ -74,7 +74,7 @@ p#email {
 	}
 }
 
-@include media($medium) {
+@include media($maxWidth-820) {
 	.primary-contact-info,
 	.office-map {
 		@include span-columns(9 of 10);
@@ -102,7 +102,7 @@ p#email {
 	}
 }
 
-@include media($small) {
+@include media($maxWidth-565) {
 	.primary-contact-info {
 		p#address,
 		p#phone,
@@ -140,7 +140,7 @@ p#email {
 				}
 			}
 
-			@include media($small) {
+			@include media($maxWidth-565) {
 				.logo {
 					@include span-columns(8 of 8);
 					margin-bottom: rem(10);
@@ -171,7 +171,7 @@ p#email {
 				padding-right: rem(16);
 			}
 
-			@include media($small-plus) {
+			@include media($maxWidth-650) {
 				.street-address,
 				.web-address {
 					@include span-columns(10 of 10);
@@ -180,7 +180,7 @@ p#email {
 				}
 			}
 
-			@include media($small) {
+			@include media($maxWidth-565) {
 				.street-address,
 				.web-address {
 					text-align: center;
@@ -239,7 +239,7 @@ p#email {
 
 .office-map,
 .jdf-map {
-	@include media($small) {
+	@include media($maxWidth-565) {
 		display: none;
 		visibility: hidden;
 	}

@@ -876,7 +876,7 @@ header .mini {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 28.125em) {
   header .mini .phone-container aside h3 {
     visibility: hidden;
     display: none;
@@ -1807,7 +1807,7 @@ main#index .main-content {
   }
 }
 
-@media only screen and (max-width: 410) {
+@media max-width {
   .widget-links .widget#project-galleries {
     background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg");
     background-size: auto 110%;
@@ -1835,7 +1835,7 @@ main#index .main-content {
   }
 }
 
-@media only screen and (max-width: 410) {
+@media max-width {
   .widget-links .widget#plant-selection {
     background-size: auto 110%;
   }
