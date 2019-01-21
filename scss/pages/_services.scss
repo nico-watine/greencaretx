@@ -67,7 +67,7 @@ main#services {
 	h3 {
 		padding: 0 rem(20);
 
-		@include media($small-plus) {
+		@include media($maxWidth-650) {
 			padding: 0;
 		}
 	}
