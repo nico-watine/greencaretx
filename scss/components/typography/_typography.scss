@@ -42,7 +42,7 @@ a.phone-number {
 		}
 	}
 
-	@include media($medium) {
+	@include media($maxWidth-820) {
 		text-decoration: underline;
 
 		&:hover {
@@ -80,11 +80,11 @@ h1 {
 	margin-top: 0;
 	font-size: $h1-size;
 
-	@include media($large) {
+	@include media($maxWidth-940) {
 		font-size: $h2-size;
 	}
 
-	@include media($medium) {
+	@include media($maxWidth-820) {
 		font-size: $h3-size;
 	}
 }
@@ -92,7 +92,7 @@ h1 {
 h2 {
 	font-size: $h2-size;
 
-	@include media($large) {
+	@include media($maxWidth-940) {
 		font-size: $h3-size;
 	}
 }
@@ -100,7 +100,7 @@ h2 {
 h3 {
 	font-size: $h3-size;
 
-	@include media($large) {
+	@include media($maxWidth-940) {
 		font-size: $h4-size;
 	}
 }
@@ -112,7 +112,7 @@ h4 {
 h5 {
 	font-size: $h5-size;
 
-	@include media($large) {
+	@include media($maxWidth-940) {
 		font-size: $h6-size;
 	}
 }
