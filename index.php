@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Interior Plant Design &amp; Maintenance Service | Greencare Interior Plants - Houston, TX</title>
 	<meta name="description" content="Commercial &amp; Residential Indoor Plant Care Services - Call 713-864-5300 for your free consultation and next day quote!">
-	<link href="http://greencaretx.com" rel="canonical">
+	<link href="https://greencaretx.com" rel="canonical">
 	<link href="/humans.txt" rel="author">
 
 	<meta name="format-detection" content="telephone=no">
