@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nico-watine/greencaretx#readme",
   "devDependencies": {
+    "gulp": "^4.0.0",
     "gulp-cssnano": "^2.1.2",
     "gulp-uncss": "^1.0.6"
   }

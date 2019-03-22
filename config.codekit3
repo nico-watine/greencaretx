@@ -3441,8 +3441,8 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/opt/style-min.css",
-		"oF": 1,
-		"oS": 0
+		"oF": 0,
+		"oS": 3
 		},
 	"/css/style.css": {
 		"aP": 0,
@@ -5387,6 +5387,14 @@
 		"oA": 0,
 		"oAP": "/our-plants.php",
 		"oF": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/package.json": {
 		"ft": 524288,
@@ -7798,7 +7806,7 @@
 		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
