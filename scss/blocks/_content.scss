@@ -1,5 +1,3 @@
-@import "../settings/_settings.scss";
-
 main {
 	border-left: $ten solid $dark-brown;
 	border-right: $ten solid $dark-brown;
@@ -10,18 +8,18 @@ main {
 	@include span-columns(14 of 16);
 	@include shift(1);
 
-	@include media($large) {
+	@include media($maxWidth-940) {
 		border-left: em(7) solid $dark-brown;
 		border-right: em(7) solid $dark-brown;
 		@include span-columns(11 of 12);
-		@include shift(0.5);
+		@include shift(.5);
 	}
 
 	.main-content {
 		opacity: 0;
 	}
 
-	@include media($medium) {
+	@include media($maxWidth-820) {
 		background-image: none !important;
 		background-color: $content-bg;
 
@@ -36,11 +34,11 @@ main {
 	@include span-columns(1 of 10);
 	@include shift(0);
 
-	@include media($large) {
+	@include media($maxWidth-940) {
 		@include span-columns(1 of 10);
 	}
 
-	@include media($medium) {
+	@include media($maxWidth-820) {
 		display: none;
 		visibility: hidden;
 	}
@@ -49,11 +47,11 @@ main {
 		margin-left: em(-5);
 		padding-top: em(450);
 
-		@include media($default-break) {
+		@include media($maxWidth-1070) {
 			margin-left: em(-15);
 		}
 
-		@include media($large) {
+		@include media($maxWidth-940) {
 			margin-left: em(-18);
 			padding-top: em(500);
 		}
@@ -89,12 +87,12 @@ main {
 		padding-top: em(270);
 		margin-left: em(-150);
 
-		@include media($default-break) {
+		@include media($maxWidth-1070) {
 			margin-left: em(-155);
 			padding-top: em(320);
 		}
 
-		@include media($large) {
+		@include media($maxWidth-940) {
 			margin-left: em(-160);
 		}
 
@@ -107,7 +105,6 @@ main {
 
 #page-content {
 	opacity: 0;
-
 	box-shadow: em(-1) 0 em(2) 0 #000;
 	@include span-columns(9 of 10);
 	padding-top: em(20);
@@ -118,11 +115,11 @@ main {
 	background-repeat: no-repeat;
 	height: auto;
 
-	@include media($large) {
+	@include media($maxWidth-940) {
 		@include span-columns(9 of 10);
 	}
 
-	@include media($medium) {
+	@include media($maxWidth-820) {
 		@include span-columns(10 of 10);
 		@include shift(0);
 	}
@@ -144,7 +141,7 @@ main {
 		margin-bottom: 0;
 	}
 
-	@include media($small-plus) {
+	@include media($maxWidth-650) {
 		h1 {
 			font-size: em(36);
 		}

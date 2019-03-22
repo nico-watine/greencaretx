@@ -1,6 +1,3 @@
-@import "../settings/_settings.scss";
-
-
 main#our-plants {
 	background-image: url('/img/our-plants/bg.jpg');
 
@@ -20,17 +17,15 @@ main#our-plants {
 			text-align: center;
 
 			a {
-
 				img {
 					border: em(2) solid #fff;
-					box-shadow: 0px em(1) em(2) 0 #333;
+					box-shadow: 0 em(1) em(2) 0 #333;
 					margin-bottom: em(1);
 				}
 
 				&:hover {
-
 					img {
-						box-shadow: 0px em(1) em(1) 0 #000;
+						box-shadow: 0 em(1) em(1) 0 #000;
 						margin-top: em(1);
 						margin-bottom: 0;
 					}

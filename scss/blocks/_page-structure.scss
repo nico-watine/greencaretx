@@ -1,13 +1,9 @@
-@import "../settings/_settings.scss";
-
-
-
 body {
-    background: $tan;
+	background: $tan;
 	@include outer-container;
 	margin: 1.250em auto 1.875em;
 
-	@include media($medium) {
+	@include media($maxWidth-820) {
 		margin: 0;
 	}
 }
@@ -17,8 +13,7 @@ body {
 .main-cover#services-cover,
 .main-cover#project-galleries-cover,
 .main-cover#our-plants-cover {
-	
-	@include media($small-plus) {
+	@include media($maxWidth-650) {
 		background-image: none;
 	}
 }

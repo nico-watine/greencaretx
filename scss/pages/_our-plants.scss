@@ -1,6 +1,3 @@
-@import "../settings/_settings.scss";
-
-
 main#our-plants {
 	background-image: url('/img/our-plants/our-plants.jpg');
 
@@ -9,7 +6,7 @@ main#our-plants {
 		background-size: cover;
 	}
 
-	@include media($default-break) {
+	@include media($maxWidth-1070) {
 		background-image: url('/img/our-plants/our-plants@l.jpg');
 
 		.main-content {
@@ -29,17 +26,15 @@ main#our-plants {
 			text-align: center;
 
 			a {
-
 				img {
 					border: em(2) solid #fff;
-					box-shadow: 0px em(1) em(2) 0 #333;
+					box-shadow: 0 em(1) em(2) 0 #333;
 					margin-bottom: em(1);
 				}
 
 				&:hover {
-
 					img {
-						box-shadow: 0px em(1) em(1) 0 #000;
+						box-shadow: 0 em(1) em(1) 0 #000;
 						margin-top: em(1);
 						margin-bottom: 0;
 					}
@@ -47,7 +42,7 @@ main#our-plants {
 			}
 		}
 
-		@include media($default-break) {
+		@include media($maxWidth-1070) {
 			.thumb {
 				@include omega-reset(6n);
 				@include span-columns(4 of 16);
@@ -55,7 +50,7 @@ main#our-plants {
 			}
 		}
 
-		@include media($small-plus) {
+		@include media($maxWidth-650) {
 			.thumb {
 				@include omega-reset(4n);
 				@include span-columns(4 of 8);
@@ -74,7 +69,7 @@ main#our-plants {
 	padding: em(10) rem(30);
 	text-align: center;
 
-	@include media($small) {
+	@include media($maxWidth-565) {
 		padding: em(10) rem(10);
 
 		h4 {

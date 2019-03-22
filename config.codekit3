@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,162 +7,144 @@
 		"uuidString": "4035B102-338C-4D67-A2F9-D331A0B0AAAF"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "29156",
 "files": {
-	"\/.gitignore": {
+	"/.editorconfig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/.gitignore",
+		"oAP": "/.editorconfig",
 		"oF": 0
 		},
-	"\/.htaccess": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/.htaccess",
+		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"\/403.html": {
+	"/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/.htaccess",
+		"oF": 0
+		},
+	"/403.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/403.html",
+		"oAP": "/403.html",
 		"oF": 0
 		},
-	"\/404.html": {
+	"/404.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/404.html",
+		"oAP": "/404.html",
 		"oF": 0
 		},
-	"\/_ignores\/autoprefixer-values.txt": {
+	"/_ignores/autoprefixer-values.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/_ignores\/autoprefixer-values.txt",
+		"oAP": "/_ignores/autoprefixer-values.txt",
 		"oF": 0
 		},
-	"\/_ignores\/git-setup-guide.txt": {
+	"/_ignores/greencaretx.sublime-project": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/_ignores\/git-setup-guide.txt",
+		"oAP": "/_ignores/greencaretx.sublime-project",
 		"oF": 0
 		},
-	"\/_ignores\/google-mybusiness-code.txt": {
+	"/_ignores/greencaretx.sublime-workspace": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/_ignores\/google-mybusiness-code.txt",
+		"oAP": "/_ignores/greencaretx.sublime-workspace",
 		"oF": 0
 		},
-	"\/_ignores\/google-structure.html": {
+	"/_ignores/schema-examples.txt": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_ignores\/google-structure.html",
-		"oF": 0
-		},
-	"\/_ignores\/google-tracking-id.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_ignores\/google-tracking-id.html",
-		"oF": 0
-		},
-	"\/_ignores\/greencare-misc-data.txt": {
-		"cB": 0,
-		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/_ignores\/greencare-misc-data.txt",
+		"oAP": "/_ignores/schema-examples.txt",
 		"oF": 0
 		},
-	"\/_ignores\/greencaretx.sublime-project": {
+	"/_ignores/services-text.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/_ignores\/greencaretx.sublime-project",
+		"oAP": "/_ignores/services-text.txt",
 		"oF": 0
 		},
-	"\/_ignores\/greencaretx.sublime-workspace": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_ignores\/greencaretx.sublime-workspace",
-		"oF": 0
-		},
-	"\/_ignores\/schema-examples.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_ignores\/schema-examples.txt",
-		"oF": 0
-		},
-	"\/_ignores\/services-text.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_ignores\/services-text.txt",
-		"oF": 0
-		},
-	"\/apple-touch-icon-120x120-precomposed.png": {
+	"/apple-touch-icon-120x120-precomposed.png": {
 		"ft": 32768,
 		"iS": 5292,
 		"oA": 0,
-		"oAP": "\/apple-touch-icon-120x120-precomposed.png",
+		"oAP": "/apple-touch-icon-120x120-precomposed.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/apple-touch-icon-152x152-precomposed.png": {
+	"/apple-touch-icon-152x152-precomposed.png": {
 		"ft": 32768,
 		"iS": 7156,
 		"oA": 0,
-		"oAP": "\/apple-touch-icon-152x152-precomposed.png",
+		"oAP": "/apple-touch-icon-152x152-precomposed.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/apple-touch-icon-180x180-precomposed.png": {
+	"/apple-touch-icon-180x180-precomposed.png": {
 		"ft": 32768,
 		"iS": 9017,
 		"oA": 0,
-		"oAP": "\/apple-touch-icon-180x180-precomposed.png",
+		"oAP": "/apple-touch-icon-180x180-precomposed.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/apple-touch-icon-76x76-precomposed.png": {
+	"/apple-touch-icon-76x76-precomposed.png": {
 		"ft": 32768,
 		"iS": 3135,
 		"oA": 0,
-		"oAP": "\/apple-touch-icon-76x76-precomposed.png",
+		"oAP": "/apple-touch-icon-76x76-precomposed.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/apple-touch-icon.png": {
+	"/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 7156,
 		"oA": 0,
-		"oAP": "\/apple-touch-icon.png",
+		"oAP": "/apple-touch-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/bourbon\/_bourbon-deprecate.scss": {
+	"/assets/bourbon/_bourbon-deprecate.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -170,12 +152,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_bourbon-deprecate.css",
+		"oAP": "/assets/css/_bourbon-deprecate.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/_bourbon-deprecated-upcoming.scss": {
+	"/assets/bourbon/_bourbon-deprecated-upcoming.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -183,12 +165,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_bourbon-deprecated-upcoming.css",
+		"oAP": "/assets/css/_bourbon-deprecated-upcoming.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/_bourbon.scss": {
+	"/assets/bourbon/_bourbon.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -196,12 +178,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_bourbon.css",
+		"oAP": "/assets/css/_bourbon.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_border-color.scss": {
+	"/assets/bourbon/addons/_border-color.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -209,12 +191,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_border-color.css",
+		"oAP": "/assets/bourbon/css/_border-color.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_border-radius.scss": {
+	"/assets/bourbon/addons/_border-radius.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -222,12 +204,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_border-radius.css",
+		"oAP": "/assets/bourbon/css/_border-radius.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_border-style.scss": {
+	"/assets/bourbon/addons/_border-style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -235,12 +217,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_border-style.css",
+		"oAP": "/assets/bourbon/css/_border-style.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_border-width.scss": {
+	"/assets/bourbon/addons/_border-width.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -248,12 +230,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_border-width.css",
+		"oAP": "/assets/bourbon/css/_border-width.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_buttons.scss": {
+	"/assets/bourbon/addons/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -261,12 +243,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_buttons.css",
+		"oAP": "/assets/bourbon/css/_buttons.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_clearfix.scss": {
+	"/assets/bourbon/addons/_clearfix.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -274,12 +256,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_clearfix.css",
+		"oAP": "/assets/bourbon/css/_clearfix.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_ellipsis.scss": {
+	"/assets/bourbon/addons/_ellipsis.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -287,12 +269,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_ellipsis.css",
+		"oAP": "/assets/bourbon/css/_ellipsis.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_font-stacks.scss": {
+	"/assets/bourbon/addons/_font-stacks.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -300,12 +282,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_font-stacks.css",
+		"oAP": "/assets/bourbon/css/_font-stacks.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_hide-text.scss": {
+	"/assets/bourbon/addons/_hide-text.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -313,12 +295,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_hide-text.css",
+		"oAP": "/assets/bourbon/css/_hide-text.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_margin.scss": {
+	"/assets/bourbon/addons/_margin.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -326,12 +308,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_margin.css",
+		"oAP": "/assets/bourbon/css/_margin.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_padding.scss": {
+	"/assets/bourbon/addons/_padding.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -339,12 +321,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_padding.css",
+		"oAP": "/assets/bourbon/css/_padding.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_position.scss": {
+	"/assets/bourbon/addons/_position.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -352,12 +334,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_position.css",
+		"oAP": "/assets/bourbon/css/_position.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_prefixer.scss": {
+	"/assets/bourbon/addons/_prefixer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -365,12 +347,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_prefixer.css",
+		"oAP": "/assets/bourbon/css/_prefixer.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_retina-image.scss": {
+	"/assets/bourbon/addons/_retina-image.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -378,12 +360,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_retina-image.css",
+		"oAP": "/assets/bourbon/css/_retina-image.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_size.scss": {
+	"/assets/bourbon/addons/_size.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -391,12 +373,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_size.css",
+		"oAP": "/assets/bourbon/css/_size.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_text-inputs.scss": {
+	"/assets/bourbon/addons/_text-inputs.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -404,12 +386,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_text-inputs.css",
+		"oAP": "/assets/bourbon/css/_text-inputs.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_timing-functions.scss": {
+	"/assets/bourbon/addons/_timing-functions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -417,12 +399,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_timing-functions.css",
+		"oAP": "/assets/bourbon/css/_timing-functions.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_triangle.scss": {
+	"/assets/bourbon/addons/_triangle.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -430,12 +412,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_triangle.css",
+		"oAP": "/assets/bourbon/css/_triangle.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/addons\/_word-wrap.scss": {
+	"/assets/bourbon/addons/_word-wrap.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -443,12 +425,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_word-wrap.css",
+		"oAP": "/assets/bourbon/css/_word-wrap.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_animation.scss": {
+	"/assets/bourbon/css3/_animation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -456,12 +438,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_animation.css",
+		"oAP": "/assets/bourbon/css/_animation.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_appearance.scss": {
+	"/assets/bourbon/css3/_appearance.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -469,12 +451,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_appearance.css",
+		"oAP": "/assets/bourbon/css/_appearance.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_backface-visibility.scss": {
+	"/assets/bourbon/css3/_backface-visibility.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -482,12 +464,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_backface-visibility.css",
+		"oAP": "/assets/bourbon/css/_backface-visibility.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_background-image.scss": {
+	"/assets/bourbon/css3/_background-image.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -495,12 +477,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_background-image.css",
+		"oAP": "/assets/bourbon/css/_background-image.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_background.scss": {
+	"/assets/bourbon/css3/_background.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -508,12 +490,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_background.css",
+		"oAP": "/assets/bourbon/css/_background.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_border-image.scss": {
+	"/assets/bourbon/css3/_border-image.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -521,12 +503,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_border-image.css",
+		"oAP": "/assets/bourbon/css/_border-image.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_calc.scss": {
+	"/assets/bourbon/css3/_calc.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -534,12 +516,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_calc.css",
+		"oAP": "/assets/bourbon/css/_calc.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_columns.scss": {
+	"/assets/bourbon/css3/_columns.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -547,12 +529,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_columns.css",
+		"oAP": "/assets/bourbon/css/_columns.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_filter.scss": {
+	"/assets/bourbon/css3/_filter.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -560,12 +542,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_filter.css",
+		"oAP": "/assets/bourbon/css/_filter.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_flex-box.scss": {
+	"/assets/bourbon/css3/_flex-box.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -573,12 +555,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_flex-box.css",
+		"oAP": "/assets/bourbon/css/_flex-box.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_font-face.scss": {
+	"/assets/bourbon/css3/_font-face.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -586,12 +568,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_font-face.css",
+		"oAP": "/assets/bourbon/css/_font-face.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_font-feature-settings.scss": {
+	"/assets/bourbon/css3/_font-feature-settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -599,12 +581,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_font-feature-settings.css",
+		"oAP": "/assets/bourbon/css/_font-feature-settings.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_hidpi-media-query.scss": {
+	"/assets/bourbon/css3/_hidpi-media-query.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -612,12 +594,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_hidpi-media-query.css",
+		"oAP": "/assets/bourbon/css/_hidpi-media-query.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_hyphens.scss": {
+	"/assets/bourbon/css3/_hyphens.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -625,12 +607,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_hyphens.css",
+		"oAP": "/assets/bourbon/css/_hyphens.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_image-rendering.scss": {
+	"/assets/bourbon/css3/_image-rendering.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -638,12 +620,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_image-rendering.css",
+		"oAP": "/assets/bourbon/css/_image-rendering.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_keyframes.scss": {
+	"/assets/bourbon/css3/_keyframes.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -651,12 +633,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_keyframes.css",
+		"oAP": "/assets/bourbon/css/_keyframes.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_linear-gradient.scss": {
+	"/assets/bourbon/css3/_linear-gradient.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -664,12 +646,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_linear-gradient.css",
+		"oAP": "/assets/bourbon/css/_linear-gradient.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_perspective.scss": {
+	"/assets/bourbon/css3/_perspective.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -677,12 +659,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_perspective.css",
+		"oAP": "/assets/bourbon/css/_perspective.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_placeholder.scss": {
+	"/assets/bourbon/css3/_placeholder.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -690,12 +672,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_placeholder.css",
+		"oAP": "/assets/bourbon/css/_placeholder.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_radial-gradient.scss": {
+	"/assets/bourbon/css3/_radial-gradient.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -703,12 +685,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_radial-gradient.css",
+		"oAP": "/assets/bourbon/css/_radial-gradient.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_selection.scss": {
+	"/assets/bourbon/css3/_selection.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -716,12 +698,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_selection.css",
+		"oAP": "/assets/bourbon/css/_selection.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_text-decoration.scss": {
+	"/assets/bourbon/css3/_text-decoration.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -729,12 +711,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_text-decoration.css",
+		"oAP": "/assets/bourbon/css/_text-decoration.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_transform.scss": {
+	"/assets/bourbon/css3/_transform.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -742,12 +724,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_transform.css",
+		"oAP": "/assets/bourbon/css/_transform.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_transition.scss": {
+	"/assets/bourbon/css3/_transition.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -755,12 +737,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_transition.css",
+		"oAP": "/assets/bourbon/css/_transition.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/css3\/_user-select.scss": {
+	"/assets/bourbon/css3/_user-select.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -768,12 +750,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_user-select.css",
+		"oAP": "/assets/bourbon/css/_user-select.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_assign-inputs.scss": {
+	"/assets/bourbon/functions/_assign-inputs.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -781,12 +763,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_assign-inputs.css",
+		"oAP": "/assets/bourbon/css/_assign-inputs.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_contains-falsy.scss": {
+	"/assets/bourbon/functions/_contains-falsy.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -794,12 +776,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_contains-falsy.css",
+		"oAP": "/assets/bourbon/css/_contains-falsy.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_contains.scss": {
+	"/assets/bourbon/functions/_contains.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -807,12 +789,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_contains.css",
+		"oAP": "/assets/bourbon/css/_contains.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_is-length.scss": {
+	"/assets/bourbon/functions/_is-length.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -820,12 +802,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_is-length.css",
+		"oAP": "/assets/bourbon/css/_is-length.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_is-light.scss": {
+	"/assets/bourbon/functions/_is-light.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -833,12 +815,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_is-light.css",
+		"oAP": "/assets/bourbon/css/_is-light.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_is-number.scss": {
+	"/assets/bourbon/functions/_is-number.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -846,12 +828,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_is-number.css",
+		"oAP": "/assets/bourbon/css/_is-number.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_is-size.scss": {
+	"/assets/bourbon/functions/_is-size.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -859,12 +841,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_is-size.css",
+		"oAP": "/assets/bourbon/css/_is-size.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_modular-scale.scss": {
+	"/assets/bourbon/functions/_modular-scale.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -872,12 +854,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_modular-scale.css",
+		"oAP": "/assets/bourbon/css/_modular-scale.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_px-to-em.scss": {
+	"/assets/bourbon/functions/_px-to-em.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -885,12 +867,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_px-to-em.css",
+		"oAP": "/assets/bourbon/css/_px-to-em.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_px-to-rem.scss": {
+	"/assets/bourbon/functions/_px-to-rem.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -898,12 +880,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_px-to-rem.css",
+		"oAP": "/assets/bourbon/css/_px-to-rem.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_shade.scss": {
+	"/assets/bourbon/functions/_shade.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -911,12 +893,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_shade.css",
+		"oAP": "/assets/bourbon/css/_shade.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_strip-units.scss": {
+	"/assets/bourbon/functions/_strip-units.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -924,12 +906,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_strip-units.css",
+		"oAP": "/assets/bourbon/css/_strip-units.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_tint.scss": {
+	"/assets/bourbon/functions/_tint.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -937,12 +919,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_tint.css",
+		"oAP": "/assets/bourbon/css/_tint.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_transition-property-name.scss": {
+	"/assets/bourbon/functions/_transition-property-name.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -950,12 +932,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_transition-property-name.css",
+		"oAP": "/assets/bourbon/css/_transition-property-name.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/functions\/_unpack.scss": {
+	"/assets/bourbon/functions/_unpack.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -963,12 +945,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_unpack.css",
+		"oAP": "/assets/bourbon/css/_unpack.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_convert-units.scss": {
+	"/assets/bourbon/helpers/_convert-units.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -976,12 +958,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_convert-units.css",
+		"oAP": "/assets/bourbon/css/_convert-units.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_directional-values.scss": {
+	"/assets/bourbon/helpers/_directional-values.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -989,12 +971,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_directional-values.css",
+		"oAP": "/assets/bourbon/css/_directional-values.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_font-source-declaration.scss": {
+	"/assets/bourbon/helpers/_font-source-declaration.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1002,12 +984,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_font-source-declaration.css",
+		"oAP": "/assets/bourbon/css/_font-source-declaration.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_gradient-positions-parser.scss": {
+	"/assets/bourbon/helpers/_gradient-positions-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1015,12 +997,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_gradient-positions-parser.css",
+		"oAP": "/assets/bourbon/css/_gradient-positions-parser.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_linear-angle-parser.scss": {
+	"/assets/bourbon/helpers/_linear-angle-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1028,12 +1010,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_linear-angle-parser.css",
+		"oAP": "/assets/bourbon/css/_linear-angle-parser.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_linear-gradient-parser.scss": {
+	"/assets/bourbon/helpers/_linear-gradient-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1041,12 +1023,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_linear-gradient-parser.css",
+		"oAP": "/assets/bourbon/css/_linear-gradient-parser.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_linear-positions-parser.scss": {
+	"/assets/bourbon/helpers/_linear-positions-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1054,12 +1036,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_linear-positions-parser.css",
+		"oAP": "/assets/bourbon/css/_linear-positions-parser.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_linear-side-corner-parser.scss": {
+	"/assets/bourbon/helpers/_linear-side-corner-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1067,12 +1049,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_linear-side-corner-parser.css",
+		"oAP": "/assets/bourbon/css/_linear-side-corner-parser.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_radial-arg-parser.scss": {
+	"/assets/bourbon/helpers/_radial-arg-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1080,12 +1062,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_radial-arg-parser.css",
+		"oAP": "/assets/bourbon/css/_radial-arg-parser.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_radial-gradient-parser.scss": {
+	"/assets/bourbon/helpers/_radial-gradient-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1093,12 +1075,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_radial-gradient-parser.css",
+		"oAP": "/assets/bourbon/css/_radial-gradient-parser.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_radial-positions-parser.scss": {
+	"/assets/bourbon/helpers/_radial-positions-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1106,12 +1088,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_radial-positions-parser.css",
+		"oAP": "/assets/bourbon/css/_radial-positions-parser.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_render-gradients.scss": {
+	"/assets/bourbon/helpers/_render-gradients.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1119,12 +1101,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_render-gradients.css",
+		"oAP": "/assets/bourbon/css/_render-gradients.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_shape-size-stripper.scss": {
+	"/assets/bourbon/helpers/_shape-size-stripper.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1132,12 +1114,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_shape-size-stripper.css",
+		"oAP": "/assets/bourbon/css/_shape-size-stripper.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/helpers\/_str-to-num.scss": {
+	"/assets/bourbon/helpers/_str-to-num.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1145,12 +1127,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_str-to-num.css",
+		"oAP": "/assets/bourbon/css/_str-to-num.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/settings\/_asset-pipeline.scss": {
+	"/assets/bourbon/settings/_asset-pipeline.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1158,12 +1140,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_asset-pipeline.css",
+		"oAP": "/assets/bourbon/css/_asset-pipeline.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/settings\/_deprecation-warnings.scss": {
+	"/assets/bourbon/settings/_deprecation-warnings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1171,12 +1153,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_deprecation-warnings.css",
+		"oAP": "/assets/bourbon/css/_deprecation-warnings.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/settings\/_prefixer.scss": {
+	"/assets/bourbon/settings/_prefixer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1184,12 +1166,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_prefixer.css",
+		"oAP": "/assets/bourbon/css/_prefixer.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/bourbon\/settings\/_px-to-em.scss": {
+	"/assets/bourbon/settings/_px-to-em.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1197,12 +1179,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/bourbon\/css\/_px-to-em.css",
+		"oAP": "/assets/bourbon/css/_px-to-em.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/_grid-settings.scss": {
+	"/assets/neat/_grid-settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1210,12 +1192,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_grid-settings.css",
+		"oAP": "/assets/css/_grid-settings.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/_neat-helpers.scss": {
+	"/assets/neat/_neat-helpers.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1223,12 +1205,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_neat-helpers.css",
+		"oAP": "/assets/css/_neat-helpers.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/_neat.scss": {
+	"/assets/neat/_neat.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1236,12 +1218,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_neat.css",
+		"oAP": "/assets/css/_neat.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/functions\/_new-breakpoint.scss": {
+	"/assets/neat/functions/_new-breakpoint.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1249,12 +1231,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_new-breakpoint.css",
+		"oAP": "/assets/neat/css/_new-breakpoint.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/functions\/_private.scss": {
+	"/assets/neat/functions/_private.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1262,12 +1244,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_private.css",
+		"oAP": "/assets/neat/css/_private.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_box-sizing.scss": {
+	"/assets/neat/grid/_box-sizing.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1275,12 +1257,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_box-sizing.css",
+		"oAP": "/assets/neat/css/_box-sizing.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_direction-context.scss": {
+	"/assets/neat/grid/_direction-context.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1288,12 +1270,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_direction-context.css",
+		"oAP": "/assets/neat/css/_direction-context.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_display-context.scss": {
+	"/assets/neat/grid/_display-context.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1301,12 +1283,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_display-context.css",
+		"oAP": "/assets/neat/css/_display-context.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_fill-parent.scss": {
+	"/assets/neat/grid/_fill-parent.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1314,12 +1296,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_fill-parent.css",
+		"oAP": "/assets/neat/css/_fill-parent.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_media.scss": {
+	"/assets/neat/grid/_media.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1327,12 +1309,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_media.css",
+		"oAP": "/assets/neat/css/_media.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_omega.scss": {
+	"/assets/neat/grid/_omega.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1340,12 +1322,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_omega.css",
+		"oAP": "/assets/neat/css/_omega.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_outer-container.scss": {
+	"/assets/neat/grid/_outer-container.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1353,12 +1335,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_outer-container.css",
+		"oAP": "/assets/neat/css/_outer-container.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_pad.scss": {
+	"/assets/neat/grid/_pad.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1366,12 +1348,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_pad.css",
+		"oAP": "/assets/neat/css/_pad.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_private.scss": {
+	"/assets/neat/grid/_private.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1379,12 +1361,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_private.css",
+		"oAP": "/assets/neat/css/_private.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_row.scss": {
+	"/assets/neat/grid/_row.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1392,12 +1374,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_row.css",
+		"oAP": "/assets/neat/css/_row.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_shift.scss": {
+	"/assets/neat/grid/_shift.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1405,12 +1387,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_shift.css",
+		"oAP": "/assets/neat/css/_shift.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_span-columns.scss": {
+	"/assets/neat/grid/_span-columns.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1418,12 +1400,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_span-columns.css",
+		"oAP": "/assets/neat/css/_span-columns.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_to-deprecate.scss": {
+	"/assets/neat/grid/_to-deprecate.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1431,12 +1413,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_to-deprecate.css",
+		"oAP": "/assets/neat/css/_to-deprecate.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/grid\/_visual-grid.scss": {
+	"/assets/neat/grid/_visual-grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1444,12 +1426,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_visual-grid.css",
+		"oAP": "/assets/neat/css/_visual-grid.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/mixins\/_clearfix.scss": {
+	"/assets/neat/mixins/_clearfix.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1457,12 +1439,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_clearfix.css",
+		"oAP": "/assets/neat/css/_clearfix.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/settings\/_disable-warnings.scss": {
+	"/assets/neat/settings/_disable-warnings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1470,12 +1452,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_disable-warnings.css",
+		"oAP": "/assets/neat/css/_disable-warnings.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/settings\/_grid.scss": {
+	"/assets/neat/settings/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1483,12 +1465,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_grid.css",
+		"oAP": "/assets/neat/css/_grid.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/assets\/neat\/settings\/_visual-grid.scss": {
+	"/assets/neat/settings/_visual-grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1496,140 +1478,161 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/neat\/css\/_visual-grid.css",
+		"oAP": "/assets/neat/css/_visual-grid.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/bower_components\/jquery\/.bower.json": {
+	"/bower.json": {
 		"ft": 524288,
-		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/.bower.json",
+		"oA": 1,
+		"oAP": "/bower-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/jquery\/AUTHORS.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/AUTHORS.txt",
-		"oF": 0
-		},
-	"\/bower_components\/jquery\/bower.json": {
+	"/bower_components/jquery/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/bower.json",
+		"oAP": "/bower_components/jquery/.bower.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/jquery\/dist\/core.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/dist\/core.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/jquery\/dist\/jquery.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/dist\/jquery.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/jquery\/dist\/jquery.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/dist\/jquery.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/jquery\/dist\/jquery.min.map": {
+	"/bower_components/jquery/AUTHORS.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/dist\/jquery.min.map",
+		"oAP": "/bower_components/jquery/AUTHORS.txt",
 		"oF": 0
 		},
-	"\/bower_components\/jquery\/dist\/jquery.slim.js": {
+	"/bower_components/jquery/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/jquery/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/jquery/dist/core.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/dist\/jquery.slim.js",
+		"oAP": "/bower_components/jquery/dist/core.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/dist\/jquery.slim.min.js": {
+	"/bower_components/jquery/dist/jquery.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/dist\/jquery.slim.min.js",
+		"oAP": "/bower_components/jquery/dist/jquery.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/dist\/jquery.slim.min.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/dist\/jquery.slim.min.map",
-		"oF": 0
-		},
-	"\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.js": {
+	"/bower_components/jquery/dist/jquery.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.js",
+		"oAP": "/bower_components/jquery/dist/jquery.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.js": {
+	"/bower_components/jquery/dist/jquery.min.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/bower_components/jquery/dist/jquery.min.map",
+		"oF": 0
+		},
+	"/bower_components/jquery/dist/jquery.slim.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.js",
+		"oAP": "/bower_components/jquery/dist/jquery.slim.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map": {
+	"/bower_components/jquery/dist/jquery.slim.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/jquery/dist/jquery.slim.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/jquery/dist/jquery.slim.min.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map",
+		"oAP": "/bower_components/jquery/dist/jquery.slim.min.map",
 		"oF": 0
 		},
-	"\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt": {
+	"/bower_components/jquery/external/sizzle/dist/sizzle.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/jquery/external/sizzle/dist/sizzle.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/jquery/external/sizzle/dist/sizzle.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/jquery/external/sizzle/dist/sizzle.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/jquery/external/sizzle/dist/sizzle.min.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt",
+		"oAP": "/bower_components/jquery/external/sizzle/dist/sizzle.min.map",
 		"oF": 0
 		},
-	"\/bower_components\/jquery\/LICENSE.txt": {
+	"/bower_components/jquery/external/sizzle/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/LICENSE.txt",
+		"oAP": "/bower_components/jquery/external/sizzle/LICENSE.txt",
 		"oF": 0
 		},
-	"\/bower_components\/jquery\/README.md": {
+	"/bower_components/jquery/LICENSE.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/bower_components/jquery/LICENSE.txt",
+		"oF": 0
+		},
+	"/bower_components/jquery/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 0,
@@ -1637,8 +1640,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/README.md",
+		"oAP": "/bower_components/jquery/README.md",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -1647,1133 +1651,1296 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/bower_components\/jquery\/src\/.eslintrc.json": {
+	"/bower_components/jquery/src/.eslintrc.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/.eslintrc.json",
+		"oAP": "/bower_components/jquery/src/.eslintrc.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/jquery\/src\/ajax.js": {
+	"/bower_components/jquery/src/ajax.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/ajax.js",
+		"oAP": "/bower_components/jquery/src/ajax.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/ajax\/jsonp.js": {
+	"/bower_components/jquery/src/ajax/jsonp.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/ajax\/jsonp.js",
+		"oAP": "/bower_components/jquery/src/ajax/jsonp.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/ajax\/load.js": {
+	"/bower_components/jquery/src/ajax/load.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/ajax\/load.js",
+		"oAP": "/bower_components/jquery/src/ajax/load.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/ajax\/parseXML.js": {
+	"/bower_components/jquery/src/ajax/parseXML.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/ajax\/parseXML.js",
+		"oAP": "/bower_components/jquery/src/ajax/parseXML.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/ajax\/script.js": {
+	"/bower_components/jquery/src/ajax/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/ajax\/script.js",
+		"oAP": "/bower_components/jquery/src/ajax/script.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/ajax\/var\/location.js": {
+	"/bower_components/jquery/src/ajax/var/location.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/ajax\/var\/location.js",
+		"oAP": "/bower_components/jquery/src/ajax/var/location.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/ajax\/var\/nonce.js": {
+	"/bower_components/jquery/src/ajax/var/nonce.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/ajax\/var\/nonce.js",
+		"oAP": "/bower_components/jquery/src/ajax/var/nonce.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/ajax\/var\/rquery.js": {
+	"/bower_components/jquery/src/ajax/var/rquery.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/ajax\/var\/rquery.js",
+		"oAP": "/bower_components/jquery/src/ajax/var/rquery.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/ajax\/xhr.js": {
+	"/bower_components/jquery/src/ajax/xhr.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/ajax\/xhr.js",
+		"oAP": "/bower_components/jquery/src/ajax/xhr.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/attributes.js": {
+	"/bower_components/jquery/src/attributes.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/attributes.js",
+		"oAP": "/bower_components/jquery/src/attributes.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/attributes\/attr.js": {
+	"/bower_components/jquery/src/attributes/attr.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/attributes\/attr.js",
+		"oAP": "/bower_components/jquery/src/attributes/attr.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/attributes\/classes.js": {
+	"/bower_components/jquery/src/attributes/classes.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/attributes\/classes.js",
+		"oAP": "/bower_components/jquery/src/attributes/classes.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/attributes\/prop.js": {
+	"/bower_components/jquery/src/attributes/prop.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/attributes\/prop.js",
+		"oAP": "/bower_components/jquery/src/attributes/prop.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/attributes\/support.js": {
+	"/bower_components/jquery/src/attributes/support.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/attributes\/support.js",
+		"oAP": "/bower_components/jquery/src/attributes/support.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/attributes\/val.js": {
+	"/bower_components/jquery/src/attributes/val.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/attributes\/val.js",
+		"oAP": "/bower_components/jquery/src/attributes/val.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/callbacks.js": {
+	"/bower_components/jquery/src/callbacks.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/callbacks.js",
+		"oAP": "/bower_components/jquery/src/callbacks.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/core.js": {
+	"/bower_components/jquery/src/core.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/core.js",
+		"oAP": "/bower_components/jquery/src/core.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/core\/access.js": {
+	"/bower_components/jquery/src/core/access.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/core\/access.js",
+		"oAP": "/bower_components/jquery/src/core/access.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/core\/DOMEval.js": {
+	"/bower_components/jquery/src/core/camelCase.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/core\/DOMEval.js",
+		"oAP": "/bower_components/jquery/src/core/camelCase.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/core\/init.js": {
+	"/bower_components/jquery/src/core/DOMEval.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/core\/init.js",
+		"oAP": "/bower_components/jquery/src/core/DOMEval.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/core\/parseHTML.js": {
+	"/bower_components/jquery/src/core/init.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/core\/parseHTML.js",
+		"oAP": "/bower_components/jquery/src/core/init.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/core\/ready-no-deferred.js": {
+	"/bower_components/jquery/src/core/nodeName.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/core\/ready-no-deferred.js",
+		"oAP": "/bower_components/jquery/src/core/nodeName.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/core\/ready.js": {
+	"/bower_components/jquery/src/core/parseHTML.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/core\/ready.js",
+		"oAP": "/bower_components/jquery/src/core/parseHTML.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/core\/readyException.js": {
+	"/bower_components/jquery/src/core/ready-no-deferred.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/core\/readyException.js",
+		"oAP": "/bower_components/jquery/src/core/ready-no-deferred.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/core\/stripAndCollapse.js": {
+	"/bower_components/jquery/src/core/ready.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/core\/stripAndCollapse.js",
+		"oAP": "/bower_components/jquery/src/core/ready.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/core\/support.js": {
+	"/bower_components/jquery/src/core/readyException.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/core\/support.js",
+		"oAP": "/bower_components/jquery/src/core/readyException.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js": {
+	"/bower_components/jquery/src/core/stripAndCollapse.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js",
+		"oAP": "/bower_components/jquery/src/core/stripAndCollapse.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css.js": {
+	"/bower_components/jquery/src/core/support.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css.js",
+		"oAP": "/bower_components/jquery/src/core/support.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/addGetHookIf.js": {
+	"/bower_components/jquery/src/core/toType.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css\/addGetHookIf.js",
+		"oAP": "/bower_components/jquery/src/core/toType.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/adjustCSS.js": {
+	"/bower_components/jquery/src/core/var/rsingleTag.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css\/adjustCSS.js",
+		"oAP": "/bower_components/jquery/src/core/var/rsingleTag.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/curCSS.js": {
+	"/bower_components/jquery/src/css.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css\/curCSS.js",
+		"oAP": "/bower_components/jquery/src/css.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js": {
+	"/bower_components/jquery/src/css/addGetHookIf.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js",
+		"oAP": "/bower_components/jquery/src/css/addGetHookIf.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/showHide.js": {
+	"/bower_components/jquery/src/css/adjustCSS.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css\/showHide.js",
+		"oAP": "/bower_components/jquery/src/css/adjustCSS.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/support.js": {
+	"/bower_components/jquery/src/css/curCSS.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css\/support.js",
+		"oAP": "/bower_components/jquery/src/css/curCSS.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/var\/cssExpand.js": {
+	"/bower_components/jquery/src/css/hiddenVisibleSelectors.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css\/var\/cssExpand.js",
+		"oAP": "/bower_components/jquery/src/css/hiddenVisibleSelectors.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/var\/getStyles.js": {
+	"/bower_components/jquery/src/css/showHide.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css\/var\/getStyles.js",
+		"oAP": "/bower_components/jquery/src/css/showHide.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/var\/isHiddenWithinTree.js": {
+	"/bower_components/jquery/src/css/support.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css\/var\/isHiddenWithinTree.js",
+		"oAP": "/bower_components/jquery/src/css/support.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/var\/rmargin.js": {
+	"/bower_components/jquery/src/css/var/cssExpand.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css\/var\/rmargin.js",
+		"oAP": "/bower_components/jquery/src/css/var/cssExpand.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/var\/rnumnonpx.js": {
+	"/bower_components/jquery/src/css/var/getStyles.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css\/var\/rnumnonpx.js",
+		"oAP": "/bower_components/jquery/src/css/var/getStyles.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/css\/var\/swap.js": {
+	"/bower_components/jquery/src/css/var/isHiddenWithinTree.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/css\/var\/swap.js",
+		"oAP": "/bower_components/jquery/src/css/var/isHiddenWithinTree.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/data.js": {
+	"/bower_components/jquery/src/css/var/rboxStyle.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/data.js",
+		"oAP": "/bower_components/jquery/src/css/var/rboxStyle.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/data\/Data.js": {
+	"/bower_components/jquery/src/css/var/rnumnonpx.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/data\/Data.js",
+		"oAP": "/bower_components/jquery/src/css/var/rnumnonpx.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/data\/var\/acceptData.js": {
+	"/bower_components/jquery/src/css/var/swap.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/data\/var\/acceptData.js",
+		"oAP": "/bower_components/jquery/src/css/var/swap.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/data\/var\/dataPriv.js": {
+	"/bower_components/jquery/src/data.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/data\/var\/dataPriv.js",
+		"oAP": "/bower_components/jquery/src/data.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/data\/var\/dataUser.js": {
+	"/bower_components/jquery/src/data/Data.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/data\/var\/dataUser.js",
+		"oAP": "/bower_components/jquery/src/data/Data.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/deferred.js": {
+	"/bower_components/jquery/src/data/var/acceptData.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/deferred.js",
+		"oAP": "/bower_components/jquery/src/data/var/acceptData.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/deferred\/exceptionHook.js": {
+	"/bower_components/jquery/src/data/var/dataPriv.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/deferred\/exceptionHook.js",
+		"oAP": "/bower_components/jquery/src/data/var/dataPriv.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/deprecated.js": {
+	"/bower_components/jquery/src/data/var/dataUser.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/deprecated.js",
+		"oAP": "/bower_components/jquery/src/data/var/dataUser.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/dimensions.js": {
+	"/bower_components/jquery/src/deferred.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/dimensions.js",
+		"oAP": "/bower_components/jquery/src/deferred.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/effects.js": {
+	"/bower_components/jquery/src/deferred/exceptionHook.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/effects.js",
+		"oAP": "/bower_components/jquery/src/deferred/exceptionHook.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/effects\/animatedSelector.js": {
+	"/bower_components/jquery/src/deprecated.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/effects\/animatedSelector.js",
+		"oAP": "/bower_components/jquery/src/deprecated.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/effects\/Tween.js": {
+	"/bower_components/jquery/src/dimensions.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/effects\/Tween.js",
+		"oAP": "/bower_components/jquery/src/dimensions.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/event.js": {
+	"/bower_components/jquery/src/effects.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/event.js",
+		"oAP": "/bower_components/jquery/src/effects.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/event\/ajax.js": {
+	"/bower_components/jquery/src/effects/animatedSelector.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/event\/ajax.js",
+		"oAP": "/bower_components/jquery/src/effects/animatedSelector.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/event\/alias.js": {
+	"/bower_components/jquery/src/effects/Tween.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/event\/alias.js",
+		"oAP": "/bower_components/jquery/src/effects/Tween.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/event\/focusin.js": {
+	"/bower_components/jquery/src/event.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/event\/focusin.js",
+		"oAP": "/bower_components/jquery/src/event.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/event\/support.js": {
+	"/bower_components/jquery/src/event/ajax.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/event\/support.js",
+		"oAP": "/bower_components/jquery/src/event/ajax.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/event\/trigger.js": {
+	"/bower_components/jquery/src/event/alias.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/event\/trigger.js",
+		"oAP": "/bower_components/jquery/src/event/alias.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/exports\/amd.js": {
+	"/bower_components/jquery/src/event/focusin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/exports\/amd.js",
+		"oAP": "/bower_components/jquery/src/event/focusin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/exports\/global.js": {
+	"/bower_components/jquery/src/event/support.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/exports\/global.js",
+		"oAP": "/bower_components/jquery/src/event/support.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/jquery.js": {
+	"/bower_components/jquery/src/event/trigger.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/jquery.js",
+		"oAP": "/bower_components/jquery/src/event/trigger.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/manipulation.js": {
+	"/bower_components/jquery/src/exports/amd.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/manipulation.js",
+		"oAP": "/bower_components/jquery/src/exports/amd.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js": {
+	"/bower_components/jquery/src/exports/global.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js",
+		"oAP": "/bower_components/jquery/src/exports/global.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/manipulation\/buildFragment.js": {
+	"/bower_components/jquery/src/jquery.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/manipulation\/buildFragment.js",
+		"oAP": "/bower_components/jquery/src/jquery.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/manipulation\/getAll.js": {
+	"/bower_components/jquery/src/manipulation.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/manipulation\/getAll.js",
+		"oAP": "/bower_components/jquery/src/manipulation.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/manipulation\/setGlobalEval.js": {
+	"/bower_components/jquery/src/manipulation/_evalUrl.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/jquery/src/manipulation/_evalUrl.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/jquery/src/manipulation/buildFragment.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/jquery/src/manipulation/buildFragment.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/jquery/src/manipulation/getAll.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/jquery/src/manipulation/getAll.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/jquery/src/manipulation/setGlobalEval.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/jquery/src/manipulation/setGlobalEval.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/jquery/src/manipulation/support.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/jquery/src/manipulation/support.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/jquery/src/manipulation/var/rcheckableType.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/manipulation\/setGlobalEval.js",
+		"oAP": "/bower_components/jquery/src/manipulation/var/rcheckableType.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/manipulation\/support.js": {
+	"/bower_components/jquery/src/manipulation/var/rscriptType.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/manipulation\/support.js",
+		"oAP": "/bower_components/jquery/src/manipulation/var/rscriptType.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js": {
+	"/bower_components/jquery/src/manipulation/var/rtagName.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js",
+		"oAP": "/bower_components/jquery/src/manipulation/var/rtagName.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/manipulation\/var\/rscriptType.js": {
+	"/bower_components/jquery/src/manipulation/wrapMap.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/manipulation\/var\/rscriptType.js",
+		"oAP": "/bower_components/jquery/src/manipulation/wrapMap.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/manipulation\/var\/rtagName.js": {
+	"/bower_components/jquery/src/offset.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/manipulation\/var\/rtagName.js",
+		"oAP": "/bower_components/jquery/src/offset.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/manipulation\/wrapMap.js": {
+	"/bower_components/jquery/src/queue.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/manipulation\/wrapMap.js",
+		"oAP": "/bower_components/jquery/src/queue.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/offset.js": {
+	"/bower_components/jquery/src/queue/delay.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/offset.js",
+		"oAP": "/bower_components/jquery/src/queue/delay.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/queue.js": {
+	"/bower_components/jquery/src/selector-native.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/queue.js",
+		"oAP": "/bower_components/jquery/src/selector-native.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/queue\/delay.js": {
+	"/bower_components/jquery/src/selector-sizzle.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/queue\/delay.js",
+		"oAP": "/bower_components/jquery/src/selector-sizzle.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/selector-native.js": {
+	"/bower_components/jquery/src/selector.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/selector-native.js",
+		"oAP": "/bower_components/jquery/src/selector.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/selector-sizzle.js": {
+	"/bower_components/jquery/src/serialize.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/selector-sizzle.js",
+		"oAP": "/bower_components/jquery/src/serialize.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/selector.js": {
+	"/bower_components/jquery/src/traversing.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/selector.js",
+		"oAP": "/bower_components/jquery/src/traversing.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/serialize.js": {
+	"/bower_components/jquery/src/traversing/findFilter.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/serialize.js",
+		"oAP": "/bower_components/jquery/src/traversing/findFilter.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/traversing.js": {
+	"/bower_components/jquery/src/traversing/var/dir.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/traversing.js",
+		"oAP": "/bower_components/jquery/src/traversing/var/dir.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/traversing\/findFilter.js": {
+	"/bower_components/jquery/src/traversing/var/rneedsContext.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/traversing\/findFilter.js",
+		"oAP": "/bower_components/jquery/src/traversing/var/rneedsContext.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/traversing\/var\/dir.js": {
+	"/bower_components/jquery/src/traversing/var/siblings.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/traversing\/var\/dir.js",
+		"oAP": "/bower_components/jquery/src/traversing/var/siblings.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js": {
+	"/bower_components/jquery/src/var/arr.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js",
+		"oAP": "/bower_components/jquery/src/var/arr.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/traversing\/var\/siblings.js": {
+	"/bower_components/jquery/src/var/class2type.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/traversing\/var\/siblings.js",
+		"oAP": "/bower_components/jquery/src/var/class2type.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/arr.js": {
+	"/bower_components/jquery/src/var/concat.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/arr.js",
+		"oAP": "/bower_components/jquery/src/var/concat.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/class2type.js": {
+	"/bower_components/jquery/src/var/document.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/class2type.js",
+		"oAP": "/bower_components/jquery/src/var/document.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/concat.js": {
+	"/bower_components/jquery/src/var/documentElement.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/concat.js",
+		"oAP": "/bower_components/jquery/src/var/documentElement.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/document.js": {
+	"/bower_components/jquery/src/var/fnToString.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/document.js",
+		"oAP": "/bower_components/jquery/src/var/fnToString.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/documentElement.js": {
+	"/bower_components/jquery/src/var/getProto.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/documentElement.js",
+		"oAP": "/bower_components/jquery/src/var/getProto.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/fnToString.js": {
+	"/bower_components/jquery/src/var/hasOwn.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/fnToString.js",
+		"oAP": "/bower_components/jquery/src/var/hasOwn.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/getProto.js": {
+	"/bower_components/jquery/src/var/indexOf.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/getProto.js",
+		"oAP": "/bower_components/jquery/src/var/indexOf.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/hasOwn.js": {
+	"/bower_components/jquery/src/var/isFunction.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/hasOwn.js",
+		"oAP": "/bower_components/jquery/src/var/isFunction.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/indexOf.js": {
+	"/bower_components/jquery/src/var/isWindow.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/indexOf.js",
+		"oAP": "/bower_components/jquery/src/var/isWindow.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/ObjectFunctionString.js": {
+	"/bower_components/jquery/src/var/ObjectFunctionString.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/ObjectFunctionString.js",
+		"oAP": "/bower_components/jquery/src/var/ObjectFunctionString.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/pnum.js": {
+	"/bower_components/jquery/src/var/pnum.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/pnum.js",
+		"oAP": "/bower_components/jquery/src/var/pnum.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/push.js": {
+	"/bower_components/jquery/src/var/push.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/push.js",
+		"oAP": "/bower_components/jquery/src/var/push.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/rcssNum.js": {
+	"/bower_components/jquery/src/var/rcssNum.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/rcssNum.js",
+		"oAP": "/bower_components/jquery/src/var/rcssNum.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/rnothtmlwhite.js": {
+	"/bower_components/jquery/src/var/rnothtmlwhite.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/rnothtmlwhite.js",
+		"oAP": "/bower_components/jquery/src/var/rnothtmlwhite.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/slice.js": {
+	"/bower_components/jquery/src/var/slice.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/slice.js",
+		"oAP": "/bower_components/jquery/src/var/slice.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/support.js": {
+	"/bower_components/jquery/src/var/support.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/support.js",
+		"oAP": "/bower_components/jquery/src/var/support.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/var\/toString.js": {
+	"/bower_components/jquery/src/var/toString.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/var\/toString.js",
+		"oAP": "/bower_components/jquery/src/var/toString.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/jquery\/src\/wrap.js": {
+	"/bower_components/jquery/src/wrap.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/jquery\/src\/wrap.js",
+		"oAP": "/bower_components/jquery/src/wrap.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/magnific-popup\/.bower.json": {
+	"/bower_components/magnific-popup/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/.bower.json",
+		"oAP": "/bower_components/magnific-popup/.bower.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/magnific-popup\/.gitignore": {
+	"/bower_components/magnific-popup/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/.gitignore",
+		"oAP": "/bower_components/magnific-popup/.gitignore",
 		"oF": 0
 		},
-	"\/bower_components\/magnific-popup\/.jshintrc": {
+	"/bower_components/magnific-popup/.jshintrc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/.jshintrc",
+		"oAP": "/bower_components/magnific-popup/.jshintrc",
 		"oF": 0
 		},
-	"\/bower_components\/magnific-popup\/.travis.yml": {
+	"/bower_components/magnific-popup/.travis.yml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/.travis.yml",
+		"oAP": "/bower_components/magnific-popup/.travis.yml",
 		"oF": 0
 		},
-	"\/bower_components\/magnific-popup\/bower.json": {
+	"/bower_components/magnific-popup/bower.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/bower.json",
+		"oAP": "/bower_components/magnific-popup/bower.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/magnific-popup\/composer.json": {
+	"/bower_components/magnific-popup/composer.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/composer.json",
+		"oAP": "/bower_components/magnific-popup/composer.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.js": {
+	"/bower_components/magnific-popup/dist/jquery.magnific-popup.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.js",
+		"oAP": "/bower_components/magnific-popup/dist/jquery.magnific-popup.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js": {
+	"/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js",
+		"oAP": "/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/magnific-popup\/dist\/magnific-popup.css": {
+	"/bower_components/magnific-popup/dist/magnific-popup.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/dist\/magnific-popup.css",
+		"oAP": "/bower_components/magnific-popup/dist/magnific-popup.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/bower_components\/magnific-popup\/Gruntfile.js": {
+	"/bower_components/magnific-popup/Gruntfile.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/Gruntfile.js",
+		"oAP": "/bower_components/magnific-popup/Gruntfile.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/magnific-popup\/LICENSE": {
+	"/bower_components/magnific-popup/LICENSE": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/LICENSE",
+		"oAP": "/bower_components/magnific-popup/LICENSE",
 		"oF": 0
 		},
-	"\/bower_components\/magnific-popup\/magnific-popup.jquery.json": {
+	"/bower_components/magnific-popup/magnific-popup.jquery.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/magnific-popup.jquery.json",
+		"oAP": "/bower_components/magnific-popup/magnific-popup.jquery.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/magnific-popup\/package.json": {
+	"/bower_components/magnific-popup/package.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/package.json",
+		"oAP": "/bower_components/magnific-popup/package.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/magnific-popup\/README.md": {
+	"/bower_components/magnific-popup/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 0,
@@ -2781,8 +2948,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/README.md",
+		"oAP": "/bower_components/magnific-popup/README.md",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -2791,7 +2959,7 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/bower_components\/magnific-popup\/src\/css\/_settings.scss": {
+	"/bower_components/magnific-popup/src/css/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2799,12 +2967,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/bower_components\/magnific-popup\/src\/css\/_settings.scss",
+		"oAP": "/bower_components/magnific-popup/src/css/_settings.scss",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/bower_components\/magnific-popup\/src\/css\/main.scss": {
+	"/bower_components/magnific-popup/src/css/main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2812,236 +2980,397 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/src\/css\/main.scss",
+		"oAP": "/bower_components/magnific-popup/src/css/main.scss",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/bower_components\/magnific-popup\/src\/js\/ajax.js": {
+	"/bower_components/magnific-popup/src/js/ajax.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/src\/js\/ajax.js",
+		"oAP": "/bower_components/magnific-popup/src/js/ajax.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/magnific-popup\/src\/js\/core.js": {
+	"/bower_components/magnific-popup/src/js/core.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/src\/js\/core.js",
+		"oAP": "/bower_components/magnific-popup/src/js/core.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/magnific-popup\/src\/js\/gallery.js": {
+	"/bower_components/magnific-popup/src/js/gallery.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/src\/js\/gallery.js",
+		"oAP": "/bower_components/magnific-popup/src/js/gallery.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/magnific-popup\/src\/js\/iframe.js": {
+	"/bower_components/magnific-popup/src/js/iframe.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/src\/js\/iframe.js",
+		"oAP": "/bower_components/magnific-popup/src/js/iframe.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/magnific-popup\/src\/js\/image.js": {
+	"/bower_components/magnific-popup/src/js/image.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/src\/js\/image.js",
+		"oAP": "/bower_components/magnific-popup/src/js/image.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/magnific-popup\/src\/js\/inline.js": {
+	"/bower_components/magnific-popup/src/js/inline.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/src\/js\/inline.js",
+		"oAP": "/bower_components/magnific-popup/src/js/inline.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/magnific-popup\/src\/js\/retina.js": {
+	"/bower_components/magnific-popup/src/js/retina.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/src\/js\/retina.js",
+		"oAP": "/bower_components/magnific-popup/src/js/retina.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/magnific-popup\/src\/js\/zoom.js": {
+	"/bower_components/magnific-popup/src/js/zoom.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/magnific-popup\/src\/js\/zoom.js",
+		"oAP": "/bower_components/magnific-popup/src/js/zoom.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/REM-unit-polyfill\/.bower.json": {
+	"/bower_components/normalize-css/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/.bower.json",
+		"oAP": "/bower_components/normalize-css/.bower.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/REM-unit-polyfill\/bower.json": {
+	"/bower_components/normalize-css/.editorconfig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/bower_components/normalize-css/.editorconfig",
+		"oF": 0
+		},
+	"/bower_components/normalize-css/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/bower_components/normalize-css/.gitattributes",
+		"oF": 0
+		},
+	"/bower_components/normalize-css/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/bower_components/normalize-css/.gitignore",
+		"oF": 0
+		},
+	"/bower_components/normalize-css/.travis.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/bower_components/normalize-css/.travis.yml",
+		"oF": 0
+		},
+	"/bower_components/normalize-css/CHANGELOG.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/bower_components/normalize-css/CHANGELOG.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/normalize-css/CONTRIBUTING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/bower_components/normalize-css/CONTRIBUTING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/normalize-css/LICENSE.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/bower_components/normalize-css/LICENSE.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/normalize-css/normalize.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "/bower_components/normalize-css/normalize.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/bower_components/normalize-css/package-lock.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/bower.json",
+		"oAP": "/bower_components/normalize-css/package-lock.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/REM-unit-polyfill\/css\/foundation.css": {
+	"/bower_components/normalize-css/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/normalize-css/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/normalize-css/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/bower_components/normalize-css/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/normalize-css/test.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/bower_components/normalize-css/test.html",
+		"oF": 0
+		},
+	"/bower_components/REM-unit-polyfill/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/REM-unit-polyfill/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/REM-unit-polyfill/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/REM-unit-polyfill/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/REM-unit-polyfill/css/foundation.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/css\/foundation.css",
+		"oAP": "/bower_components/REM-unit-polyfill/css/foundation.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/bower_components\/REM-unit-polyfill\/css\/general.css": {
+	"/bower_components/REM-unit-polyfill/css/general.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/css\/general.css",
+		"oAP": "/bower_components/REM-unit-polyfill/css/general.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/bower_components\/REM-unit-polyfill\/css\/ignore.css": {
+	"/bower_components/REM-unit-polyfill/css/ignore.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/css\/ignore.css",
+		"oAP": "/bower_components/REM-unit-polyfill/css/ignore.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/bower_components\/REM-unit-polyfill\/css\/importee1.css": {
+	"/bower_components/REM-unit-polyfill/css/importee1.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/css\/importee1.css",
+		"oAP": "/bower_components/REM-unit-polyfill/css/importee1.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/bower_components\/REM-unit-polyfill\/css\/importee2.css": {
+	"/bower_components/REM-unit-polyfill/css/importee2.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/css\/importee2.css",
+		"oAP": "/bower_components/REM-unit-polyfill/css/importee2.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/bower_components\/REM-unit-polyfill\/css\/importer.css": {
+	"/bower_components/REM-unit-polyfill/css/importer.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/css\/importer.css",
+		"oAP": "/bower_components/REM-unit-polyfill/css/importer.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/bower_components\/REM-unit-polyfill\/css\/nested_imports\/nested_importee1.css": {
+	"/bower_components/REM-unit-polyfill/css/nested_imports/nested_importee1.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/css\/nested_imports\/nested_importee1.css",
+		"oAP": "/bower_components/REM-unit-polyfill/css/nested_imports/nested_importee1.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/bower_components\/REM-unit-polyfill\/css\/nested_imports\/nested_importee2.css": {
+	"/bower_components/REM-unit-polyfill/css/nested_imports/nested_importee2.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/css\/nested_imports\/nested_importee2.css",
+		"oAP": "/bower_components/REM-unit-polyfill/css/nested_imports/nested_importee2.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/bower_components\/REM-unit-polyfill\/css\/nested_imports\/nested_importer.css": {
+	"/bower_components/REM-unit-polyfill/css/nested_imports/nested_importer.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/css\/nested_imports\/nested_importer.css",
+		"oAP": "/bower_components/REM-unit-polyfill/css/nested_imports/nested_importer.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/bower_components\/REM-unit-polyfill\/Gruntfile.coffee": {
+	"/bower_components/REM-unit-polyfill/Gruntfile.coffee": {
 		"ft": 32,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/Gruntfile.coffee",
+		"oAP": "/bower_components/REM-unit-polyfill/Gruntfile.coffee",
 		"oF": 0,
 		"oS": 0,
 		"sC": 1,
 		"tS": 1
 		},
-	"\/bower_components\/REM-unit-polyfill\/index.html": {
+	"/bower_components/REM-unit-polyfill/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/index.html",
+		"oAP": "/bower_components/REM-unit-polyfill/index.html",
 		"oF": 0
 		},
-	"\/bower_components\/REM-unit-polyfill\/js\/rem.js": {
+	"/bower_components/REM-unit-polyfill/js/rem.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/js\/rem.js",
+		"oAP": "/bower_components/REM-unit-polyfill/js/rem.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/REM-unit-polyfill\/js\/rem.min.js": {
+	"/bower_components/REM-unit-polyfill/js/rem.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/js\/rem.min.js",
+		"oAP": "/bower_components/REM-unit-polyfill/js/rem.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower_components\/REM-unit-polyfill\/LICENSE.md": {
+	"/bower_components/REM-unit-polyfill/LICENSE.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 0,
@@ -3049,8 +3378,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/LICENSE.md",
+		"oAP": "/bower_components/REM-unit-polyfill/LICENSE.md",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -3059,15 +3389,15 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/bower_components\/REM-unit-polyfill\/package.json": {
+	"/bower_components/REM-unit-polyfill/package.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/package.json",
+		"oAP": "/bower_components/REM-unit-polyfill/package.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components\/REM-unit-polyfill\/README.md": {
+	"/bower_components/REM-unit-polyfill/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 0,
@@ -3075,8 +3405,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/bower_components\/REM-unit-polyfill\/README.md",
+		"oAP": "/bower_components/REM-unit-polyfill/README.md",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -3085,1997 +3416,2019 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/browserconfig.xml": {
+	"/contact.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/browserconfig.xml",
-		"oF": 0
-		},
-	"\/contact.php": {
-		"cB": 0,
-		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/contact.php",
+		"oAP": "/contact.php",
 		"oF": 0
 		},
-	"\/crossdomain.xml": {
+	"/css/ie8.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/ie8-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"/css/opt/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/opt/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"/css/temp.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/temp-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/crossdomain.xml",
+		"oAP": "/favicon.ico",
 		"oF": 0
 		},
-	"\/css\/ie8.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/ie8-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/opt\/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/opt\/style-min.css",
-		"oF": 1,
-		"oS": 0
-		},
-	"\/css\/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/temp.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/temp-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/favicon.ico",
-		"oF": 0
-		},
-	"\/favicon.png": {
+	"/favicon.png": {
 		"ft": 32768,
 		"iS": 2606,
 		"oA": 0,
-		"oAP": "\/favicon.png",
+		"oAP": "/favicon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/fonts\/fontello\/fontello.eot": {
+	"/fonts/fontello/fontello.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/fonts\/fontello\/fontello.eot",
+		"oAP": "/fonts/fontello/fontello.eot",
 		"oF": 0
 		},
-	"\/fonts\/fontello\/fontello.svg": {
+	"/fonts/fontello/fontello.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/fonts\/fontello\/fontello.svg",
+		"oAP": "/fonts/fontello/fontello.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/fonts\/fontello\/fontello.ttf": {
+	"/fonts/fontello/fontello.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/fonts\/fontello\/fontello.ttf",
+		"oAP": "/fonts/fontello/fontello.ttf",
 		"oF": 0
 		},
-	"\/fonts\/fontello\/fontello.woff": {
+	"/fonts/fontello/fontello.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/fonts\/fontello\/fontello.woff",
+		"oAP": "/fonts/fontello/fontello.woff",
 		"oF": 0
 		},
-	"\/fonts\/inai\/inaimathi-webfont.eot": {
+	"/fonts/inai/inaimathi-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/fonts\/inai\/inaimathi-webfont.eot",
+		"oAP": "/fonts/inai/inaimathi-webfont.eot",
 		"oF": 0
 		},
-	"\/fonts\/inai\/inaimathi-webfont.svg": {
+	"/fonts/inai/inaimathi-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/fonts\/inai\/inaimathi-webfont.svg",
+		"oAP": "/fonts/inai/inaimathi-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/fonts\/inai\/inaimathi-webfont.ttf": {
+	"/fonts/inai/inaimathi-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/fonts\/inai\/inaimathi-webfont.ttf",
+		"oAP": "/fonts/inai/inaimathi-webfont.ttf",
 		"oF": 0
 		},
-	"\/fonts\/inai\/inaimathi-webfont.woff": {
+	"/fonts/inai/inaimathi-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/fonts\/inai\/inaimathi-webfont.woff",
+		"oAP": "/fonts/inai/inaimathi-webfont.woff",
 		"oF": 0
 		},
-	"\/fonts\/nav\/nav.eot": {
+	"/fonts/nav/nav.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/fonts\/nav\/nav.eot",
+		"oAP": "/fonts/nav/nav.eot",
 		"oF": 0
 		},
-	"\/fonts\/nav\/nav.svg": {
+	"/fonts/nav/nav.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/fonts\/nav\/nav.svg",
+		"oAP": "/fonts/nav/nav.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/fonts\/nav\/nav.ttf": {
+	"/fonts/nav/nav.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/fonts\/nav\/nav.ttf",
+		"oAP": "/fonts/nav/nav.ttf",
 		"oF": 0
 		},
-	"\/fonts\/nav\/nav.woff": {
+	"/fonts/nav/nav.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/fonts\/nav\/nav.woff",
+		"oAP": "/fonts/nav/nav.woff",
 		"oF": 0
 		},
-	"\/googlea536b0ce9879dae9.html": {
+	"/googlea536b0ce9879dae9.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/googlea536b0ce9879dae9.html",
+		"oAP": "/googlea536b0ce9879dae9.html",
 		"oF": 0
 		},
-	"\/gulpfile.js": {
+	"/gulpfile.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/gulpfile-min.js",
+		"oAP": "/gulpfile-min.js",
 		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/humans.txt": {
+	"/humans.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/humans.txt",
+		"oAP": "/humans.txt",
 		"oF": 0
 		},
-	"\/img\/contact\/contact-blur.jpg": {
+	"/img/contact/contact-blur.jpg": {
 		"ft": 16384,
 		"iS": 60334,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/contact\/contact-blur.jpg",
+		"oAP": "/img/contact/contact-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/contact\/contact.jpg": {
+	"/img/contact/contact.jpg": {
 		"ft": 16384,
 		"iS": 91907,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/contact\/contact.jpg",
+		"oAP": "/img/contact/contact.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/contact\/houston-interior-plants-logo.jpg": {
+	"/img/contact/houston-interior-plants-logo.jpg": {
 		"ft": 16384,
 		"iS": 7634,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/contact\/houston-interior-plants-logo.jpg",
+		"oAP": "/img/contact/houston-interior-plants-logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/contact\/houston-interior-plants.jpg": {
+	"/img/contact/houston-interior-plants.jpg": {
 		"ft": 16384,
 		"iS": 14129,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/contact\/houston-interior-plants.jpg",
+		"oAP": "/img/contact/houston-interior-plants.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/contact\/ie\/contact-blur.jpg": {
+	"/img/contact/ie/contact-blur.jpg": {
 		"ft": 16384,
 		"iS": 41365,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/contact\/ie\/contact-blur.jpg",
+		"oAP": "/img/contact/ie/contact-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/contact\/ie\/contact.jpg": {
+	"/img/contact/ie/contact.jpg": {
 		"ft": 16384,
 		"iS": 101909,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/contact\/ie\/contact.jpg",
+		"oAP": "/img/contact/ie/contact.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/contact\/jardin-de-france-logo.jpg": {
+	"/img/contact/jardin-de-france-logo.jpg": {
 		"ft": 16384,
 		"iS": 26950,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/contact\/jardin-de-france-logo.jpg",
+		"oAP": "/img/contact/jardin-de-france-logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/contact\/jardin-de-france.jpg": {
+	"/img/contact/jardin-de-france.jpg": {
 		"ft": 16384,
 		"iS": 19884,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/contact\/jardin-de-france.jpg",
+		"oAP": "/img/contact/jardin-de-france.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/index\/index-blur.jpg": {
+	"/img/index/index-blur.jpg": {
 		"ft": 16384,
 		"iS": 37665,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/index\/index-blur.jpg",
+		"oAP": "/img/index/index-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/index\/index.jpg": {
+	"/img/index/index.jpg": {
 		"ft": 16384,
 		"iS": 127487,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/index\/index.jpg",
+		"oAP": "/img/index/index.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/index\/widgets\/plant-selection\/default\/plant-selection.jpg": {
+	"/img/index/widgets/plant-selection/default/plant-selection.jpg": {
 		"ft": 16384,
 		"iS": 74931,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/index\/widgets\/plant-selection\/default\/plant-selection.jpg",
+		"oAP": "/img/index/widgets/plant-selection/default/plant-selection.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/index\/widgets\/plant-selection\/default\/pre-opt\/plant-selection.jpg": {
+	"/img/index/widgets/plant-selection/default/pre-opt/plant-selection.jpg": {
 		"ft": 16384,
 		"iS": 92761,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/index\/widgets\/plant-selection\/default\/pre-opt\/plant-selection.jpg",
+		"oAP": "/img/index/widgets/plant-selection/default/pre-opt/plant-selection.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/index\/widgets\/project-galleries\/default\/project-galleries.jpg": {
+	"/img/index/widgets/project-galleries/default/project-galleries.jpg": {
 		"ft": 16384,
 		"iS": 88452,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/index\/widgets\/project-galleries\/default\/project-galleries.jpg",
+		"oAP": "/img/index/widgets/project-galleries/default/project-galleries.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/index\/widgets\/project-galleries\/large\/project-galleries.jpg": {
+	"/img/index/widgets/project-galleries/large/project-galleries.jpg": {
 		"ft": 16384,
 		"iS": 82139,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/index\/widgets\/project-galleries\/large\/project-galleries.jpg",
+		"oAP": "/img/index/widgets/project-galleries/large/project-galleries.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/logo\/_ignores\/logo@2x.png": {
+	"/img/logo/_ignores/logo@2x.png": {
 		"ft": 32768,
 		"iS": 17095,
 		"oA": 0,
-		"oAP": "\/img\/logo\/_ignores\/logo@2x.png",
+		"oAP": "/img/logo/_ignores/logo@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/logo\/_ignores\/logo_flat@2x.png": {
+	"/img/logo/_ignores/logo_flat@2x.png": {
 		"ft": 32768,
 		"iS": 16273,
 		"oA": 0,
-		"oAP": "\/img\/logo\/_ignores\/logo_flat@2x.png",
+		"oAP": "/img/logo/_ignores/logo_flat@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/logo\/email\/logo.png": {
+	"/img/logo/email/logo.png": {
 		"ft": 32768,
 		"iS": 6207,
 		"oA": 0,
-		"oAP": "\/img\/logo\/email\/logo.png",
+		"oAP": "/img/logo/email/logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/logo\/logo.png": {
+	"/img/logo/logo.png": {
 		"ft": 32768,
 		"iS": 10586,
 		"oA": 0,
-		"oAP": "\/img\/logo\/logo.png",
+		"oAP": "/img/logo/logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/logo\/logo@2x.png": {
+	"/img/logo/logo@2x.png": {
 		"ft": 32768,
 		"iS": 17095,
 		"oA": 0,
-		"oAP": "\/img\/logo\/logo@2x.png",
+		"oAP": "/img/logo/logo@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/logo\/logo@m.gif": {
+	"/img/logo/logo@m.gif": {
 		"ft": 4194304,
 		"iS": 7866,
 		"oA": 0,
-		"oAP": "\/img\/logo\/logo@m.gif",
+		"oAP": "/img/logo/logo@m.gif",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/logo\/logo@s.gif": {
+	"/img/logo/logo@s.gif": {
 		"ft": 4194304,
 		"iS": 5880,
 		"oA": 0,
-		"oAP": "\/img\/logo\/logo@s.gif",
+		"oAP": "/img/logo/logo@s.gif",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/logo\/logo_flat.png": {
+	"/img/logo/logo_flat.png": {
 		"ft": 32768,
 		"iS": 5015,
 		"oA": 0,
-		"oAP": "\/img\/logo\/logo_flat.png",
+		"oAP": "/img/logo/logo_flat.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/logo\/logo_flat@2x.png": {
+	"/img/logo/logo_flat@2x.png": {
 		"ft": 32768,
 		"iS": 16273,
 		"oA": 0,
-		"oAP": "\/img\/logo\/logo_flat@2x.png",
+		"oAP": "/img/logo/logo_flat@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/misc\/contact-button.png": {
+	"/img/misc/contact-button.png": {
 		"ft": 32768,
 		"iS": 159,
 		"oA": 0,
-		"oAP": "\/img\/misc\/contact-button.png",
+		"oAP": "/img/misc/contact-button.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/misc\/flower-bg.png": {
+	"/img/misc/flower-bg.png": {
 		"ft": 32768,
 		"iS": 3543,
 		"oA": 0,
-		"oAP": "\/img\/misc\/flower-bg.png",
+		"oAP": "/img/misc/flower-bg.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/misc\/services-button.png": {
+	"/img/misc/services-button.png": {
 		"ft": 32768,
 		"iS": 152,
 		"oA": 0,
-		"oAP": "\/img\/misc\/services-button.png",
+		"oAP": "/img/misc/services-button.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/misc\/social\/_ignores\/facebook-hover.png": {
+	"/img/misc/social/_ignores/facebook-hover.png": {
 		"ft": 32768,
 		"iS": 1031,
 		"oA": 0,
-		"oAP": "\/img\/misc\/social\/_ignores\/facebook-hover.png",
+		"oAP": "/img/misc/social/_ignores/facebook-hover.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/misc\/social\/_ignores\/facebook.png": {
+	"/img/misc/social/_ignores/facebook.png": {
 		"ft": 32768,
 		"iS": 959,
 		"oA": 0,
-		"oAP": "\/img\/misc\/social\/_ignores\/facebook.png",
+		"oAP": "/img/misc/social/_ignores/facebook.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/misc\/social\/_ignores\/google-hover.png": {
+	"/img/misc/social/_ignores/google-hover.png": {
 		"ft": 32768,
 		"iS": 1232,
 		"oA": 0,
-		"oAP": "\/img\/misc\/social\/_ignores\/google-hover.png",
+		"oAP": "/img/misc/social/_ignores/google-hover.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/misc\/social\/_ignores\/google.png": {
+	"/img/misc/social/_ignores/google.png": {
 		"ft": 32768,
 		"iS": 1226,
 		"oA": 0,
-		"oAP": "\/img\/misc\/social\/_ignores\/google.png",
+		"oAP": "/img/misc/social/_ignores/google.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/misc\/social\/facebook-hover.png": {
+	"/img/misc/social/facebook-hover.png": {
 		"ft": 32768,
 		"iS": 1031,
 		"oA": 0,
-		"oAP": "\/img\/misc\/social\/facebook-hover.png",
+		"oAP": "/img/misc/social/facebook-hover.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/misc\/social\/facebook.png": {
+	"/img/misc/social/facebook.png": {
 		"ft": 32768,
 		"iS": 959,
 		"oA": 0,
-		"oAP": "\/img\/misc\/social\/facebook.png",
+		"oAP": "/img/misc/social/facebook.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/misc\/social\/google-hover.png": {
+	"/img/misc/social/google-hover.png": {
 		"ft": 32768,
 		"iS": 1232,
 		"oA": 0,
-		"oAP": "\/img\/misc\/social\/google-hover.png",
+		"oAP": "/img/misc/social/google-hover.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/misc\/social\/google.png": {
+	"/img/misc/social/google.png": {
 		"ft": 32768,
 		"iS": 1226,
 		"oA": 0,
-		"oAP": "\/img\/misc\/social\/google.png",
+		"oAP": "/img/misc/social/google.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/bird-of-paradise.jpg": {
+	"/img/our-plants/full/bird-of-paradise.jpg": {
 		"ft": 16384,
 		"iS": 74584,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/bird-of-paradise.jpg",
+		"oAP": "/img/our-plants/full/bird-of-paradise.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/chinese-evergreen.jpg": {
+	"/img/our-plants/full/chinese-evergreen.jpg": {
 		"ft": 16384,
 		"iS": 41036,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/chinese-evergreen.jpg",
+		"oAP": "/img/our-plants/full/chinese-evergreen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/corn-plant.jpg": {
+	"/img/our-plants/full/corn-plant.jpg": {
 		"ft": 16384,
 		"iS": 53433,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/corn-plant.jpg",
+		"oAP": "/img/our-plants/full/corn-plant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/ficus-lyrata.jpg": {
+	"/img/our-plants/full/ficus-lyrata.jpg": {
 		"ft": 16384,
 		"iS": 84502,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/ficus-lyrata.jpg",
+		"oAP": "/img/our-plants/full/ficus-lyrata.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/janet-craig-carmen.jpg": {
+	"/img/our-plants/full/janet-craig-carmen.jpg": {
 		"ft": 16384,
 		"iS": 58236,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/janet-craig-carmen.jpg",
+		"oAP": "/img/our-plants/full/janet-craig-carmen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/kentia-palm.jpg": {
+	"/img/our-plants/full/kentia-palm.jpg": {
 		"ft": 16384,
 		"iS": 117583,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/kentia-palm.jpg",
+		"oAP": "/img/our-plants/full/kentia-palm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/lady-palm.jpg": {
+	"/img/our-plants/full/lady-palm.jpg": {
 		"ft": 16384,
 		"iS": 104724,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/lady-palm.jpg",
+		"oAP": "/img/our-plants/full/lady-palm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/lisa-cane.jpg": {
+	"/img/our-plants/full/lisa-cane.jpg": {
 		"ft": 16384,
 		"iS": 69698,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/lisa-cane.jpg",
+		"oAP": "/img/our-plants/full/lisa-cane.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/pre-opt\/bird-of-paradise.jpg": {
+	"/img/our-plants/full/pre-opt/bird-of-paradise.jpg": {
 		"ft": 16384,
 		"iS": 101119,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/pre-opt\/bird-of-paradise.jpg",
+		"oAP": "/img/our-plants/full/pre-opt/bird-of-paradise.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/pre-opt\/chinese-evergreen.jpg": {
+	"/img/our-plants/full/pre-opt/chinese-evergreen.jpg": {
 		"ft": 16384,
 		"iS": 56383,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/pre-opt\/chinese-evergreen.jpg",
+		"oAP": "/img/our-plants/full/pre-opt/chinese-evergreen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/pre-opt\/corn-plant.jpg": {
+	"/img/our-plants/full/pre-opt/corn-plant.jpg": {
 		"ft": 16384,
 		"iS": 69528,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/pre-opt\/corn-plant.jpg",
+		"oAP": "/img/our-plants/full/pre-opt/corn-plant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/pre-opt\/ficus-lyrata.jpg": {
+	"/img/our-plants/full/pre-opt/ficus-lyrata.jpg": {
 		"ft": 16384,
 		"iS": 113491,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/pre-opt\/ficus-lyrata.jpg",
+		"oAP": "/img/our-plants/full/pre-opt/ficus-lyrata.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/pre-opt\/janet-craig-carmen.jpg": {
+	"/img/our-plants/full/pre-opt/janet-craig-carmen.jpg": {
 		"ft": 16384,
 		"iS": 80660,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/pre-opt\/janet-craig-carmen.jpg",
+		"oAP": "/img/our-plants/full/pre-opt/janet-craig-carmen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/pre-opt\/kentia-palm.jpg": {
+	"/img/our-plants/full/pre-opt/kentia-palm.jpg": {
 		"ft": 16384,
 		"iS": 166690,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/pre-opt\/kentia-palm.jpg",
+		"oAP": "/img/our-plants/full/pre-opt/kentia-palm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/pre-opt\/lady-palm.jpg": {
+	"/img/our-plants/full/pre-opt/lady-palm.jpg": {
 		"ft": 16384,
 		"iS": 148141,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/pre-opt\/lady-palm.jpg",
+		"oAP": "/img/our-plants/full/pre-opt/lady-palm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/pre-opt\/lisa-cane.jpg": {
+	"/img/our-plants/full/pre-opt/lisa-cane.jpg": {
 		"ft": 16384,
 		"iS": 92661,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/pre-opt\/lisa-cane.jpg",
+		"oAP": "/img/our-plants/full/pre-opt/lisa-cane.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/pre-opt\/schefflera-amate.jpg": {
+	"/img/our-plants/full/pre-opt/schefflera-amate.jpg": {
 		"ft": 16384,
 		"iS": 125555,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/pre-opt\/schefflera-amate.jpg",
+		"oAP": "/img/our-plants/full/pre-opt/schefflera-amate.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/pre-opt\/snake-plant.jpg": {
+	"/img/our-plants/full/pre-opt/snake-plant.jpg": {
 		"ft": 16384,
 		"iS": 45592,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/pre-opt\/snake-plant.jpg",
+		"oAP": "/img/our-plants/full/pre-opt/snake-plant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/pre-opt\/warneckii-cane.jpg": {
+	"/img/our-plants/full/pre-opt/warneckii-cane.jpg": {
 		"ft": 16384,
 		"iS": 137595,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/pre-opt\/warneckii-cane.jpg",
+		"oAP": "/img/our-plants/full/pre-opt/warneckii-cane.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/pre-opt\/zz-plant.jpg": {
+	"/img/our-plants/full/pre-opt/zz-plant.jpg": {
 		"ft": 16384,
 		"iS": 77238,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/pre-opt\/zz-plant.jpg",
+		"oAP": "/img/our-plants/full/pre-opt/zz-plant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/schefflera-amate.jpg": {
+	"/img/our-plants/full/schefflera-amate.jpg": {
 		"ft": 16384,
 		"iS": 92349,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/schefflera-amate.jpg",
+		"oAP": "/img/our-plants/full/schefflera-amate.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/snake-plant.jpg": {
+	"/img/our-plants/full/snake-plant.jpg": {
 		"ft": 16384,
 		"iS": 33574,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/snake-plant.jpg",
+		"oAP": "/img/our-plants/full/snake-plant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/warneckii-cane.jpg": {
+	"/img/our-plants/full/warneckii-cane.jpg": {
 		"ft": 16384,
 		"iS": 100903,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/warneckii-cane.jpg",
+		"oAP": "/img/our-plants/full/warneckii-cane.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/full\/zz-plant.jpg": {
+	"/img/our-plants/full/zz-plant.jpg": {
 		"ft": 16384,
 		"iS": 57579,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/full\/zz-plant.jpg",
+		"oAP": "/img/our-plants/full/zz-plant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/our-plants-blur.jpg": {
+	"/img/our-plants/our-plants-blur.jpg": {
 		"ft": 16384,
 		"iS": 71775,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/our-plants-blur.jpg",
+		"oAP": "/img/our-plants/our-plants-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/our-plants-blur@l.jpg": {
+	"/img/our-plants/our-plants-blur@l.jpg": {
 		"ft": 16384,
 		"iS": 48620,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/our-plants-blur@l.jpg",
+		"oAP": "/img/our-plants/our-plants-blur@l.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/our-plants.jpg": {
+	"/img/our-plants/our-plants.jpg": {
 		"ft": 16384,
 		"iS": 103114,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/our-plants.jpg",
+		"oAP": "/img/our-plants/our-plants.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/our-plants@l.jpg": {
+	"/img/our-plants/our-plants@l.jpg": {
 		"ft": 16384,
 		"iS": 111013,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/our-plants@l.jpg",
+		"oAP": "/img/our-plants/our-plants@l.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/bird-of-paradise.jpg": {
+	"/img/our-plants/thumbs/bird-of-paradise.jpg": {
 		"ft": 16384,
 		"iS": 29493,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/bird-of-paradise.jpg",
+		"oAP": "/img/our-plants/thumbs/bird-of-paradise.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/chinese-evergreen.jpg": {
+	"/img/our-plants/thumbs/chinese-evergreen.jpg": {
 		"ft": 16384,
 		"iS": 17685,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/chinese-evergreen.jpg",
+		"oAP": "/img/our-plants/thumbs/chinese-evergreen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/corn-plant.jpg": {
+	"/img/our-plants/thumbs/corn-plant.jpg": {
 		"ft": 16384,
 		"iS": 22315,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/corn-plant.jpg",
+		"oAP": "/img/our-plants/thumbs/corn-plant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/ficus-lyrata.jpg": {
+	"/img/our-plants/thumbs/ficus-lyrata.jpg": {
 		"ft": 16384,
 		"iS": 31971,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/ficus-lyrata.jpg",
+		"oAP": "/img/our-plants/thumbs/ficus-lyrata.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/hawaiian-lisa-cane.jpg": {
+	"/img/our-plants/thumbs/hawaiian-lisa-cane.jpg": {
 		"ft": 16384,
 		"iS": 26637,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/hawaiian-lisa-cane.jpg",
+		"oAP": "/img/our-plants/thumbs/hawaiian-lisa-cane.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/hawaiian-warneckii-cane.jpg": {
+	"/img/our-plants/thumbs/hawaiian-warneckii-cane.jpg": {
 		"ft": 16384,
 		"iS": 34495,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/hawaiian-warneckii-cane.jpg",
+		"oAP": "/img/our-plants/thumbs/hawaiian-warneckii-cane.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/janet-craig-carmen.jpg": {
+	"/img/our-plants/thumbs/janet-craig-carmen.jpg": {
 		"ft": 16384,
 		"iS": 23887,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/janet-craig-carmen.jpg",
+		"oAP": "/img/our-plants/thumbs/janet-craig-carmen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/kentia-palm.jpg": {
+	"/img/our-plants/thumbs/kentia-palm.jpg": {
 		"ft": 16384,
 		"iS": 43030,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/kentia-palm.jpg",
+		"oAP": "/img/our-plants/thumbs/kentia-palm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/lady-palm.jpg": {
+	"/img/our-plants/thumbs/lady-palm.jpg": {
 		"ft": 16384,
 		"iS": 40138,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/lady-palm.jpg",
+		"oAP": "/img/our-plants/thumbs/lady-palm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/pre-opt\/bird-of-paradise.jpg": {
+	"/img/our-plants/thumbs/pre-opt/bird-of-paradise.jpg": {
 		"ft": 16384,
 		"iS": 29493,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/bird-of-paradise.jpg",
+		"oAP": "/img/our-plants/thumbs/pre-opt/bird-of-paradise.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/pre-opt\/chinese-evergreen.jpg": {
+	"/img/our-plants/thumbs/pre-opt/chinese-evergreen.jpg": {
 		"ft": 16384,
 		"iS": 17685,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/chinese-evergreen.jpg",
+		"oAP": "/img/our-plants/thumbs/pre-opt/chinese-evergreen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/pre-opt\/corn-plant.jpg": {
+	"/img/our-plants/thumbs/pre-opt/corn-plant.jpg": {
 		"ft": 16384,
 		"iS": 22315,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/corn-plant.jpg",
+		"oAP": "/img/our-plants/thumbs/pre-opt/corn-plant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/pre-opt\/ficus-lyrata.jpg": {
+	"/img/our-plants/thumbs/pre-opt/ficus-lyrata.jpg": {
 		"ft": 16384,
 		"iS": 31971,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/ficus-lyrata.jpg",
+		"oAP": "/img/our-plants/thumbs/pre-opt/ficus-lyrata.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/pre-opt\/hawaiian-lisa-cane.jpg": {
+	"/img/our-plants/thumbs/pre-opt/hawaiian-lisa-cane.jpg": {
 		"ft": 16384,
 		"iS": 26637,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/hawaiian-lisa-cane.jpg",
+		"oAP": "/img/our-plants/thumbs/pre-opt/hawaiian-lisa-cane.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/pre-opt\/hawaiian-warneckii-cane.jpg": {
+	"/img/our-plants/thumbs/pre-opt/hawaiian-warneckii-cane.jpg": {
 		"ft": 16384,
 		"iS": 34495,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/hawaiian-warneckii-cane.jpg",
+		"oAP": "/img/our-plants/thumbs/pre-opt/hawaiian-warneckii-cane.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/pre-opt\/janet-craig-carmen.jpg": {
+	"/img/our-plants/thumbs/pre-opt/janet-craig-carmen.jpg": {
 		"ft": 16384,
 		"iS": 23887,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/janet-craig-carmen.jpg",
+		"oAP": "/img/our-plants/thumbs/pre-opt/janet-craig-carmen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/pre-opt\/kentia-palm.jpg": {
+	"/img/our-plants/thumbs/pre-opt/kentia-palm.jpg": {
 		"ft": 16384,
 		"iS": 43030,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/kentia-palm.jpg",
+		"oAP": "/img/our-plants/thumbs/pre-opt/kentia-palm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/pre-opt\/lady-palm.jpg": {
+	"/img/our-plants/thumbs/pre-opt/lady-palm.jpg": {
 		"ft": 16384,
 		"iS": 40138,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/lady-palm.jpg",
+		"oAP": "/img/our-plants/thumbs/pre-opt/lady-palm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/pre-opt\/schefflera-amate.jpg": {
+	"/img/our-plants/thumbs/pre-opt/schefflera-amate.jpg": {
 		"ft": 16384,
 		"iS": 34463,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/schefflera-amate.jpg",
+		"oAP": "/img/our-plants/thumbs/pre-opt/schefflera-amate.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/pre-opt\/snake-plant.jpg": {
+	"/img/our-plants/thumbs/pre-opt/snake-plant.jpg": {
 		"ft": 16384,
 		"iS": 13552,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/snake-plant.jpg",
+		"oAP": "/img/our-plants/thumbs/pre-opt/snake-plant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/pre-opt\/zz-plant.jpg": {
+	"/img/our-plants/thumbs/pre-opt/zz-plant.jpg": {
 		"ft": 16384,
 		"iS": 21848,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/pre-opt\/zz-plant.jpg",
+		"oAP": "/img/our-plants/thumbs/pre-opt/zz-plant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/schefflera-amate.jpg": {
+	"/img/our-plants/thumbs/schefflera-amate.jpg": {
 		"ft": 16384,
 		"iS": 34463,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/schefflera-amate.jpg",
+		"oAP": "/img/our-plants/thumbs/schefflera-amate.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/snake-plant.jpg": {
+	"/img/our-plants/thumbs/snake-plant.jpg": {
 		"ft": 16384,
 		"iS": 13552,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/snake-plant.jpg",
+		"oAP": "/img/our-plants/thumbs/snake-plant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/our-plants\/thumbs\/zz-plant.jpg": {
+	"/img/our-plants/thumbs/zz-plant.jpg": {
 		"ft": 16384,
 		"iS": 21848,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/our-plants\/thumbs\/zz-plant.jpg",
+		"oAP": "/img/our-plants/thumbs/zz-plant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/01.jpg": {
+	"/img/project-galleries/full/01.jpg": {
 		"ft": 16384,
 		"iS": 238632,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/01.jpg",
+		"oAP": "/img/project-galleries/full/01.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/02.jpg": {
+	"/img/project-galleries/full/02.jpg": {
 		"ft": 16384,
 		"iS": 223355,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/02.jpg",
+		"oAP": "/img/project-galleries/full/02.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/03.jpg": {
+	"/img/project-galleries/full/03.jpg": {
 		"ft": 16384,
 		"iS": 198458,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/03.jpg",
+		"oAP": "/img/project-galleries/full/03.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/04.jpg": {
+	"/img/project-galleries/full/04.jpg": {
 		"ft": 16384,
 		"iS": 180247,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/04.jpg",
+		"oAP": "/img/project-galleries/full/04.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/05.jpg": {
+	"/img/project-galleries/full/05.jpg": {
 		"ft": 16384,
 		"iS": 98565,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/05.jpg",
+		"oAP": "/img/project-galleries/full/05.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/06.jpg": {
+	"/img/project-galleries/full/06.jpg": {
 		"ft": 16384,
 		"iS": 243753,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/06.jpg",
+		"oAP": "/img/project-galleries/full/06.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/07.jpg": {
+	"/img/project-galleries/full/07.jpg": {
 		"ft": 16384,
 		"iS": 161414,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/07.jpg",
+		"oAP": "/img/project-galleries/full/07.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/08.jpg": {
+	"/img/project-galleries/full/08.jpg": {
 		"ft": 16384,
 		"iS": 76819,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/08.jpg",
+		"oAP": "/img/project-galleries/full/08.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/09.jpg": {
+	"/img/project-galleries/full/09.jpg": {
 		"ft": 16384,
 		"iS": 90512,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/09.jpg",
+		"oAP": "/img/project-galleries/full/09.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/10.jpg": {
+	"/img/project-galleries/full/10.jpg": {
 		"ft": 16384,
 		"iS": 224357,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/10.jpg",
+		"oAP": "/img/project-galleries/full/10.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/11.jpg": {
+	"/img/project-galleries/full/11.jpg": {
 		"ft": 16384,
 		"iS": 199079,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/11.jpg",
+		"oAP": "/img/project-galleries/full/11.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/12.jpg": {
+	"/img/project-galleries/full/12.jpg": {
 		"ft": 16384,
 		"iS": 166935,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/12.jpg",
+		"oAP": "/img/project-galleries/full/12.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/13.jpg": {
+	"/img/project-galleries/full/13.jpg": {
 		"ft": 16384,
 		"iS": 178263,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/13.jpg",
+		"oAP": "/img/project-galleries/full/13.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/14.jpg": {
+	"/img/project-galleries/full/14.jpg": {
 		"ft": 16384,
 		"iS": 158065,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/14.jpg",
+		"oAP": "/img/project-galleries/full/14.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/15.jpg": {
+	"/img/project-galleries/full/15.jpg": {
 		"ft": 16384,
 		"iS": 187695,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/15.jpg",
+		"oAP": "/img/project-galleries/full/15.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/16.jpg": {
+	"/img/project-galleries/full/16.jpg": {
 		"ft": 16384,
 		"iS": 213244,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/16.jpg",
+		"oAP": "/img/project-galleries/full/16.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/pre-opt\/01.jpg": {
+	"/img/project-galleries/full/pre-opt/01.jpg": {
 		"ft": 16384,
 		"iS": 238632,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/pre-opt\/01.jpg",
+		"oAP": "/img/project-galleries/full/pre-opt/01.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/pre-opt\/02.jpg": {
+	"/img/project-galleries/full/pre-opt/02.jpg": {
 		"ft": 16384,
 		"iS": 223355,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/pre-opt\/02.jpg",
+		"oAP": "/img/project-galleries/full/pre-opt/02.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/pre-opt\/03.jpg": {
+	"/img/project-galleries/full/pre-opt/03.jpg": {
 		"ft": 16384,
 		"iS": 198458,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/pre-opt\/03.jpg",
+		"oAP": "/img/project-galleries/full/pre-opt/03.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/pre-opt\/04.jpg": {
+	"/img/project-galleries/full/pre-opt/04.jpg": {
 		"ft": 16384,
 		"iS": 180247,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/pre-opt\/04.jpg",
+		"oAP": "/img/project-galleries/full/pre-opt/04.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/pre-opt\/05.jpg": {
+	"/img/project-galleries/full/pre-opt/05.jpg": {
 		"ft": 16384,
 		"iS": 98565,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/pre-opt\/05.jpg",
+		"oAP": "/img/project-galleries/full/pre-opt/05.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/pre-opt\/06.jpg": {
+	"/img/project-galleries/full/pre-opt/06.jpg": {
 		"ft": 16384,
 		"iS": 243753,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/pre-opt\/06.jpg",
+		"oAP": "/img/project-galleries/full/pre-opt/06.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/pre-opt\/07.jpg": {
+	"/img/project-galleries/full/pre-opt/07.jpg": {
 		"ft": 16384,
 		"iS": 161414,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/pre-opt\/07.jpg",
+		"oAP": "/img/project-galleries/full/pre-opt/07.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/pre-opt\/08.jpg": {
+	"/img/project-galleries/full/pre-opt/08.jpg": {
 		"ft": 16384,
 		"iS": 76819,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/pre-opt\/08.jpg",
+		"oAP": "/img/project-galleries/full/pre-opt/08.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/pre-opt\/09.jpg": {
+	"/img/project-galleries/full/pre-opt/09.jpg": {
 		"ft": 16384,
 		"iS": 90512,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/pre-opt\/09.jpg",
+		"oAP": "/img/project-galleries/full/pre-opt/09.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/pre-opt\/10.jpg": {
+	"/img/project-galleries/full/pre-opt/10.jpg": {
 		"ft": 16384,
 		"iS": 224357,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/pre-opt\/10.jpg",
+		"oAP": "/img/project-galleries/full/pre-opt/10.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/pre-opt\/11.jpg": {
+	"/img/project-galleries/full/pre-opt/11.jpg": {
 		"ft": 16384,
 		"iS": 199079,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/pre-opt\/11.jpg",
+		"oAP": "/img/project-galleries/full/pre-opt/11.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/full\/pre-opt\/12.jpg": {
+	"/img/project-galleries/full/pre-opt/12.jpg": {
 		"ft": 16384,
 		"iS": 166935,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/full\/pre-opt\/12.jpg",
+		"oAP": "/img/project-galleries/full/pre-opt/12.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/galleries-blur.jpg": {
+	"/img/project-galleries/galleries-blur.jpg": {
 		"ft": 16384,
 		"iS": 40526,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/galleries-blur.jpg",
+		"oAP": "/img/project-galleries/galleries-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/galleries.jpg": {
+	"/img/project-galleries/galleries.jpg": {
 		"ft": 16384,
 		"iS": 92226,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/galleries.jpg",
+		"oAP": "/img/project-galleries/galleries.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/01.jpg": {
+	"/img/project-galleries/thumbs/01.jpg": {
 		"ft": 16384,
 		"iS": 53691,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/01.jpg",
+		"oAP": "/img/project-galleries/thumbs/01.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/02.jpg": {
+	"/img/project-galleries/thumbs/02.jpg": {
 		"ft": 16384,
 		"iS": 55407,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/02.jpg",
+		"oAP": "/img/project-galleries/thumbs/02.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/03.jpg": {
+	"/img/project-galleries/thumbs/03.jpg": {
 		"ft": 16384,
 		"iS": 54812,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/03.jpg",
+		"oAP": "/img/project-galleries/thumbs/03.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/04.jpg": {
+	"/img/project-galleries/thumbs/04.jpg": {
 		"ft": 16384,
 		"iS": 48586,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/04.jpg",
+		"oAP": "/img/project-galleries/thumbs/04.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/05.jpg": {
+	"/img/project-galleries/thumbs/05.jpg": {
 		"ft": 16384,
 		"iS": 44408,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/05.jpg",
+		"oAP": "/img/project-galleries/thumbs/05.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/06.jpg": {
+	"/img/project-galleries/thumbs/06.jpg": {
 		"ft": 16384,
 		"iS": 68261,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/06.jpg",
+		"oAP": "/img/project-galleries/thumbs/06.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/07.jpg": {
+	"/img/project-galleries/thumbs/07.jpg": {
 		"ft": 16384,
 		"iS": 39758,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/07.jpg",
+		"oAP": "/img/project-galleries/thumbs/07.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/08.jpg": {
+	"/img/project-galleries/thumbs/08.jpg": {
 		"ft": 16384,
 		"iS": 38021,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/08.jpg",
+		"oAP": "/img/project-galleries/thumbs/08.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/09.jpg": {
+	"/img/project-galleries/thumbs/09.jpg": {
 		"ft": 16384,
 		"iS": 47009,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/09.jpg",
+		"oAP": "/img/project-galleries/thumbs/09.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/10.jpg": {
+	"/img/project-galleries/thumbs/10.jpg": {
 		"ft": 16384,
 		"iS": 61713,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/10.jpg",
+		"oAP": "/img/project-galleries/thumbs/10.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/11.jpg": {
+	"/img/project-galleries/thumbs/11.jpg": {
 		"ft": 16384,
 		"iS": 57725,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/11.jpg",
+		"oAP": "/img/project-galleries/thumbs/11.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/12.jpg": {
+	"/img/project-galleries/thumbs/12.jpg": {
 		"ft": 16384,
 		"iS": 43978,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/12.jpg",
+		"oAP": "/img/project-galleries/thumbs/12.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/13t.jpg": {
+	"/img/project-galleries/thumbs/13t.jpg": {
 		"ft": 16384,
 		"iS": 12800,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/13t.jpg",
+		"oAP": "/img/project-galleries/thumbs/13t.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/13t@2x.jpg": {
+	"/img/project-galleries/thumbs/13t@2x.jpg": {
 		"ft": 16384,
 		"iS": 33004,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/13t@2x.jpg",
+		"oAP": "/img/project-galleries/thumbs/13t@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/14t.jpg": {
+	"/img/project-galleries/thumbs/14t.jpg": {
 		"ft": 16384,
 		"iS": 16340,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/14t.jpg",
+		"oAP": "/img/project-galleries/thumbs/14t.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/14t@2x.jpg": {
+	"/img/project-galleries/thumbs/14t@2x.jpg": {
 		"ft": 16384,
 		"iS": 39106,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/14t@2x.jpg",
+		"oAP": "/img/project-galleries/thumbs/14t@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/15t.jpg": {
+	"/img/project-galleries/thumbs/15t.jpg": {
 		"ft": 16384,
 		"iS": 11470,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/15t.jpg",
+		"oAP": "/img/project-galleries/thumbs/15t.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/15t@2x.jpg": {
+	"/img/project-galleries/thumbs/15t@2x.jpg": {
 		"ft": 16384,
 		"iS": 25258,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/15t@2x.jpg",
+		"oAP": "/img/project-galleries/thumbs/15t@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/16t.jpg": {
+	"/img/project-galleries/thumbs/16t.jpg": {
 		"ft": 16384,
 		"iS": 10497,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/16t.jpg",
+		"oAP": "/img/project-galleries/thumbs/16t.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/16t@2x.jpg": {
+	"/img/project-galleries/thumbs/16t@2x.jpg": {
 		"ft": 16384,
 		"iS": 34178,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/16t@2x.jpg",
+		"oAP": "/img/project-galleries/thumbs/16t@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/pre-opt\/01.jpg": {
+	"/img/project-galleries/thumbs/pre-opt/01.jpg": {
 		"ft": 16384,
 		"iS": 53691,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/01.jpg",
+		"oAP": "/img/project-galleries/thumbs/pre-opt/01.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/pre-opt\/02.jpg": {
+	"/img/project-galleries/thumbs/pre-opt/02.jpg": {
 		"ft": 16384,
 		"iS": 55407,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/02.jpg",
+		"oAP": "/img/project-galleries/thumbs/pre-opt/02.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/pre-opt\/03.jpg": {
+	"/img/project-galleries/thumbs/pre-opt/03.jpg": {
 		"ft": 16384,
 		"iS": 54812,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/03.jpg",
+		"oAP": "/img/project-galleries/thumbs/pre-opt/03.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/pre-opt\/04.jpg": {
+	"/img/project-galleries/thumbs/pre-opt/04.jpg": {
 		"ft": 16384,
 		"iS": 48586,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/04.jpg",
+		"oAP": "/img/project-galleries/thumbs/pre-opt/04.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/pre-opt\/05.jpg": {
+	"/img/project-galleries/thumbs/pre-opt/05.jpg": {
 		"ft": 16384,
 		"iS": 44408,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/05.jpg",
+		"oAP": "/img/project-galleries/thumbs/pre-opt/05.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/pre-opt\/06.jpg": {
+	"/img/project-galleries/thumbs/pre-opt/06.jpg": {
 		"ft": 16384,
 		"iS": 68261,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/06.jpg",
+		"oAP": "/img/project-galleries/thumbs/pre-opt/06.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/pre-opt\/07.jpg": {
+	"/img/project-galleries/thumbs/pre-opt/07.jpg": {
 		"ft": 16384,
 		"iS": 39758,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/07.jpg",
+		"oAP": "/img/project-galleries/thumbs/pre-opt/07.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/pre-opt\/08.jpg": {
+	"/img/project-galleries/thumbs/pre-opt/08.jpg": {
 		"ft": 16384,
 		"iS": 38021,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/08.jpg",
+		"oAP": "/img/project-galleries/thumbs/pre-opt/08.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/pre-opt\/09.jpg": {
+	"/img/project-galleries/thumbs/pre-opt/09.jpg": {
 		"ft": 16384,
 		"iS": 47009,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/09.jpg",
+		"oAP": "/img/project-galleries/thumbs/pre-opt/09.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/pre-opt\/10.jpg": {
+	"/img/project-galleries/thumbs/pre-opt/10.jpg": {
 		"ft": 16384,
 		"iS": 61713,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/10.jpg",
+		"oAP": "/img/project-galleries/thumbs/pre-opt/10.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/pre-opt\/11.jpg": {
+	"/img/project-galleries/thumbs/pre-opt/11.jpg": {
 		"ft": 16384,
 		"iS": 57725,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/11.jpg",
+		"oAP": "/img/project-galleries/thumbs/pre-opt/11.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/project-galleries\/thumbs\/pre-opt\/12.jpg": {
+	"/img/project-galleries/thumbs/pre-opt/12.jpg": {
 		"ft": 16384,
 		"iS": 43978,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/project-galleries\/thumbs\/pre-opt\/12.jpg",
+		"oAP": "/img/project-galleries/thumbs/pre-opt/12.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/schema\/greencare-logo.png": {
+	"/img/schema/greencare-logo.png": {
 		"ft": 32768,
 		"iS": 36278,
 		"oA": 0,
-		"oAP": "\/img\/schema\/greencare-logo.png",
+		"oAP": "/img/schema/greencare-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/services\/services-blur.jpg": {
+	"/img/services/services-blur.jpg": {
 		"ft": 16384,
 		"iS": 44865,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/services\/services-blur.jpg",
+		"oAP": "/img/services/services-blur.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/services\/services.jpg": {
+	"/img/services/services.jpg": {
 		"ft": 16384,
 		"iS": 105540,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/services\/services.jpg",
+		"oAP": "/img/services/services.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/index.php": {
+	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/index.php",
+		"oAP": "/index.php",
 		"oF": 0
 		},
-	"\/js\/scripts-ie-min.js": {
+	"/js/scripts-ie-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/scripts-ie-min-min.js",
+		"oAP": "/scripts-ie-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/scripts-min.js": {
+	"/js/scripts-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/scripts-min-min.js",
+		"oAP": "/scripts-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/src\/nav\/fastclick.js": {
+	"/js/src/nav/fastclick.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/js\/src\/fastclick-min.js",
+		"oAP": "/js/src/fastclick-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/src\/nav\/fixed-responsive-nav.js": {
+	"/js/src/nav/fixed-responsive-nav.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/js\/src\/fixed-responsive-nav-min.js",
+		"oAP": "/js/src/fixed-responsive-nav-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/src\/nav\/responsive-nav.js": {
+	"/js/src/nav/responsive-nav.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/js\/src\/responsive-nav-min.js",
+		"oAP": "/js/src/responsive-nav-min.js",
 		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/src\/nav\/scroll.js": {
+	"/js/src/nav/scroll.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/js\/src\/scroll-min.js",
+		"oAP": "/js/src/scroll-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/src\/scripts-ie.js": {
+	"/js/src/scripts-ie.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/scripts-ie-min.js",
+		"oAP": "/js/scripts-ie-min.js",
 		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/src\/scripts.js": {
+	"/js/src/scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/scripts-min.js",
+		"oAP": "/js/scripts-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/vendor\/jquery\/1-12-4\/jquery-min.js": {
+	"/js/vendor/jquery/1-12-4/jquery-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/vendor\/jquery\/jquery-min-min.js",
+		"oAP": "/js/vendor/jquery/jquery-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules": {
+	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
-		"oAP": "\/build\/node_modules",
+		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"\/our-plants.php": {
+	"/our-plants.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/our-plants.php",
+		"oAP": "/our-plants.php",
 		"oF": 0
 		},
-	"\/package.json": {
+	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/package-min.json",
+		"oAP": "/package-lock-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/php\/autoVer.php": {
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/php/autoVer.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/php\/autoVer.php",
+		"oAP": "/php/autoVer.php",
 		"oF": 0
 		},
-	"\/php\/PIE.htc": {
+	"/php/PIE.htc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/php\/PIE.htc",
+		"oAP": "/php/PIE.htc",
 		"oF": 0
 		},
-	"\/project-galleries.php": {
+	"/project-galleries.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/project-galleries.php",
+		"oAP": "/project-galleries.php",
 		"oF": 0
 		},
-	"\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 0,
@@ -5083,8 +5436,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -5093,14 +5447,15 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/robots.txt": {
+	"/robots.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/robots.txt",
+		"oAP": "/robots.txt",
 		"oF": 0
 		},
-	"\/scss\/blocks\/_content.scss": {
+	"/scss/_dev-classes.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5108,12 +5463,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_content.css",
+		"oAP": "/css/_dev-classes.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/blocks\/_footer.scss": {
+	"/scss/_var.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5121,12 +5476,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_footer.css",
+		"oAP": "/css/_var.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/blocks\/_header.scss": {
+	"/scss/blocks/_content.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5134,12 +5489,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_header.css",
+		"oAP": "/css/_content.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/blocks\/_nav-compiled.scss": {
+	"/scss/blocks/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5147,12 +5502,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_nav-compiled.css",
+		"oAP": "/css/_footer.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/blocks\/_page-structure.scss": {
+	"/scss/blocks/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5160,12 +5515,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_page-structure.css",
+		"oAP": "/css/_header.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/blocks\/_picture-logo.scss": {
+	"/scss/blocks/_nav-compiled.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5173,12 +5528,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_picture-logo.css",
+		"oAP": "/css/_nav-compiled.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/components\/_buttons.scss": {
+	"/scss/blocks/_page-structure.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5186,12 +5541,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_buttons.css",
+		"oAP": "/css/_page-structure.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/components\/_fonts.scss": {
+	"/scss/blocks/_picture-logo.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5199,12 +5554,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_fonts.css",
+		"oAP": "/css/_picture-logo.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/components\/_icon-fonts.scss": {
+	"/scss/components/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5212,12 +5567,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_icon-fonts.css",
+		"oAP": "/css/_buttons.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/components\/_resets.scss": {
+	"/scss/components/_media.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5225,12 +5580,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_resets.css",
+		"oAP": "/scss/css/_media.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/components\/_typography.scss": {
+	"/scss/components/_neat-resets.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5238,12 +5593,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_typography.css",
+		"oAP": "/scss/css/_neat-resets.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/components\/_utility-classes.scss": {
+	"/scss/components/_utility-classes.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5251,12 +5606,51 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_utility-classes.css",
+		"oAP": "/css/_utility-classes.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/ie8.scss": {
+	"/scss/components/typography/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/css/_fonts.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/components/typography/_icon-fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/css/_icon-fonts.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/components/typography/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/css/_typography.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/ie8.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5264,12 +5658,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/ie8.css",
+		"oAP": "/css/ie8.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/ie8\/_core-ie8.scss": {
+	"/scss/ie8/_core-ie8.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5277,12 +5671,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_core-ie8.css",
+		"oAP": "/css/_core-ie8.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/ie8\/_footer-ie8.scss": {
+	"/scss/ie8/_footer-ie8.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5290,12 +5684,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_footer-ie8.css",
+		"oAP": "/css/_footer-ie8.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/ie8\/_header-ie8.scss": {
+	"/scss/ie8/_header-ie8.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5303,12 +5697,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_header-ie8.css",
+		"oAP": "/css/_header-ie8.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/ie8\/_index-ie8.scss": {
+	"/scss/ie8/_index-ie8.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5316,12 +5710,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_index-ie8.css",
+		"oAP": "/css/_index-ie8.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/ie8\/_nav-ie8.scss": {
+	"/scss/ie8/_nav-ie8.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5329,12 +5723,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_nav-ie8.css",
+		"oAP": "/css/_nav-ie8.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/ie8\/_our-plants-ie8.scss": {
+	"/scss/ie8/_our-plants-ie8.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5342,12 +5736,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_our-plants-ie8.css",
+		"oAP": "/css/_our-plants-ie8.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/ie8\/_pages-ie8.scss": {
+	"/scss/ie8/_pages-ie8.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5355,12 +5749,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_pages-ie8.css",
+		"oAP": "/css/_pages-ie8.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/ie8\/_project-galleries-ie8.scss": {
+	"/scss/ie8/_project-galleries-ie8.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5368,12 +5762,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_project-galleries-ie8.css",
+		"oAP": "/css/_project-galleries-ie8.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/ie8\/_utility-classes-ie8.scss": {
+	"/scss/ie8/_utility-classes-ie8.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5381,12 +5775,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_utility-classes-ie8.css",
+		"oAP": "/css/_utility-classes-ie8.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/pages\/_about-us.scss": {
+	"/scss/pages/_about-us.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5394,12 +5788,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_about-us.css",
+		"oAP": "/css/_about-us.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/pages\/_contact.scss": {
+	"/scss/pages/_contact.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5407,12 +5801,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_contact.css",
+		"oAP": "/css/_contact.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/pages\/_index.scss": {
+	"/scss/pages/_index.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5420,12 +5814,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_index.css",
+		"oAP": "/css/_index.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/pages\/_our-plants.scss": {
+	"/scss/pages/_our-plants.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5433,12 +5827,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_our-plants.css",
+		"oAP": "/css/_our-plants.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/pages\/_project-galleries.scss": {
+	"/scss/pages/_project-galleries.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5446,12 +5840,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_project-galleries.css",
+		"oAP": "/css/_project-galleries.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/pages\/_services.scss": {
+	"/scss/pages/_services.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5459,12 +5853,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_services.css",
+		"oAP": "/css/_services.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/popup\/_magnific-popup.scss": {
+	"/scss/popup/_magnific-popup.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5472,12 +5866,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_magnific-popup.css",
+		"oAP": "/css/_magnific-popup.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/popup\/_modal-styles.scss": {
+	"/scss/popup/_modal-styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5485,12 +5879,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_modal-styles.css",
+		"oAP": "/css/_modal-styles.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/popup\/_settings.scss": {
+	"/scss/popup/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5498,12 +5892,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_settings.css",
+		"oAP": "/css/_settings.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/popup\/_transitions.scss": {
+	"/scss/popup/_transitions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5511,51 +5905,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_transitions.css",
+		"oAP": "/css/_transitions.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/settings\/_development-styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_development-styles.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
-	"\/scss\/settings\/_normalize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_normalize.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
-	"\/scss\/settings\/_settings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_settings.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
-	"\/scss\/style.scss": {
+	"/scss/style.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5563,43 +5918,32 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/style.css",
+		"oAP": "/css/style.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/temp.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/temp.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
-	"\/services.php": {
+	"/services.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/services.php",
+		"oAP": "/services.php",
 		"oF": 0
 		},
-	"\/sitemap.xml": {
+	"/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
-		"oAP": "\/sitemap.xml",
+		"oAP": "/sitemap.xml",
 		"oF": 0
 		},
-	"\/touch-icon-192x192.png": {
+	"/touch-icon-192x192.png": {
 		"ft": 32768,
 		"iS": 9650,
 		"oA": 0,
-		"oAP": "\/touch-icon-192x192.png",
+		"oAP": "/touch-icon-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5610,43 +5954,29 @@
 "hooks": [
 	],
 "manualImportLinks": {
-	"\/js\/src\/scripts-ie.js": [
+	"/js/src/scripts.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/REM-unit-polyfill\/js\/rem.min.js",
+			"linkedFileAbbreviatedPath": "/js/src/nav/responsive-nav.js",
 			"position": 0,
-			"type": 0
-			}
-		],
-	"\/js\/src\/scripts.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js",
-			"position": 0,
-			"type": 0
+			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/responsive-nav.js",
+			"linkedFileAbbreviatedPath": "/js/src/nav/fastclick.js",
 			"position": 1,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/fastclick.js",
+			"linkedFileAbbreviatedPath": "/js/src/nav/scroll.js",
 			"position": 2,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/scroll.js",
+			"linkedFileAbbreviatedPath": "/js/src/nav/fixed-responsive-nav.js",
 			"position": 3,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/src\/nav\/fixed-responsive-nav.js",
-			"position": 4,
 			"type": 1
 			}
 		]
@@ -5655,7 +5985,7 @@
 	"creationDate": 502296548,
 	"displayValue": "greencaretx",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/apple-touch-icon.png",
+	"iconImageName": "/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -5663,141 +5993,100 @@
 	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 5% in US, last 3 versions, ie >= 8, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
 		"inline-environment-variables": {
 			"active": 0
 			},
+		"instanceof": {
+			"active": 0
+			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -5809,7 +6098,58 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
+			"active": 0
+			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -5821,7 +6161,28 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -5851,59 +6212,58 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
 			"active": 0
 			},
+		"remove-undefined": {
+			"active": 0
+			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -5912,6 +6272,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": "> 5% in US, last 3 versions, ie >= 8, Firefox ESR, Opera 12.1",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -6269,6 +6630,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -6280,6 +6645,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -6325,6 +6694,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -6343,10 +6716,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -6545,9 +6914,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -6797,6 +7170,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 1,
 			"optionString": ""
@@ -6901,6 +7278,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -6929,6 +7310,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -6936,6 +7321,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 0,
@@ -6991,7 +7380,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -7051,7 +7440,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/greencaretx.local\/",
+	"externalServerAddress": "http://greencaretx.local/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -7417,7 +7806,7 @@
 		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -7446,8 +7835,8 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -7465,10 +7854,11 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "..\/",
+		"autoOutputPathRelativePath": "../",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -7491,25 +7881,26 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -7530,6 +7921,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -7539,7 +7931,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -7560,12 +7953,13 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -7589,12 +7983,13 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -7618,36 +8013,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 0,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
-			"active": 0,
+		"arguments": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -7655,23 +8084,27 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"booleans_as_integers": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"braces": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -7683,6 +8116,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -7690,6 +8127,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -7699,7 +8140,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -7707,24 +8156,36 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"if_return": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"indent_level": {
 			"active": 0,
 			"flagValue": 4
 			},
-		"indent-start": {
+		"indent_start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
-			"active": 0,
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -7735,21 +8196,33 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
 			},
 		"properties": {
 			"active": 1,
@@ -7759,11 +8232,23 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -7775,23 +8260,59 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -7803,11 +8324,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": ""
 	},

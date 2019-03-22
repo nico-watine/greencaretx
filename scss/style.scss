@@ -1,34 +1,49 @@
-@import "settings/_normalize.scss";
-@import "../assets/bourbon/_bourbon.scss";
-@import "../assets/neat/_grid-settings.scss";
-@import "../assets/neat/_neat.scss";
-
-// SITE COMPONENTS
-@import "components/_typography.scss"; 
-@import "components/_resets.scss";
-@import "components/_utility-classes.scss";
-@import "components/_buttons.scss";
-
-// PAGE BLOCKS
-@import "blocks/_header.scss";
-@import "blocks/_content.scss";
-@import "blocks/_footer.scss";
-
-// NAVIGATION STYLES
-@import "blocks/_nav-compiled.scss";
+@import '_var.scss';
 
 
-// INDIVIDUAL PAGE STYLES
-@import "pages/_index.scss";
-@import "pages/_services.scss";
-@import "pages/_project-galleries.scss";
-@import "pages/_our-plants.scss";
-@import "pages/_contact.scss";
-@import "pages/_about-us.scss";
-@import "blocks/_page-structure.scss";
 
-@import "popup/_magnific-popup.scss";
-@import "popup/_modal-styles.scss";
+// -----------------------------------------------------------
+// |            Structure-Based Sass File Imports            |
+// -----------------------------------------------------------
+@import '../bower_components/normalize-css/normalize';
+@import '../assets/bourbon/_bourbon.scss';
+@import '../assets/neat/_neat.scss';
+@import 'components/_neat-resets.scss';
 
-// DEVELOPER LINKS
-// @import "settings/_development-styles.scss";
+
+
+// ------------------------------------------------------------------------------
+// |            IMPORT CUSTOM SASS FILES (IN ORDER OF LOAD PRIORITY)            |
+// ------------------------------------------------------------------------------
+
+// #1 Basic Components
+@import 'components/typography/_typography.scss';
+@import 'components/_media.scss';
+@import 'components/_utility-classes.scss';
+@import 'components/_buttons.scss';
+
+// #2 Page Blocks
+@import 'blocks/_header.scss';
+@import 'blocks/_content.scss';
+@import 'blocks/_footer.scss';
+
+// #2a Navigation Classes
+@import 'blocks/_nav-compiled.scss';
+
+// #3 Page-Specific Classes
+@import 'pages/_index.scss';
+@import 'pages/_services.scss';
+@import 'pages/_project-galleries.scss';
+@import 'pages/_our-plants.scss';
+@import 'pages/_contact.scss';
+@import 'pages/_about-us.scss';
+@import 'blocks/_page-structure.scss';
+
+// #4 Pop-up Modal
+@import 'popup/_magnific-popup.scss';
+@import 'popup/_modal-styles.scss';
+
+
+
+// Optional Development Import
+// @import '_dev-classes.scss';

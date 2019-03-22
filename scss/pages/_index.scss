@@ -1,8 +1,3 @@
-@import "../settings/_settings.scss";
-// behavior: url('/php/PIE.htc');
-$mini-mobile: "only screen and (max-width : 410)";
-
-
 main#index {
 	background-image: url('/img/index/index.jpg');
 
@@ -27,7 +22,7 @@ main#index {
 		font-size: rem(25);
 	}
 
-	@include media($small-plus) {
+	@include media($maxWidth-650) {
 		h1 {
 			font-size: em(36);
 		}
@@ -44,7 +39,7 @@ main#index {
 	text-align: center;
 	margin-bottom: em(30);
 
-	@include media($default-break) {
+	@include media($maxWidth-1070) {
 		margin-bottom: em(16);
 	}
 
@@ -57,18 +52,18 @@ main#index {
 			h4 {
 				color: #fff;
 				border-top: rem(2) solid #fff;
-				background: #444444;
-				background: rgba(68,68,68,0.60);
+				background: #444;
+				background: rgba(68,68,68,.60);
 				box-shadow: inset 0 0 3px 0 #000;
 				margin-top: 246px;
 				margin-bottom: 0;
 				padding: rem(10) 0;
 
-				@include media($large) {
+				@include media($maxWidth-940) {
 					margin-top: 346px;
 				}
 
-				@include media($small-plus) {
+				@include media($maxWidth-650) {
 					margin-top: 181px;
 					font-size: rem(19);
 				}
@@ -77,14 +72,14 @@ main#index {
 			&:hover {
 				h4 {
 					background: #323232;
-					background: rgba(50,50,50,0.70);
+					background: rgba(50,50,50,.70);
 					box-shadow: inset 0 1px 2px 1px #000;
 					text-shadow: 0 2px 1px #000;
 				}
 			}
 		}
 
-		@include media($small-plus) {
+		@include media($maxWidth-650) {
 			margin-bottom: em(16);
 		}
 	}
@@ -96,11 +91,11 @@ main#index {
 		border: em(2) solid #fff;
 		box-shadow: 0 em(1) em(2) 0 #333;
 
-		@include media($large) {
+		@include media($maxWidth-940) {
 			height: 400;
 		}
 
-		@include media($small-plus) {
+		@include media($maxWidth-650) {
 			@include span-columns(10 of 10);
 			height: 230;
 		}
@@ -112,21 +107,21 @@ main#index {
 		background-repeat: no-repeat;
 		background-position: center;
 
-		@include media($large) {
+		@include media($maxWidth-940) {
 			background: url('/img/index/widgets/project-galleries/large/project-galleries.jpg');
 			background-size: auto 100%;
 			background-repeat: no-repeat;
 			background-position: left;
 		}
 
-		@include media($small-plus) {
+		@include media($maxWidth-650) {
 			background: url('/img/index/widgets/project-galleries/default/project-galleries.jpg');
 			background-size: 100% auto;
 			background-repeat: no-repeat;
 			background-position: center;
 		}
 
-		@media #{$mini-mobile} {
+		@media #{$maxWidth-410} {
 			background: url('/img/index/widgets/project-galleries/default/project-galleries.jpg');
 			background-size: auto 110%;
 			background-repeat: no-repeat;
@@ -140,19 +135,19 @@ main#index {
 		background-repeat: no-repeat;
 		background-position: center;
 
-		@include media($large) {
+		@include media($maxWidth-940) {
 			background-size: auto 100%;
 		}
 
-		@include media($small-plus) {
+		@include media($maxWidth-650) {
 			background-size: 100% auto;
 		}
 
-		@media #{$mini-mobile} {
+		@media #{$maxWidth-410} {
 			background-size: auto 110%;
 		}
 	}
-} 
+}
 
 .index-verbiage {
 	text-align: center;
@@ -191,7 +186,7 @@ main#index {
 			}
 		}
 
-		@include media($default-break) {
+		@include media($maxWidth-1070) {
 			h4 {
 				margin-top: rem(12);
 			}
@@ -203,7 +198,7 @@ main#index {
 		height: em(45);
 	}
 
-	@include media($small) {
+	@include media($maxWidth-565) {
 		#services-text,
 		#contact-text {
 			@include span-columns(10 of 10);
@@ -211,7 +206,6 @@ main#index {
 			a.big-green-button {
 				visibility: visible;
 				display: inline-block;
-
 				margin: rem(20) rem(45);
 
 				&:hover {
@@ -226,5 +220,3 @@ main#index {
 		}
 	}
 }
-
-

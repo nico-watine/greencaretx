@@ -1,18 +1,19 @@
-@import "settings/_normalize.scss";
-@import "../assets/bourbon/_bourbon.scss";
-@import "../assets/neat/_neat.scss";
+@import '_var.scss';
+
+@import '../assets/bourbon/_bourbon.scss';
+@import '../assets/neat/_neat.scss';
 
 // SITE COMPONENTS
-@import "ie8/_utility-classes-ie8.scss";
+@import 'ie8/_utility-classes-ie8.scss';
 
 
 // BODY STYLES
-@import "ie8/_core-ie8.scss";
+@import 'ie8/_core-ie8.scss';
 
 // NAVIGATION STYLES
-@import "ie8/_nav-ie8.scss";
-@import "ie8/_header-ie8.scss";
+@import 'ie8/_nav-ie8.scss';
+@import 'ie8/_header-ie8.scss';
 
-@import "ie8/_pages-ie8.scss";
-@import "ie8/_index-ie8.scss";
-@import "ie8/_footer-ie8.scss";
+@import 'ie8/_pages-ie8.scss';
+@import 'ie8/_index-ie8.scss';
+@import 'ie8/_footer-ie8.scss';
