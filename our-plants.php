@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Our Diverse Plant Selection | Greencare Interior Plants - Houston, TX</title>
 	<meta name="description" content="We have a diverse plant selection available for you to choose from.">
-	<link href="http://greencaretx.com/our-plants" rel="canonical">
+	<link href="https://greencaretx.com/our-plants" rel="canonical">
 	<link href="/humans.txt" rel="author">
 
 	<meta name="format-detection" content="telephone=no">

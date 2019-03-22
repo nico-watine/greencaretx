@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Get in touch with us! Greencare Interior Plants - Houston, TX</title>
 	<meta name="description" content="Call 713-864-5300 to schedule your complimentary interior plant design &amp; service consultation!">
-	<link href="http://greencaretx.com/contact" rel="canonical">
+	<link href="https://greencaretx.com/contact" rel="canonical">
 	<link href="/humans.txt" rel="author">
 
 	<meta name="format-detection" content="telephone=no">

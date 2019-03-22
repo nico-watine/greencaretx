@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Plant Maintenance Services for Office &amp; Residential | Greencare Interior Plants - Houston, TX</title>
 	<meta name="description" content="We offer a variety of Plant Maintenance Services for Office &amp; Residential Accounts in Houston, TX">
-	<link href="http://greencaretx.com/services" rel="canonical">
+	<link href="https://greencaretx.com/services" rel="canonical">
 	<link href="/humans.txt" rel="author">
 
 	<meta name="format-detection" content="telephone=no">
