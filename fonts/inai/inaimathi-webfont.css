@@ -1,7 +1,9 @@
 
 @font-face {
-    font-family:"InaiMathi Regular";
-    src:url("inaimathi-webfont.woff2") format("woff2"),url("inaimathi-webfont.woff") format("woff"),url("inaimathi-webfont.otf") format("opentype");
-    font-style:normal;font-weight:400;
+	font-family: 'inai';
+	src: url('/fonts/inai/inaimathi-webfont.woff2') format('woff2'),
+	url('/fonts/inai/inaimathi-webfont.woff') format('woff'),
+	url('/fonts/inai/inaimathi-webfont.otf') format('opentype');
+	font-style: normal;
+	font-weight: 400;
 }
-        
