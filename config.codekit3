@@ -3483,16 +3483,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/fonts/fontello/fontello.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/fonts/fontello/fontello-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/fonts/fontello/fontello.ttf": {
 		"cB": 0,
 		"ft": 8192,
@@ -3516,16 +3506,6 @@
 		"oA": 2,
 		"oAP": "/fonts/fontello/fontello.woff2",
 		"oF": 0
-		},
-	"/fonts/inai/inaimathi-webfont.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/fonts/inai/inaimathi-webfont-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/fonts/inai/inaimathi-webfont.ttf": {
 		"cB": 0,
@@ -3551,38 +3531,28 @@
 		"oAP": "/fonts/inai/inaimathi-webfont.woff2",
 		"oF": 0
 		},
-	"/fonts/nav-export/nav.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/fonts/nav-export/nav-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/fonts/nav-export/nav.ttf": {
+	"/fonts/nav/nav.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/fonts/nav-export/nav.ttf",
+		"oAP": "/fonts/nav/nav.ttf",
 		"oF": 0
 		},
-	"/fonts/nav-export/nav.woff": {
+	"/fonts/nav/nav.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/fonts/nav-export/nav.woff",
+		"oAP": "/fonts/nav/nav.woff",
 		"oF": 0
 		},
-	"/fonts/nav-export/nav.woff2": {
+	"/fonts/nav/nav.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/fonts/nav-export/nav.woff2",
+		"oAP": "/fonts/nav/nav.woff2",
 		"oF": 0
 		},
 	"/googlea536b0ce9879dae9.html": {

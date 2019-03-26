@@ -1,9 +1,0 @@
-
-@font-face {
-	font-family: 'nav';
-	src: url('/fonts/nav/nav.woff2') format('woff2'),
-	url('/fonts/nav/nav.woff') format('woff'),
-	url('/fonts/nav/nav.otf') format('opentype');
-	font-style: normal;
-	font-weight: 400;
-}
