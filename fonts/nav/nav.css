@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"responsivenav";
+    src:url("nav.woff2") format("woff2"),url("nav.woff") format("woff"),url("nav.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        

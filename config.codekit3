@@ -3483,23 +3483,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/fonts/fontello/fontello.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/fonts/fontello/fontello.eot",
-		"oF": 0
-		},
-	"/fonts/fontello/fontello.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/fonts/fontello/fontello.svg",
+	"/fonts/fontello/fontello.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/fonts/fontello/fontello-min.css",
 		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"oS": 3
 		},
 	"/fonts/fontello/fontello.ttf": {
 		"cB": 0,
@@ -3517,23 +3509,23 @@
 		"oAP": "/fonts/fontello/fontello.woff",
 		"oF": 0
 		},
-	"/fonts/inai/inaimathi-webfont.eot": {
+	"/fonts/fontello/fontello.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/fonts/inai/inaimathi-webfont.eot",
+		"oAP": "/fonts/fontello/fontello.woff2",
 		"oF": 0
 		},
-	"/fonts/inai/inaimathi-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/fonts/inai/inaimathi-webfont.svg",
+	"/fonts/inai/inaimathi-webfont.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/fonts/inai/inaimathi-webfont-min.css",
 		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"oS": 3
 		},
 	"/fonts/inai/inaimathi-webfont.ttf": {
 		"cB": 0,
@@ -3551,38 +3543,46 @@
 		"oAP": "/fonts/inai/inaimathi-webfont.woff",
 		"oF": 0
 		},
-	"/fonts/nav/nav.eot": {
+	"/fonts/inai/inaimathi-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/fonts/nav/nav.eot",
+		"oAP": "/fonts/inai/inaimathi-webfont.woff2",
 		"oF": 0
 		},
-	"/fonts/nav/nav.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/fonts/nav/nav.svg",
+	"/fonts/nav-export/nav.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/fonts/nav-export/nav-min.css",
 		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"oS": 3
 		},
-	"/fonts/nav/nav.ttf": {
+	"/fonts/nav-export/nav.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/fonts/nav/nav.ttf",
+		"oAP": "/fonts/nav-export/nav.ttf",
 		"oF": 0
 		},
-	"/fonts/nav/nav.woff": {
+	"/fonts/nav-export/nav.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/fonts/nav/nav.woff",
+		"oAP": "/fonts/nav-export/nav.woff",
+		"oF": 0
+		},
+	"/fonts/nav-export/nav.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/fonts/nav-export/nav.woff2",
 		"oF": 0
 		},
 	"/googlea536b0ce9879dae9.html": {
