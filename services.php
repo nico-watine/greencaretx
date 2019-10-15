@@ -14,8 +14,8 @@
 
 	<meta name="format-detection" content="telephone=no">
 
-	<!-- <link href="<?php autoVer('/css/opt/style.css'); ?>" rel="stylesheet"> -->
-	<link href="<?php autoVer('/css/style.css'); ?>" rel="stylesheet">
+	<link href="<?php autoVer('/css/opt/style.css'); ?>" rel="stylesheet">
+	<!-- <link href="<?php autoVer('/css/style.css'); ?>" rel="stylesheet"> -->
 
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -124,7 +124,7 @@
 		<h4><a href="http://houstoninteriorplants.com/" target="_blank">visit our online plant store!</a></h4>
 	</div>
 	<div id="contact-info">
-		<h4 id="address"><a href="https://goo.gl/maps/1l2Fw" target="_blank">5221 Center St Houston, TX 77007</a></h4>
+		<h4 id="address"><a href="https://goo.gl/maps/AY2EPautNN5DW3yY9" target="_blank">3901 Billingsley St Houston, TX 77009</a></h4>
 		<h4 id="contact-us">request a free quote at <a href="tel://713-864-5300" class="phone-number">713-864-5300</a> <span>or <a href="/contact">contact us</a></span></h4>
 	</div>
 </footer>
