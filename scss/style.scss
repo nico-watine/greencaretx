@@ -1,6 +1,11 @@
-@import '_var.scss';
+// Custom variables
+@import 'var/_var.scss';
 
+// Functions
+@import 'functions/_functions.scss';
 
+// // Pages
+// @import 'pages/_pages.scss';
 
 // -----------------------------------------------------------
 // |            Structure-Based Sass File Imports            |
@@ -31,12 +36,12 @@
 @import 'blocks/_nav-compiled.scss';
 
 // #3 Page-Specific Classes
-@import 'pages/_index.scss';
-@import 'pages/_services.scss';
-@import 'pages/_project-galleries.scss';
-@import 'pages/_our-plants.scss';
-@import 'pages/_contact.scss';
-@import 'pages/_about-us.scss';
+// @import 'pages/_index.scss';
+// @import 'pages/_services.scss';
+// @import 'pages/_project-galleries.scss';
+// @import 'pages/_our-plants.scss';
+// @import 'pages/_contact.scss';
+// @import 'pages/_about-us.scss';
 @import 'blocks/_page-structure.scss';
 
 // #4 Pop-up Modal
@@ -47,3 +52,6 @@
 
 // Optional Development Import
 // @import '_dev-classes.scss';
+
+// Pages
+@import 'pages/_pages.scss';
