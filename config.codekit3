@@ -3454,16 +3454,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/css/temp.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/temp-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
@@ -3856,50 +3846,6 @@
 		"iS": 152,
 		"oA": 0,
 		"oAP": "/img/misc/services-button.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/misc/social/_ignores/facebook-hover.png": {
-		"ft": 32768,
-		"iS": 1031,
-		"oA": 0,
-		"oAP": "/img/misc/social/_ignores/facebook-hover.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/misc/social/_ignores/facebook.png": {
-		"ft": 32768,
-		"iS": 959,
-		"oA": 0,
-		"oAP": "/img/misc/social/_ignores/facebook.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/misc/social/_ignores/google-hover.png": {
-		"ft": 32768,
-		"iS": 1232,
-		"oA": 0,
-		"oAP": "/img/misc/social/_ignores/google-hover.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/misc/social/_ignores/google.png": {
-		"ft": 32768,
-		"iS": 1226,
-		"oA": 0,
-		"oAP": "/img/misc/social/_ignores/google.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5438,19 +5384,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/_var.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_var.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
 	"/scss/blocks/_content.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -5620,6 +5553,45 @@
 		"oS": 1,
 		"uL": 1
 		},
+	"/scss/functions/_breakpoints.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_breakpoints.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/functions/_functions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_functions.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/functions/_px-to-rem.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_px-to-rem.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
 	"/scss/ie8.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -5750,7 +5722,7 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/pages/_about-us.scss": {
+	"/scss/pages/_pages.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5758,12 +5730,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_about-us.css",
+		"oAP": "/scss/css/_pages.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/pages/_contact.scss": {
+	"/scss/pages/about-us/_about-us.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5771,12 +5743,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_contact.css",
+		"oAP": "/scss/pages/css/_about-us.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/pages/_index.scss": {
+	"/scss/pages/contact/_contact.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5784,12 +5756,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_index.css",
+		"oAP": "/scss/pages/css/_contact.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/pages/_our-plants.scss": {
+	"/scss/pages/index/_index.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5797,12 +5769,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_our-plants.css",
+		"oAP": "/scss/pages/css/_index.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/pages/_project-galleries.scss": {
+	"/scss/pages/our-plants/_our-plants.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5810,12 +5782,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_project-galleries.css",
+		"oAP": "/scss/pages/css/_our-plants.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/pages/_services.scss": {
+	"/scss/pages/project-galleries/_project-galleries.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5823,7 +5795,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_services.css",
+		"oAP": "/scss/pages/css/_project-galleries.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/pages/services/_services.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/pages/css/_services.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
@@ -5889,6 +5874,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/style.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/var/_var.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_var.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
