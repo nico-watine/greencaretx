@@ -37,8 +37,8 @@
 		"@type": "PostalAddress",
 		"addressLocality": "Houston",
 		"addressRegion": "TX",
-		"postalCode": "77007",
-		"streetAddress": "5221 Center St"
+		"postalCode": "77009",
+		"streetAddress": "3901 Billingsley St"
 	  },
 	  "sameAs" : [
 		"https://plus.google.com/108713736317109074241/posts?hl=en",
@@ -143,7 +143,7 @@
 		<h4><a href="http://houstoninteriorplants.com/" target="_blank">visit our online plant store!</a></h4>
 	</div>
 	<div id="contact-info">
-		<h4 id="address"><a href="https://goo.gl/maps/1l2Fw" target="_blank">5221 Center St Houston, TX 77007</a></h4>
+		<h4 id="address"><a href="https://goo.gl/maps/AY2EPautNN5DW3yY9" target="_blank">3901 Billingsley St Houston, TX 77009</a></h4>
 		<h4 id="contact-us">request a free quote at <a href="tel://713-864-5300" class="phone-number">713-864-5300</a> <span>or <a href="/contact">contact us</a></span></h4>
 	</div>
 </footer>
