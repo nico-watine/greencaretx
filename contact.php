@@ -84,8 +84,8 @@
 				<section class="primary-contact-info">
 					<h2>Office &amp; Warehouse Info</h2>
 					<p id="address"><strong>Office Address</strong>
-					<br><a href="https://goo.gl/maps/1l2Fw" target="_blank">5221 Center St
-					<br>Houston, TX 77007</a></p>
+					<br><a href="https://goo.gl/maps/AY2EPautNN5DW3yY9" target="_blank">3901 Billingsley St
+					<br>Houston, TX 77009</a></p>
 					<p id="phone"><strong>Office Phone</strong>
 					<br><a href="tel://713-864-5300" class="phone-number">713-864-5300</a></p>
 					<p id="email"><strong>Office Email</strong>
