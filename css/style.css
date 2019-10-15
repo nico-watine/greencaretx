@@ -3094,15 +3094,6 @@ p#email {
   margin-bottom: 0.875rem;
 }
 
-.office-map .overlay {
-  background: transparent;
-  position: relative;
-  width: 100%;
-  height: 16.5625em;
-  top: 16.5625em;
-  margin-top: -16.5625em;
-}
-
 .office-map .iframe-container {
   height: 16.5625em;
 }
