@@ -3852,50 +3852,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/misc/social/_ignores/facebook-hover.png": {
-		"ft": 32768,
-		"iS": 1031,
-		"oA": 0,
-		"oAP": "/img/misc/social/_ignores/facebook-hover.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/misc/social/_ignores/facebook.png": {
-		"ft": 32768,
-		"iS": 959,
-		"oA": 0,
-		"oAP": "/img/misc/social/_ignores/facebook.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/misc/social/_ignores/google-hover.png": {
-		"ft": 32768,
-		"iS": 1232,
-		"oA": 0,
-		"oAP": "/img/misc/social/_ignores/google-hover.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/misc/social/_ignores/google.png": {
-		"ft": 32768,
-		"iS": 1226,
-		"oA": 0,
-		"oAP": "/img/misc/social/_ignores/google.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/misc/social/facebook-hover.png": {
 		"ft": 32768,
 		"iS": 1031,
