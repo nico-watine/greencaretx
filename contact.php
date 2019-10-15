@@ -14,8 +14,8 @@
 
 	<meta name="format-detection" content="telephone=no">
 
-	<link href="<?php autoVer('/css/opt/style.css'); ?>" rel="stylesheet">
-	<!-- <link href="<?php autoVer('/css/style.css'); ?>" rel="stylesheet"> -->
+	<!-- <link href="<?php autoVer('/css/opt/style.css'); ?>" rel="stylesheet"> -->
+	<link href="<?php autoVer('/css/style.css'); ?>" rel="stylesheet">
 
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -84,8 +84,8 @@
 				<section class="primary-contact-info">
 					<h2>Office &amp; Warehouse Info</h2>
 					<p id="address"><strong>Office Address</strong>
-					<br><a href="https://goo.gl/maps/1l2Fw" target="_blank">5221 Center St
-					<br>Houston, TX 77007</a></p>
+					<br><a href="https://goo.gl/maps/AY2EPautNN5DW3yY9" target="_blank">3901 Billingsley St
+					<br>Houston, TX 77009</a></p>
 					<p id="phone"><strong>Office Phone</strong>
 					<br><a href="tel://713-864-5300" class="phone-number">713-864-5300</a></p>
 					<p id="email"><strong>Office Email</strong>
@@ -95,9 +95,8 @@
 				</section>
 				<section class="office-map">
 					<h2>Office Map</h2>
-						<div class="overlay" onClick="style.pointerEvents='none'"></div>
 						<div class="iframe-container">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6926.457764101761!2d-95.4149757!3d29.7710226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c74aaab17a9d%3A0x8a44165392f19130!2s5221+Center+St%2C+Houston%2C+TX+77007!5e0!3m2!1sen!2sus!4v1431023787579" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.375986312188!2d-95.36445418489069!3d29.79568028197354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640b8dd53dc9ddb%3A0x204a7698b31c3245!2s3901%20Billingsley%20St%2C%20Houston%2C%20TX%2077009!5e0!3m2!1sen!2sus!4v1571163199209!5m2!1sen!2sus" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 						</div>
 				</section>
 			</div>
@@ -146,9 +145,8 @@
 					<div class="row">
 						<div class="jdf-map">
 							<h4>Jardin de France Map</h4>
-							<div class="overlay" onClick="style.pointerEvents='none'"></div>
 							<div class="iframe-container">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.3573815909826!2d-95.410378!3d29.767306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c0b46e30ca21%3A0x9fb821a40a5d7107!2s4819+Blossom+St%2C+Houston%2C+TX+77007!5e0!3m2!1sen!2sus!4v1431025386221" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13853.439759820363!2d-95.410379!3d29.767232000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c0b46e1159fd%3A0xdbdbfad45d93f887!2s4819%20Blossom%20St%2C%20Houston%2C%20TX%2077007!5e0!3m2!1sen!2sus!4v1571163592646!5m2!1sen!2sus" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 							</div>
 						</div>
 					</div>
