@@ -1278,6 +1278,11 @@ footer #contact-info #contact-us a {
   }
 }
 
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
 #top-bar {
   float: left;
   display: block;
