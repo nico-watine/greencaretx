@@ -130,7 +130,7 @@
 	<div id="store-share">
 		<div id="facebook">
 			<a href="https://www.facebook.com/GreencareInteriorPlants" target="_blank">
-				<img class="svg" src="/img/misc/social/facebook.svg" alt="Greencare Facebook Link" title="Greencare Facebook Link">
+				<img class="facebook-icon svg" src="/img/misc/social/facebook.svg" alt="Greencare Facebook Link" title="Greencare Facebook Link">
 			</a>
 		</div>
 		<h4><a href="http://houstoninteriorplants.com/" target="_blank">visit our online plant store!</a></h4>
