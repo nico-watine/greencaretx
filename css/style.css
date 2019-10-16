@@ -1187,24 +1187,9 @@ footer #store-share:last-child {
   margin-right: 0;
 }
 
-footer #store-share #facebook,
-footer #store-share #google {
+footer #store-share #facebook {
   width: 36px;
   height: 36px;
-  position: relative;
-  display: inline-block;
-}
-
-footer #store-share #facebook img,
-footer #store-share #google img {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-footer #store-share #facebook:hover img.normal,
-footer #store-share #google:hover img.normal {
-  visibility: hidden;
 }
 
 footer #store-share #facebook {

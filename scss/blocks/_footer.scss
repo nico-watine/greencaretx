@@ -31,24 +31,17 @@ footer {
 		@include span-columns(5 of 14);
 		padding-left: em(20);
 
-		#facebook,
-		#google {
+		#facebook {
 			width: 36px;
 			height: 36px;
-			position: relative;
-			display: inline-block;
+			// position: relative;
+			// display: inline-block;
 
-			img {
-				position: absolute;
-				top: 0;
-				left: 0;
-			}
-
-			&:hover {
-				img.normal {
-					visibility: hidden;
-				}
-			}
+			// img {
+			// 	position: absolute;
+			// 	top: 0;
+			// 	left: 0;
+			// }
 		}
 
 		#facebook {
