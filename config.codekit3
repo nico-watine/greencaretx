@@ -2889,7 +2889,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -5912,27 +5912,33 @@
 "manualImportLinks": {
 	"/js/src/scripts.js": [
 		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/js/src/nav/responsive-nav.js",
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js",
 			"position": 0,
-			"type": 1
+			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/js/src/nav/fastclick.js",
+			"linkedFileAbbreviatedPath": "/js/src/nav/responsive-nav.js",
 			"position": 1,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/js/src/nav/scroll.js",
+			"linkedFileAbbreviatedPath": "/js/src/nav/fastclick.js",
 			"position": 2,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/js/src/nav/fixed-responsive-nav.js",
+			"linkedFileAbbreviatedPath": "/js/src/nav/scroll.js",
 			"position": 3,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "/js/src/nav/fixed-responsive-nav.js",
+			"position": 4,
 			"type": 1
 			}
 		]

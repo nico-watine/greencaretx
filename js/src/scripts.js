@@ -1,5 +1,5 @@
-// :: IMPORTS :: 
-// PREPENDS :: 
+// :: IMPORTS ::
+// PREPENDS ::
 	// /bower_components/magnific-popup/dist/jquery.magnific-popup.min.js
 // APPENDS ::
 	// /js/src/nav/responsive-nav.js
@@ -13,7 +13,7 @@ if (mq.matches) {
 	$('.main-content').css('opacity','0').delay(2000).animate({opacity:1});
 	$('#page-content').css('opacity','0').delay(2700).animate({opacity:1});
 	$('#default-logo').css('opacity','0').delay(3800).animate({opacity:1});
-} 
+}
 else {
 	$('.main-content').css('opacity','1');
 	$('#page-content').css('opacity','1');
