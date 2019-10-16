@@ -3874,28 +3874,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/misc/social/google-hover.png": {
-		"ft": 32768,
-		"iS": 1232,
-		"oA": 0,
-		"oAP": "/img/misc/social/google-hover.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/misc/social/google.png": {
-		"ft": 32768,
-		"iS": 1226,
-		"oA": 0,
-		"oAP": "/img/misc/social/google.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/our-plants/full/bird-of-paradise.jpg": {
 		"ft": 16384,
 		"iS": 74584,
