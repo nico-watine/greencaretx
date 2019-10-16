@@ -31,23 +31,6 @@ footer {
 		@include span-columns(5 of 14);
 		padding-left: em(20);
 
-		#facebook {
-			width: 36px;
-			height: 36px;
-			// position: relative;
-			// display: inline-block;
-
-			// img {
-			// 	position: absolute;
-			// 	top: 0;
-			// 	left: 0;
-			// }
-		}
-
-		#facebook {
-			margin-right: 6px;
-		}
-
 		h4 {
 			margin: 0;
 		}
