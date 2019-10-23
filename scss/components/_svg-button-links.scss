@@ -4,6 +4,8 @@
 
 .svg-link.icon-hover__white {
 	&:hover {
+		background: #fff;
+		border-radius: 50%;
 
 		.replaced-svg {
 			path {

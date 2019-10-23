@@ -638,6 +638,11 @@ a.big-green-button:hover {
   display: inline-block;
 }
 
+.svg-link.icon-hover__white:hover {
+  background: #fff;
+  border-radius: 50%;
+}
+
 .svg-link.icon-hover__white:hover .replaced-svg path {
   fill: #a0cc39;
 }
