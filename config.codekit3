@@ -3852,28 +3852,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/misc/social/facebook-hover.png": {
-		"ft": 32768,
-		"iS": 1031,
-		"oA": 0,
-		"oAP": "/img/misc/social/facebook-hover.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/misc/social/facebook.png": {
-		"ft": 32768,
-		"iS": 959,
-		"oA": 0,
-		"oAP": "/img/misc/social/facebook.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/misc/social/facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
