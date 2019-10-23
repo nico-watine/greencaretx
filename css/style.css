@@ -634,6 +634,20 @@ a.big-green-button:hover {
   text-shadow: 0.0625rem 0.0625rem 0.125rem #000;
 }
 
+.svg-link {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.svg-link.icon-hover__white:hover {
+  background: #fff;
+  border-radius: 50%;
+}
+
+.svg-link.icon-hover__white:hover .replaced-svg path {
+  fill: #a0cc39;
+}
+
 header#index .default {
   visibility: visible;
   display: block;
@@ -1187,30 +1201,6 @@ footer #store-share:last-child {
   margin-right: 0;
 }
 
-footer #store-share #facebook,
-footer #store-share #google {
-  width: 35px;
-  height: 35px;
-  position: relative;
-  display: inline-block;
-}
-
-footer #store-share #facebook img,
-footer #store-share #google img {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-footer #store-share #facebook:hover img.normal,
-footer #store-share #google:hover img.normal {
-  visibility: hidden;
-}
-
-footer #store-share #facebook {
-  margin-right: 6px;
-}
-
 footer #store-share h4 {
   margin: 0;
 }
@@ -1300,6 +1290,11 @@ footer #contact-info #contact-us a {
   footer#contact {
     margin-bottom: 0;
   }
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
 }
 
 #top-bar {

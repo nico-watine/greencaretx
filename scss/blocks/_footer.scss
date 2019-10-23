@@ -31,29 +31,7 @@ footer {
 		@include span-columns(5 of 14);
 		padding-left: em(20);
 
-		#facebook,
-		#google {
-			width: 35px;
-			height: 35px;
-			position: relative;
-			display: inline-block;
 
-			img {
-				position: absolute;
-				top: 0;
-				left: 0;
-			}
-
-			&:hover {
-				img.normal {
-					visibility: hidden;
-				}
-			}
-		}
-
-		#facebook {
-			margin-right: 6px;
-		}
 
 		h4 {
 			margin: 0;
@@ -141,4 +119,9 @@ footer {
 	// #snc-link {
 	// 	margin-bottom: rem(18);
 	// }
+}
+
+svg {
+	overflow: hidden;
+	vertical-align: middle;
 }
