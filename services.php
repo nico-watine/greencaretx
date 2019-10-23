@@ -109,12 +109,9 @@
 
 <footer>
 	<div id="store-share">
-		<div id="facebook">
-			<a href="https://www.facebook.com/GreencareInteriorPlants" target="_blank">
-				<img src="/img/misc/social/facebook-hover.png" alt="Greencare Facebook Link" class="hover">
-				<img src="/img/misc/social/facebook.png" alt="Greencare Facebook Link" class="normal">
-			</a>
-		</div>
+		<a href="https://www.facebook.com/GreencareInteriorPlants" target="_blank" class="svg-link icon-hover__white">
+			<img class="svg" src="/img/misc/social/facebook.svg" alt="Greencare Facebook Link" title="Greencare Facebook Link">
+		</a>
 		<h4><a href="http://houstoninteriorplants.com/" target="_blank">visit our online plant store!</a></h4>
 	</div>
 	<div id="contact-info">
