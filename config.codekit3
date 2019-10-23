@@ -7,7 +7,7 @@
 		"uuidString": "4035B102-338C-4D67-A2F9-D331A0B0AAAF"
 		}
 	],
-"creatorBuild": "31491",
+"creatorBuild": "31934",
 "files": {
 	"/.editorconfig": {
 		"cB": 0,
@@ -2889,7 +2889,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -3852,49 +3852,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/misc/social/facebook-hover.png": {
-		"ft": 32768,
-		"iS": 1031,
-		"oA": 0,
-		"oAP": "/img/misc/social/facebook-hover.png",
+	"/img/misc/social/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/misc/social/facebook.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/misc/social/facebook.png": {
-		"ft": 32768,
-		"iS": 959,
-		"oA": 0,
-		"oAP": "/img/misc/social/facebook.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/misc/social/google-hover.png": {
-		"ft": 32768,
-		"iS": 1232,
-		"oA": 0,
-		"oAP": "/img/misc/social/google-hover.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/misc/social/google.png": {
-		"ft": 32768,
-		"iS": 1226,
-		"oA": 0,
-		"oAP": "/img/misc/social/google.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/img/our-plants/full/bird-of-paradise.jpg": {
 		"ft": 16384,
@@ -5276,7 +5242,7 @@
 		"oA": 0,
 		"oAP": "/js/scripts-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"/js/vendor/jquery/1-12-4/jquery-min.js": {
@@ -5497,6 +5463,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_neat-resets.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/components/_svg-button-links.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_svg-button-links.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
@@ -5924,27 +5903,33 @@
 "manualImportLinks": {
 	"/js/src/scripts.js": [
 		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/js/src/nav/responsive-nav.js",
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js",
 			"position": 0,
-			"type": 1
+			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/js/src/nav/fastclick.js",
+			"linkedFileAbbreviatedPath": "/js/src/nav/responsive-nav.js",
 			"position": 1,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/js/src/nav/scroll.js",
+			"linkedFileAbbreviatedPath": "/js/src/nav/fastclick.js",
 			"position": 2,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/js/src/nav/fixed-responsive-nav.js",
+			"linkedFileAbbreviatedPath": "/js/src/nav/scroll.js",
 			"position": 3,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "/js/src/nav/fixed-responsive-nav.js",
+			"position": 4,
 			"type": 1
 			}
 		]
@@ -6389,6 +6374,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -6490,6 +6476,10 @@
 			"optionString": "'all'"
 			},
 		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-param-last": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -6839,6 +6829,10 @@
 			},
 		"no-implied-eval": {
 			"active": 0,
+			"optionString": ""
+			},
+		"no-import-assign": {
+			"active": 1,
 			"optionString": ""
 			},
 		"no-inline-comments": {
@@ -7264,6 +7258,10 @@
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -7873,7 +7871,6 @@
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"enableJavascript": 0,
-		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -8013,6 +8010,9 @@
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
