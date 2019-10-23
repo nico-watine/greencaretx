@@ -636,6 +636,7 @@ a.big-green-button:hover {
 
 .svg-link {
   display: inline-block;
+  margin-bottom: 0.5rem;
 }
 
 .svg-link.icon-hover__white:hover {
