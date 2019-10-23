@@ -634,6 +634,14 @@ a.big-green-button:hover {
   text-shadow: 0.0625rem 0.0625rem 0.125rem #000;
 }
 
+.svg-link {
+  display: inline-block;
+}
+
+.svg-link.icon-hover__white:hover .replaced-svg path {
+  fill: #a0cc39;
+}
+
 header#index .default {
   visibility: visible;
   display: block;
