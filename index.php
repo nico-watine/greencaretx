@@ -29,9 +29,9 @@
 	  "@context": "http://schema.org",
 	  "@type": "LocalBusiness",
 	  "name": "Greencare Interior Plants",
-	  "logo": "http://greencaretx.com/img/schema/greencare-logo.png",
+	  "logo": "https://greencaretx.com/img/schema/greencare-logo.png",
 	  "description": "Interior plant design &amp; maintenance services for commercial and residential accounts in the Greater Houston area.",
-	  "url" : "http://greencaretx.com",
+	  "url" : "https://greencaretx.com",
 	  "telephone": "713-864-5300",
 	  "address": {
 		"@type": "PostalAddress",
