@@ -5149,14 +5149,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/index.php",
-		"oF": 0
-		},
 	"/js/scripts-ie-min.js": {
 		"bF": 0,
 		"ft": 64,
