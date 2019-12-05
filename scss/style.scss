@@ -7,9 +7,6 @@
 // -----------------------------------------------------------
 // |            Structure-Based Sass File Imports            |
 // -----------------------------------------------------------
-// will no longer need normalize bc custom reset::
-// @import '../bower_components/normalize-css/normalize';
-// Move below 2 imports to within scss directory (and out of the /assets folder)
 @import 'assets/bourbon/_bourbon.scss';
 @import 'assets/neat/_neat.scss';
 
@@ -19,41 +16,6 @@
 // Pages
 @import 'pages/_pages.scss';
 
-
-
-
-
-// ------------------------------------------------------------------------------
-// |            IMPORT CUSTOM SASS FILES (IN ORDER OF LOAD PRIORITY)            |
-// ------------------------------------------------------------------------------
-
-// #1 Basic Components
-// @import 'components/typography/_typography.scss';
-// @import 'components/_media.scss';
-// @import 'components/_utility-classes.scss';
-// @import 'components/_buttons.scss';
-// @import 'components/_svg-button-links.scss';
-
-// #2 Page Blocks
-// @import 'blocks/_header.scss';
-// @import 'blocks/_content.scss';
-// @import 'blocks/_footer.scss';
-
-// #2a Navigation Classes
-// @import 'blocks/_nav-compiled.scss';
-
-// #3 Page-Specific Classes
-// @import 'pages/_index.scss';
-// @import 'pages/_services.scss';
-// @import 'pages/_project-galleries.scss';
-// @import 'pages/_our-plants.scss';
-// @import 'pages/_contact.scss';
-// @import 'pages/_about-us.scss';
-// @import 'blocks/_page-structure.scss';
-
-// #4 Pop-up Modal
-// @import 'popup/_magnific-popup.scss';
-// @import 'popup/_modal-styles.scss';
 
 
 
