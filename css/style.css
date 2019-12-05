@@ -2296,6 +2296,30 @@ body::after {
           transform: scale(0.8);
 }
 
+.white-popup {
+  position: relative;
+  background: #fff;
+  padding: 1.875em 1em;
+  width: auto;
+  max-width: 80%;
+  text-align: center;
+  margin: 1.25em auto;
+  border: 0.375em solid #4c3211;
+  border-radius: 0.625em;
+}
+
+@media screen and (max-width: 51.25em) {
+  .white-popup {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 35.3125em) {
+  .white-popup {
+    max-width: 95%;
+  }
+}
+
 .mfp-bg {
   top: 0;
   left: 0;
