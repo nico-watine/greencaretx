@@ -6338,19 +6338,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/print-styles/_print-styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/css/_print-styles.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
 	"/scss/style.scss": {
 		"aP": 1,
 		"bl": 0,
