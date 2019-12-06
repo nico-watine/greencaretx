@@ -10,10 +10,10 @@ $content-bg: #eee;
 	@include shift(1);
 	z-index: 3;
 	background: $dark-brown;
-	border-radius: em(12) em(12) 0 0;
+	border-radius: rem-calc(12) rem-calc(12) 0 0;
 	behavior: url('/php/PIE.htc');
-	border-top: em(2) solid white;
-	border-bottom: em(2) solid white;
+	border-top: rem-calc(2) solid white;
+	border-bottom: rem-calc(2) solid white;
 	text-align: right;
 	position: relative;
 
@@ -24,7 +24,7 @@ $content-bg: #eee;
 
 	@include media($maxWidth-820) {
 		background: $dark-brown;
-		border-top: em(2) solid $tan;
+		border-top: rem-calc(2) solid $tan;
 		border-radius: 0;
 		width: 100%;
 		@include shift(0);
@@ -33,7 +33,7 @@ $content-bg: #eee;
 	@include media($maxWidth-650) {
 		z-index: 20;
 		background: $logo-brown;
-		border-bottom: em(1) solid #fff;
+		border-bottom: rem-calc(1) solid #fff;
 	}
 }
 
@@ -165,8 +165,8 @@ NAVIGATION STYLES
 		&:hover {
 			background: $lime-green;
 			// background: lighten( $lime-green, 8% );
-			// text-shadow: rem(0) rem(1) rem(1) $dark-brown;
-			// box-shadow: inset rem(0) rem(0) rem(3) rem(4) #88AF2D;
+			// text-shadow: rem-calc(0) rem-calc(1) rem-calc(1) $dark-brown;
+			// box-shadow: inset rem-calc(0) rem-calc(0) rem-calc(3) rem-calc(4) #88AF2D;
 		}
 	}
 
@@ -295,7 +295,7 @@ NAV TOGGLE STYLES
 
 		&:hover {
 			background: $lime-green;
-			text-shadow: 0 rem(1) rem(0) #668625;
+			text-shadow: 0 rem-calc(1) rem-calc(0) #668625;
 			box-shadow: 0 1px 1px 0 #668625 inset;
 		}
 	}
@@ -309,7 +309,7 @@ NAV TOGGLE STYLES
 	.nav-collapse .active a {
 		background: $lime-green;
 		box-shadow: none;
-		text-shadow: 0 rem(1) rem(0) #668625;
+		text-shadow: 0 rem-calc(1) rem-calc(0) #668625;
 		box-shadow: 0 1px 1px 0 #668625 inset;
 	}
 
