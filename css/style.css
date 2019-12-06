@@ -1243,7 +1243,7 @@ main:last-child {
   margin-right: 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   main {
     border-left: 0.4375rem solid #4c3211;
     border-right: 0.4375rem solid #4c3211;
@@ -1262,7 +1262,7 @@ main .main-content {
   opacity: 0;
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   main {
     background-image: none !important;
     background-color: #eeeeee;
@@ -1285,7 +1285,7 @@ main .main-content {
   margin-right: 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   #page-title {
     float: left;
     display: block;
@@ -1297,7 +1297,7 @@ main .main-content {
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   #page-title {
     display: none;
     visibility: hidden;
@@ -1309,13 +1309,13 @@ main .main-content {
   padding-top: 28.125rem;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   #page-title .h1-wrap {
     margin-left: -0.9375rem;
   }
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   #page-title .h1-wrap {
     margin-left: -1.125rem;
     padding-top: 31.25rem;
@@ -1329,8 +1329,8 @@ main .main-content {
 
 #page-title .vertical-title {
   -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
   color: white;
   padding: 2.5rem 0 0 0;
   font-size: 2.625rem;
@@ -1355,7 +1355,7 @@ main .main-content {
   margin-left: -9.375rem;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   #page-title .h1-wrap#project-galleries,
   #page-title .h1-wrap#contact {
     margin-left: -9.6875rem;
@@ -1363,7 +1363,7 @@ main .main-content {
   }
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   #page-title .h1-wrap#project-galleries,
   #page-title .h1-wrap#contact {
     margin-left: -10rem;
@@ -1397,7 +1397,7 @@ main .main-content {
   margin-right: 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   #page-content {
     float: left;
     display: block;
@@ -1409,7 +1409,7 @@ main .main-content {
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   #page-content {
     float: left;
     display: block;
@@ -1453,7 +1453,7 @@ main .main-content {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .page-header h1 {
     font-size: 2.25rem;
   }
@@ -1485,7 +1485,7 @@ footer:last-child {
   margin-right: 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   footer {
     float: left;
     display: block;
@@ -1500,7 +1500,7 @@ footer:last-child {
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   footer {
     margin-bottom: 1.875rem;
     padding-bottom: 0.625rem;
@@ -1524,7 +1524,7 @@ footer #store-share h4 {
   margin: 0;
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   footer #store-share {
     padding: 0.75rem 0 0 0;
     width: 100%;
@@ -1532,13 +1532,13 @@ footer #store-share h4 {
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   footer #store-share {
     margin-bottom: 0.375rem;
   }
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   footer #store-share {
     margin-bottom: 0;
   }
@@ -1571,13 +1571,13 @@ footer #contact-info #contact-us a {
   color: #fff;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   footer #contact-info {
     padding-top: 0.9375rem;
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   footer #contact-info {
     width: 100%;
     margin: 0;
@@ -1592,20 +1592,20 @@ footer #contact-info #contact-us a {
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   footer #contact-info #address {
     margin-bottom: 1rem;
   }
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   footer #contact-info #address {
     margin-bottom: 0.625rem;
     font-size: 1.1875rem;
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   footer#contact {
     margin-bottom: 0;
   }
@@ -1639,7 +1639,7 @@ header .logo-container #medium-logo {
   display: none;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   header .logo-container {
     padding: 0;
     float: left;
@@ -1652,7 +1652,7 @@ header .logo-container #medium-logo {
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   header .logo-container {
     float: left;
     display: block;
@@ -1688,7 +1688,7 @@ header .logo-container #default-logo-flat {
   height: auto;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   header .logo-container #default-logo,
   header .logo-container #default-logo-flat {
     max-width: 150px;
@@ -1698,7 +1698,7 @@ header .logo-container #default-logo-flat {
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   header .logo-container #default-logo,
   header .logo-container #default-logo-flat {
     visibility: hidden;
@@ -1739,7 +1739,7 @@ header .phone-container aside h3 a.phone-number {
   text-shadow: 0.0625rem 0.0625rem 0 #000;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   header .phone-container {
     float: left;
     display: block;
@@ -1755,7 +1755,7 @@ header .phone-container aside h3 a.phone-number {
   }
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   header .phone-container {
     float: left;
     display: block;
@@ -1771,14 +1771,14 @@ header .phone-container aside h3 a.phone-number {
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   header .phone-container {
     visibility: hidden;
     display: none;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   header .default {
     visibility: hidden;
     display: none;
@@ -1790,7 +1790,7 @@ header .mini {
   display: none;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   header {
     width: 100%;
     background: #624011;
@@ -1851,7 +1851,7 @@ header .mini {
   }
 }
 
-@media screen and (max-width: 28.125em) {
+@media screen and (max-width: em(450)) {
   header .mini .phone-container aside h3 {
     visibility: hidden;
     display: none;
@@ -1871,7 +1871,7 @@ header .mini {
   visibility: hidden;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   #small-logo {
     display: block;
     visibility: visible;
@@ -1902,7 +1902,7 @@ header .mini {
   margin-right: 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   #top-bar {
     float: left;
     display: block;
@@ -1915,7 +1915,7 @@ header .mini {
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   #top-bar {
     background: #4c3211;
     border-top: 0.125rem solid #ded8cc;
@@ -1925,7 +1925,7 @@ header .mini {
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   #top-bar {
     z-index: 20;
     background: #624011;
@@ -1933,7 +1933,7 @@ header .mini {
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .nav-collapse ul {
     margin: 0;
     padding: 0;
@@ -2046,14 +2046,14 @@ NAVIGATION STYLES
   }
 }
 
-@media screen and (max-width: 40.625em) and (max-width: 51.25em) {
+@media screen and (max-width: em(650)) and (max-width: em(820)) {
   .nav-collapse a#last {
     border-right: 0;
     border-radius: 0;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   /* ------------------------------------------
 NAV TOGGLE STYLES
 --------------------------------------------- */
@@ -2161,7 +2161,7 @@ NAV TOGGLE STYLES
   }
 }
 
-@media screen and (min-width: 40.6255em) and (max-width: 51.25em) {
+@media screen and (min-width: 40.6255em) and (max-width: em(820)) {
   .nav-collapse a#last {
     border-radius: 0;
   }
@@ -2194,7 +2194,7 @@ NAV TOGGLE STYLES
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   .nav-collapse {
     width: 100% !important;
     text-align: center !important;
@@ -2204,7 +2204,7 @@ NAV TOGGLE STYLES
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .nav-collapse {
     text-align: right !important;
   }
@@ -2235,13 +2235,13 @@ body::after {
   clear: both;
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   body {
     margin: 0;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .main-cover#index-cover,
   .main-cover#services-cover,
   .main-cover#project-galleries-cover,
@@ -2308,13 +2308,13 @@ body::after {
   border-radius: 0.625rem;
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   .white-popup {
     max-width: 90%;
   }
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .white-popup {
     max-width: 95%;
   }
@@ -2913,7 +2913,7 @@ a.phone-number i.icon-phone:focus, a.phone-number i.icon-phone:active {
   background: rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   a.phone-number {
     text-decoration: underline;
   }
@@ -2952,13 +2952,13 @@ h1 {
   font-size: 2.375rem;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   h1 {
     font-size: 2rem;
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   h1 {
     font-size: 1.75rem;
   }
@@ -2968,7 +2968,7 @@ h2 {
   font-size: 2rem;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   h2 {
     font-size: 1.75rem;
   }
@@ -2978,7 +2978,7 @@ h3 {
   font-size: 1.75rem;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   h3 {
     font-size: 1.4375rem;
   }
@@ -2992,7 +2992,7 @@ h5 {
   font-size: 1rem;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   h5 {
     font-size: 0.75rem;
   }
@@ -3117,7 +3117,7 @@ main#index .main-content {
   font-size: 1.5625rem;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .index-header h1 {
     font-size: 2.25rem;
   }
@@ -3147,7 +3147,7 @@ main#index .main-content {
   clear: both;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   .widget-links {
     margin-bottom: 1rem;
   }
@@ -3171,13 +3171,13 @@ main#index .main-content {
   padding: 0.625rem 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   .widget-links .widget a h4 {
     margin-top: 346px;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .widget-links .widget a h4 {
     margin-top: 181px;
     font-size: 1.1875rem;
@@ -3192,7 +3192,7 @@ main#index .main-content {
   text-shadow: 0 2px 1px #000;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .widget-links .widget {
     margin-bottom: 1rem;
   }
@@ -3215,14 +3215,14 @@ main#index .main-content {
   margin-right: 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   .widget-links .widget#project-galleries,
   .widget-links .widget#plant-selection {
     height: 400;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .widget-links .widget#project-galleries,
   .widget-links .widget#plant-selection {
     float: left;
@@ -3244,7 +3244,7 @@ main#index .main-content {
   background-position: center;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   .widget-links .widget#project-galleries {
     background: url("/img/index/widgets/project-galleries/large/project-galleries.jpg");
     background-size: auto 100%;
@@ -3253,7 +3253,7 @@ main#index .main-content {
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .widget-links .widget#project-galleries {
     background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg");
     background-size: 100% auto;
@@ -3278,13 +3278,13 @@ main#index .main-content {
   background-position: center;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   .widget-links .widget#plant-selection {
     background-size: auto 100%;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .widget-links .widget#plant-selection {
     background-size: 100% auto;
   }
@@ -3342,7 +3342,7 @@ main#index .main-content {
   display: inline-block;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   .index-verbiage #contact-text h4 {
     margin-top: 0.75rem;
   }
@@ -3353,7 +3353,7 @@ main#index .main-content {
   height: 2.8125rem;
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .index-verbiage #services-text,
   .index-verbiage #contact-text {
     float: left;
@@ -3448,7 +3448,7 @@ main#services .main-content {
   padding: 0 1.25rem;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   #services-modal h3 {
     padding: 0;
   }
@@ -3514,7 +3514,7 @@ main#project-galleries .page-header {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   .project-galleries-gallery .image-grid .thumb {
     float: left;
     display: block;
@@ -3538,7 +3538,7 @@ main#project-galleries .page-header {
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .project-galleries-gallery .image-grid .thumb {
     float: left;
     display: block;
@@ -3575,7 +3575,7 @@ main#our-plants .main-content {
   background-size: cover;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   main#our-plants {
     background-image: url("/img/our-plants/our-plants@l.jpg");
   }
@@ -3623,7 +3623,7 @@ main#our-plants .main-content {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   .plant-selection-gallery .image-grid .thumb {
     float: left;
     display: block;
@@ -3647,7 +3647,7 @@ main#our-plants .main-content {
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .plant-selection-gallery .image-grid .thumb {
     float: left;
     display: block;
@@ -3680,7 +3680,7 @@ main#our-plants .main-content {
   text-align: center;
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .our-plants-verbiage {
     padding: 0.625rem 0.625rem;
   }
@@ -3721,7 +3721,7 @@ main#contact .page-header {
   margin-bottom: 2.375rem;
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   main#contact {
     text-align: center;
   }
@@ -3788,7 +3788,7 @@ p#email {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   .primary-contact-info,
   .office-map {
     float: left;
@@ -3832,7 +3832,7 @@ p#email {
   }
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .primary-contact-info p#address,
   .primary-contact-info p#phone,
   .primary-contact-info p#email {
@@ -3909,7 +3909,7 @@ p#email {
   margin: 0.625rem auto 0.75rem;
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .row#plant-purchases .purchase-options .row .logo {
     float: left;
     display: block;
@@ -3957,7 +3957,7 @@ p#email {
   padding-right: 1rem;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .row#plant-purchases .purchase-options .row#jdf .street-address,
   .row#plant-purchases .purchase-options .row#jdf .web-address {
     float: left;
@@ -3973,7 +3973,7 @@ p#email {
   }
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .row#plant-purchases .purchase-options .row#jdf .street-address,
   .row#plant-purchases .purchase-options .row#jdf .web-address {
     text-align: center;
@@ -4006,7 +4006,7 @@ p#email {
   border: 0.125rem solid #fff;
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .office-map,
   .jdf-map {
     display: none;

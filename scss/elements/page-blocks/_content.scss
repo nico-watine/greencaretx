@@ -63,7 +63,7 @@ main {
 	}
 
 	.vertical-title {
-		@include transform(rotate(-90deg));
+		transform: rotate(-90deg);
 		color: white;
 		padding: rem-calc(40) 0 0 0;
 		font-size: rem-calc(42);
