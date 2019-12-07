@@ -295,3 +295,17 @@
 	padding-top: rem-calc(40);
 	padding-bottom: rem-calc(40);
 }
+
+
+// ------------------------------------------------
+// |            Custom Padding Classes            |
+// ------------------------------------------------
+
+.padding-horizontal,
+.padding-sides {
+	padding: 0 rem-calc(16);
+}
+
+.padding-vertical {
+	padding: rem-calc(16) 0;
+}

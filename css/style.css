@@ -185,19 +185,6 @@ body {
   display: block;
 }
 
-.padding-horizontal,
-.padding-sides {
-  padding: 0 1rem;
-}
-
-.padding-vertical {
-  padding: 1rem 0;
-}
-
-.img-container {
-  text-align: center;
-}
-
 .one-half {
   float: left;
   display: block;
@@ -715,6 +702,10 @@ a.phone-number i.icon-phone:focus, a.phone-number i.icon-phone:active {
   a.phone-number:hover {
     text-decoration: none;
   }
+}
+
+.img-container {
+  text-align: center;
 }
 
 .border-radius-0 {
@@ -1599,6 +1590,15 @@ a.phone-number i.icon-phone:focus, a.phone-number i.icon-phone:active {
 .py-40 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.padding-horizontal,
+.padding-sides {
+  padding: 0 1rem;
+}
+
+.padding-vertical {
+  padding: 1rem 0;
 }
 
 .position-static {

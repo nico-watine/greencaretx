@@ -4375,6 +4375,32 @@
 		"oS": 1,
 		"uL": 1
 		},
+	"/scss/elements/media/_img.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/css/_img.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/elements/media/_media.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/css/_media.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
 	"/scss/elements/page-blocks/_content.scss": {
 		"aP": 0,
 		"bl": 0,
