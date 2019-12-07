@@ -547,12 +547,18 @@ ol.no-bullet {
   list-style: none;
 }
 
-.text-hide {
-  font: 0/0 a !important;
-  color: transparent !important;
-  text-shadow: none !important;
-  background-color: transparent !important;
-  border: 0 !important;
+.svg-link {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.svg-link.icon-hover__white:hover {
+  background: #fff;
+  border-radius: 50%;
+}
+
+.svg-link.icon-hover__white:hover .replaced-svg path {
+  fill: #a0cc39;
 }
 
 .text-left {
