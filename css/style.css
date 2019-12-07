@@ -361,7 +361,7 @@ h6,
   font-family: "inai", sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: #0a0a0a;
+  color: inherit;
   line-height: 1.2;
   margin-bottom: 0.5rem;
   text-rendering: optimizeLegibility;
