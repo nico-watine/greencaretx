@@ -1,8 +1,3 @@
-// @import '_nav-basics.scss';
-// @import '_nav-940.scss';
-// @import '_nav-820.scss';
-// @import '_nav-650.scss';
-
 #top-bar {
 	@include span-columns(14);
 	@include shift(1);
@@ -13,14 +8,6 @@
 	border-bottom: rem-calc(2) solid white;
 	text-align: right;
 	position: relative;
-
-	@include media($maxWidth-820) {
-		background: $dark-brown;
-		border-top: rem-calc(2) solid $tan;
-		border-radius: 0;
-		width: 100%;
-		@include shift(0);
-	}
 
 	@include media($maxWidth-650) {
 		z-index: 20;
@@ -37,11 +24,16 @@
 }
 
 @include media($maxWidth-820) {
-
+	#top-bar {
+		background: $dark-brown;
+		border-top: rem-calc(2) solid $tan;
+		border-radius: 0;
+		width: 100%;
+		@include shift(0);
+	}
 }
 
 @include media($maxWidth-650) {
-
 }
 
 @include media($maxWidth-650) {

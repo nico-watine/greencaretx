@@ -2398,16 +2398,6 @@ header .mini {
   margin-right: 0;
 }
 
-@media screen and (max-width: 51.25rem) {
-  #top-bar {
-    background: #4c3211;
-    border-top: 0.125rem solid #ded8cc;
-    border-radius: 0;
-    width: 100%;
-    margin-left: 0%;
-  }
-}
-
 @media screen and (max-width: 40.625rem) {
   #top-bar {
     z-index: 20;
@@ -2426,6 +2416,16 @@ header .mini {
   }
   #top-bar:last-child {
     margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 51.25rem) {
+  #top-bar {
+    background: #4c3211;
+    border-top: 0.125rem solid #ded8cc;
+    border-radius: 0;
+    width: 100%;
+    margin-left: 0%;
   }
 }
 
