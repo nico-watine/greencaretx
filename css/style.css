@@ -2398,19 +2398,6 @@ header .mini {
   margin-right: 0;
 }
 
-@media screen and (max-width: 58.75rem) {
-  #top-bar {
-    float: left;
-    display: block;
-    margin-right: 2.3576520234%;
-    width: 91.4701956647%;
-    margin-left: 4.2649021676%;
-  }
-  #top-bar:last-child {
-    margin-right: 0;
-  }
-}
-
 @media screen and (max-width: 51.25rem) {
   #top-bar {
     background: #4c3211;
@@ -2426,6 +2413,19 @@ header .mini {
     z-index: 20;
     background: #624011;
     border-bottom: 0.0625rem solid #fff;
+  }
+}
+
+@media screen and (max-width: 58.75rem) {
+  #top-bar {
+    float: left;
+    display: block;
+    margin-right: 2.3576520234%;
+    width: 91.4701956647%;
+    margin-left: 4.2649021676%;
+  }
+  #top-bar:last-child {
+    margin-right: 0;
   }
 }
 
