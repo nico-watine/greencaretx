@@ -4547,7 +4547,7 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/elements/page-blocks/nav/_nav-default.scss": {
+	"/scss/elements/page-blocks/nav/_nav-basics.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4555,7 +4555,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/elements/page-blocks/css/_nav-default.css",
+		"oAP": "/scss/elements/page-blocks/css/_nav-basics.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
