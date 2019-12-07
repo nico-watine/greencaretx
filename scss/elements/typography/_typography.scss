@@ -31,13 +31,6 @@ body {
 @import '_text-transform.scss';
 @import '_text-visibility.scss';
 
-p {
-	margin-bottom: rem-calc(16);
-	font-size: rem-calc(16);
-	line-height: 1.6;
-	text-rendering: optimizeLegibility;
-}
-
 a.phone-number {
 	display: inline-block;
 	text-decoration: none;
