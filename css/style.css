@@ -205,37 +205,6 @@ html {
   margin-right: 0 !important;
 }
 
-html,
-input,
-button,
-textarea {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-body {
-  color: #333;
-  font-family: "inai", sans-serif;
-}
-
-a.phone-number {
-  display: inline-block;
-  text-decoration: none;
-}
-
-a.phone-number i.icon-phone:focus, a.phone-number i.icon-phone:active {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-@media screen and (max-width: 51.25rem) {
-  a.phone-number {
-    text-decoration: underline;
-  }
-  a.phone-number:hover {
-    text-decoration: none;
-  }
-}
-
 .svg-link {
   display: inline-block;
   margin-bottom: 0.5rem;
@@ -248,6 +217,19 @@ a.phone-number i.icon-phone:focus, a.phone-number i.icon-phone:active {
 
 .svg-link.icon-hover__white:hover .replaced-svg path {
   fill: #a0cc39;
+}
+
+html,
+input,
+button,
+textarea {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  color: #333;
+  font-family: "inai", sans-serif;
 }
 
 abbr,
@@ -732,6 +714,24 @@ p {
   font-size: 1rem;
   line-height: 1.6;
   text-rendering: optimizeLegibility;
+}
+
+a.phone-number {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a.phone-number i.icon-phone:focus, a.phone-number i.icon-phone:active {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 51.25rem) {
+  a.phone-number {
+    text-decoration: underline;
+  }
+  a.phone-number:hover {
+    text-decoration: none;
+  }
 }
 
 .border-radius-0 {

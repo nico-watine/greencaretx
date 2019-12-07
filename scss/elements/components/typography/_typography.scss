@@ -5,19 +5,19 @@
 // 	font-size: 1em;
 // }
 
-html,
-input,
-button,
-textarea {
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-}
+// html,
+// input,
+// button,
+// textarea {
+// 	-webkit-font-smoothing: antialiased;
+// 	text-rendering: optimizeLegibility;
+// }
 
-body {
-	color: $text-color;
-	font-family: $body-font-family;
-	// line-height: $baseline;
-}
+// body {
+// 	color: $text-color;
+// 	font-family: $body-font-family;
+// 	// line-height: $baseline;
+// }
 
 // a {
 // 	color: $text-color;
@@ -27,25 +27,25 @@ body {
 // 	}
 // }
 
-a.phone-number {
-	display: inline-block;
-	text-decoration: none;
+// a.phone-number {
+// 	display: inline-block;
+// 	text-decoration: none;
 
-	i.icon-phone {
-		&:focus,
-		&:active {
-			background: rgba(0, 0, 0, .5);
-		}
-	}
+// 	i.icon-phone {
+// 		&:focus,
+// 		&:active {
+// 			background: rgba(0, 0, 0, .5);
+// 		}
+// 	}
 
-	@include media($maxWidth-820) {
-		text-decoration: underline;
+// 	@include media($maxWidth-820) {
+// 		text-decoration: underline;
 
-		&:hover {
-			text-decoration: none;
-		}
-	}
-}
+// 		&:hover {
+// 			text-decoration: none;
+// 		}
+// 	}
+// }
 
 // hr {
 // 	border: 0;

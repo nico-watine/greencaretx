@@ -1,3 +1,17 @@
+html,
+input,
+button,
+textarea {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	color: $text-color;
+	font-family: $body-font-family;
+	// line-height: $baseline;
+}
+
 @import '_abbr.scss';
 @import '_blockquote-cite.scss';
 @import '_buttons.scss';
@@ -22,4 +36,24 @@ p {
 	font-size: rem-calc(16);
 	line-height: 1.6;
 	text-rendering: optimizeLegibility;
+}
+
+a.phone-number {
+	display: inline-block;
+	text-decoration: none;
+
+	i.icon-phone {
+		&:focus,
+		&:active {
+			background: rgba(0, 0, 0, .5);
+		}
+	}
+
+	@include media($maxWidth-820) {
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
 }
