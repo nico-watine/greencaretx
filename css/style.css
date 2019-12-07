@@ -2380,25 +2380,27 @@ header .mini {
 }
 
 #top-bar {
+  z-index: 3;
+  background: #4c3211;
+  border-top: 0.125rem solid white;
+  border-bottom: 0.125rem solid white;
+  position: relative;
+}
+
+#top-bar {
   float: left;
   display: block;
   margin-right: 1.7578778568%;
   width: 87.2802652679%;
   margin-left: 6.3598673661%;
-  z-index: 3;
-  background: #4c3211;
-  border-radius: 0.75rem 0.75rem 0 0;
-  border-top: 0.125rem solid white;
-  border-bottom: 0.125rem solid white;
-  text-align: right;
-  position: relative;
+  border-radius: 0 0.75rem 0 0;
 }
 
 #top-bar:last-child {
   margin-right: 0;
 }
 
-@media screen and (min-width: 40.6255em) {
+@media screen and (min-width: 651px) {
   .nav-collapse.closed {
     max-height: 53px;
   }
@@ -2485,6 +2487,9 @@ header .mini {
   }
   #top-bar:last-child {
     margin-right: 0;
+  }
+  .nav-collapse a#last {
+    border-radius: 0 10px 0 0;
   }
 }
 

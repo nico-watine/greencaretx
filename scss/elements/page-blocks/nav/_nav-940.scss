@@ -3,4 +3,8 @@
 		@include span-columns(11);
 		@include shift(.5);
 	}
+
+	.nav-collapse a#last {
+		border-radius: 0 10px 0 0;
+	}
 }
