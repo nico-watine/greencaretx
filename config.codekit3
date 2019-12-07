@@ -4050,19 +4050,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/elements/components/_media.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/elements/css/_media.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
 	"/scss/elements/components/_svg-button-links.scss": {
 		"aP": 0,
 		"bl": 0,
