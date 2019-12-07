@@ -4508,6 +4508,45 @@
 		"oS": 1,
 		"uL": 1
 		},
+	"/scss/elements/page-blocks/nav/_nav-650.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/page-blocks/css/_nav-650.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/elements/page-blocks/nav/_nav-820.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/page-blocks/css/_nav-820.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/elements/page-blocks/nav/_nav-940.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/page-blocks/css/_nav-940.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
 	"/scss/elements/page-blocks/nav/_nav.scss": {
 		"aP": 0,
 		"bl": 0,
