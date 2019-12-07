@@ -4,12 +4,7 @@
 		background: $logo-brown;
 		border-bottom: rem-calc(1) solid #fff;
 	}
-}
 
-
-
-
-@include media($maxWidth-650) {
 	.nav-collapse ul {
 		margin: 0;
 		padding: 0;
@@ -50,12 +45,6 @@
 		        user-select: none;
 	}
 
-
-
-
-
-
-
 	// ------------------------------
 	// |            MASK            |
 	// ------------------------------
@@ -83,8 +72,6 @@
 		visibility: visible;
 		opacity: 1;
 	}
-
-
 
 	// -------------------------------------------
 	// |            NAVIGATION STYLES            |
@@ -117,8 +104,6 @@
 		width: 100%;
 	}
 
-
-
 	.nav-collapse a {
 		-webkit-tap-highlight-color: rgba(0,0,0,0);
 		border-top: 1px solid white;
@@ -145,17 +130,11 @@
 		text-shadow: none;
 	}
 
-
-
 	.nav-collapse a#last {
 		border-radius: 0 10px 0 0;
 		behavior: url('/php/PIE.htc');
 		border-right: 2px solid white;
 	}
-
-
-
-
 
 	// -------------------------------------------
 	// |            NAV TOGGLE STYLES            |
@@ -190,7 +169,6 @@
 		font-size: 26px;
 		content: '\78'; /* Close icon */
 	}
-
 
 	@-webkit-viewport {
 		width: device-width;

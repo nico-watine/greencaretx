@@ -2493,9 +2493,6 @@ header .mini {
     background: #624011;
     border-bottom: 0.0625rem solid #fff;
   }
-}
-
-@media screen and (max-width: 40.625rem) {
   .nav-collapse ul {
     margin: 0;
     padding: 0;
