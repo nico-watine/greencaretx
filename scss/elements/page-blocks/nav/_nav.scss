@@ -8,12 +8,6 @@
 	border-bottom: rem-calc(2) solid white;
 	text-align: right;
 	position: relative;
-
-	@include media($maxWidth-650) {
-		z-index: 20;
-		background: $logo-brown;
-		border-bottom: rem-calc(1) solid #fff;
-	}
 }
 
 @include media($maxWidth-940) {
@@ -53,9 +47,12 @@
 }
 
 @include media($maxWidth-650) {
-}
+	#top-bar {
+		z-index: 20;
+		background: $logo-brown;
+		border-bottom: rem-calc(1) solid #fff;
+	}
 
-@include media($maxWidth-650) {
 	.nav-collapse ul {
 		margin: 0;
 		padding: 0;
@@ -204,6 +201,14 @@
 	@viewport {
 		width: device-width;
 	}
+
+	.nav-collapse {
+		text-align: right !important;
+
+		ul {
+			float: left !important;
+		}
+	}
 }
 
 @media screen and (min-width: 40.6255em) {
@@ -287,15 +292,5 @@
 	.nav-collapse {
 		position: absolute;
 		display: block;
-	}
-}
-
-@include media($maxWidth-650) {
-	.nav-collapse {
-		text-align: right !important;
-
-		ul {
-			float: left !important;
-		}
 	}
 }

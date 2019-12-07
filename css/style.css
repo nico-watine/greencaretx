@@ -2398,14 +2398,6 @@ header .mini {
   margin-right: 0;
 }
 
-@media screen and (max-width: 40.625rem) {
-  #top-bar {
-    z-index: 20;
-    background: #624011;
-    border-bottom: 0.0625rem solid #fff;
-  }
-}
-
 @media screen and (max-width: 58.75rem) {
   #top-bar {
     float: left;
@@ -2444,6 +2436,11 @@ header .mini {
 }
 
 @media screen and (max-width: 40.625rem) {
+  #top-bar {
+    z-index: 20;
+    background: #624011;
+    border-bottom: 0.0625rem solid #fff;
+  }
   .nav-collapse ul {
     margin: 0;
     padding: 0;
@@ -2582,6 +2579,12 @@ header .mini {
   @viewport {
     width: device-width;
   }
+  .nav-collapse {
+    text-align: right !important;
+  }
+  .nav-collapse ul {
+    float: left !important;
+  }
 }
 
 @media screen and (min-width: 40.6255em) {
@@ -2658,15 +2661,6 @@ header .mini {
   .nav-collapse {
     position: absolute;
     display: block;
-  }
-}
-
-@media screen and (max-width: 40.625rem) {
-  .nav-collapse {
-    text-align: right !important;
-  }
-  .nav-collapse ul {
-    float: left !important;
   }
 }
 
