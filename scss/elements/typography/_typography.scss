@@ -11,23 +11,3 @@
 @import '_text-color.scss';
 @import '_text-styles.scss';
 @import '_text-transform.scss';
-
-a.phone-number {
-	display: inline-block;
-	text-decoration: none;
-
-	i.icon-phone {
-		&:focus,
-		&:active {
-			background: rgba(0, 0, 0, .5);
-		}
-	}
-
-	@include media($maxWidth-820) {
-		text-decoration: underline;
-
-		&:hover {
-			text-decoration: none;
-		}
-	}
-}

@@ -485,6 +485,24 @@ a:hover {
   text-decoration: none;
 }
 
+a.phone-number {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a.phone-number i.icon-phone:focus, a.phone-number i.icon-phone:active {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 51.25rem) {
+  a.phone-number {
+    text-decoration: underline;
+  }
+  a.phone-number:hover {
+    text-decoration: none;
+  }
+}
+
 ul,
 ol,
 dl {
@@ -626,24 +644,6 @@ ol.no-bullet {
 
 .text-capitalize {
   text-transform: capitalize !important;
-}
-
-a.phone-number {
-  display: inline-block;
-  text-decoration: none;
-}
-
-a.phone-number i.icon-phone:focus, a.phone-number i.icon-phone:active {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-@media screen and (max-width: 51.25rem) {
-  a.phone-number {
-    text-decoration: underline;
-  }
-  a.phone-number:hover {
-    text-decoration: none;
-  }
 }
 
 .img-container {
