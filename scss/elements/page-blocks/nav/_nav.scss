@@ -34,6 +34,18 @@
 	}
 }
 
+@include media($maxWidth-940) {
+
+}
+
+@include media($maxWidth-820) {
+
+}
+
+@include media($maxWidth-650) {
+
+}
+
 @include media($maxWidth-650) {
 	.nav-collapse ul {
 		margin: 0;
