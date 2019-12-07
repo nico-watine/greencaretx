@@ -4076,19 +4076,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/elements/components/_svg-button-links.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/elements/css/_svg-button-links.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
 	"/scss/elements/components/neat/_grid-settings.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4696,6 +4683,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_lists.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/elements/typography/_svg.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/css/_svg.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
