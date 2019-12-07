@@ -166,6 +166,45 @@ html {
           box-sizing: inherit;
 }
 
+.row {
+  display: block;
+}
+
+.row::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.padding-horizontal,
+.padding-sides {
+  padding: 0 1rem;
+}
+
+.padding-vertical {
+  padding: 1rem 0;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.one-half {
+  float: left;
+  display: block;
+  margin-right: 1.7578778568%;
+  width: 49.1210610716%;
+}
+
+.one-half:last-child {
+  margin-right: 0;
+}
+
+.omega {
+  margin-right: 0;
+  margin-right: 0 !important;
+}
+
 @font-face {
   font-family: 'inai';
   src: url("/fonts/inai/inaimathi-webfont.woff2") format("woff2"), url("/fonts/inai/inaimathi-webfont.woff") format("woff"), url("/fonts/inai/inaimathi-webfont.otf") format("opentype");
@@ -369,37 +408,6 @@ h6 {
   font-size: 0.75rem;
 }
 
-a.big-green-button {
-  background: #a0cc39;
-  -webkit-box-shadow: 0 0.125rem 0 0 #668625;
-          box-shadow: 0 0.125rem 0 0 #668625;
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.4375rem;
-  padding: 0.625rem 1rem 0.625rem 1rem;
-  border: 0.0625rem solid #a0cc39;
-  border-radius: 4px;
-  display: inline-block;
-}
-
-a.big-green-button:hover {
-  text-shadow: 0 0.0625rem 0 #668625;
-  border-top: 0;
-  margin-top: 0.0625rem;
-  -webkit-box-shadow: 0 0.0625rem 0 0 #668625;
-          box-shadow: 0 0.0625rem 0 0 #668625;
-  border-bottom: 0.1875rem solid #a0cc39;
-}
-
-.opaque-button {
-  background: rgba(51, 51, 51, 0.5);
-  border: 0.0625rem solid #333;
-  border-radius: 0.25rem;
-  color: #fff;
-  text-decoration: none;
-  text-shadow: 0.0625rem 0.0625rem 0.125rem #000;
-}
-
 .svg-link {
   display: inline-block;
   margin-bottom: 0.5rem;
@@ -412,45 +420,6 @@ a.big-green-button:hover {
 
 .svg-link.icon-hover__white:hover .replaced-svg path {
   fill: #a0cc39;
-}
-
-.row {
-  display: block;
-}
-
-.row::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
-.padding-horizontal,
-.padding-sides {
-  padding: 0 1em;
-}
-
-.padding-vertical {
-  padding: 1em 0;
-}
-
-.img-container {
-  text-align: center;
-}
-
-.one-half {
-  float: left;
-  display: block;
-  margin-right: 1.7578778568%;
-  width: 49.1210610716%;
-}
-
-.one-half:last-child {
-  margin-right: 0;
-}
-
-.omega {
-  margin-right: 0;
-  margin-right: 0 !important;
 }
 
 .border-radius-0 {
