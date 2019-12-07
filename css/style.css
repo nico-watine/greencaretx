@@ -3,16 +3,6 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-*, *::after, *::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   font-size: 100%;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -164,6 +154,303 @@ pre code {
   min-width: 100px;
   white-space: pre-wrap;
   background: none;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'inai';
+  src: url("/fonts/inai/inaimathi-webfont.woff2") format("woff2"), url("/fonts/inai/inaimathi-webfont.woff") format("woff"), url("/fonts/inai/inaimathi-webfont.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'nav';
+  src: url("/fonts/nav/nav.woff2") format("woff2"), url("/fonts/nav/nav.woff") format("woff"), url("/fonts/nav/nav.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url("/fonts/fontello/fontello.woff2") format("woff2"), url("/fonts/fontello/fontello.woff") format("woff"), url("/fonts/fontello/fontello.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('/fonts/fontello/fontello.svg?60863212#fontello') format('svg');
+  }
+}
+*/
+[class^='icon-']:before,
+[class*=' icon-']:before {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-phone:before {
+  content: '\e800';
+}
+
+/* '' */
+.icon-phone-squared:before {
+  content: '\e801';
+}
+
+/* '' */
+.icon-phone-1:before {
+  content: '\e802';
+}
+
+/* '' */
+html {
+  font-size: 1em;
+}
+
+html,
+input,
+button,
+textarea {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  color: #333;
+  font-family: "inai", sans-serif;
+  line-height: 1.4em;
+}
+
+p {
+  margin-bottom: 1.4em;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a.phone-number {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a.phone-number i.icon-phone:focus, a.phone-number i.icon-phone:active {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 51.25rem) {
+  a.phone-number {
+    text-decoration: underline;
+  }
+  a.phone-number:hover {
+    text-decoration: none;
+  }
+}
+
+hr {
+  border: 0;
+  background-color: #ccc;
+  height: 1px;
+  margin: 1.4em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: .2rem 0 .5rem;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+h5,
+h6 {
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.375rem;
+}
+
+@media screen and (max-width: 58.75rem) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 51.25rem) {
+  h1 {
+    font-size: 1.75rem;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 58.75rem) {
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+@media screen and (max-width: 58.75rem) {
+  h3 {
+    font-size: 1.4375rem;
+  }
+}
+
+h4 {
+  font-size: 1.4375rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 58.75rem) {
+  h5 {
+    font-size: 0.75rem;
+  }
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+
+a.big-green-button {
+  background: #a0cc39;
+  -webkit-box-shadow: 0 0.125rem 0 0 #668625;
+          box-shadow: 0 0.125rem 0 0 #668625;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4375rem;
+  padding: 0.625rem 1rem 0.625rem 1rem;
+  border: 0.0625rem solid #a0cc39;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+a.big-green-button:hover {
+  text-shadow: 0 0.0625rem 0 #668625;
+  border-top: 0;
+  margin-top: 0.0625rem;
+  -webkit-box-shadow: 0 0.0625rem 0 0 #668625;
+          box-shadow: 0 0.0625rem 0 0 #668625;
+  border-bottom: 0.1875rem solid #a0cc39;
+}
+
+.opaque-button {
+  background: rgba(51, 51, 51, 0.5);
+  border: 0.0625rem solid #333;
+  border-radius: 0.25rem;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0.0625rem 0.0625rem 0.125rem #000;
+}
+
+.svg-link {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.svg-link.icon-hover__white:hover {
+  background: #fff;
+  border-radius: 50%;
+}
+
+.svg-link.icon-hover__white:hover .replaced-svg path {
+  fill: #a0cc39;
+}
+
+.row {
+  display: block;
+}
+
+.row::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.padding-horizontal,
+.padding-sides {
+  padding: 0 1em;
+}
+
+.padding-vertical {
+  padding: 1em 0;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.one-half {
+  float: left;
+  display: block;
+  margin-right: 1.7578778568%;
+  width: 49.1210610716%;
+}
+
+.one-half:last-child {
+  margin-right: 0;
+}
+
+.omega {
+  margin-right: 0;
+  margin-right: 0 !important;
 }
 
 .border-radius-0 {
@@ -1243,7 +1530,7 @@ main:last-child {
   margin-right: 0;
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   main {
     border-left: 0.4375rem solid #4c3211;
     border-right: 0.4375rem solid #4c3211;
@@ -1262,7 +1549,7 @@ main .main-content {
   opacity: 0;
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   main {
     background-image: none !important;
     background-color: #eeeeee;
@@ -1285,7 +1572,7 @@ main .main-content {
   margin-right: 0;
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   #page-title {
     float: left;
     display: block;
@@ -1297,7 +1584,7 @@ main .main-content {
   }
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   #page-title {
     display: none;
     visibility: hidden;
@@ -1309,13 +1596,13 @@ main .main-content {
   padding-top: 28.125rem;
 }
 
-@media screen and (max-width: em(1070)) {
+@media screen and (max-width: 66.875rem) {
   #page-title .h1-wrap {
     margin-left: -0.9375rem;
   }
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   #page-title .h1-wrap {
     margin-left: -1.125rem;
     padding-top: 31.25rem;
@@ -1355,7 +1642,7 @@ main .main-content {
   margin-left: -9.375rem;
 }
 
-@media screen and (max-width: em(1070)) {
+@media screen and (max-width: 66.875rem) {
   #page-title .h1-wrap#project-galleries,
   #page-title .h1-wrap#contact {
     margin-left: -9.6875rem;
@@ -1363,7 +1650,7 @@ main .main-content {
   }
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   #page-title .h1-wrap#project-galleries,
   #page-title .h1-wrap#contact {
     margin-left: -10rem;
@@ -1397,7 +1684,7 @@ main .main-content {
   margin-right: 0;
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   #page-content {
     float: left;
     display: block;
@@ -1409,7 +1696,7 @@ main .main-content {
   }
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   #page-content {
     float: left;
     display: block;
@@ -1453,7 +1740,7 @@ main .main-content {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   .page-header h1 {
     font-size: 2.25rem;
   }
@@ -1485,7 +1772,7 @@ footer:last-child {
   margin-right: 0;
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   footer {
     float: left;
     display: block;
@@ -1500,7 +1787,7 @@ footer:last-child {
   }
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   footer {
     margin-bottom: 1.875rem;
     padding-bottom: 0.625rem;
@@ -1524,7 +1811,7 @@ footer #store-share h4 {
   margin: 0;
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   footer #store-share {
     padding: 0.75rem 0 0 0;
     width: 100%;
@@ -1532,13 +1819,13 @@ footer #store-share h4 {
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   footer #store-share {
     margin-bottom: 0.375rem;
   }
 }
 
-@media screen and (max-width: em(565)) {
+@media screen and (max-width: 35.3125rem) {
   footer #store-share {
     margin-bottom: 0;
   }
@@ -1571,13 +1858,13 @@ footer #contact-info #contact-us a {
   color: #fff;
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   footer #contact-info {
     padding-top: 0.9375rem;
   }
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   footer #contact-info {
     width: 100%;
     margin: 0;
@@ -1592,20 +1879,20 @@ footer #contact-info #contact-us a {
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   footer #contact-info #address {
     margin-bottom: 1rem;
   }
 }
 
-@media screen and (max-width: em(565)) {
+@media screen and (max-width: 35.3125rem) {
   footer #contact-info #address {
     margin-bottom: 0.625rem;
     font-size: 1.1875rem;
   }
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   footer#contact {
     margin-bottom: 0;
   }
@@ -1639,7 +1926,7 @@ header .logo-container #medium-logo {
   display: none;
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   header .logo-container {
     padding: 0;
     float: left;
@@ -1652,7 +1939,7 @@ header .logo-container #medium-logo {
   }
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   header .logo-container {
     float: left;
     display: block;
@@ -1688,7 +1975,7 @@ header .logo-container #default-logo-flat {
   height: auto;
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   header .logo-container #default-logo,
   header .logo-container #default-logo-flat {
     max-width: 150px;
@@ -1698,7 +1985,7 @@ header .logo-container #default-logo-flat {
   }
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   header .logo-container #default-logo,
   header .logo-container #default-logo-flat {
     visibility: hidden;
@@ -1739,7 +2026,7 @@ header .phone-container aside h3 a.phone-number {
   text-shadow: 0.0625rem 0.0625rem 0 #000;
 }
 
-@media screen and (max-width: em(1070)) {
+@media screen and (max-width: 66.875rem) {
   header .phone-container {
     float: left;
     display: block;
@@ -1755,7 +2042,7 @@ header .phone-container aside h3 a.phone-number {
   }
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   header .phone-container {
     float: left;
     display: block;
@@ -1771,14 +2058,14 @@ header .phone-container aside h3 a.phone-number {
   }
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   header .phone-container {
     visibility: hidden;
     display: none;
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   header .default {
     visibility: hidden;
     display: none;
@@ -1790,7 +2077,7 @@ header .mini {
   display: none;
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   header {
     width: 100%;
     background: #624011;
@@ -1851,7 +2138,7 @@ header .mini {
   }
 }
 
-@media screen and (max-width: em(450)) {
+@media screen and (max-width: 28.125rem) {
   header .mini .phone-container aside h3 {
     visibility: hidden;
     display: none;
@@ -1871,7 +2158,7 @@ header .mini {
   visibility: hidden;
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   #small-logo {
     display: block;
     visibility: visible;
@@ -1902,7 +2189,7 @@ header .mini {
   margin-right: 0;
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   #top-bar {
     float: left;
     display: block;
@@ -1915,7 +2202,7 @@ header .mini {
   }
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   #top-bar {
     background: #4c3211;
     border-top: 0.125rem solid #ded8cc;
@@ -1925,7 +2212,7 @@ header .mini {
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   #top-bar {
     z-index: 20;
     background: #624011;
@@ -1933,7 +2220,7 @@ header .mini {
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   .nav-collapse ul {
     margin: 0;
     padding: 0;
@@ -2046,14 +2333,14 @@ NAVIGATION STYLES
   }
 }
 
-@media screen and (max-width: em(650)) and (max-width: em(820)) {
+@media screen and (max-width: 40.625rem) and (max-width: 51.25rem) {
   .nav-collapse a#last {
     border-right: 0;
     border-radius: 0;
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   /* ------------------------------------------
 NAV TOGGLE STYLES
 --------------------------------------------- */
@@ -2161,7 +2448,7 @@ NAV TOGGLE STYLES
   }
 }
 
-@media screen and (min-width: 40.6255em) and (max-width: em(820)) {
+@media screen and (min-width: 40.6255em) and (max-width: 51.25rem) {
   .nav-collapse a#last {
     border-radius: 0;
   }
@@ -2194,7 +2481,7 @@ NAV TOGGLE STYLES
   }
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   .nav-collapse {
     width: 100% !important;
     text-align: center !important;
@@ -2204,7 +2491,7 @@ NAV TOGGLE STYLES
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   .nav-collapse {
     text-align: right !important;
   }
@@ -2235,13 +2522,13 @@ body::after {
   clear: both;
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   body {
     margin: 0;
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   .main-cover#index-cover,
   .main-cover#services-cover,
   .main-cover#project-galleries-cover,
@@ -2308,13 +2595,13 @@ body::after {
   border-radius: 0.625rem;
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   .white-popup {
     max-width: 90%;
   }
 }
 
-@media screen and (max-width: em(565)) {
+@media screen and (max-width: 35.3125rem) {
   .white-popup {
     max-width: 95%;
   }
@@ -2799,301 +3086,6 @@ img.mfp-img {
   padding-top: 0;
 }
 
-@font-face {
-  font-family: 'inai';
-  src: url("/fonts/inai/inaimathi-webfont.woff2") format("woff2"), url("/fonts/inai/inaimathi-webfont.woff") format("woff"), url("/fonts/inai/inaimathi-webfont.otf") format("opentype");
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'nav';
-  src: url("/fonts/nav/nav.woff2") format("woff2"), url("/fonts/nav/nav.woff") format("woff"), url("/fonts/nav/nav.otf") format("opentype");
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'fontello';
-  src: url("/fonts/fontello/fontello.woff2") format("woff2"), url("/fonts/fontello/fontello.woff") format("woff"), url("/fonts/fontello/fontello.otf") format("opentype");
-  font-style: normal;
-  font-weight: 400;
-}
-
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('/fonts/fontello/fontello.svg?60863212#fontello') format('svg');
-  }
-}
-*/
-[class^='icon-']:before,
-[class*=' icon-']:before {
-  font-family: 'fontello';
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
-  /* opacity: .8; */
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: .2em;
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
-  /* Font smoothing. That was taken from TWBS */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
-}
-
-.icon-phone:before {
-  content: '\e800';
-}
-
-/* '' */
-.icon-phone-squared:before {
-  content: '\e801';
-}
-
-/* '' */
-.icon-phone-1:before {
-  content: '\e802';
-}
-
-/* '' */
-html {
-  font-size: 1em;
-}
-
-html,
-input,
-button,
-textarea {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-body {
-  color: #333;
-  font-family: "inai", sans-serif;
-  line-height: 1.4em;
-}
-
-p {
-  margin-bottom: 1.4em;
-}
-
-a {
-  color: #333;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a.phone-number {
-  display: inline-block;
-  text-decoration: none;
-}
-
-a.phone-number i.icon-phone:focus, a.phone-number i.icon-phone:active {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-@media screen and (max-width: em(820)) {
-  a.phone-number {
-    text-decoration: underline;
-  }
-  a.phone-number:hover {
-    text-decoration: none;
-  }
-}
-
-hr {
-  border: 0;
-  background-color: #ccc;
-  height: 1px;
-  margin: 1.4em 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: .2rem 0 .5rem;
-  line-height: 1.2;
-  font-weight: 400;
-}
-
-h5,
-h6 {
-  line-height: 1.5;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-h1 {
-  margin-top: 0;
-  font-size: 2.375rem;
-}
-
-@media screen and (max-width: em(940)) {
-  h1 {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (max-width: em(820)) {
-  h1 {
-    font-size: 1.75rem;
-  }
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-@media screen and (max-width: em(940)) {
-  h2 {
-    font-size: 1.75rem;
-  }
-}
-
-h3 {
-  font-size: 1.75rem;
-}
-
-@media screen and (max-width: em(940)) {
-  h3 {
-    font-size: 1.4375rem;
-  }
-}
-
-h4 {
-  font-size: 1.4375rem;
-}
-
-h5 {
-  font-size: 1rem;
-}
-
-@media screen and (max-width: em(940)) {
-  h5 {
-    font-size: 0.75rem;
-  }
-}
-
-h6 {
-  font-size: 0.75rem;
-}
-
-a.big-green-button {
-  background: #a0cc39;
-  -webkit-box-shadow: 0 0.125rem 0 0 #668625;
-          box-shadow: 0 0.125rem 0 0 #668625;
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.4375rem;
-  padding: 0.625rem 1rem 0.625rem 1rem;
-  border: 0.0625rem solid #a0cc39;
-  border-radius: 4px;
-  display: inline-block;
-}
-
-a.big-green-button:hover {
-  text-shadow: 0 0.0625rem 0 #668625;
-  border-top: 0;
-  margin-top: 0.0625rem;
-  -webkit-box-shadow: 0 0.0625rem 0 0 #668625;
-          box-shadow: 0 0.0625rem 0 0 #668625;
-  border-bottom: 0.1875rem solid #a0cc39;
-}
-
-.opaque-button {
-  background: rgba(51, 51, 51, 0.5);
-  border: 0.0625rem solid #333;
-  border-radius: 0.25rem;
-  color: #fff;
-  text-decoration: none;
-  text-shadow: 0.0625rem 0.0625rem 0.125rem #000;
-}
-
-.svg-link {
-  display: inline-block;
-  margin-bottom: 0.5rem;
-}
-
-.svg-link.icon-hover__white:hover {
-  background: #fff;
-  border-radius: 50%;
-}
-
-.svg-link.icon-hover__white:hover .replaced-svg path {
-  fill: #a0cc39;
-}
-
-.row {
-  display: block;
-}
-
-.row::before, .row::after {
-  display: table;
-  content: ' ';
-  -ms-flex-preferred-size: 0;
-      flex-basis: 0;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-}
-
-.row::after {
-  clear: both;
-}
-
-.padding-horizontal,
-.padding-sides {
-  padding: 0 1em;
-}
-
-.padding-vertical {
-  padding: 1em 0;
-}
-
-.img-container {
-  text-align: center;
-}
-
-.one-half {
-  float: left;
-  display: block;
-  margin-right: 1.7578778568%;
-  width: 49.1210610716%;
-}
-
-.one-half:last-child {
-  margin-right: 0;
-}
-
-.omega {
-  margin-right: 0;
-  margin-right: 0 !important;
-}
-
 main#index {
   background-image: url("/img/index/index.jpg");
 }
@@ -3117,7 +3109,7 @@ main#index .main-content {
   font-size: 1.5625rem;
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   .index-header h1 {
     font-size: 2.25rem;
   }
@@ -3147,7 +3139,7 @@ main#index .main-content {
   clear: both;
 }
 
-@media screen and (max-width: em(1070)) {
+@media screen and (max-width: 66.875rem) {
   .widget-links {
     margin-bottom: 1rem;
   }
@@ -3171,13 +3163,13 @@ main#index .main-content {
   padding: 0.625rem 0;
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   .widget-links .widget a h4 {
     margin-top: 346px;
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   .widget-links .widget a h4 {
     margin-top: 181px;
     font-size: 1.1875rem;
@@ -3192,7 +3184,7 @@ main#index .main-content {
   text-shadow: 0 2px 1px #000;
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   .widget-links .widget {
     margin-bottom: 1rem;
   }
@@ -3215,14 +3207,14 @@ main#index .main-content {
   margin-right: 0;
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   .widget-links .widget#project-galleries,
   .widget-links .widget#plant-selection {
     height: 400;
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   .widget-links .widget#project-galleries,
   .widget-links .widget#plant-selection {
     float: left;
@@ -3244,7 +3236,7 @@ main#index .main-content {
   background-position: center;
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   .widget-links .widget#project-galleries {
     background: url("/img/index/widgets/project-galleries/large/project-galleries.jpg");
     background-size: auto 100%;
@@ -3253,7 +3245,7 @@ main#index .main-content {
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   .widget-links .widget#project-galleries {
     background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg");
     background-size: 100% auto;
@@ -3278,13 +3270,13 @@ main#index .main-content {
   background-position: center;
 }
 
-@media screen and (max-width: em(940)) {
+@media screen and (max-width: 58.75rem) {
   .widget-links .widget#plant-selection {
     background-size: auto 100%;
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   .widget-links .widget#plant-selection {
     background-size: 100% auto;
   }
@@ -3342,7 +3334,7 @@ main#index .main-content {
   display: inline-block;
 }
 
-@media screen and (max-width: em(1070)) {
+@media screen and (max-width: 66.875rem) {
   .index-verbiage #contact-text h4 {
     margin-top: 0.75rem;
   }
@@ -3353,7 +3345,7 @@ main#index .main-content {
   height: 2.8125rem;
 }
 
-@media screen and (max-width: em(565)) {
+@media screen and (max-width: 35.3125rem) {
   .index-verbiage #services-text,
   .index-verbiage #contact-text {
     float: left;
@@ -3448,7 +3440,7 @@ main#services .main-content {
   padding: 0 1.25rem;
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   #services-modal h3 {
     padding: 0;
   }
@@ -3514,7 +3506,7 @@ main#project-galleries .page-header {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: em(1070)) {
+@media screen and (max-width: 66.875rem) {
   .project-galleries-gallery .image-grid .thumb {
     float: left;
     display: block;
@@ -3538,7 +3530,7 @@ main#project-galleries .page-header {
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   .project-galleries-gallery .image-grid .thumb {
     float: left;
     display: block;
@@ -3575,7 +3567,7 @@ main#our-plants .main-content {
   background-size: cover;
 }
 
-@media screen and (max-width: em(1070)) {
+@media screen and (max-width: 66.875rem) {
   main#our-plants {
     background-image: url("/img/our-plants/our-plants@l.jpg");
   }
@@ -3623,7 +3615,7 @@ main#our-plants .main-content {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: em(1070)) {
+@media screen and (max-width: 66.875rem) {
   .plant-selection-gallery .image-grid .thumb {
     float: left;
     display: block;
@@ -3647,7 +3639,7 @@ main#our-plants .main-content {
   }
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   .plant-selection-gallery .image-grid .thumb {
     float: left;
     display: block;
@@ -3680,7 +3672,7 @@ main#our-plants .main-content {
   text-align: center;
 }
 
-@media screen and (max-width: em(565)) {
+@media screen and (max-width: 35.3125rem) {
   .our-plants-verbiage {
     padding: 0.625rem 0.625rem;
   }
@@ -3721,7 +3713,7 @@ main#contact .page-header {
   margin-bottom: 2.375rem;
 }
 
-@media screen and (max-width: em(565)) {
+@media screen and (max-width: 35.3125rem) {
   main#contact {
     text-align: center;
   }
@@ -3788,7 +3780,7 @@ p#email {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: em(820)) {
+@media screen and (max-width: 51.25rem) {
   .primary-contact-info,
   .office-map {
     float: left;
@@ -3832,7 +3824,7 @@ p#email {
   }
 }
 
-@media screen and (max-width: em(565)) {
+@media screen and (max-width: 35.3125rem) {
   .primary-contact-info p#address,
   .primary-contact-info p#phone,
   .primary-contact-info p#email {
@@ -3909,7 +3901,7 @@ p#email {
   margin: 0.625rem auto 0.75rem;
 }
 
-@media screen and (max-width: em(565)) {
+@media screen and (max-width: 35.3125rem) {
   .row#plant-purchases .purchase-options .row .logo {
     float: left;
     display: block;
@@ -3957,7 +3949,7 @@ p#email {
   padding-right: 1rem;
 }
 
-@media screen and (max-width: em(650)) {
+@media screen and (max-width: 40.625rem) {
   .row#plant-purchases .purchase-options .row#jdf .street-address,
   .row#plant-purchases .purchase-options .row#jdf .web-address {
     float: left;
@@ -3973,7 +3965,7 @@ p#email {
   }
 }
 
-@media screen and (max-width: em(565)) {
+@media screen and (max-width: 35.3125rem) {
   .row#plant-purchases .purchase-options .row#jdf .street-address,
   .row#plant-purchases .purchase-options .row#jdf .web-address {
     text-align: center;
@@ -4006,7 +3998,7 @@ p#email {
   border: 0.125rem solid #fff;
 }
 
-@media screen and (max-width: em(565)) {
+@media screen and (max-width: 35.3125rem) {
   .office-map,
   .jdf-map {
     display: none;
