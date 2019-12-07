@@ -3,7 +3,9 @@
 // -----------------------------------------
 
 // Typography Elements
-$text-color: #333;
+$p-color: #333;
+$h-color: $p-color;
+$text-color: $p-color;
 $link-color: #222;
 $hr-color: #ccc;
 
