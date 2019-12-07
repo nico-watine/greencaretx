@@ -2606,7 +2606,7 @@ header .mini {
     border-left: 2px solid white;
     text-decoration: none;
     background: #4c3211;
-    padding: .7em 1em;
+    padding: 0.625rem 1.25rem;
     color: #fff;
     width: 100%;
     text-align: center;
