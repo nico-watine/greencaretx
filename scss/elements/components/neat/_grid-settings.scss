@@ -1,15 +1,15 @@
 @import "neat-helpers";
 
-$maxWidth-1070: new-breakpoint(max-width em(1070) 16);
+$maxWidth-1070: new-breakpoint(max-width rem-calc(1070) 16);
 
-$maxWidth-940: new-breakpoint(max-width em(940) 12);
+$maxWidth-940: new-breakpoint(max-width rem-calc(940) 12);
 
-$maxWidth-820: new-breakpoint(max-width em(820) 10);
+$maxWidth-820: new-breakpoint(max-width rem-calc(820) 10);
 
-$maxWidth-650: new-breakpoint(max-width em(650) 8);
+$maxWidth-650: new-breakpoint(max-width rem-calc(650) 8);
 
-$maxWidth-565: new-breakpoint(max-width em(565) 8);
+$maxWidth-565: new-breakpoint(max-width rem-calc(565) 8);
 
-$maxWidth-450: new-breakpoint(max-width em(450) 8);
+$maxWidth-450: new-breakpoint(max-width rem-calc(450) 8);
 
-$maxWidth-410: new-breakpoint(max-width em(410) 8);
+$maxWidth-410: new-breakpoint(max-width rem-calc(410) 8);
