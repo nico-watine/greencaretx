@@ -1,7 +1,7 @@
 main {
 	border-left: $ten solid $dark-brown;
 	border-right: $ten solid $dark-brown;
-	box-shadow: em(1) em(-2) em(2) 0 #000 inset;
+	box-shadow: rem-calc(1) rem-calc(-2) rem-calc(2) 0 #000 inset;
 	background-size: cover;
 	background-color: $dark-brown;
 
@@ -9,8 +9,8 @@ main {
 	@include shift(1);
 
 	@include media($maxWidth-940) {
-		border-left: em(7) solid $dark-brown;
-		border-right: em(7) solid $dark-brown;
+		border-left: rem-calc(7) solid $dark-brown;
+		border-right: rem-calc(7) solid $dark-brown;
 		@include span-columns(11 of 12);
 		@include shift(.5);
 	}
@@ -44,70 +44,70 @@ main {
 	}
 
 	.h1-wrap {
-		margin-left: em(-5);
-		padding-top: em(450);
+		margin-left: rem-calc(-5);
+		padding-top: rem-calc(450);
 
 		@include media($maxWidth-1070) {
-			margin-left: em(-15);
+			margin-left: rem-calc(-15);
 		}
 
 		@include media($maxWidth-940) {
-			margin-left: em(-18);
-			padding-top: em(500);
+			margin-left: rem-calc(-18);
+			padding-top: rem-calc(500);
 		}
 
 		h1#our-plants {
 			padding: 0;
-			width: rem(250);
+			width: rem-calc(250);
 		}
 	}
 
 	.vertical-title {
-		@include transform(rotate(-90deg));
+		transform: rotate(-90deg);
 		color: white;
-		padding: rem(40) 0 0 0;
-		font-size: rem(42);
+		padding: rem-calc(40) 0 0 0;
+		font-size: rem-calc(42);
 		margin: 0;
-		letter-spacing: rem(2.5);
+		letter-spacing: rem-calc(2.5);
 		font-family: $bold-font-family;
 	}
 
 	.h1-wrap#our-plants {
-		padding-top: em(400);
+		padding-top: rem-calc(400);
 
 		.vertical-title {
 			padding: 0;
-			width: rem(250);
-			margin-left: rem(-65);
+			width: rem-calc(250);
+			margin-left: rem-calc(-65);
 		}
 	}
 
 	.h1-wrap#project-galleries,
 	.h1-wrap#contact {
-		padding-top: em(270);
-		margin-left: em(-150);
+		padding-top: rem-calc(270);
+		margin-left: rem-calc(-150);
 
 		@include media($maxWidth-1070) {
-			margin-left: em(-155);
-			padding-top: em(320);
+			margin-left: rem-calc(-155);
+			padding-top: rem-calc(320);
 		}
 
 		@include media($maxWidth-940) {
-			margin-left: em(-160);
+			margin-left: rem-calc(-160);
 		}
 
 		.vertical-title {
 			padding: 0;
-			width: rem(400);
+			width: rem-calc(400);
 		}
 	}
 }
 
 #page-content {
 	opacity: 0;
-	box-shadow: em(-1) 0 em(2) 0 #000;
+	box-shadow: rem-calc(-1) 0 rem-calc(2) 0 #000;
 	@include span-columns(9 of 10);
-	padding-top: em(20);
+	padding-top: rem-calc(20);
 	background-color: $content-bg;
 	background-image: url('/img/misc/flower-bg.png');
 	background-position: bottom right;
@@ -128,26 +128,26 @@ main {
 .page-header {
 	text-align: center;
 	@include row;
-	margin-bottom: em(10);
+	margin-bottom: rem-calc(10);
 
 	h1 {
-		font-size: em(42);
+		font-size: rem-calc(42);
 		margin-bottom: 0;
 	}
 
 	h3 {
-		font-size: rem(21);
-		line-height: rem(24);
+		font-size: rem-calc(21);
+		line-height: rem-calc(24);
 		margin-bottom: 0;
 	}
 
 	@include media($maxWidth-650) {
 		h1 {
-			font-size: em(36);
+			font-size: rem-calc(36);
 		}
 
 		h2 {
-			font-size: rem(19);
+			font-size: rem-calc(19);
 		}
 	}
 }

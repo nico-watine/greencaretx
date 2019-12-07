@@ -7,26 +7,26 @@ main#contact {
 	}
 
 	#page-content {
-		min-height: em(510);
+		min-height: rem-calc(510);
 		padding-left: 1em;
 		padding-right: 1em;
 
 		h2 {
 			font-family: $bold-font-family;
-			font-size: rem(19);
+			font-size: rem-calc(19);
 		}
 
 		p {
-			font-size: rem(19);
+			font-size: rem-calc(19);
 		}
 
 		p.large {
-			font-size: rem(21);
+			font-size: rem-calc(21);
 		}
 	}
 
 	.page-header {
-		margin-bottom: em(38);
+		margin-bottom: rem-calc(38);
 	}
 
 	@include media($maxWidth-565) {
@@ -36,27 +36,27 @@ main#contact {
 
 
 section.page-header#contact {
-	margin-bottom: em(12);
+	margin-bottom: rem-calc(12);
 }
 
 .primary-contact-info {
 	@include span-columns(4 of 12);
-	border: em(1) solid #a0cc39;
-	box-shadow: 0 em(1) em(2) 0 #333;
+	border: rem-calc(1) solid #a0cc39;
+	box-shadow: 0 rem-calc(1) rem-calc(2) 0 #333;
 	background: #fff;
-	padding: em(10) em(8) 0 em(8);
-	height: em(315);
+	padding: rem-calc(10) rem-calc(8) 0 rem-calc(8);
+	height: rem-calc(315);
 }
 
 p#address,
 p#phone,
 p#email {
-	margin-bottom: rem(12);
+	margin-bottom: rem-calc(12);
 }
 
 .office-map {
 	@include span-columns(8 of 12);
-	padding-top: em(10);
+	padding-top: rem-calc(10);
 	@include omega;
 }
 
@@ -66,7 +66,7 @@ p#email {
 	@include omega;
 
 	p {
-		margin: rem(10) auto rem(12);
+		margin: rem-calc(10) auto rem-calc(12);
 	}
 
 	h4 {
@@ -83,8 +83,8 @@ p#email {
 
 	.primary-contact-info {
 		height: auto;
-		margin-top: em(16);
-		margin-bottom: em(16);
+		margin-top: rem-calc(16);
+		margin-bottom: rem-calc(16);
 		text-align: center;
 
 		p#address,
@@ -108,19 +108,19 @@ p#email {
 		p#phone,
 		p#email {
 			@include span-columns(8 of 8);
-			margin-bottom: rem(16);
+			margin-bottom: rem-calc(16);
 		}
 	}
 }
 .row#plant-purchases {
-	padding-top: em(21);
+	padding-top: rem-calc(21);
 
 	.purchase-options {
 		@include span-columns(9 of 10);
 		@include shift(.5);
 
 		.row {
-			margin-bottom: em(20);
+			margin-bottom: rem-calc(20);
 			@include span-columns(10 of 10);
 			margin-right: 0;
 
@@ -128,7 +128,7 @@ p#email {
 				@include span-columns(2 of 10);
 
 				img {
-					max-width: em(140);
+					max-width: rem-calc(140);
 					width: 100%;
 				}
 			}
@@ -136,14 +136,14 @@ p#email {
 				@include span-columns(8 of 10);
 
 				p {
-					margin: rem(10) auto rem(12);
+					margin: rem-calc(10) auto rem-calc(12);
 				}
 			}
 
 			@include media($maxWidth-565) {
 				.logo {
 					@include span-columns(8 of 8);
-					margin-bottom: rem(10);
+					margin-bottom: rem-calc(10);
 				}
 
 				.verbiage {
@@ -168,7 +168,7 @@ p#email {
 
 			.web-address {
 				text-align: right;
-				padding-right: rem(16);
+				padding-right: rem-calc(16);
 			}
 
 			@include media($maxWidth-650) {
@@ -192,40 +192,40 @@ p#email {
 
 .office-map h2,
 .jdf-map h4 {
-	margin-bottom: rem(14);
+	margin-bottom: rem-calc(14);
 }
 
 .office-map {
 	// h2 {
-	// 	margin-bottom: rem(14);
+	// 	margin-bottom: rem-calc(14);
 	// }
 
 	.iframe-container {
-		height: em(265);
+		height: rem-calc(265);
 	}
 }
 
 .jdf-map {
 	// h4 {
-	// 	margin-bottom: rem(14);
+	// 	margin-bottom: rem-calc(14);
 	// }
 
 	.overlay {
 		background: transparent;
 		position: relative;
 		width: 100%;
-		height: em(210);
-		top: em(210);
-		margin-top: em(-210);
+		height: rem-calc(210);
+		top: rem-calc(210);
+		margin-top: rem-calc(-210);
 	}
 
 	.iframe-container {
-		height: em(210);
+		height: rem-calc(210);
 	}
 }
 
 .iframe-container {
-	border: rem(2) solid #fff;
+	border: rem-calc(2) solid #fff;
 }
 
 .office-map,
@@ -240,12 +240,12 @@ p#email {
 	@include span-columns(14);
 	@include shift(1);
 	text-align: center;
-	margin-top: em(20);
-	margin-bottom: em(26);
+	margin-top: rem-calc(20);
+	margin-bottom: rem-calc(26);
 
 	a {
-		font-size: rem(14);
-		letter-spacing: rem(1);
+		font-size: rem-calc(14);
+		letter-spacing: rem-calc(1);
 		text-decoration: none;
 		color: #888;
 

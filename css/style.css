@@ -1228,8 +1228,8 @@ pre code {
 main {
   border-left: 0.625em solid #4c3211;
   border-right: 0.625em solid #4c3211;
-  -webkit-box-shadow: 0.0625em -0.125em 0.125em 0 #000 inset;
-          box-shadow: 0.0625em -0.125em 0.125em 0 #000 inset;
+  -webkit-box-shadow: 0.0625rem -0.125rem 0.125rem 0 #000 inset;
+          box-shadow: 0.0625rem -0.125rem 0.125rem 0 #000 inset;
   background-size: cover;
   background-color: #4c3211;
   float: left;
@@ -1243,10 +1243,10 @@ main:last-child {
   margin-right: 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   main {
-    border-left: 0.4375em solid #4c3211;
-    border-right: 0.4375em solid #4c3211;
+    border-left: 0.4375rem solid #4c3211;
+    border-right: 0.4375rem solid #4c3211;
     float: left;
     display: block;
     margin-right: 2.3576520234%;
@@ -1262,7 +1262,7 @@ main .main-content {
   opacity: 0;
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   main {
     background-image: none !important;
     background-color: #eeeeee;
@@ -1285,7 +1285,7 @@ main .main-content {
   margin-right: 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   #page-title {
     float: left;
     display: block;
@@ -1297,7 +1297,7 @@ main .main-content {
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   #page-title {
     display: none;
     visibility: hidden;
@@ -1305,20 +1305,20 @@ main .main-content {
 }
 
 #page-title .h1-wrap {
-  margin-left: -0.3125em;
-  padding-top: 28.125em;
+  margin-left: -0.3125rem;
+  padding-top: 28.125rem;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   #page-title .h1-wrap {
-    margin-left: -0.9375em;
+    margin-left: -0.9375rem;
   }
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   #page-title .h1-wrap {
-    margin-left: -1.125em;
-    padding-top: 31.25em;
+    margin-left: -1.125rem;
+    padding-top: 31.25rem;
   }
 }
 
@@ -1329,8 +1329,8 @@ main .main-content {
 
 #page-title .vertical-title {
   -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
   color: white;
   padding: 2.5rem 0 0 0;
   font-size: 2.625rem;
@@ -1340,7 +1340,7 @@ main .main-content {
 }
 
 #page-title .h1-wrap#our-plants {
-  padding-top: 25em;
+  padding-top: 25rem;
 }
 
 #page-title .h1-wrap#our-plants .vertical-title {
@@ -1351,22 +1351,22 @@ main .main-content {
 
 #page-title .h1-wrap#project-galleries,
 #page-title .h1-wrap#contact {
-  padding-top: 16.875em;
-  margin-left: -9.375em;
+  padding-top: 16.875rem;
+  margin-left: -9.375rem;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   #page-title .h1-wrap#project-galleries,
   #page-title .h1-wrap#contact {
-    margin-left: -9.6875em;
-    padding-top: 20em;
+    margin-left: -9.6875rem;
+    padding-top: 20rem;
   }
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   #page-title .h1-wrap#project-galleries,
   #page-title .h1-wrap#contact {
-    margin-left: -10em;
+    margin-left: -10rem;
   }
 }
 
@@ -1378,13 +1378,13 @@ main .main-content {
 
 #page-content {
   opacity: 0;
-  -webkit-box-shadow: -0.0625em 0 0.125em 0 #000;
-          box-shadow: -0.0625em 0 0.125em 0 #000;
+  -webkit-box-shadow: -0.0625rem 0 0.125rem 0 #000;
+          box-shadow: -0.0625rem 0 0.125rem 0 #000;
   float: left;
   display: block;
   margin-right: 2.8425860857%;
   width: 89.7157413914%;
-  padding-top: 1.25em;
+  padding-top: 1.25rem;
   background-color: #eeeeee;
   background-image: url("/img/misc/flower-bg.png");
   background-position: bottom right;
@@ -1397,7 +1397,7 @@ main .main-content {
   margin-right: 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   #page-content {
     float: left;
     display: block;
@@ -1409,7 +1409,7 @@ main .main-content {
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   #page-content {
     float: left;
     display: block;
@@ -1425,7 +1425,7 @@ main .main-content {
 .page-header {
   text-align: center;
   display: block;
-  margin-bottom: 0.625em;
+  margin-bottom: 0.625rem;
 }
 
 .page-header::before, .page-header::after {
@@ -1443,7 +1443,7 @@ main .main-content {
 }
 
 .page-header h1 {
-  font-size: 2.625em;
+  font-size: 2.625rem;
   margin-bottom: 0;
 }
 
@@ -1453,9 +1453,9 @@ main .main-content {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .page-header h1 {
-    font-size: 2.25em;
+    font-size: 2.25rem;
   }
   .page-header h2 {
     font-size: 1.1875rem;
@@ -1467,8 +1467,8 @@ footer {
   border-radius: 0 0 0.625em 0.625em;
   behavior: url("/php/PIE.htc");
   height: auto;
-  padding-top: 0.625em;
-  padding-bottom: 1.25em;
+  padding-top: 0.625rem;
+  padding-bottom: 1.25rem;
   color: #fff;
   float: left;
   display: block;
@@ -1485,7 +1485,7 @@ footer:last-child {
   margin-right: 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   footer {
     float: left;
     display: block;
@@ -1500,11 +1500,11 @@ footer:last-child {
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   footer {
-    margin-bottom: 1.875em;
-    padding-bottom: 0.625em;
-    border-radius: 0 0 0.75em 0.75em;
+    margin-bottom: 1.875rem;
+    padding-bottom: 0.625rem;
+    border-radius: 0 0 0.75rem 0.75rem;
   }
 }
 
@@ -1513,7 +1513,7 @@ footer #store-share {
   display: block;
   margin-right: 2.0140610841%;
   width: 34.4195321602%;
-  padding-left: 1.25em;
+  padding-left: 1.25rem;
 }
 
 footer #store-share:last-child {
@@ -1524,7 +1524,7 @@ footer #store-share h4 {
   margin: 0;
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   footer #store-share {
     padding: 0.75rem 0 0 0;
     width: 100%;
@@ -1532,13 +1532,13 @@ footer #store-share h4 {
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   footer #store-share {
     margin-bottom: 0.375rem;
   }
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   footer #store-share {
     margin-bottom: 0;
   }
@@ -1571,13 +1571,13 @@ footer #contact-info #contact-us a {
   color: #fff;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   footer #contact-info {
-    padding-top: 0.9375em;
+    padding-top: 0.9375rem;
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   footer #contact-info {
     width: 100%;
     margin: 0;
@@ -1592,20 +1592,20 @@ footer #contact-info #contact-us a {
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   footer #contact-info #address {
     margin-bottom: 1rem;
   }
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   footer #contact-info #address {
     margin-bottom: 0.625rem;
     font-size: 1.1875rem;
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   footer#contact {
     margin-bottom: 0;
   }
@@ -1639,7 +1639,7 @@ header .logo-container #medium-logo {
   display: none;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   header .logo-container {
     padding: 0;
     float: left;
@@ -1652,7 +1652,7 @@ header .logo-container #medium-logo {
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   header .logo-container {
     float: left;
     display: block;
@@ -1688,7 +1688,7 @@ header .logo-container #default-logo-flat {
   height: auto;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   header .logo-container #default-logo,
   header .logo-container #default-logo-flat {
     max-width: 150px;
@@ -1698,7 +1698,7 @@ header .logo-container #default-logo-flat {
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   header .logo-container #default-logo,
   header .logo-container #default-logo-flat {
     visibility: hidden;
@@ -1719,11 +1719,11 @@ header .phone-container:last-child {
 }
 
 header .phone-container aside {
-  height: 2.8125em;
+  height: 2.8125rem;
   border-radius: .625em .625em 0 0;
   behavior: url("/php/PIE.htc");
   text-align: center;
-  width: 22.1875em;
+  width: 22.1875rem;
   background: #a0cc39;
   border-top: .125em solid #fff;
   border-left: .125em solid #fff;
@@ -1739,7 +1739,7 @@ header .phone-container aside h3 a.phone-number {
   text-shadow: 0.0625rem 0.0625rem 0 #000;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   header .phone-container {
     float: left;
     display: block;
@@ -1755,7 +1755,7 @@ header .phone-container aside h3 a.phone-number {
   }
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   header .phone-container {
     float: left;
     display: block;
@@ -1767,18 +1767,18 @@ header .phone-container aside h3 a.phone-number {
     margin-right: 0;
   }
   header .phone-container aside {
-    width: 21.25em;
+    width: 21.25rem;
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   header .phone-container {
     visibility: hidden;
     display: none;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   header .default {
     visibility: hidden;
     display: none;
@@ -1790,7 +1790,7 @@ header .mini {
   display: none;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   header {
     width: 100%;
     background: #624011;
@@ -1800,8 +1800,8 @@ header .mini {
   header .mini {
     visibility: visible;
     display: block;
-    height: 4.0625em;
-    padding-top: 0.5em;
+    height: 4.0625rem;
+    padding-top: 0.5rem;
     background: #624011;
   }
   header .mini .logo-container {
@@ -1851,13 +1851,13 @@ header .mini {
   }
 }
 
-@media screen and (max-width: 28.125em) {
+@media screen and (max-width: em(450)) {
   header .mini .phone-container aside h3 {
     visibility: hidden;
     display: none;
   }
   header .mini .phone-container aside i.icon-phone {
-    font-size: 2.25em;
+    font-size: 2.25rem;
     color: #fff;
     visibility: visible;
     display: block;
@@ -1871,7 +1871,7 @@ header .mini {
   visibility: hidden;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   #small-logo {
     display: block;
     visibility: visible;
@@ -1890,10 +1890,10 @@ header .mini {
   margin-left: 6.3598673661%;
   z-index: 3;
   background: #4c3211;
-  border-radius: 0.75em 0.75em 0 0;
+  border-radius: 0.75rem 0.75rem 0 0;
   behavior: url("/php/PIE.htc");
-  border-top: 0.125em solid white;
-  border-bottom: 0.125em solid white;
+  border-top: 0.125rem solid white;
+  border-bottom: 0.125rem solid white;
   text-align: right;
   position: relative;
 }
@@ -1902,7 +1902,7 @@ header .mini {
   margin-right: 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   #top-bar {
     float: left;
     display: block;
@@ -1915,25 +1915,25 @@ header .mini {
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   #top-bar {
     background: #4c3211;
-    border-top: 0.125em solid #ded8cc;
+    border-top: 0.125rem solid #ded8cc;
     border-radius: 0;
     width: 100%;
     margin-left: 0%;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   #top-bar {
     z-index: 20;
     background: #624011;
-    border-bottom: 0.0625em solid #fff;
+    border-bottom: 0.0625rem solid #fff;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .nav-collapse ul {
     margin: 0;
     padding: 0;
@@ -2046,14 +2046,14 @@ NAVIGATION STYLES
   }
 }
 
-@media screen and (max-width: 40.625em) and (max-width: 51.25em) {
+@media screen and (max-width: em(650)) and (max-width: em(820)) {
   .nav-collapse a#last {
     border-right: 0;
     border-radius: 0;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   /* ------------------------------------------
 NAV TOGGLE STYLES
 --------------------------------------------- */
@@ -2137,7 +2137,7 @@ NAV TOGGLE STYLES
   }
   .nav-collapse a:hover {
     background: #a0cc39;
-    text-shadow: 0 0.0625rem 0rem #668625;
+    text-shadow: 0 0.0625rem 0 #668625;
     -webkit-box-shadow: 0 1px 1px 0 #668625 inset;
             box-shadow: 0 1px 1px 0 #668625 inset;
   }
@@ -2150,7 +2150,7 @@ NAV TOGGLE STYLES
     background: #a0cc39;
     -webkit-box-shadow: none;
             box-shadow: none;
-    text-shadow: 0 0.0625rem 0rem #668625;
+    text-shadow: 0 0.0625rem 0 #668625;
     -webkit-box-shadow: 0 1px 1px 0 #668625 inset;
             box-shadow: 0 1px 1px 0 #668625 inset;
   }
@@ -2161,7 +2161,7 @@ NAV TOGGLE STYLES
   }
 }
 
-@media screen and (min-width: 40.6255em) and (max-width: 51.25em) {
+@media screen and (min-width: 40.6255em) and (max-width: em(820)) {
   .nav-collapse a#last {
     border-radius: 0;
   }
@@ -2194,7 +2194,7 @@ NAV TOGGLE STYLES
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   .nav-collapse {
     width: 100% !important;
     text-align: center !important;
@@ -2204,7 +2204,7 @@ NAV TOGGLE STYLES
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .nav-collapse {
     text-align: right !important;
   }
@@ -2235,13 +2235,13 @@ body::after {
   clear: both;
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   body {
     margin: 0;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .main-cover#index-cover,
   .main-cover#services-cover,
   .main-cover#project-galleries-cover,
@@ -2299,22 +2299,22 @@ body::after {
 .white-popup {
   position: relative;
   background: #fff;
-  padding: 1.875em 1em;
+  padding: 1.875rem 1rem;
   width: auto;
   max-width: 80%;
   text-align: center;
-  margin: 1.25em auto;
-  border: 0.375em solid #4c3211;
-  border-radius: 0.625em;
+  margin: 1.25rem auto;
+  border: 0.375rem solid #4c3211;
+  border-radius: 0.625rem;
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   .white-popup {
     max-width: 90%;
   }
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .white-popup {
     max-width: 95%;
   }
@@ -2913,7 +2913,7 @@ a.phone-number i.icon-phone:focus, a.phone-number i.icon-phone:active {
   background: rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   a.phone-number {
     text-decoration: underline;
   }
@@ -2952,13 +2952,13 @@ h1 {
   font-size: 2.375rem;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   h1 {
     font-size: 2rem;
   }
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   h1 {
     font-size: 1.75rem;
   }
@@ -2968,7 +2968,7 @@ h2 {
   font-size: 2rem;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   h2 {
     font-size: 1.75rem;
   }
@@ -2978,7 +2978,7 @@ h3 {
   font-size: 1.75rem;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   h3 {
     font-size: 1.4375rem;
   }
@@ -2992,7 +2992,7 @@ h5 {
   font-size: 1rem;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   h5 {
     font-size: 0.75rem;
   }
@@ -3105,11 +3105,11 @@ main#index .main-content {
 
 .index-header {
   text-align: center;
-  margin-bottom: 0.625em;
+  margin-bottom: 0.625rem;
 }
 
 .index-header h1 {
-  font-size: 2.625em;
+  font-size: 2.625rem;
   margin-bottom: 0;
 }
 
@@ -3117,9 +3117,9 @@ main#index .main-content {
   font-size: 1.5625rem;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .index-header h1 {
-    font-size: 2.25em;
+    font-size: 2.25rem;
   }
   .index-header h2 {
     font-size: 1.1875rem;
@@ -3128,9 +3128,9 @@ main#index .main-content {
 
 .widget-links {
   display: block;
-  padding: 0 0.625em;
+  padding: 0 0.625rem;
   text-align: center;
-  margin-bottom: 1.875em;
+  margin-bottom: 1.875rem;
 }
 
 .widget-links::before, .widget-links::after {
@@ -3147,9 +3147,9 @@ main#index .main-content {
   clear: both;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   .widget-links {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
   }
 }
 
@@ -3171,13 +3171,13 @@ main#index .main-content {
   padding: 0.625rem 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   .widget-links .widget a h4 {
     margin-top: 346px;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .widget-links .widget a h4 {
     margin-top: 181px;
     font-size: 1.1875rem;
@@ -3192,9 +3192,9 @@ main#index .main-content {
   text-shadow: 0 2px 1px #000;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .widget-links .widget {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
   }
 }
 
@@ -3205,9 +3205,9 @@ main#index .main-content {
   margin-right: 2.3576520234%;
   width: 48.8211739883%;
   height: 300;
-  border: 0.125em solid #fff;
-  -webkit-box-shadow: 0 0.0625em 0.125em 0 #333;
-          box-shadow: 0 0.0625em 0.125em 0 #333;
+  border: 0.125rem solid #fff;
+  -webkit-box-shadow: 0 0.0625rem 0.125rem 0 #333;
+          box-shadow: 0 0.0625rem 0.125rem 0 #333;
 }
 
 .widget-links .widget#project-galleries:last-child,
@@ -3215,14 +3215,14 @@ main#index .main-content {
   margin-right: 0;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   .widget-links .widget#project-galleries,
   .widget-links .widget#plant-selection {
     height: 400;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .widget-links .widget#project-galleries,
   .widget-links .widget#plant-selection {
     float: left;
@@ -3244,7 +3244,7 @@ main#index .main-content {
   background-position: center;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   .widget-links .widget#project-galleries {
     background: url("/img/index/widgets/project-galleries/large/project-galleries.jpg");
     background-size: auto 100%;
@@ -3253,7 +3253,7 @@ main#index .main-content {
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .widget-links .widget#project-galleries {
     background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg");
     background-size: 100% auto;
@@ -3278,13 +3278,13 @@ main#index .main-content {
   background-position: center;
 }
 
-@media screen and (max-width: 58.75em) {
+@media screen and (max-width: em(940)) {
   .widget-links .widget#plant-selection {
     background-size: auto 100%;
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .widget-links .widget#plant-selection {
     background-size: 100% auto;
   }
@@ -3306,7 +3306,7 @@ main#index .main-content {
 }
 
 .index-verbiage .row {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .index-verbiage a {
@@ -3342,18 +3342,18 @@ main#index .main-content {
   display: inline-block;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   .index-verbiage #contact-text h4 {
     margin-top: 0.75rem;
   }
 }
 
 .index-verbiage .row#standard-buttons {
-  margin-bottom: 1.875em;
-  height: 2.8125em;
+  margin-bottom: 1.875rem;
+  height: 2.8125rem;
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .index-verbiage #services-text,
   .index-verbiage #contact-text {
     float: left;
@@ -3391,7 +3391,7 @@ main#services .main-content {
 }
 
 .page-header#services-header {
-  padding: 0 1em;
+  padding: 0 1rem;
 }
 
 .page-header#services-header h1 {
@@ -3448,7 +3448,7 @@ main#services .main-content {
   padding: 0 1.25rem;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   #services-modal h3 {
     padding: 0;
   }
@@ -3464,19 +3464,19 @@ main#project-galleries .main-content {
 }
 
 main#project-galleries #page-content {
-  min-height: 31.875em;
+  min-height: 31.875rem;
 }
 
 main#project-galleries .page-header {
-  margin-bottom: 2.375em;
+  margin-bottom: 2.375rem;
 }
 
 .project-galleries-gallery {
-  margin-bottom: 2.375em;
+  margin-bottom: 2.375rem;
 }
 
 .project-galleries-gallery .image-grid {
-  padding: 0 1em;
+  padding: 0 1rem;
 }
 
 .project-galleries-gallery .image-grid .thumb {
@@ -3485,7 +3485,7 @@ main#project-galleries .page-header {
   margin-right: 2.3576520234%;
   width: 14.7019566472%;
   text-align: center;
-  margin-bottom: 1.375em;
+  margin-bottom: 1.375rem;
 }
 
 .project-galleries-gallery .image-grid .thumb:last-child {
@@ -3501,20 +3501,20 @@ main#project-galleries .page-header {
 }
 
 .project-galleries-gallery .image-grid .thumb a img {
-  border: 0.125em solid #fff;
-  -webkit-box-shadow: 0 0.0625em 0.125em 0 #333;
-          box-shadow: 0 0.0625em 0.125em 0 #333;
-  margin-bottom: 0.0625em;
+  border: 0.125rem solid #fff;
+  -webkit-box-shadow: 0 0.0625rem 0.125rem 0 #333;
+          box-shadow: 0 0.0625rem 0.125rem 0 #333;
+  margin-bottom: 0.0625rem;
 }
 
 .project-galleries-gallery .image-grid .thumb a:hover img {
-  -webkit-box-shadow: 0 0.0625em 0.0625em 0 #000;
-          box-shadow: 0 0.0625em 0.0625em 0 #000;
-  margin-top: 0.0625em;
+  -webkit-box-shadow: 0 0.0625rem 0.0625rem 0 #000;
+          box-shadow: 0 0.0625rem 0.0625rem 0 #000;
+  margin-top: 0.0625rem;
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   .project-galleries-gallery .image-grid .thumb {
     float: left;
     display: block;
@@ -3538,7 +3538,7 @@ main#project-galleries .page-header {
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .project-galleries-gallery .image-grid .thumb {
     float: left;
     display: block;
@@ -3575,7 +3575,7 @@ main#our-plants .main-content {
   background-size: cover;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   main#our-plants {
     background-image: url("/img/our-plants/our-plants@l.jpg");
   }
@@ -3586,7 +3586,7 @@ main#our-plants .main-content {
 }
 
 .plant-selection-gallery .image-grid {
-  padding: 0 1em;
+  padding: 0 1rem;
 }
 
 .plant-selection-gallery .image-grid .thumb {
@@ -3610,20 +3610,20 @@ main#our-plants .main-content {
 }
 
 .plant-selection-gallery .image-grid .thumb a img {
-  border: 0.125em solid #fff;
-  -webkit-box-shadow: 0 0.0625em 0.125em 0 #333;
-          box-shadow: 0 0.0625em 0.125em 0 #333;
-  margin-bottom: 0.0625em;
+  border: 0.125rem solid #fff;
+  -webkit-box-shadow: 0 0.0625rem 0.125rem 0 #333;
+          box-shadow: 0 0.0625rem 0.125rem 0 #333;
+  margin-bottom: 0.0625rem;
 }
 
 .plant-selection-gallery .image-grid .thumb a:hover img {
-  -webkit-box-shadow: 0 0.0625em 0.0625em 0 #000;
-          box-shadow: 0 0.0625em 0.0625em 0 #000;
-  margin-top: 0.0625em;
+  -webkit-box-shadow: 0 0.0625rem 0.0625rem 0 #000;
+          box-shadow: 0 0.0625rem 0.0625rem 0 #000;
+  margin-top: 0.0625rem;
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 66.875em) {
+@media screen and (max-width: em(1070)) {
   .plant-selection-gallery .image-grid .thumb {
     float: left;
     display: block;
@@ -3647,7 +3647,7 @@ main#our-plants .main-content {
   }
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .plant-selection-gallery .image-grid .thumb {
     float: left;
     display: block;
@@ -3676,13 +3676,13 @@ main#our-plants .main-content {
 }
 
 .our-plants-verbiage {
-  padding: 0.625em 1.875rem;
+  padding: 0.625rem 1.875rem;
   text-align: center;
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .our-plants-verbiage {
-    padding: 0.625em 0.625rem;
+    padding: 0.625rem 0.625rem;
   }
   .our-plants-verbiage h4 a {
     font-size: 1.25rem;
@@ -3699,7 +3699,7 @@ main#contact .main-content {
 }
 
 main#contact #page-content {
-  min-height: 31.875em;
+  min-height: 31.875rem;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -3718,17 +3718,17 @@ main#contact #page-content p.large {
 }
 
 main#contact .page-header {
-  margin-bottom: 2.375em;
+  margin-bottom: 2.375rem;
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   main#contact {
     text-align: center;
   }
 }
 
 section.page-header#contact {
-  margin-bottom: 0.75em;
+  margin-bottom: 0.75rem;
 }
 
 .primary-contact-info {
@@ -3736,12 +3736,12 @@ section.page-header#contact {
   display: block;
   margin-right: 2.3576520234%;
   width: 31.7615653177%;
-  border: 0.0625em solid #a0cc39;
-  -webkit-box-shadow: 0 0.0625em 0.125em 0 #333;
-          box-shadow: 0 0.0625em 0.125em 0 #333;
+  border: 0.0625rem solid #a0cc39;
+  -webkit-box-shadow: 0 0.0625rem 0.125rem 0 #333;
+          box-shadow: 0 0.0625rem 0.125rem 0 #333;
   background: #fff;
-  padding: 0.625em 0.5em 0 0.5em;
-  height: 19.6875em;
+  padding: 0.625rem 0.5rem 0 0.5rem;
+  height: 19.6875rem;
 }
 
 .primary-contact-info:last-child {
@@ -3759,7 +3759,7 @@ p#email {
   display: block;
   margin-right: 2.3576520234%;
   width: 65.8807826589%;
-  padding-top: 0.625em;
+  padding-top: 0.625rem;
   margin-right: 0;
 }
 
@@ -3788,7 +3788,7 @@ p#email {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 51.25em) {
+@media screen and (max-width: em(820)) {
   .primary-contact-info,
   .office-map {
     float: left;
@@ -3803,8 +3803,8 @@ p#email {
   }
   .primary-contact-info {
     height: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     text-align: center;
   }
   .primary-contact-info p#address,
@@ -3832,7 +3832,7 @@ p#email {
   }
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .primary-contact-info p#address,
   .primary-contact-info p#phone,
   .primary-contact-info p#email {
@@ -3850,7 +3850,7 @@ p#email {
 }
 
 .row#plant-purchases {
-  padding-top: 1.3125em;
+  padding-top: 1.3125rem;
 }
 
 .row#plant-purchases .purchase-options {
@@ -3866,7 +3866,7 @@ p#email {
 }
 
 .row#plant-purchases .purchase-options .row {
-  margin-bottom: 1.25em;
+  margin-bottom: 1.25rem;
   float: left;
   display: block;
   margin-right: 2.8425860857%;
@@ -3890,7 +3890,7 @@ p#email {
 }
 
 .row#plant-purchases .purchase-options .row .logo img {
-  max-width: 8.75em;
+  max-width: 8.75rem;
   width: 100%;
 }
 
@@ -3909,7 +3909,7 @@ p#email {
   margin: 0.625rem auto 0.75rem;
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .row#plant-purchases .purchase-options .row .logo {
     float: left;
     display: block;
@@ -3957,7 +3957,7 @@ p#email {
   padding-right: 1rem;
 }
 
-@media screen and (max-width: 40.625em) {
+@media screen and (max-width: em(650)) {
   .row#plant-purchases .purchase-options .row#jdf .street-address,
   .row#plant-purchases .purchase-options .row#jdf .web-address {
     float: left;
@@ -3973,7 +3973,7 @@ p#email {
   }
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .row#plant-purchases .purchase-options .row#jdf .street-address,
   .row#plant-purchases .purchase-options .row#jdf .web-address {
     text-align: center;
@@ -3986,27 +3986,27 @@ p#email {
 }
 
 .office-map .iframe-container {
-  height: 16.5625em;
+  height: 16.5625rem;
 }
 
 .jdf-map .overlay {
   background: transparent;
   position: relative;
   width: 100%;
-  height: 13.125em;
-  top: 13.125em;
-  margin-top: -13.125em;
+  height: 13.125rem;
+  top: 13.125rem;
+  margin-top: -13.125rem;
 }
 
 .jdf-map .iframe-container {
-  height: 13.125em;
+  height: 13.125rem;
 }
 
 .iframe-container {
   border: 0.125rem solid #fff;
 }
 
-@media screen and (max-width: 35.3125em) {
+@media screen and (max-width: em(565)) {
   .office-map,
   .jdf-map {
     display: none;
@@ -4021,8 +4021,8 @@ p#email {
   width: 87.2802652679%;
   margin-left: 6.3598673661%;
   text-align: center;
-  margin-top: 1.25em;
-  margin-bottom: 1.625em;
+  margin-top: 1.25rem;
+  margin-bottom: 1.625rem;
 }
 
 #snc-link:last-child {

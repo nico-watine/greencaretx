@@ -68,11 +68,11 @@ header {
 		@include shift(5);
 
 		aside {
-			height: em(45);
+			height: rem-calc(45);
 			border-radius: .625em .625em 0 0;
 			behavior: url('/php/PIE.htc');
 			text-align: center;
-			width: em(355);
+			width: rem-calc(355);
 			background: $lime-green;
 			border-top: .125em solid #fff;
 			border-left: .125em solid #fff;
@@ -80,11 +80,11 @@ header {
 
 			h3,
 			h3 a.phone-number {
-				font-size: rem(28);
+				font-size: rem-calc(28);
 				margin: 0;
-				line-height: rem(45);
+				line-height: rem-calc(45);
 				color: #fff;
-				text-shadow: rem(1) rem(1) 0 #000;
+				text-shadow: rem-calc(1) rem-calc(1) 0 #000;
 			}
 		}
 
@@ -102,7 +102,7 @@ header {
 			@include shift(6);
 
 			aside {
-				width: em(340);
+				width: rem-calc(340);
 			}
 		}
 
@@ -138,8 +138,8 @@ header {
 		.mini {
 			visibility: visible;
 			display: block;
-			height: em(65);
-			padding-top: em(8);
+			height: rem-calc(65);
+			padding-top: rem-calc(8);
 			background: $logo-brown;
 
 			.logo-container {
@@ -170,7 +170,7 @@ header {
 					h3 {
 						text-shadow: none;
 						margin-top: 0;
-						line-height: rem(50);
+						line-height: rem-calc(50);
 					}
 
 					i.icon-phone {
@@ -192,12 +192,12 @@ header {
 					}
 
 					i.icon-phone {
-						font-size: em(36);
+						font-size: rem-calc(36);
 						color: #fff;
 						visibility: visible;
 						display: block;
-						padding: rem(6);
-						border-radius: rem(5);
+						padding: rem-calc(6);
+						border-radius: rem-calc(5);
 					}
 				}
 			}
