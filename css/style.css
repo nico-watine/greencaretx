@@ -2388,7 +2388,6 @@ header .mini {
   z-index: 3;
   background: #4c3211;
   border-radius: 0.75rem 0.75rem 0 0;
-  behavior: url("/php/PIE.htc");
   border-top: 0.125rem solid white;
   border-bottom: 0.125rem solid white;
   text-align: right;
@@ -2528,7 +2527,6 @@ header .mini {
   }
   .nav-collapse a#last {
     border-radius: 0 10px 0 0;
-    behavior: url("/php/PIE.htc");
     border-right: 2px solid white;
   }
 }
@@ -2632,7 +2630,6 @@ header .mini {
   .nav-collapse a#last {
     border-radius: 0 10px 0 0;
     border-right: 2px solid white;
-    behavior: url("/php/PIE.htc");
   }
 }
 

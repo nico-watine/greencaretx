@@ -9,7 +9,6 @@
 	z-index: 3;
 	background: $dark-brown;
 	border-radius: rem-calc(12) rem-calc(12) 0 0;
-	behavior: url('/php/PIE.htc');
 	border-top: rem-calc(2) solid white;
 	border-bottom: rem-calc(2) solid white;
 	text-align: right;
@@ -146,7 +145,6 @@
 
 	.nav-collapse a#last {
 		border-radius: 0 10px 0 0;
-		behavior: url('/php/PIE.htc');
 		border-right: 2px solid white;
 
 		@include media($maxWidth-820) {
@@ -245,7 +243,6 @@
 	.nav-collapse a#last {
 		border-radius: 0 10px 0 0;
 		border-right: 2px solid white;
-		behavior: url('/php/PIE.htc');
 
 		@include media($maxWidth-820) {
 			border-radius: 0;
