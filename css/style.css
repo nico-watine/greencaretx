@@ -2457,13 +2457,10 @@ header .mini {
     pointer-events: none !important;
   }
   .nav-toggle {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-touch-callout: none;
     -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   .mask {
     -webkit-transition: opacity 300ms;
@@ -2497,7 +2494,7 @@ header .mini {
   .nav-collapse,
   .nav-collapse * {
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+            box-sizing: border-box;
   }
   .nav-collapse,
   .nav-collapse ul {
@@ -2510,7 +2507,6 @@ header .mini {
     width: 100%;
   }
   .nav-collapse a {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     border-top: 1px solid white;
     text-decoration: none;
     background: #4c3211;
@@ -2546,8 +2542,6 @@ header .mini {
 
 @media screen and (max-width: 40.625rem) {
   .nav-toggle {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     text-decoration: none;
     text-indent: -300px;
     position: relative;
@@ -2577,12 +2571,6 @@ header .mini {
     content: '\78';
     /* Close icon */
   }
-  @-webkit-viewport {
-    width: device-width;
-  }
-  @-moz-viewport {
-    width: device-width;
-  }
   @-ms-viewport {
     width: device-width;
   }
@@ -2610,7 +2598,6 @@ header .mini {
     width: auto;
   }
   .nav-collapse a {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     border-left: 2px solid white;
     text-decoration: none;
     background: #4c3211;
@@ -2663,7 +2650,7 @@ header .mini {
   .nav-collapse,
   .nav-collapse * {
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+            box-sizing: border-box;
   }
   .nav-collapse,
   .nav-collapse ul {

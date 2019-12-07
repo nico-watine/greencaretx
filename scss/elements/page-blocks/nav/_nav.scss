@@ -69,22 +69,14 @@
 	}
 
 	.nav-toggle {
-		-webkit-tap-highlight-color: rgba(0,0,0,0);
-		-webkit-touch-callout: none;
-		-webkit-user-select: none;
-		   -moz-user-select: none;
-		    -ms-user-select: none;
-		     -o-user-select: none;
-		        user-select: none;
+		user-select: none;
 	}
 
 	// ------------------------------
 	// |            MASK            |
 	// ------------------------------
 	.mask {
-		-webkit-transition: opacity 300ms;
-		   -moz-transition: opacity 300ms;
-		        transition: opacity 300ms;
+		transition: opacity 300ms;
 		background: rgba(0,0,0, .5);
 		visibility: hidden;
 		position: fixed;
@@ -97,8 +89,7 @@
 	}
 
 	.android .mask {
-		-webkit-transition: none;
-		        transition: none;
+		transition: none;
 	}
 
 	.js-nav-active .mask {
@@ -118,9 +109,7 @@
 
 	.nav-collapse,
 	.nav-collapse * {
-		-webkit-box-sizing: border-box;
-		   -moz-box-sizing: border-box;
-		        box-sizing: border-box;
+		box-sizing: border-box;
 	}
 
 	.nav-collapse,
@@ -136,7 +125,6 @@
 	}
 
 	.nav-collapse a {
-		-webkit-tap-highlight-color: rgba(0,0,0,0);
 		border-top: 1px solid white;
 		text-decoration: none;
 		background: $dark-brown;
@@ -173,8 +161,6 @@
 	// |            NAV TOGGLE STYLES            |
 	// -------------------------------------------
 	.nav-toggle {
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
 		text-decoration: none;
 		text-indent: -300px;
 		position: relative;
@@ -203,18 +189,6 @@
 		content: '\78'; /* Close icon */
 	}
 
-	@-webkit-viewport {
-		width: device-width;
-	}
-	@-moz-viewport {
-		width: device-width;
-	}
-	@-ms-viewport {
-		width: device-width;
-	}
-	@-o-viewport {
-		width: device-width;
-	}
 	@viewport {
 		width: device-width;
 	}
@@ -238,7 +212,6 @@
 	}
 
 	.nav-collapse a {
-		-webkit-tap-highlight-color: rgba(0,0,0,0);
 		border-left: 2px solid white;
 		text-decoration: none;
 		background: $dark-brown;
@@ -288,9 +261,7 @@
 
 	.nav-collapse,
 	.nav-collapse * {
-		-webkit-box-sizing: border-box;
-		   -moz-box-sizing: border-box;
-		        box-sizing: border-box;
+		box-sizing: border-box;
 	}
 
 	.nav-collapse,
