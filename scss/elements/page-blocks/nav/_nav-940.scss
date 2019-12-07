@@ -1,0 +1,6 @@
+@include media($maxWidth-940) {
+	#top-bar {
+		@include span-columns(11);
+		@include shift(.5);
+	}
+}
