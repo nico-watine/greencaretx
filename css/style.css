@@ -35,6 +35,15 @@ h1 {
   font-size: 2em;
 }
 
+p {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+}
+
 a {
   color: #0000ee;
   background-color: transparent;
