@@ -10,11 +10,6 @@
 	text-align: right;
 	position: relative;
 
-	@include media($maxWidth-940) {
-		@include span-columns(11);
-		@include shift(.5);
-	}
-
 	@include media($maxWidth-820) {
 		background: $dark-brown;
 		border-top: rem-calc(2) solid $tan;

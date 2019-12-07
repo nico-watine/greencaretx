@@ -1,34 +1,11 @@
-#top-bar {
-	@include span-columns(14);
-	@include shift(1);
-	z-index: 3;
-	background: $dark-brown;
-	border-radius: rem-calc(12) rem-calc(12) 0 0;
-	behavior: url('/php/PIE.htc');
-	border-top: rem-calc(2) solid white;
-	border-bottom: rem-calc(2) solid white;
-	text-align: right;
-	position: relative;
-
-	@include media($maxWidth-940) {
-		@include span-columns(11);
-		@include shift(.5);
-	}
-
-	@include media($maxWidth-820) {
-		background: $dark-brown;
-		border-top: rem-calc(2) solid $tan;
-		border-radius: 0;
-		width: 100%;
-		@include shift(0);
-	}
-
-	@include media($maxWidth-650) {
+@include media($maxWidth-650) {
+	#top-bar {
 		z-index: 20;
 		background: $logo-brown;
 		border-bottom: rem-calc(1) solid #fff;
 	}
 }
+
 
 
 
@@ -176,11 +153,6 @@ NAVIGATION STYLES
 		border-radius: 0 10px 0 0;
 		behavior: url('/php/PIE.htc');
 		border-right: 2px solid white;
-
-		@include media($maxWidth-820) {
-			border-right: 0;
-			border-radius: 0;
-		}
 	}
 
 
@@ -312,10 +284,6 @@ NAV TOGGLE STYLES
 		border-radius: 0 10px 0 0;
 		border-right: 2px solid white;
 		behavior: url('/php/PIE.htc');
-
-		@include media($maxWidth-820) {
-			border-radius: 0;
-		}
 	}
 
 	.nav-collapse ul ul a {
@@ -351,24 +319,6 @@ NAV TOGGLE STYLES
 	}
 }
 
-
-
-
-
-
-
-
-@include media($maxWidth-820) {
-	.nav-collapse {
-		width: 100% !important;
-		text-align: center !important;
-		ul {
-			float: none !important;
-			li {
-			}
-		}
-	}
-}
 
 @include media($maxWidth-650) {
 	.nav-collapse {
