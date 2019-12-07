@@ -1,9 +1,6 @@
-html {
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-}
-
 body {
 	color: $text-color;
 	font-family: $body-font-family;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
