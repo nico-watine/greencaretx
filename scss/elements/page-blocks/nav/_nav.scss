@@ -4,18 +4,6 @@
 @import '_nav-650.scss';
 @import '_nav-minWidth.scss';
 
-#top-bar {
-	@include span-columns(14);
-	@include shift(1);
-	z-index: 3;
-	background: $dark-brown;
-	border-radius: rem-calc(12) rem-calc(12) 0 0;
-	border-top: rem-calc(2) solid white;
-	border-bottom: rem-calc(2) solid white;
-	text-align: right;
-	position: relative;
-}
-
 @include media($maxWidth-940) {
 	#top-bar {
 		@include span-columns(11);
