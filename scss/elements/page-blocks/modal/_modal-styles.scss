@@ -1,0 +1,19 @@
+.white-popup {
+	position: relative;
+	background: #fff;
+	padding: rem-calc(30) rem-calc(16);
+	width: auto;
+	max-width: 80%;
+	text-align: center;
+	margin: rem-calc(20) auto;
+	border: rem-calc(6) solid $dark-brown;
+	border-radius: rem-calc(10);
+
+	@include media($maxWidth-820) {
+		max-width: 90%;
+	}
+
+	@include media($maxWidth-565) {
+		max-width: 95%;
+	}
+}

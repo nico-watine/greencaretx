@@ -8,19 +8,19 @@ main#services {
 }
 
 .page-header#services-header {
-	padding: 0 em(16);
+	padding: 0 rem-calc(16);
 
 	h1 {
-		margin: rem(8) 0 rem(16);
+		margin: rem-calc(8) 0 rem-calc(16);
 	}
 
 	p {
-		margin: 0 0 rem(16) 0;
-		font-size: rem(19);
+		margin: 0 0 rem-calc(16) 0;
+		font-size: rem-calc(19);
 	}
 
 	h3 {
-		font-size: rem(23);
+		font-size: rem-calc(23);
 	}
 }
 
@@ -34,8 +34,8 @@ main#services {
 	}
 
 	p {
-		margin-top: rem(6);
-		font-size: rem(19);
+		margin-top: rem-calc(6);
+		font-size: rem-calc(19);
 	}
 }
 
@@ -44,11 +44,11 @@ main#services {
 	padding: 1em;
 
 	a.big-green-button {
-		margin: rem(20) auto rem(45);
-		padding: rem(10) rem(16);
+		margin: rem-calc(20) auto rem-calc(45);
+		padding: rem-calc(10) rem-calc(16);
 
 		&:hover {
-			margin: rem(21) auto rem(43);
+			margin: rem-calc(21) auto rem-calc(43);
 		}
 	}
 }
@@ -61,11 +61,11 @@ main#services {
 #services-modal {
 	h1 {
 		font-family: 'atlas', sans-serif;
-		letter-spacing: rem(1.4);
+		letter-spacing: rem-calc(1.4);
 	}
 
 	h3 {
-		padding: 0 rem(20);
+		padding: 0 rem-calc(20);
 
 		@include media($maxWidth-650) {
 			padding: 0;
