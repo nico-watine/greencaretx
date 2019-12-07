@@ -4076,19 +4076,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/elements/components/_neat-resets.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/elements/css/_neat-resets.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
 	"/scss/elements/components/_svg-button-links.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4371,6 +4358,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_clearfix.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/elements/components/neat/mixins/_omega-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/components/neat/css/_omega-reset.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
