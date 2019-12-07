@@ -1,17 +1,3 @@
-html,
-input,
-button,
-textarea {
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-}
-
-body {
-	color: $text-color;
-	font-family: $body-font-family;
-	// line-height: $baseline;
-}
-
 @import '_abbr.scss';
 @import '_blockquote-cite.scss';
 @import '_buttons.scss';
