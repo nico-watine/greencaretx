@@ -2530,9 +2530,6 @@ header .mini {
     -o-user-select: none;
     user-select: none;
   }
-  /* ------------------------------------------
-MASK
---------------------------------------------- */
   .mask {
     -webkit-transition: opacity 300ms;
     -o-transition: opacity 300ms;
@@ -2556,9 +2553,6 @@ MASK
     visibility: visible;
     opacity: 1;
   }
-  /* ------------------------------------------
-NAVIGATION STYLES
---------------------------------------------- */
   .fixed {
     position: fixed;
     width: 100%;
@@ -2606,9 +2600,6 @@ NAVIGATION STYLES
     behavior: url("/php/PIE.htc");
     border-right: 2px solid white;
   }
-  /* ------------------------------------------
-NAV TOGGLE STYLES
---------------------------------------------- */
   .nav-toggle {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
