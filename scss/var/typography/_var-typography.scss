@@ -2,8 +2,11 @@
 // |            typography Variables            |
 // ----------------------------------------------
 $global-font-size: 100% !default;
-$body-font-family: 'inai', sans-serif;
+$p-font-family: 'inai', sans-serif;
 $bold-font-family: 'Roboto', sans-serif;
+
+$body-font-family: $p-font-family;
+$h-font-family: $p-font-family;
 
 
 // Functions import necessary for rem-calc(X) usage:

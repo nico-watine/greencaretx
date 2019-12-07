@@ -14,7 +14,7 @@ h6,
 	font-family: $h-font-family;
 	font-style: normal;
 	font-weight: normal;
-	color: $h-color; // #0a0a0a
+	color: $h-color;
 
 	// Metrics
 	line-height: 1.2;
@@ -27,4 +27,62 @@ h6,
 		line-height: 0;
 		color: #8a8a8a;
 	}
+}
+
+h1,
+.h1 {
+	font-size: $h1-size;
+
+	@include media($maxWidth-940) {
+		font-size: $h2-size;
+	}
+
+	@include media($maxWidth-820) {
+		font-size: $h3-size;
+	}
+}
+
+h2,
+.h2 {
+	font-size: $h2-size;
+
+	@include media($maxWidth-940) {
+		font-size: $h3-size;
+	}
+}
+
+h3,
+.h3 {
+	font-size: $h3-size;
+
+	@include media($maxWidth-940) {
+		font-size: $h4-size;
+	}
+}
+
+h4,
+.h4 {
+	font-size: $h4-size;
+}
+
+h5,
+.h5 {
+	font-size: $h5-size;
+
+	@include media($maxWidth-940) {
+		font-size: $h6-size;
+	}
+}
+
+h6,
+.h6 {
+	font-size: $h6-size;
+}
+
+h5,
+.h5,
+h6,
+.h6 {
+	letter-spacing: rem-calc(1);
+	text-transform: uppercase;
 }

@@ -35,6 +35,15 @@ h1 {
   font-size: 2em;
 }
 
+p {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+}
+
 a {
   color: #0000ee;
   background-color: transparent;
@@ -157,13 +166,125 @@ pre code {
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-*, *::after, *::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+body {
+  color: #333;
+  font-family: "inai", sans-serif;
+}
+
+.row {
+  display: block;
+}
+
+.row::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.padding-horizontal,
+.padding-sides {
+  padding: 0 1rem;
+}
+
+.padding-vertical {
+  padding: 1rem 0;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.one-half {
+  float: left;
+  display: block;
+  margin-right: 1.7578778568%;
+  width: 49.1210610716%;
+}
+
+.one-half:last-child {
+  margin-right: 0;
+}
+
+.omega {
+  margin-right: 0;
+  margin-right: 0 !important;
+}
+
+abbr,
+abbr[title] {
+  border-bottom: 1px dotted #0a0a0a;
+  cursor: help;
+  text-decoration: none;
+}
+
+blockquote {
+  margin: 0 0 1rem;
+  padding: .5625rem 1.25rem 0 1.1875rem;
+  border-left: 1px solid #cacaca;
+}
+
+blockquote,
+blockquote p {
+  line-height: 1.6;
+  color: #8a8a8a;
+}
+
+cite {
+  display: block;
+  font-size: .8125rem;
+  color: #8a8a8a;
+}
+
+cite:before {
+  content: '— ';
+}
+
+a.big-green-button {
+  background: #a0cc39;
+  -webkit-box-shadow: 0 0.125rem 0 0 #668625;
+          box-shadow: 0 0.125rem 0 0 #668625;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4375rem;
+  padding: 0.625rem 1rem 0.625rem 1rem;
+  border: 0.0625rem solid #a0cc39;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+a.big-green-button:hover {
+  text-shadow: 0 0.0625rem 0 #668625;
+  border-top: 0;
+  margin-top: 0.0625rem;
+  -webkit-box-shadow: 0 0.0625rem 0 0 #668625;
+          box-shadow: 0 0.0625rem 0 0 #668625;
+  border-bottom: 0.1875rem solid #a0cc39;
+}
+
+.opaque-button {
+  background: rgba(51, 51, 51, 0.5);
+  border: 0.0625rem solid #333;
+  border-radius: 0.25rem;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0.0625rem 0.0625rem 0.125rem #000;
+}
+
+code {
+  padding: .125rem .3125rem .0625rem;
+  border: 1px solid #cacaca;
+  background-color: #e6e6e6;
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  font-weight: normal;
+  color: #0a0a0a;
+}
+
+figure {
+  margin: 0;
 }
 
 @font-face {
@@ -187,16 +308,10 @@ html {
   font-weight: 400;
 }
 
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('/fonts/fontello/fontello.svg?60863212#fontello') format('svg');
-  }
+.text-monospace {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !important;
 }
-*/
+
 [class^='icon-']:before,
 [class*=' icon-']:before {
   font-family: 'fontello';
@@ -241,26 +356,188 @@ html {
 }
 
 /* '' */
-html {
-  font-size: 1em;
+.font-weight-100,
+.font-weight-ultralight {
+  font-weight: 100 !important;
 }
 
-html,
-input,
-button,
-textarea {
-  -webkit-font-smoothing: antialiased;
+.font-weight-200,
+.font-weight-thin {
+  font-weight: 200 !important;
+}
+
+.font-weight-300,
+.font-weight-light {
+  font-weight: 300 !important;
+}
+
+.font-weight-400,
+.font-weight-regular,
+.font-weight-normal {
+  font-weight: 400 !important;
+}
+
+.font-weight-500,
+.font-weight-medium {
+  font-weight: 500 !important;
+}
+
+.font-weight-600,
+.font-weight-semibold {
+  font-weight: 600 !important;
+}
+
+.font-weight-700,
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.font-weight-800,
+.font-weight-heavy {
+  font-weight: 800 !important;
+}
+
+.font-weight-900,
+.font-weight-black {
+  font-weight: 900 !important;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "inai", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #333;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
   text-rendering: optimizeLegibility;
 }
 
-body {
-  color: #333;
-  font-family: "inai", sans-serif;
-  line-height: 1.4em;
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h4 small,
+.h4 small,
+h5 small,
+.h5 small,
+h6 small,
+.h6 small {
+  line-height: 0;
+  color: #8a8a8a;
 }
 
-p {
-  margin-bottom: 1.4em;
+h1,
+.h1 {
+  font-size: 2.375rem;
+}
+
+@media screen and (max-width: 58.75rem) {
+  h1,
+  .h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 51.25rem) {
+  h1,
+  .h1 {
+    font-size: 1.75rem;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 58.75rem) {
+  h2,
+  .h2 {
+    font-size: 1.75rem;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 1.75rem;
+}
+
+@media screen and (max-width: 58.75rem) {
+  h3,
+  .h3 {
+    font-size: 1.4375rem;
+  }
+}
+
+h4,
+.h4 {
+  font-size: 1.4375rem;
+}
+
+h5,
+.h5 {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 58.75rem) {
+  h5,
+  .h5 {
+    font-size: 0.75rem;
+  }
+}
+
+h6,
+.h6 {
+  font-size: 0.75rem;
+}
+
+h5,
+.h5,
+h6,
+.h6 {
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* [normalize] Add the correct box sizing in Firefox. */
+  height: 0;
+  /* [normalize] Add the correct box sizing in Firefox. */
+  overflow: visible;
+  /* [normalize] Show the overflow in Edge and IE. */
+  clear: both;
+  /* [foundation] to ensure nothing is beside it when using clears on surrounding content */
+  margin: 1em auto;
+  /* [h5bp] preferred 16/0 over [foundation] 20/0. [bootstrap] uses margin-top and margin-bottom */
+  border: 0;
+  /* [h5bp & bootstrap] set the single-property border to zero, but then override it with a 1px bottom border w below line. [foundation] sets border to 0 via long hand (b-t/b-r/b-b/b-l) */
+  border-bottom: 1px solid #cacaca;
+  /* [foundation] personally prefer the darker #cacaca of foundation to the (marginally) lighter #ccc of [h5bp] */
+  /* [boostrap] optionally can use this method which sets the color based on its background */
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+}
+
+kbd {
+  margin: 0;
+  padding: .125rem .25rem 0;
+  background-color: #e6e6e6;
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  color: #0a0a0a;
 }
 
 a {
@@ -269,6 +546,157 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+ul,
+ol,
+dl {
+  margin-bottom: 1rem;
+  list-style-position: outside;
+  line-height: 1.6;
+}
+
+li {
+  font-size: inherit;
+}
+
+ul {
+  margin-left: 1.25rem;
+  list-style-type: disc;
+}
+
+ol {
+  margin-left: 1.25rem;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+dl {
+  margin-bottom: 1rem;
+}
+
+dl dt {
+  margin-bottom: .3rem;
+  font-weight: bold;
+}
+
+ul.no-bullet,
+ol.no-bullet {
+  margin-left: 0;
+  list-style: none;
+}
+
+.text-hide {
+  font: 0/0 a !important;
+  color: transparent !important;
+  text-shadow: none !important;
+  background-color: transparent !important;
+  border: 0 !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-wrap {
+  white-space: normal !important;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+.text-truncate {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-black-50 {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.text-truncate {
+  max-width: 100% !important;
+  overflow: hidden !important;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap !important;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+.text-wrap {
+  word-wrap: break-word !important;
+}
+
+.text-overline {
+  text-decoration: overline !important;
+}
+
+.text-underline {
+  text-decoration: underline !important;
+}
+
+.text-line-through {
+  text-decoration: line-through !important;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+.text-hide {
+  font: 0/0 a !important;
+  color: transparent !important;
+  text-shadow: none !important;
+  background-color: transparent !important;
+  border: 0 !important;
 }
 
 a.phone-number {
@@ -287,170 +715,6 @@ a.phone-number i.icon-phone:focus, a.phone-number i.icon-phone:active {
   a.phone-number:hover {
     text-decoration: none;
   }
-}
-
-hr {
-  border: 0;
-  background-color: #ccc;
-  height: 1px;
-  margin: 1.4em 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: .2rem 0 .5rem;
-  line-height: 1.2;
-  font-weight: 400;
-}
-
-h5,
-h6 {
-  line-height: 1.5;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-h1 {
-  margin-top: 0;
-  font-size: 2.375rem;
-}
-
-@media screen and (max-width: 58.75rem) {
-  h1 {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (max-width: 51.25rem) {
-  h1 {
-    font-size: 1.75rem;
-  }
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-@media screen and (max-width: 58.75rem) {
-  h2 {
-    font-size: 1.75rem;
-  }
-}
-
-h3 {
-  font-size: 1.75rem;
-}
-
-@media screen and (max-width: 58.75rem) {
-  h3 {
-    font-size: 1.4375rem;
-  }
-}
-
-h4 {
-  font-size: 1.4375rem;
-}
-
-h5 {
-  font-size: 1rem;
-}
-
-@media screen and (max-width: 58.75rem) {
-  h5 {
-    font-size: 0.75rem;
-  }
-}
-
-h6 {
-  font-size: 0.75rem;
-}
-
-a.big-green-button {
-  background: #a0cc39;
-  -webkit-box-shadow: 0 0.125rem 0 0 #668625;
-          box-shadow: 0 0.125rem 0 0 #668625;
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.4375rem;
-  padding: 0.625rem 1rem 0.625rem 1rem;
-  border: 0.0625rem solid #a0cc39;
-  border-radius: 4px;
-  display: inline-block;
-}
-
-a.big-green-button:hover {
-  text-shadow: 0 0.0625rem 0 #668625;
-  border-top: 0;
-  margin-top: 0.0625rem;
-  -webkit-box-shadow: 0 0.0625rem 0 0 #668625;
-          box-shadow: 0 0.0625rem 0 0 #668625;
-  border-bottom: 0.1875rem solid #a0cc39;
-}
-
-.opaque-button {
-  background: rgba(51, 51, 51, 0.5);
-  border: 0.0625rem solid #333;
-  border-radius: 0.25rem;
-  color: #fff;
-  text-decoration: none;
-  text-shadow: 0.0625rem 0.0625rem 0.125rem #000;
-}
-
-.svg-link {
-  display: inline-block;
-  margin-bottom: 0.5rem;
-}
-
-.svg-link.icon-hover__white:hover {
-  background: #fff;
-  border-radius: 50%;
-}
-
-.svg-link.icon-hover__white:hover .replaced-svg path {
-  fill: #a0cc39;
-}
-
-.row {
-  display: block;
-}
-
-.row::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
-.padding-horizontal,
-.padding-sides {
-  padding: 0 1em;
-}
-
-.padding-vertical {
-  padding: 1em 0;
-}
-
-.img-container {
-  text-align: center;
-}
-
-.one-half {
-  float: left;
-  display: block;
-  margin-right: 1.7578778568%;
-  width: 49.1210610716%;
-}
-
-.one-half:last-child {
-  margin-right: 0;
-}
-
-.omega {
-  margin-right: 0;
-  margin-right: 0 !important;
 }
 
 .border-radius-0 {
