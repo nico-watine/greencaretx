@@ -201,35 +201,6 @@ body {
   margin-right: 0 !important;
 }
 
-abbr,
-abbr[title] {
-  border-bottom: 1px dotted #0a0a0a;
-  cursor: help;
-  text-decoration: none;
-}
-
-blockquote {
-  margin: 0 0 1rem;
-  padding: .5625rem 1.25rem 0 1.1875rem;
-  border-left: 1px solid #cacaca;
-}
-
-blockquote,
-blockquote p {
-  line-height: 1.6;
-  color: #8a8a8a;
-}
-
-cite {
-  display: block;
-  font-size: .8125rem;
-  color: #8a8a8a;
-}
-
-cite:before {
-  content: '— ';
-}
-
 a.big-green-button {
   background: #a0cc39;
   -webkit-box-shadow: 0 0.125rem 0 0 #668625;
@@ -259,19 +230,6 @@ a.big-green-button:hover {
   color: #fff;
   text-decoration: none;
   text-shadow: 0.0625rem 0.0625rem 0.125rem #000;
-}
-
-code {
-  padding: .125rem .3125rem .0625rem;
-  border: 1px solid #cacaca;
-  background-color: #e6e6e6;
-  font-family: Consolas, 'Liberation Mono', Courier, monospace;
-  font-weight: normal;
-  color: #0a0a0a;
-}
-
-figure {
-  margin: 0;
 }
 
 @font-face {
@@ -519,14 +477,6 @@ hr {
   /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
 }
 
-kbd {
-  margin: 0;
-  padding: .125rem .25rem 0;
-  background-color: #e6e6e6;
-  font-family: Consolas, 'Liberation Mono', Courier, monospace;
-  color: #0a0a0a;
-}
-
 a {
   color: #333;
 }
@@ -676,14 +626,6 @@ ol.no-bullet {
 
 .text-capitalize {
   text-transform: capitalize !important;
-}
-
-.text-hide {
-  font: 0/0 a !important;
-  color: transparent !important;
-  text-shadow: none !important;
-  background-color: transparent !important;
-  border: 0 !important;
 }
 
 a.phone-number {
