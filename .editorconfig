@@ -14,8 +14,9 @@ trim_trailing_whitespace = false
 
 [*.json]
 indent_size = 2
+indent_style = space
 insert_final_newline = ignore
 
-[**-min.js]
+[{**-min.js,*.svg,**.min.js}]
 indent_style = ignore
 insert_final_newline = ignore
