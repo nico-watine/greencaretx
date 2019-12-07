@@ -1,0 +1,153 @@
+main {
+	border-left: $ten solid $dark-brown;
+	border-right: $ten solid $dark-brown;
+	box-shadow: rem-calc(1) rem-calc(-2) rem-calc(2) 0 #000 inset;
+	background-size: cover;
+	background-color: $dark-brown;
+
+	@include span-columns(14 of 16);
+	@include shift(1);
+
+	@include media($maxWidth-940) {
+		border-left: rem-calc(7) solid $dark-brown;
+		border-right: rem-calc(7) solid $dark-brown;
+		@include span-columns(11 of 12);
+		@include shift(.5);
+	}
+
+	.main-content {
+		opacity: 0;
+	}
+
+	@include media($maxWidth-820) {
+		background-image: none !important;
+		background-color: $content-bg;
+
+		.main-content {
+			background-image: none !important;
+			opacity: 1;
+		}
+	}
+}
+
+#page-title {
+	@include span-columns(1 of 10);
+	@include shift(0);
+
+	@include media($maxWidth-940) {
+		@include span-columns(1 of 10);
+	}
+
+	@include media($maxWidth-820) {
+		display: none;
+		visibility: hidden;
+	}
+
+	.h1-wrap {
+		margin-left: rem-calc(-5);
+		padding-top: rem-calc(450);
+
+		@include media($maxWidth-1070) {
+			margin-left: rem-calc(-15);
+		}
+
+		@include media($maxWidth-940) {
+			margin-left: rem-calc(-18);
+			padding-top: rem-calc(500);
+		}
+
+		h1#our-plants {
+			padding: 0;
+			width: rem-calc(250);
+		}
+	}
+
+	.vertical-title {
+		transform: rotate(-90deg);
+		color: white;
+		padding: rem-calc(40) 0 0 0;
+		font-size: rem-calc(42);
+		margin: 0;
+		letter-spacing: rem-calc(2.5);
+		font-family: $bold-font-family;
+	}
+
+	.h1-wrap#our-plants {
+		padding-top: rem-calc(400);
+
+		.vertical-title {
+			padding: 0;
+			width: rem-calc(250);
+			margin-left: rem-calc(-65);
+		}
+	}
+
+	.h1-wrap#project-galleries,
+	.h1-wrap#contact {
+		padding-top: rem-calc(270);
+		margin-left: rem-calc(-150);
+
+		@include media($maxWidth-1070) {
+			margin-left: rem-calc(-155);
+			padding-top: rem-calc(320);
+		}
+
+		@include media($maxWidth-940) {
+			margin-left: rem-calc(-160);
+		}
+
+		.vertical-title {
+			padding: 0;
+			width: rem-calc(400);
+		}
+	}
+}
+
+#page-content {
+	opacity: 0;
+	box-shadow: rem-calc(-1) 0 rem-calc(2) 0 #000;
+	@include span-columns(9 of 10);
+	padding-top: rem-calc(20);
+	background-color: $content-bg;
+	background-image: url('/img/misc/flower-bg.png');
+	background-position: bottom right;
+	background-size: 300px;
+	background-repeat: no-repeat;
+	height: auto;
+
+	@include media($maxWidth-940) {
+		@include span-columns(9 of 10);
+	}
+
+	@include media($maxWidth-820) {
+		@include span-columns(10 of 10);
+		@include shift(0);
+	}
+}
+
+.page-header {
+	text-align: center;
+	@include row;
+	margin-bottom: rem-calc(10);
+
+	h1 {
+		font-size: rem-calc(42);
+		margin-bottom: 0;
+	}
+
+	h3 {
+		font-size: rem-calc(21);
+		line-height: rem-calc(24);
+		margin-bottom: 0;
+	}
+
+	@include media($maxWidth-650) {
+		h1 {
+			font-size: rem-calc(36);
+		}
+
+		h2 {
+			font-size: rem-calc(19);
+		}
+	}
+}
