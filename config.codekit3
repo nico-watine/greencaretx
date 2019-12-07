@@ -4141,19 +4141,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/elements/components/neat/grid/_box-sizing.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/elements/components/neat/css/_box-sizing.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
 	"/scss/elements/components/neat/grid/_direction-context.scss": {
 		"aP": 0,
 		"bl": 0,
