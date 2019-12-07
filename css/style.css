@@ -1816,7 +1816,7 @@ main .main-content {
 @media screen and (max-width: 51.25rem) {
   main {
     background-image: none !important;
-    background-color: #eeeeee;
+    background-color: #eee;
   }
   main .main-content {
     background-image: none !important;
@@ -1936,7 +1936,7 @@ main .main-content {
   margin-right: 2.8425860857%;
   width: 89.7157413914%;
   padding-top: 1.25rem;
-  background-color: #eeeeee;
+  background-color: #eee;
   background-image: url("/img/misc/flower-bg.png");
   background-position: bottom right;
   background-size: 300px;
