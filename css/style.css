@@ -2441,10 +2441,22 @@ header .mini {
     width: 100%;
     display: block;
     float: left;
+    border-top: 0.125rem solid #fff;
   }
   #top-bar .nav-collapse li {
     width: 100%;
     display: block;
+  }
+  #top-bar .nav-collapse a {
+    border-right: 0.125rem solid #fff;
+    border-top: 1px solid white;
+    width: 100%;
+  }
+  #top-bar .nav-collapse a:hover,
+  #top-bar .nav-collapse a:active,
+  #top-bar .nav-collapse .active a {
+    box-shadow: none;
+    text-shadow: none;
   }
   .js .nav-collapse {
     clip: rect(0 0 0 0);
@@ -2460,9 +2472,6 @@ header .mini {
   .disable-pointer-events {
     pointer-events: none !important;
   }
-  .nav-toggle {
-    user-select: none;
-  }
   .mask {
     transition: opacity 300ms;
     background: rgba(0, 0, 0, 0.5);
@@ -2475,80 +2484,30 @@ header .mini {
     left: 0;
     top: 0;
   }
-  .android .mask {
-    transition: none;
-  }
   .js-nav-active .mask {
     visibility: visible;
     opacity: 1;
   }
-  .fixed {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-  }
-  .nav-collapse,
-  .nav-collapse ul {
-    float: left;
-  }
-  .nav-collapse li {
-    width: 100%;
-  }
-  .nav-collapse a {
-    border-top: 1px solid white;
-    text-decoration: none;
-    background: #4c3211;
-    padding: .7em 1em;
-    color: #fff;
-    width: 100%;
-    float: left;
-    font-size: 18px;
-  }
-  .nav-collapse a:hover {
-    background: #a0cc39;
-  }
-  .nav-collapse a:active,
-  .nav-collapse .active a {
-    background: #a0cc39;
-    box-shadow: none;
-    text-shadow: none;
-  }
-  .nav-collapse a#last {
-    border-right: none;
-  }
   .nav-toggle {
-    text-decoration: none;
-    text-indent: -300px;
+    user-select: none;
     position: relative;
-    overflow: hidden;
     width: 60px;
-    height: 3em;
+    height: 3rem;
     float: right;
   }
   .nav-toggle:before {
     color: #fff;
-    /* Edit this to change the icon color */
     font: normal 35px/48px 'nav';
-    /* Edit font-size (28px) to change the icon size */
-    text-transform: none;
     text-align: center;
     position: absolute;
     content: '\2261';
-    /* Hamburger icon */
-    text-indent: 0;
     speak: none;
     width: 100%;
     left: 0;
-    top: 0;
   }
   .nav-toggle.active:before {
     font-size: 26px;
     content: '\78';
-    /* Close icon */
-  }
-  @viewport {
-    width: device-width;
   }
 }
 
