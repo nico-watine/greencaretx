@@ -2,8 +2,23 @@
 	@include span-columns(14);
 	@include shift(1);
 	border-radius: 0 rem-calc(12) 0 0;
+	z-index: 3;
+	background: $dark-brown;
+	border-top: rem-calc(2) solid #fff;
+	border-bottom: rem-calc(2) solid #fff;
+	position: relative;
+
+	.nav-collapse a {
+		text-decoration: none;
+		padding: rem-calc(10 20);
+		border-left: rem-calc(2) solid #fff;
+		color: #fff;
+		float: left;
+		font-size: rem-calc(21);
+	}
 
 	.nav-collapse a#last {
 		border-radius: 0 rem-calc(12) 0 0;
+		border-right: rem-calc(2) solid #fff;
 	}
 }

@@ -2380,28 +2380,35 @@ header .mini {
 }
 
 #top-bar {
-  z-index: 3;
-  background: #4c3211;
-  border-top: 0.125rem solid white;
-  border-bottom: 0.125rem solid white;
-  position: relative;
-}
-
-#top-bar {
   float: left;
   display: block;
   margin-right: 1.7578778568%;
   width: 87.2802652679%;
   margin-left: 6.3598673661%;
   border-radius: 0 0.75rem 0 0;
+  z-index: 3;
+  background: #4c3211;
+  border-top: 0.125rem solid #fff;
+  border-bottom: 0.125rem solid #fff;
+  position: relative;
 }
 
 #top-bar:last-child {
   margin-right: 0;
 }
 
+#top-bar .nav-collapse a {
+  text-decoration: none;
+  padding: 0.625rem 1.25rem;
+  border-left: 0.125rem solid #fff;
+  color: #fff;
+  float: left;
+  font-size: 1.3125rem;
+}
+
 #top-bar .nav-collapse a#last {
   border-radius: 0 0.75rem 0 0;
+  border-right: 0.125rem solid #fff;
 }
 
 @media screen and (min-width: 651px) {
@@ -2418,19 +2425,6 @@ header .mini {
   .nav-collapse {
     float: right;
     width: auto;
-  }
-  .nav-collapse a {
-    border-left: 2px solid white;
-    text-decoration: none;
-    background: #4c3211;
-    padding: 0.625rem 1.25rem;
-    color: #fff;
-    width: 100%;
-    text-align: center;
-    border-top: 0;
-    float: left;
-    margin: 0;
-    font-size: 21px;
   }
   .nav-collapse a:hover {
     background: #a0cc39;
@@ -2450,9 +2444,6 @@ header .mini {
     text-shadow: 0 0.0625rem 0 #668625;
     -webkit-box-shadow: 0 1px 1px 0 #668625 inset;
             box-shadow: 0 1px 1px 0 #668625 inset;
-  }
-  .nav-collapse a#last {
-    border-right: 2px solid white;
   }
   .nav-collapse ul ul a {
     background: #ca3716;

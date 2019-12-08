@@ -4547,19 +4547,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/elements/page-blocks/nav/_nav-constants.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/elements/page-blocks/css/_nav-constants.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
 	"/scss/elements/page-blocks/nav/_nav-maxWidth.scss": {
 		"aP": 0,
 		"bl": 0,
