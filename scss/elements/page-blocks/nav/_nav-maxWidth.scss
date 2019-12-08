@@ -17,6 +17,14 @@
 		font-size: rem-calc(21);
 	}
 
+	.nav-collapse a:hover,
+	.nav-collapse a:active,
+	.nav-collapse .active a {
+		background: $lime-green;
+		text-shadow: 0 rem-calc(1) 0 #668625;
+		box-shadow: 0 rem-calc(1) rem-calc(1) 0 #668625 inset;
+	}
+
 	.nav-collapse a#last {
 		border-radius: 0 rem-calc(12) 0 0;
 		border-right: rem-calc(2) solid #fff;
