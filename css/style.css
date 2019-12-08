@@ -2449,7 +2449,7 @@ header .mini {
   }
   #top-bar .nav-collapse a {
     border-right: 0.125rem solid #fff;
-    border-top: 1px solid white;
+    border-top: 0.0625rem solid #fff;
     width: 100%;
   }
   #top-bar .nav-collapse a:hover,
