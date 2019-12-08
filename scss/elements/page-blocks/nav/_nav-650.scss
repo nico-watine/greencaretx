@@ -1,0 +1,104 @@
+// -----------------------------------------------
+// |            @Mobile Drop-Down Nav            |
+// -----------------------------------------------
+
+@include media($maxWidth-650) {
+	#top-bar {
+		background: $logo-brown;
+
+		.nav-collapse {
+			text-align: right;
+		}
+
+		.nav-collapse ul {
+			width: 100%;
+			display: block;
+			float: left;
+			border-top: rem-calc(2) solid #fff;
+		}
+
+		.nav-collapse li {
+			width: 100%;
+			display: block;
+		}
+
+		.nav-collapse a {
+			border-right: rem-calc(2) solid #fff;
+			border-top: rem-calc(1) solid #fff;
+			width: 100%;
+		}
+
+		.nav-collapse a:hover,
+		.nav-collapse .active a {
+			box-shadow: none;
+			text-shadow: none;
+		}
+	}
+
+	// ---------------------------------------------------------------------- //
+
+	// -----------------------------------------------
+	// |            Nav-Open Overlay Mask            |
+	// -----------------------------------------------
+	.mask {
+		transition: opacity 300ms;
+		background: rgba(0,0,0, .5);
+		visibility: hidden;
+		position: fixed;
+		opacity: 0;
+		z-index: 11;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		top: 0;
+	}
+
+	.js-nav-active .mask {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.js .nav-collapse {
+		clip: rect(0 0 0 0);
+		max-height: 0;
+		position: absolute;
+		display: block;
+		overflow: hidden;
+		zoom: 1;
+	}
+
+	.nav-collapse.opened {
+		max-height: 9999px;
+	}
+
+	.disable-pointer-events {
+		pointer-events: none !important;
+	}
+
+	// -------------------------------------------
+	// |            Nav Toggle Styles            |
+	// -------------------------------------------
+	.nav-toggle {
+		user-select: none;
+		position: relative;
+		width: 60px;
+		height: rem-calc(48);
+		float: right;
+	}
+
+	.nav-toggle:before {
+		color: #fff;
+		font: normal 35px/48px 'nav';
+		text-align: center;
+		position: absolute;
+		content: '\2261'; // Hamburger icon
+		speak: none;
+		width: 100%;
+		left: 0;
+	}
+
+	.nav-toggle.active:before {
+		font-size: 26px;
+		content: '\78'; // Close icon
+	}
+}
