@@ -1,4 +1,7 @@
 @include media($maxWidth-650) {
+	// ---------------------------------------
+	// |            Visual Styles            |
+	// ---------------------------------------
 	#top-bar {
 		background: $logo-brown;
 
@@ -31,27 +34,11 @@
 			text-shadow: none;
 		}
 	}
+	// ---------------------------------------------------------------------- //
 
-	.js .nav-collapse {
-		clip: rect(0 0 0 0);
-		max-height: 0;
-		position: absolute;
-		display: block;
-		overflow: hidden;
-		zoom: 1;
-	}
-
-	.nav-collapse.opened {
-		max-height: 9999px;
-	}
-
-	.disable-pointer-events {
-		pointer-events: none !important;
-	}
-
-	// ------------------------------
-	// |            MASK            |
-	// ------------------------------
+	// -----------------------------------------------
+	// |            Nav-Open Overlay Mask            |
+	// -----------------------------------------------
 	.mask {
 		transition: opacity 300ms;
 		background: rgba(0,0,0, .5);
@@ -70,8 +57,25 @@
 		opacity: 1;
 	}
 
+	.js .nav-collapse {
+		clip: rect(0 0 0 0);
+		max-height: 0;
+		position: absolute;
+		display: block;
+		overflow: hidden;
+		zoom: 1;
+	}
+
+	.nav-collapse.opened {
+		max-height: 9999px;
+	}
+
+	.disable-pointer-events {
+		pointer-events: none !important;
+	}
+
 	// -------------------------------------------
-	// |            NAV TOGGLE STYLES            |
+	// |            Nav Toggle Styles            |
 	// -------------------------------------------
 	.nav-toggle {
 		user-select: none;

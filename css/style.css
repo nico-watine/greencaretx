@@ -2458,20 +2458,6 @@ header .mini {
     box-shadow: none;
     text-shadow: none;
   }
-  .js .nav-collapse {
-    clip: rect(0 0 0 0);
-    max-height: 0;
-    position: absolute;
-    display: block;
-    overflow: hidden;
-    zoom: 1;
-  }
-  .nav-collapse.opened {
-    max-height: 9999px;
-  }
-  .disable-pointer-events {
-    pointer-events: none !important;
-  }
   .mask {
     transition: opacity 300ms;
     background: rgba(0, 0, 0, 0.5);
@@ -2487,6 +2473,20 @@ header .mini {
   .js-nav-active .mask {
     visibility: visible;
     opacity: 1;
+  }
+  .js .nav-collapse {
+    clip: rect(0 0 0 0);
+    max-height: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+  }
+  .nav-collapse.opened {
+    max-height: 9999px;
+  }
+  .disable-pointer-events {
+    pointer-events: none !important;
   }
   .nav-toggle {
     user-select: none;
