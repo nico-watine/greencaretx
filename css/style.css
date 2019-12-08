@@ -2378,7 +2378,6 @@ header .mini {
 }
 
 #top-bar .nav-collapse a:hover,
-#top-bar .nav-collapse a:active,
 #top-bar .nav-collapse .active a {
   background: #a0cc39;
   text-shadow: 0 0.0625rem 0 #668625;
@@ -2453,7 +2452,6 @@ header .mini {
     width: 100%;
   }
   #top-bar .nav-collapse a:hover,
-  #top-bar .nav-collapse a:active,
   #top-bar .nav-collapse .active a {
     box-shadow: none;
     text-shadow: none;
