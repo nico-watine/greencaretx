@@ -2351,6 +2351,23 @@ header .mini {
   margin-right: 0;
 }
 
+#top-bar .nav-collapse {
+  width: 100%;
+  text-align: center;
+}
+
+#top-bar .nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+  float: right;
+}
+
+#top-bar .nav-collapse li {
+  float: left;
+}
+
 #top-bar .nav-collapse a {
   text-decoration: none;
   padding: 0.625rem 1.25rem;
@@ -2374,46 +2391,15 @@ header .mini {
 }
 
 @media screen and (min-width: 651px) {
-  .nav-collapse.closed {
+  .nav-collapse {
     max-height: 53px;
   }
   .nav-toggle {
-    display: none;
+    display: none !important;
   }
   .mask {
     display: none !important;
     opacity: 0 !important;
-  }
-  .nav-collapse {
-    float: right;
-    width: auto;
-  }
-  .nav-collapse li {
-    width: auto;
-    float: left;
-  }
-  .nav-collapse ul ul a {
-    background: #ca3716;
-    padding-left: 2em;
-  }
-  .nav-collapse,
-  .nav-collapse * {
-    box-sizing: border-box;
-  }
-  .nav-collapse,
-  .nav-collapse ul {
-    list-style: none;
-    float: right;
-  }
-  .nav-collapse ul {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    list-style: none;
-  }
-  .nav-collapse {
-    position: absolute;
-    display: block;
   }
 }
 
@@ -2436,15 +2422,11 @@ header .mini {
     width: 100%;
     margin-left: 0%;
   }
+  #top-bar .nav-collapse ul {
+    float: none;
+  }
   #top-bar .nav-collapse a#last {
     border-radius: 0;
-  }
-  .nav-collapse {
-    width: 100% !important;
-    text-align: center !important;
-  }
-  .nav-collapse ul {
-    float: none !important;
   }
 }
 
@@ -2507,17 +2489,12 @@ header .mini {
     top: 0;
   }
   .nav-collapse,
-  .nav-collapse * {
-    box-sizing: border-box;
-  }
-  .nav-collapse,
   .nav-collapse ul {
     list-style: none;
     width: 100%;
     float: left;
   }
   .nav-collapse li {
-    float: left;
     width: 100%;
   }
   .nav-collapse a {

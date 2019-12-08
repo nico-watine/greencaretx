@@ -8,6 +8,24 @@
 	border-bottom: rem-calc(2) solid #fff;
 	position: relative;
 
+	.nav-collapse {
+		width: 100%;
+		text-align: center;
+	}
+
+	.nav-collapse ul {
+		margin: 0; //!important
+		padding: 0; //!important
+		display: inline-block; //!important
+		list-style: none; //!important
+		float: right; //!important
+	}
+
+	.nav-collapse li {
+		// width: auto;
+		float: left; //!important
+	}
+
 	.nav-collapse a {
 		text-decoration: none;
 		padding: rem-calc(10 20);
