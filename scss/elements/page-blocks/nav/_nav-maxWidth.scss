@@ -9,16 +9,15 @@
 	position: relative;
 
 	.nav-collapse {
-		width: 100%;
-		text-align: center;
+		text-align: center; // Goes into effect @<820px, but because working with max-widths, go ahead and specify this at the max
 	}
 
 	.nav-collapse ul {
-		margin: 0; //!important
-		padding: 0; //!important
-		display: inline-block; //!important
-		list-style: none; //!important
-		float: right; //!important
+		margin: 0; // Negate browser default styles
+		padding: 0; // Negate browser default styles
+		display: inline-block; // Negate browser default styles
+		list-style: none; // Negate browser default styles
+		float: right; // Keep the nav hugging the right side of the site bounding box
 	}
 
 	.nav-collapse li {
