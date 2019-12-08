@@ -4,13 +4,8 @@
 		width: 100%;
 		@include shift(0);
 
-		.nav-collapse {
-			// width: 100%;
-			// text-align: center !important;
-
-			ul {
-				float: none; //!important
-			}
+		.nav-collapse ul {
+			float: none; // So menu is aligned in center of nav
 		}
 
 		.nav-collapse a#last {

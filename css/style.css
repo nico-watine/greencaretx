@@ -2340,7 +2340,7 @@ header .mini {
   width: 87.2802652679%;
   margin-left: 6.3598673661%;
   border-radius: 0 0.75rem 0 0;
-  z-index: 3;
+  z-index: 20;
   background: #4c3211;
   border-top: 0.125rem solid #fff;
   border-bottom: 0.125rem solid #fff;
@@ -2353,6 +2353,7 @@ header .mini {
 
 #top-bar .nav-collapse {
   text-align: center;
+  width: 100%;
 }
 
 #top-bar .nav-collapse ul {
@@ -2431,17 +2432,17 @@ header .mini {
 
 @media screen and (max-width: 40.625rem) {
   #top-bar {
-    z-index: 20;
     background: #624011;
   }
-  .nav-collapse ul {
-    margin: 0;
-    padding: 0;
+  #top-bar .nav-collapse {
+    text-align: right;
+  }
+  #top-bar .nav-collapse ul {
     width: 100%;
     display: block;
-    list-style: none;
+    float: left;
   }
-  .nav-collapse li {
+  #top-bar .nav-collapse li {
     width: 100%;
     display: block;
   }
@@ -2489,8 +2490,6 @@ header .mini {
   }
   .nav-collapse,
   .nav-collapse ul {
-    list-style: none;
-    width: 100%;
     float: left;
   }
   .nav-collapse li {
@@ -2550,12 +2549,6 @@ header .mini {
   }
   @viewport {
     width: device-width;
-  }
-  .nav-collapse {
-    text-align: right !important;
-  }
-  .nav-collapse ul {
-    float: left !important;
   }
 }
 

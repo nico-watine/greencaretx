@@ -1,21 +1,21 @@
 @include media($maxWidth-650) {
 	#top-bar {
-		z-index: 20;
 		background: $logo-brown;
-		// border-bottom: rem-calc(1) solid #fff;
-	}
 
-	.nav-collapse ul {
-		margin: 0;
-		padding: 0;
-		width: 100%;
-		display: block;
-		list-style: none;
-	}
+		.nav-collapse {
+			text-align: right;
+		}
 
-	.nav-collapse li {
-		width: 100%;
-		display: block;
+		.nav-collapse ul {
+			width: 100%;
+			display: block;
+			float: left;
+		}
+
+		.nav-collapse li {
+			width: 100%;
+			display: block;
+		}
 	}
 
 	.js .nav-collapse {
@@ -76,8 +76,8 @@
 
 	.nav-collapse,
 	.nav-collapse ul {
-		list-style: none;
-		width: 100%;
+		// list-style: none;
+		// width: 100%;
 		float: left;
 	}
 
@@ -146,13 +146,5 @@
 
 	@viewport {
 		width: device-width;
-	}
-
-	.nav-collapse {
-		text-align: right !important;
-
-		ul {
-			float: left !important;
-		}
 	}
 }

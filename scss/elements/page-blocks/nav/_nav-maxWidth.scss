@@ -2,7 +2,7 @@
 	@include span-columns(14);
 	@include shift(1);
 	border-radius: 0 rem-calc(12) 0 0;
-	z-index: 3;
+	z-index: 20; // Goes into effect @<650px for mobile drop-down, but go ahead and specify this at the max
 	background: $dark-brown;
 	border-top: rem-calc(2) solid #fff;
 	border-bottom: rem-calc(2) solid #fff;
@@ -10,6 +10,7 @@
 
 	.nav-collapse {
 		text-align: center; // Goes into effect @<820px, but because working with max-widths, go ahead and specify this at the max
+		width: 100%; // Goes into effect @<650px for mobile drop-down, but go ahead and specify this at the max
 	}
 
 	.nav-collapse ul {
@@ -21,16 +22,15 @@
 	}
 
 	.nav-collapse li {
-		// width: auto;
-		float: left; //!important
+		float: left; // Negate browser default styles and ensure nav is a horizontal line
 	}
 
 	.nav-collapse a {
-		text-decoration: none;
+		text-decoration: none; // Negate site-wide style of underlined links
 		padding: rem-calc(10 20);
 		border-left: rem-calc(2) solid #fff;
 		color: #fff;
-		float: left;
+		float: left; // Necessary so padding keeps
 		font-size: rem-calc(21);
 	}
 
