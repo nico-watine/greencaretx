@@ -2400,6 +2400,10 @@ header .mini {
   margin-right: 0;
 }
 
+#top-bar .nav-collapse a#last {
+  border-radius: 0 0.75rem 0 0;
+}
+
 @media screen and (min-width: 651px) {
   .nav-collapse.closed {
     max-height: 53px;
@@ -2448,7 +2452,6 @@ header .mini {
             box-shadow: 0 1px 1px 0 #668625 inset;
   }
   .nav-collapse a#last {
-    border-radius: 0 10px 0 0;
     border-right: 2px solid white;
   }
   .nav-collapse ul ul a {
@@ -2488,18 +2491,16 @@ header .mini {
   #top-bar:last-child {
     margin-right: 0;
   }
-  .nav-collapse a#last {
-    border-radius: 0 10px 0 0;
-  }
 }
 
 @media screen and (max-width: 51.25rem) {
   #top-bar {
-    background: #4c3211;
-    border-top: 0.125rem solid #ded8cc;
     border-radius: 0;
     width: 100%;
     margin-left: 0%;
+  }
+  #top-bar .nav-collapse a#last {
+    border-radius: 0;
   }
   .nav-collapse {
     width: 100% !important;
@@ -2508,17 +2509,12 @@ header .mini {
   .nav-collapse ul {
     float: none !important;
   }
-  .nav-collapse a#last {
-    border-right: 0;
-    border-radius: 0;
-  }
 }
 
 @media screen and (max-width: 40.625rem) {
   #top-bar {
     z-index: 20;
     background: #624011;
-    border-bottom: 0.0625rem solid #fff;
   }
   .nav-collapse ul {
     margin: 0;
@@ -2616,8 +2612,7 @@ header .mini {
     text-shadow: none;
   }
   .nav-collapse a#last {
-    border-radius: 0 10px 0 0;
-    border-right: 2px solid white;
+    border-right: none;
   }
   .nav-toggle {
     text-decoration: none;

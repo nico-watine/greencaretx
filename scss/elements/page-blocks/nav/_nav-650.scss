@@ -2,7 +2,7 @@
 	#top-bar {
 		z-index: 20;
 		background: $logo-brown;
-		border-bottom: rem-calc(1) solid #fff;
+		// border-bottom: rem-calc(1) solid #fff;
 	}
 
 	.nav-collapse ul {
@@ -114,8 +114,7 @@
 	}
 
 	.nav-collapse a#last {
-		border-radius: 0 10px 0 0;
-		border-right: 2px solid white;
+		border-right: none;
 	}
 
 	// -------------------------------------------

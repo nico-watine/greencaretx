@@ -1,10 +1,12 @@
 @include media($maxWidth-820) {
 	#top-bar {
-		background: $dark-brown;
-		border-top: rem-calc(2) solid $tan;
 		border-radius: 0;
 		width: 100%;
 		@include shift(0);
+
+		.nav-collapse a#last {
+			border-radius: 0;
+		}
 	}
 
 	.nav-collapse {
@@ -16,13 +18,4 @@
 			}
 		}
 	}
-
-	.nav-collapse a#last {
-		border-right: 0;
-		border-radius: 0;
-	}
-
-	// .nav-collapse a#last {
-	// 	border-radius: 0;
-	// }
 }
