@@ -39,11 +39,7 @@
 		"addressRegion": "TX",
 		"postalCode": "77009",
 		"streetAddress": "3901 Billingsley St"
-	  },
-	  "sameAs" : [
-		"https://plus.google.com/108713736317109074241/posts?hl=en",
-		"https://www.facebook.com/GreencareInteriorPlants"
-	  ]
+	  }
 	}
 	</script>
 </head>
