@@ -1,0 +1,19 @@
+// ------------------------------------------------------
+// |            @Tablet Full-Width Nav Style            |
+// ------------------------------------------------------
+
+@include media($maxWidth-820) {
+	#top-bar {
+		border-radius: 0;
+		width: 100%;
+		@include shift(0);
+
+		.nav-collapse ul {
+			float: none; // So menu is aligned in center of nav
+		}
+
+		.nav-collapse a#last {
+			border-radius: 0;
+		}
+	}
+}

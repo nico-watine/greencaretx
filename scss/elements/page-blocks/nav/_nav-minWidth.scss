@@ -1,0 +1,16 @@
+// When above 651px wide, the nav toggle icon and the overlay mask must never be seen
+// Additionally, the height of the nav bar must be contained to avoid space above the border-bottom
+@media screen and (min-width: 651px) {
+	.nav-collapse {
+		max-height: 53px; //!important
+	}
+
+	.nav-toggle {
+		display: none !important; //!important
+	}
+
+	.mask {
+		display: none !important; //!important
+		opacity: 0 !important; //!important
+	}
+}

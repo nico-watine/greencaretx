@@ -4430,19 +4430,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"/scss/elements/page-blocks/_nav-compiled.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/elements/css/_nav-compiled.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
 	"/scss/elements/page-blocks/_page-blocks.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4517,6 +4504,84 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/page-blocks/css/_transitions.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/elements/page-blocks/nav/_nav-650.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/page-blocks/css/_nav-650.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/elements/page-blocks/nav/_nav-820.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/page-blocks/css/_nav-820.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/elements/page-blocks/nav/_nav-940.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/page-blocks/css/_nav-940.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/elements/page-blocks/nav/_nav-maxWidth.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/page-blocks/css/_nav-maxWidth.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/elements/page-blocks/nav/_nav-minWidth.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/page-blocks/css/_nav-minWidth.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/elements/page-blocks/nav/_nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/page-blocks/css/_nav.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
@@ -5042,7 +5107,7 @@
 		"uL": 1
 		},
 	"/scss/style.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -5133,6 +5198,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/sitemap.xml",
+		"oF": 0
+		},
+	"/TODO": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/TODO",
 		"oF": 0
 		},
 	"/touch-icon-192x192.png": {

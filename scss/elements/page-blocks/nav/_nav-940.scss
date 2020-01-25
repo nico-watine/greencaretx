@@ -1,0 +1,7 @@
+// Smaller site content-box @940px, so just tweaking nav-bar width
+@include media($maxWidth-940) {
+	#top-bar {
+		@include span-columns(11);
+		@include shift(.5);
+	}
+}
