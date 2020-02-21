@@ -2617,6 +2617,7 @@ body::after {
   z-index: 1043;
   position: fixed;
   outline: none !important;
+  -webkit-backface-visibility: hidden;
 }
 
 .mfp-container {
