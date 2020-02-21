@@ -2547,14 +2547,14 @@ body::after {
 /* overlay at start */
 .mfp-zoom-in.mfp-bg {
   opacity: 0;
-  -webkit-transition: all 0.15s ease-out;
-  -moz-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  -webkit-transition: all .15s ease-out;
+  -moz-transition: all .15s ease-out;
+  transition: all .15s ease-out;
 }
 
 /* overlay animate in */
 .mfp-zoom-in.mfp-bg.mfp-ready {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 /* overlay animate out */
@@ -2566,9 +2566,9 @@ body::after {
 .mfp-zoom-in.mfp-wrap .mfp-content {
   opacity: 0;
   transform: scale(0.8);
-  -webkit-transition: all 0.15s ease-out;
-  -moz-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  -webkit-transition: all .15s ease-out;
+  -moz-transition: all .15s ease-out;
+  transition: all .15s ease-out;
 }
 
 /* content animate it */
@@ -2674,7 +2674,8 @@ body::after {
   cursor: progress;
 }
 
-.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
   cursor: -moz-zoom-out;
   cursor: -webkit-zoom-out;
   cursor: zoom-out;
@@ -2714,7 +2715,7 @@ body::after {
   top: 50%;
   width: auto;
   text-align: center;
-  margin-top: -0.8em;
+  margin-top: -.8em;
   left: 8px;
   right: 8px;
   z-index: 1044;
@@ -2853,7 +2854,7 @@ button::-moz-focus-inner {
 .mfp-arrow .mfp-b {
   border-top-width: 21px;
   border-bottom-width: 21px;
-  opacity: 0.7;
+  opacity: .7;
 }
 
 .mfp-arrow-left {
