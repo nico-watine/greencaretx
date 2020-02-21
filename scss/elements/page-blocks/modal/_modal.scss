@@ -68,9 +68,7 @@
 	left: 0;
 	top: 0;
 	padding: 0 $mfp-popup-padding-left;
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 // Vertical centerer helper
@@ -116,16 +114,12 @@
 .mfp-zoom-out-cur {
 	&,
 	.mfp-image-holder .mfp-close {
-		cursor:    -moz-zoom-out;
-		cursor: -webkit-zoom-out;
-		cursor:         zoom-out;
+		cursor: zoom-out;
 	}
 }
 .mfp-zoom {
 	cursor: pointer;
-	cursor: -webkit-zoom-in;
-	cursor:    -moz-zoom-in;
-	cursor:         zoom-in;
+	cursor: zoom-in;
 }
 .mfp-auto-cursor {
 	.mfp-content {
@@ -137,9 +131,7 @@
 .mfp-arrow,
 .mfp-preloader,
 .mfp-counter {
-	-webkit-user-select: none;
-	   -moz-user-select: none;
-	        user-select: none;
+	user-select: none;
 }
 
 // Hide the image during the loading
@@ -214,18 +206,15 @@ button {
 		cursor: pointer;
 		background: transparent;
 		border: 0;
-		-webkit-appearance: none;
 		display: block;
 		outline: none;
 		padding: 0;
 		z-index: $mfp-z-index-base + 6;
-		-webkit-box-shadow: none;
-		        box-shadow: none;
+		box-shadow: none;
 	}
-	&::-moz-focus-inner {
-		padding: 0;
-		border: 0;
-	}
+	// padding: 0;
+	// border: 0;
+	// }
 }
 
 
@@ -302,7 +291,6 @@ button {
 		padding: 0;
 		width: 90px;
 		height: 110px;
-		-webkit-tap-highlight-color: rgba(0,0,0,0);
 		&:active {
 			margin-top: -54px;
 		}
@@ -419,9 +407,7 @@ button {
 			height: auto;
 			display: block;
 			line-height: 0;
-			-webkit-box-sizing: border-box;
-			   -moz-box-sizing: border-box;
-			        box-sizing: border-box;
+			box-sizing: border-box;
 			padding: $mfp-image-padding-top 0 $mfp-image-padding-bottom;
 			margin: 0 auto;
 		}
@@ -518,9 +504,7 @@ button {
 					top: auto;
 					padding: 3px 5px;
 					position: fixed;
-					-webkit-box-sizing: border-box;
-					   -moz-box-sizing: border-box;
-					        box-sizing: border-box;
+					box-sizing: border-box;
 					&:empty {
 						padding: 0;
 					}
@@ -550,16 +534,13 @@ button {
 // Scale navigation arrows and reduce padding from sides
 @media all and (max-width: 900px) {
 	.mfp-arrow {
-		-webkit-transform: scale(.75);
-		        transform: scale(.75);
+		transform: scale(.75);
 	}
 	.mfp-arrow-left {
-		-webkit-transform-origin: 0;
-		        transform-origin: 0;
+		transform-origin: 0;
 	}
 	.mfp-arrow-right {
-		-webkit-transform-origin: 100%;
-		        transform-origin: 100%;
+		transform-origin: 100%;
 	}
 	.mfp-container {
 		padding-left: $mfp-popup-padding-left-mobile;
