@@ -18,8 +18,8 @@ body {
   padding: 0;
   background: #ded8cc;
   font-family: "inai", sans-serif;
-  color: #0a0a0a;
   line-height: 1.5;
+  color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
