@@ -16,7 +16,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background: #ded8cc;
   color: #333;
   font-family: "inai", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -2452,7 +2452,6 @@ header .mini {
 }
 
 body {
-  background: #ded8cc;
   max-width: 1180px;
   margin-left: auto;
   margin-right: auto;

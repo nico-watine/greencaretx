@@ -17,7 +17,7 @@ body {
 	margin: 0; // [normalize] Remove the margin in all browsers.
 	padding: 0;
 
-	background-color: #fff;
+	background: $body-background;
 	color: $text-color;
 	font-family: $body-font-family;
 	-webkit-font-smoothing: antialiased;
