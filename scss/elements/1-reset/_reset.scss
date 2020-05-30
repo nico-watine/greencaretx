@@ -47,7 +47,7 @@ p {
 	margin-top: 0; // [bootstrap-reboot]
 	margin-bottom: 1rem;
 	font-size: inherit;
-	line-height: 1.5; // [Opinionated] Because to inherit the 1.15 value set on <html> is too small
+	line-height: $p-lineheight; // [Opinionated] Because to inherit the 1.15 value set on <html> is too small
 }
 
 a {
