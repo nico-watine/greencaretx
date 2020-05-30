@@ -1,5 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto:900");
+body {
+  color: #333;
+  font-family: "inai", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -44,7 +51,7 @@ p {
 }
 
 a {
-  color: #0000ee;
+  color: #00e;
   background-color: transparent;
   line-height: inherit;
 }
@@ -103,67 +110,6 @@ hr {
   margin: 1em auto;
   border: 0;
   border-bottom: 1px solid #cacaca;
-}
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -.25em;
-}
-
-sup {
-  top: -.5em;
-}
-
-pre {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  clear: both;
-  display: block;
-  padding: 0;
-  font-family: monospace, monospace;
-  font-size: 1em;
-  word-break: normal;
-  tab-size: 4;
-  hyphens: none;
-  background: #f7f7f9;
-  color: #000;
-  border: 1px solid #dbe2f2;
-  border-radius: 4px;
-}
-
-code {
-  font-family: monospace, monospace;
-  font-size: 90%;
-  padding: .1rem .3rem .2rem;
-  word-break: break-all;
-  white-space: pre;
-  background: #f7f7f9;
-  color: #000;
-}
-
-pre code {
-  display: block;
-  font-size: 16px;
-  line-height: 1.5;
-  padding: 16px;
-  max-width: 100%;
-  min-width: 100px;
-  white-space: pre-wrap;
-  background: none;
-}
-
-body {
-  color: #333;
-  font-family: "inai", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .row {
@@ -380,14 +326,14 @@ h1,
 
 @media screen and (max-width: 58.75rem) {
   h1,
-  .h1 {
+.h1 {
     font-size: 2rem;
   }
 }
 
 @media screen and (max-width: 51.25rem) {
   h1,
-  .h1 {
+.h1 {
     font-size: 1.75rem;
   }
 }
@@ -399,7 +345,7 @@ h2,
 
 @media screen and (max-width: 58.75rem) {
   h2,
-  .h2 {
+.h2 {
     font-size: 1.75rem;
   }
 }
@@ -411,7 +357,7 @@ h3,
 
 @media screen and (max-width: 58.75rem) {
   h3,
-  .h3 {
+.h3 {
     font-size: 1.4375rem;
   }
 }
@@ -428,7 +374,7 @@ h5,
 
 @media screen and (max-width: 58.75rem) {
   h5,
-  .h5 {
+.h5 {
     font-size: 0.75rem;
   }
 }
@@ -1794,39 +1740,39 @@ main .main-content {
   font-family: "Roboto", sans-serif;
 }
 
-#page-title .h1-wrap#our-plants {
+#page-title #our-plants.h1-wrap {
   padding-top: 25rem;
 }
 
-#page-title .h1-wrap#our-plants .vertical-title {
+#page-title #our-plants.h1-wrap .vertical-title {
   padding: 0;
   width: 15.625rem;
   margin-left: -4.0625rem;
 }
 
-#page-title .h1-wrap#project-galleries,
-#page-title .h1-wrap#contact {
+#page-title #project-galleries.h1-wrap,
+#page-title #contact.h1-wrap {
   padding-top: 16.875rem;
   margin-left: -9.375rem;
 }
 
 @media screen and (max-width: 66.875rem) {
-  #page-title .h1-wrap#project-galleries,
-  #page-title .h1-wrap#contact {
+  #page-title #project-galleries.h1-wrap,
+#page-title #contact.h1-wrap {
     margin-left: -9.6875rem;
     padding-top: 20rem;
   }
 }
 
 @media screen and (max-width: 58.75rem) {
-  #page-title .h1-wrap#project-galleries,
-  #page-title .h1-wrap#contact {
+  #page-title #project-galleries.h1-wrap,
+#page-title #contact.h1-wrap {
     margin-left: -10rem;
   }
 }
 
-#page-title .h1-wrap#project-galleries .vertical-title,
-#page-title .h1-wrap#contact .vertical-title {
+#page-title #project-galleries.h1-wrap .vertical-title,
+#page-title #contact.h1-wrap .vertical-title {
   padding: 0;
   width: 25rem;
 }
@@ -2141,7 +2087,7 @@ header .logo-container #default-logo-flat {
 
 @media screen and (max-width: 58.75rem) {
   header .logo-container #default-logo,
-  header .logo-container #default-logo-flat {
+header .logo-container #default-logo-flat {
     max-width: 150px;
     margin-left: -80px;
     left: 45%;
@@ -2151,7 +2097,7 @@ header .logo-container #default-logo-flat {
 
 @media screen and (max-width: 51.25rem) {
   header .logo-container #default-logo,
-  header .logo-container #default-logo-flat {
+header .logo-container #default-logo-flat {
     visibility: hidden;
     display: none;
   }
@@ -2452,7 +2398,7 @@ header .mini {
     width: 100%;
   }
   #top-bar .nav-collapse a:hover,
-  #top-bar .nav-collapse .active a {
+#top-bar .nav-collapse .active a {
     box-shadow: none;
     text-shadow: none;
   }
@@ -2535,10 +2481,10 @@ body::after {
 }
 
 @media screen and (max-width: 40.625rem) {
-  .main-cover#index-cover,
-  .main-cover#services-cover,
-  .main-cover#project-galleries-cover,
-  .main-cover#our-plants-cover {
+  #index-cover.main-cover,
+#services-cover.main-cover,
+#project-galleries-cover.main-cover,
+#our-plants-cover.main-cover {
     background-image: none;
   }
 }
@@ -3121,8 +3067,8 @@ main#index .main-content {
   }
 }
 
-.widget-links .widget#project-galleries,
-.widget-links .widget#plant-selection {
+.widget-links #project-galleries.widget,
+.widget-links #plant-selection.widget {
   float: left;
   display: block;
   margin-right: 2.3576520234%;
@@ -3132,34 +3078,34 @@ main#index .main-content {
   box-shadow: 0 0.0625rem 0.125rem 0 #333;
 }
 
-.widget-links .widget#project-galleries:last-child,
-.widget-links .widget#plant-selection:last-child {
+.widget-links #project-galleries.widget:last-child,
+.widget-links #plant-selection.widget:last-child {
   margin-right: 0;
 }
 
 @media screen and (max-width: 58.75rem) {
-  .widget-links .widget#project-galleries,
-  .widget-links .widget#plant-selection {
+  .widget-links #project-galleries.widget,
+.widget-links #plant-selection.widget {
     height: 400;
   }
 }
 
 @media screen and (max-width: 40.625rem) {
-  .widget-links .widget#project-galleries,
-  .widget-links .widget#plant-selection {
+  .widget-links #project-galleries.widget,
+.widget-links #plant-selection.widget {
     float: left;
     display: block;
     margin-right: 2.8425860857%;
     width: 100%;
     height: 230;
   }
-  .widget-links .widget#project-galleries:last-child,
-  .widget-links .widget#plant-selection:last-child {
+  .widget-links #project-galleries.widget:last-child,
+.widget-links #plant-selection.widget:last-child {
     margin-right: 0;
   }
 }
 
-.widget-links .widget#project-galleries {
+.widget-links #project-galleries.widget {
   background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg");
   background-size: auto 105%;
   background-repeat: no-repeat;
@@ -3167,7 +3113,7 @@ main#index .main-content {
 }
 
 @media screen and (max-width: 58.75rem) {
-  .widget-links .widget#project-galleries {
+  .widget-links #project-galleries.widget {
     background: url("/img/index/widgets/project-galleries/large/project-galleries.jpg");
     background-size: auto 100%;
     background-repeat: no-repeat;
@@ -3176,7 +3122,7 @@ main#index .main-content {
 }
 
 @media screen and (max-width: 40.625rem) {
-  .widget-links .widget#project-galleries {
+  .widget-links #project-galleries.widget {
     background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -3185,7 +3131,7 @@ main#index .main-content {
 }
 
 @media max-width {
-  .widget-links .widget#project-galleries {
+  .widget-links #project-galleries.widget {
     background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg");
     background-size: auto 110%;
     background-repeat: no-repeat;
@@ -3193,7 +3139,7 @@ main#index .main-content {
   }
 }
 
-.widget-links .widget#plant-selection {
+.widget-links #plant-selection.widget {
   background: url("/img/index/widgets/plant-selection/default/plant-selection.jpg");
   background-size: auto 105%;
   background-repeat: no-repeat;
@@ -3201,19 +3147,19 @@ main#index .main-content {
 }
 
 @media screen and (max-width: 58.75rem) {
-  .widget-links .widget#plant-selection {
+  .widget-links #plant-selection.widget {
     background-size: auto 100%;
   }
 }
 
 @media screen and (max-width: 40.625rem) {
-  .widget-links .widget#plant-selection {
+  .widget-links #plant-selection.widget {
     background-size: 100% auto;
   }
 }
 
 @media max-width {
-  .widget-links .widget#plant-selection {
+  .widget-links #plant-selection.widget {
     background-size: auto 110%;
   }
 }
@@ -3270,34 +3216,34 @@ main#index .main-content {
   }
 }
 
-.index-verbiage .row#standard-buttons {
+.index-verbiage #standard-buttons.row {
   margin-bottom: 1.875rem;
   height: 2.8125rem;
 }
 
 @media screen and (max-width: 35.3125rem) {
   .index-verbiage #services-text,
-  .index-verbiage #contact-text {
+.index-verbiage #contact-text {
     float: left;
     display: block;
     margin-right: 2.8425860857%;
     width: 100%;
   }
   .index-verbiage #services-text:last-child,
-  .index-verbiage #contact-text:last-child {
+.index-verbiage #contact-text:last-child {
     margin-right: 0;
   }
   .index-verbiage #services-text a.big-green-button,
-  .index-verbiage #contact-text a.big-green-button {
+.index-verbiage #contact-text a.big-green-button {
     visibility: visible;
     display: inline-block;
     margin: 1.25rem 2.8125rem;
   }
   .index-verbiage #services-text a.big-green-button:hover,
-  .index-verbiage #contact-text a.big-green-button:hover {
+.index-verbiage #contact-text a.big-green-button:hover {
     margin: 1.3125rem 2.8125rem 1.125rem 2.8125rem;
   }
-  .index-verbiage .row#standard-buttons {
+  .index-verbiage #standard-buttons.row {
     display: none;
     visibility: hidden;
   }
@@ -3312,20 +3258,20 @@ main#services .main-content {
   background-size: cover;
 }
 
-.page-header#services-header {
+#services-header.page-header {
   padding: 0 1rem;
 }
 
-.page-header#services-header h1 {
+#services-header.page-header h1 {
   margin: 0.5rem 0 1rem;
 }
 
-.page-header#services-header p {
+#services-header.page-header p {
   margin: 0 0 1rem 0;
   font-size: 1.1875rem;
 }
 
-.page-header#services-header h3 {
+#services-header.page-header h3 {
   font-size: 1.4375rem;
 }
 
@@ -3645,7 +3591,7 @@ main#contact .page-header {
   }
 }
 
-section.page-header#contact {
+section#contact.page-header {
   margin-bottom: 0.75rem;
 }
 
@@ -3707,7 +3653,7 @@ p#email {
 
 @media screen and (max-width: 51.25rem) {
   .primary-contact-info,
-  .office-map {
+.office-map {
     float: left;
     display: block;
     margin-right: 2.8425860857%;
@@ -3715,7 +3661,7 @@ p#email {
     margin-left: 5.1421293043%;
   }
   .primary-contact-info:last-child,
-  .office-map:last-child {
+.office-map:last-child {
     margin-right: 0;
   }
   .primary-contact-info {
@@ -3725,14 +3671,14 @@ p#email {
     text-align: center;
   }
   .primary-contact-info p#address,
-  .primary-contact-info p#phone {
+.primary-contact-info p#phone {
     float: left;
     display: block;
     margin-right: 2.8425860857%;
     width: 48.5787069571%;
   }
   .primary-contact-info p#address:last-child,
-  .primary-contact-info p#phone:last-child {
+.primary-contact-info p#phone:last-child {
     margin-right: 0;
   }
   .primary-contact-info p#phone {
@@ -3751,8 +3697,8 @@ p#email {
 
 @media screen and (max-width: 35.3125rem) {
   .primary-contact-info p#address,
-  .primary-contact-info p#phone,
-  .primary-contact-info p#email {
+.primary-contact-info p#phone,
+.primary-contact-info p#email {
     float: left;
     display: block;
     margin-right: 3.5786642602%;
@@ -3760,17 +3706,17 @@ p#email {
     margin-bottom: 1rem;
   }
   .primary-contact-info p#address:last-child,
-  .primary-contact-info p#phone:last-child,
-  .primary-contact-info p#email:last-child {
+.primary-contact-info p#phone:last-child,
+.primary-contact-info p#email:last-child {
     margin-right: 0;
   }
 }
 
-.row#plant-purchases {
+#plant-purchases.row {
   padding-top: 1.3125rem;
 }
 
-.row#plant-purchases .purchase-options {
+#plant-purchases.row .purchase-options {
   float: left;
   display: block;
   margin-right: 2.8425860857%;
@@ -3778,11 +3724,11 @@ p#email {
   margin-left: 5.1421293043%;
 }
 
-.row#plant-purchases .purchase-options:last-child {
+#plant-purchases.row .purchase-options:last-child {
   margin-right: 0;
 }
 
-.row#plant-purchases .purchase-options .row {
+#plant-purchases.row .purchase-options .row {
   margin-bottom: 1.25rem;
   float: left;
   display: block;
@@ -3791,92 +3737,92 @@ p#email {
   margin-right: 0;
 }
 
-.row#plant-purchases .purchase-options .row:last-child {
+#plant-purchases.row .purchase-options .row:last-child {
   margin-right: 0;
 }
 
-.row#plant-purchases .purchase-options .row .logo {
+#plant-purchases.row .purchase-options .row .logo {
   float: left;
   display: block;
   margin-right: 2.8425860857%;
   width: 17.7259311314%;
 }
 
-.row#plant-purchases .purchase-options .row .logo:last-child {
+#plant-purchases.row .purchase-options .row .logo:last-child {
   margin-right: 0;
 }
 
-.row#plant-purchases .purchase-options .row .logo img {
+#plant-purchases.row .purchase-options .row .logo img {
   max-width: 8.75rem;
   width: 100%;
 }
 
-.row#plant-purchases .purchase-options .row .verbiage {
+#plant-purchases.row .purchase-options .row .verbiage {
   float: left;
   display: block;
   margin-right: 2.8425860857%;
   width: 79.4314827829%;
 }
 
-.row#plant-purchases .purchase-options .row .verbiage:last-child {
+#plant-purchases.row .purchase-options .row .verbiage:last-child {
   margin-right: 0;
 }
 
-.row#plant-purchases .purchase-options .row .verbiage p {
+#plant-purchases.row .purchase-options .row .verbiage p {
   margin: 0.625rem auto 0.75rem;
 }
 
 @media screen and (max-width: 35.3125rem) {
-  .row#plant-purchases .purchase-options .row .logo {
+  #plant-purchases.row .purchase-options .row .logo {
     float: left;
     display: block;
     margin-right: 3.5786642602%;
     width: 100%;
     margin-bottom: 0.625rem;
   }
-  .row#plant-purchases .purchase-options .row .logo:last-child {
+  #plant-purchases.row .purchase-options .row .logo:last-child {
     margin-right: 0;
   }
-  .row#plant-purchases .purchase-options .row .verbiage {
+  #plant-purchases.row .purchase-options .row .verbiage {
     float: left;
     display: block;
     margin-right: 3.5786642602%;
     width: 100%;
   }
-  .row#plant-purchases .purchase-options .row .verbiage:last-child {
+  #plant-purchases.row .purchase-options .row .verbiage:last-child {
     margin-right: 0;
   }
 }
 
-.row#plant-purchases .purchase-options .row#jdf .row#jdf-details {
+#plant-purchases.row .purchase-options #jdf.row #jdf-details.row {
   margin-bottom: 0;
 }
 
-.row#plant-purchases .purchase-options .row#jdf .street-address,
-.row#plant-purchases .purchase-options .row#jdf .web-address {
+#plant-purchases.row .purchase-options #jdf.row .street-address,
+#plant-purchases.row .purchase-options #jdf.row .web-address {
   float: left;
   display: block;
   margin-right: 2.8425860857%;
   width: 48.5787069571%;
 }
 
-.row#plant-purchases .purchase-options .row#jdf .street-address:last-child,
-.row#plant-purchases .purchase-options .row#jdf .web-address:last-child {
+#plant-purchases.row .purchase-options #jdf.row .street-address:last-child,
+#plant-purchases.row .purchase-options #jdf.row .web-address:last-child {
   margin-right: 0;
 }
 
-.row#plant-purchases .purchase-options .row#jdf .street-address {
+#plant-purchases.row .purchase-options #jdf.row .street-address {
   text-align: left;
 }
 
-.row#plant-purchases .purchase-options .row#jdf .web-address {
+#plant-purchases.row .purchase-options #jdf.row .web-address {
   text-align: right;
   padding-right: 1rem;
 }
 
 @media screen and (max-width: 40.625rem) {
-  .row#plant-purchases .purchase-options .row#jdf .street-address,
-  .row#plant-purchases .purchase-options .row#jdf .web-address {
+  #plant-purchases.row .purchase-options #jdf.row .street-address,
+#plant-purchases.row .purchase-options #jdf.row .web-address {
     float: left;
     display: block;
     margin-right: 2.8425860857%;
@@ -3884,15 +3830,15 @@ p#email {
     text-align: left;
     padding: 0;
   }
-  .row#plant-purchases .purchase-options .row#jdf .street-address:last-child,
-  .row#plant-purchases .purchase-options .row#jdf .web-address:last-child {
+  #plant-purchases.row .purchase-options #jdf.row .street-address:last-child,
+#plant-purchases.row .purchase-options #jdf.row .web-address:last-child {
     margin-right: 0;
   }
 }
 
 @media screen and (max-width: 35.3125rem) {
-  .row#plant-purchases .purchase-options .row#jdf .street-address,
-  .row#plant-purchases .purchase-options .row#jdf .web-address {
+  #plant-purchases.row .purchase-options #jdf.row .street-address,
+#plant-purchases.row .purchase-options #jdf.row .web-address {
     text-align: center;
   }
 }
@@ -3925,7 +3871,7 @@ p#email {
 
 @media screen and (max-width: 35.3125rem) {
   .office-map,
-  .jdf-map {
+.jdf-map {
     display: none;
     visibility: hidden;
   }
@@ -3962,7 +3908,7 @@ p#email {
   color: #444;
 }
 
-.main-cover#about-us-cover {
+#about-us-cover.main-cover {
   background-image: url("/img/about-us/bg.jpg");
 }
 

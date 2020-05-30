@@ -7,7 +7,7 @@
 		"uuidString": "4035B102-338C-4D67-A2F9-D331A0B0AAAF"
 		}
 	],
-"creatorBuild": "32001",
+"creatorBuild": "32186",
 "files": {
 	"/.editorconfig": {
 		"cB": 0,
@@ -1624,27 +1624,27 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/bower_components/magnific-popup/src/css/_settings.scss",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/bower_components/magnific-popup/src/css/main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 2,
 		"oAP": "/bower_components/magnific-popup/src/css/main.scss",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/bower_components/magnific-popup/src/js/ajax.js": {
 		"bF": 0,
@@ -3992,1197 +3992,1184 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_dev-classes.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
-	"/scss/elements/1-reset/_1-reset-base.scss": {
+	"/scss/elements/1-reset/_global.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/elements/css/_1-reset-base.css",
+		"oAP": "/scss/elements/css/_global.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
-		},
-	"/scss/elements/1-reset/_html-body.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/elements/css/_html-body.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/1-reset/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_reset.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/_elements.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_elements.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/_components.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_components.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/_grid-settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/css/_grid-settings.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/_neat-helpers.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/css/_neat-helpers.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/_neat.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/css/_neat.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/functions/_new-breakpoint.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_new-breakpoint.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/functions/_private.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_private.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/grid/_direction-context.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_direction-context.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/grid/_display-context.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_display-context.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/grid/_fill-parent.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_fill-parent.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/grid/_media.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_media.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/grid/_omega.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_omega.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/grid/_outer-container.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_outer-container.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/grid/_pad.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_pad.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/grid/_private.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_private.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/grid/_row.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_row.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/grid/_shift.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_shift.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/grid/_span-columns.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_span-columns.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/grid/_to-deprecate.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_to-deprecate.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/grid/_visual-grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_visual-grid.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/mixins/_clearfix.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_clearfix.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/mixins/_omega-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_omega-reset.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/settings/_disable-warnings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_disable-warnings.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/settings/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_grid.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/components/neat/settings/_visual-grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/components/neat/css/_visual-grid.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/media/_img.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_img.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/media/_media.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_media.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/_content.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_content.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_footer.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_header.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/_page-blocks.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_page-blocks.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/_page-structure.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_page-structure.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/modal/_modal-settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/page-blocks/css/_modal-settings.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/modal/_modal-styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/page-blocks/css/_modal-styles.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/modal/_modal-transitions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/page-blocks/css/_modal-transitions.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/modal/_modal.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/page-blocks/css/_modal.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/nav/_nav-650.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/page-blocks/css/_nav-650.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/nav/_nav-820.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/page-blocks/css/_nav-820.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/nav/_nav-940.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/page-blocks/css/_nav-940.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/nav/_nav-maxWidth.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/page-blocks/css/_nav-maxWidth.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/nav/_nav-minWidth.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/page-blocks/css/_nav-minWidth.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/page-blocks/nav/_nav.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/page-blocks/css/_nav.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_buttons.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_font-face.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_font-face.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_font-family.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_font-family.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_font-weight.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_font-weight.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_headings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_headings.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_hr.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_hr.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_links.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_links.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_lists.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_lists.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_svg.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_svg.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_text-alignment.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_text-alignment.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_text-color.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_text-color.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_text-styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_text-styles.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_text-transform.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_text-transform.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/typography/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_typography.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_border-radius.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_border-radius.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_border.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_border.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_box-shadow.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_box-shadow.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_clearfix.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_clearfix.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_display.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_display.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_floats.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_floats.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_heights.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_heights.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_highlight-effect.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_highlight-effect.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_margin.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_margin.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_mixins.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_overflow.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_overflow.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_padding.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_padding.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_position.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_position.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_separator.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_separator.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_utilities.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_utilities.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/elements/utilities/_widths.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_widths.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/functions/_breakpoints.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_breakpoints.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/functions/_functions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_functions.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/functions/_px-to-rem.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_px-to-rem.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/pages/_pages.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_pages.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/pages/about-us/_about-us.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/pages/css/_about-us.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/pages/contact/_contact.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/pages/css/_contact.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/pages/index/_index.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/pages/css/_index.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/pages/our-plants/_our-plants.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/pages/css/_our-plants.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/pages/project-galleries/_project-galleries.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/pages/css/_project-galleries.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/pages/services/_services.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/pages/css/_services.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/style.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/var/_var.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_var.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/var/box-shadow/_var-box-shadow.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/var/css/_var-box-shadow.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/var/colors/_var-colors.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/var/css/_var-colors.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/var/media-queries/_var-media-queries.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/var/css/_var-media-queries.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/var/typography/_var-typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/var/css/_var-typography.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"sct": 1
 		},
 	"/services.php": {
 		"cB": 0,
@@ -5801,6 +5788,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"default-param-last": {
 			"active": 0,
 			"optionString": ""
@@ -6213,6 +6204,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-loss-of-precision": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -6328,6 +6323,10 @@
 		"no-regex-spaces": {
 			"active": 1,
 			"optionString": ""
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
@@ -6472,6 +6471,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,
@@ -7281,13 +7284,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 1,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,
