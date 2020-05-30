@@ -16,8 +16,12 @@ html {
 body {
 	margin: 0; // [normalize] Remove the margin in all browsers.
 	padding: 0;
+
 	background-color: #fff;
-	color: #000; // [Opinionated] necessary for <h> to have color:inherit
+	color: $text-color;
+	font-family: $body-font-family;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 h1,

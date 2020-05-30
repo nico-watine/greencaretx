@@ -1,12 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto:900");
-body {
-  color: #333;
-  font-family: "inai", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -24,7 +17,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff;
-  color: #000;
+  color: #333;
+  font-family: "inai", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
