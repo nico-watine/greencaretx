@@ -2,21 +2,3 @@ $include-sub-sup: false;
 $include-pre-code: false;
 
 $global-lineheight: 1.5 !default;
-
-  // // Default body styles
-  // body {
-  //   margin: 0;
-  //   padding: 0;
-
-  //   background: $body-background;
-
-  //   font-family: $body-font-family;
-  //   font-weight: $global-weight-normal;
-  //   line-height: $global-lineheight;
-  //   color: $body-font-color;
-
-  //   @if ($body-antialiased) {
-  //     -webkit-font-smoothing: antialiased; // sass-lint:disable-line no-vendor-prefixes
-  //     -moz-osx-font-smoothing: grayscale; // sass-lint:disable-line no-vendor-prefixes
-  //   }
-  // }
