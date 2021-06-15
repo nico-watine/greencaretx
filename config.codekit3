@@ -4134,17 +4134,6 @@
       "oAP" : "\/index.php",
       "oF" : 0
     },
-    "\/js\/scripts-ie-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/scripts-ie-min-min.js",
-      "oF" : 0,
-      "sC" : 1,
-      "tS" : 0
-    },
     "\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -4197,17 +4186,6 @@
       "oA" : 1,
       "oAP" : "\/js\/src\/scroll-min.js",
       "oF" : 0,
-      "sC" : 1,
-      "tS" : 0
-    },
-    "\/js\/src\/scripts-ie.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/scripts-ie-min.js",
-      "oF" : 2,
       "sC" : 1,
       "tS" : 0
     },
