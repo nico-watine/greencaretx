@@ -88,10 +88,10 @@
 					<br>Houston, TX 77009</a></p>
 					<p id="phone"><strong>Office Phone</strong>
 					<br><a href="tel://713-864-5300" class="phone-number">713-864-5300</a></p>
-					<p id="email"><strong>Office Email</strong>
-					<br><a href="mailto:lissette@greencaretx.com" target="_top">lissette@greencaretx.com</a></p>
 					<p id="office-phone"><strong>Direct Sales Line</strong>
 					<br><a href="tel://713-864-5300" class="phone-number">713-864-5300</a></p>
+					<p id="email"><strong>Office Email</strong>
+					<br><a href="mailto:lissette@greencaretx.com" target="_top">lissette@greencaretx.com</a></p>
 				</section>
 				<section class="office-map">
 					<h2>Office Map</h2>
