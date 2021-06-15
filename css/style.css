@@ -16,8 +16,12 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
-  color: #000;
+  background: #ded8cc;
+  font-family: "inai", sans-serif;
+  line-height: 1.5;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -40,11 +44,11 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: inherit;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 a {
-  color: #0000ee;
+  color: #00e;
   background-color: transparent;
   line-height: inherit;
 }
@@ -55,8 +59,8 @@ strong {
   line-height: inherit;
 }
 
-em,
-i {
+i,
+em {
   font-style: italic;
   line-height: inherit;
 }
@@ -103,67 +107,6 @@ hr {
   margin: 1em auto;
   border: 0;
   border-bottom: 1px solid #cacaca;
-}
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -.25em;
-}
-
-sup {
-  top: -.5em;
-}
-
-pre {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  clear: both;
-  display: block;
-  padding: 0;
-  font-family: monospace, monospace;
-  font-size: 1em;
-  word-break: normal;
-  tab-size: 4;
-  hyphens: none;
-  background: #f7f7f9;
-  color: #000;
-  border: 1px solid #dbe2f2;
-  border-radius: 4px;
-}
-
-code {
-  font-family: monospace, monospace;
-  font-size: 90%;
-  padding: .1rem .3rem .2rem;
-  word-break: break-all;
-  white-space: pre;
-  background: #f7f7f9;
-  color: #000;
-}
-
-pre code {
-  display: block;
-  font-size: 16px;
-  line-height: 1.5;
-  padding: 16px;
-  max-width: 100%;
-  min-width: 100px;
-  white-space: pre-wrap;
-  background: none;
-}
-
-body {
-  color: #333;
-  font-family: "inai", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .row {
@@ -380,14 +323,14 @@ h1,
 
 @media screen and (max-width: 58.75rem) {
   h1,
-  .h1 {
+.h1 {
     font-size: 2rem;
   }
 }
 
 @media screen and (max-width: 51.25rem) {
   h1,
-  .h1 {
+.h1 {
     font-size: 1.75rem;
   }
 }
@@ -399,7 +342,7 @@ h2,
 
 @media screen and (max-width: 58.75rem) {
   h2,
-  .h2 {
+.h2 {
     font-size: 1.75rem;
   }
 }
@@ -411,7 +354,7 @@ h3,
 
 @media screen and (max-width: 58.75rem) {
   h3,
-  .h3 {
+.h3 {
     font-size: 1.4375rem;
   }
 }
@@ -428,7 +371,7 @@ h5,
 
 @media screen and (max-width: 58.75rem) {
   h5,
-  .h5 {
+.h5 {
     font-size: 0.75rem;
   }
 }
@@ -1684,8 +1627,8 @@ ol.no-bullet {
 }
 
 main {
-  border-left: 0.625em solid #4c3211;
-  border-right: 0.625em solid #4c3211;
+  border-left: 0.625rem solid #4c3211;
+  border-right: 0.625rem solid #4c3211;
   box-shadow: 0.0625rem -0.125rem 0.125rem 0 #000 inset;
   background-size: cover;
   background-color: #4c3211;
@@ -1812,7 +1755,7 @@ main .main-content {
 
 @media screen and (max-width: 66.875rem) {
   #page-title .h1-wrap#project-galleries,
-  #page-title .h1-wrap#contact {
+#page-title .h1-wrap#contact {
     margin-left: -9.6875rem;
     padding-top: 20rem;
   }
@@ -1820,7 +1763,7 @@ main .main-content {
 
 @media screen and (max-width: 58.75rem) {
   #page-title .h1-wrap#project-galleries,
-  #page-title .h1-wrap#contact {
+#page-title .h1-wrap#contact {
     margin-left: -10rem;
   }
 }
@@ -1915,7 +1858,7 @@ main .main-content {
 
 footer {
   background: #4c3211;
-  border-radius: 0 0 0.625em 0.625em;
+  border-radius: 0 0 0.625rem 0.625rem;
   behavior: url("/php/PIE.htc");
   height: auto;
   padding-top: 0.625rem;
@@ -2001,7 +1944,7 @@ footer #contact-info {
   margin-right: 2.0140610841%;
   width: 63.5664067557%;
   text-align: right;
-  padding: 0.625em 1.25em 0 0;
+  padding: 0.625rem 1.25em 0 0;
 }
 
 footer #contact-info:last-child {
@@ -2033,7 +1976,7 @@ footer #contact-info #contact-us a {
     width: 100%;
     margin: 0;
     text-align: center;
-    padding: 0.625em;
+    padding: 0.625rem;
   }
   footer #contact-info #address {
     margin-bottom: 0.625rem;
@@ -2141,7 +2084,7 @@ header .logo-container #default-logo-flat {
 
 @media screen and (max-width: 58.75rem) {
   header .logo-container #default-logo,
-  header .logo-container #default-logo-flat {
+header .logo-container #default-logo-flat {
     max-width: 150px;
     margin-left: -80px;
     left: 45%;
@@ -2151,7 +2094,7 @@ header .logo-container #default-logo-flat {
 
 @media screen and (max-width: 51.25rem) {
   header .logo-container #default-logo,
-  header .logo-container #default-logo-flat {
+header .logo-container #default-logo-flat {
     visibility: hidden;
     display: none;
   }
@@ -2452,7 +2395,7 @@ header .mini {
     width: 100%;
   }
   #top-bar .nav-collapse a:hover,
-  #top-bar .nav-collapse .active a {
+#top-bar .nav-collapse .active a {
     box-shadow: none;
     text-shadow: none;
   }
@@ -2510,7 +2453,6 @@ header .mini {
 }
 
 body {
-  background: #ded8cc;
   max-width: 1180px;
   margin-left: auto;
   margin-right: auto;
@@ -2536,48 +2478,38 @@ body::after {
 
 @media screen and (max-width: 40.625rem) {
   .main-cover#index-cover,
-  .main-cover#services-cover,
-  .main-cover#project-galleries-cover,
-  .main-cover#our-plants-cover {
+.main-cover#services-cover,
+.main-cover#project-galleries-cover,
+.main-cover#our-plants-cover {
     background-image: none;
   }
 }
 
 /* Magnific Popup CSS */
-/* overlay at start */
 .mfp-zoom-in.mfp-bg {
   opacity: 0;
-  -webkit-transition: all 0.15s ease-out;
-  -moz-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition: all .15s ease-out;
 }
 
-/* overlay animate in */
 .mfp-zoom-in.mfp-bg.mfp-ready {
-  opacity: 0.8;
+  opacity: .8;
 }
 
-/* overlay animate out */
 .mfp-zoom-in.mfp-bg.mfp-removing {
   opacity: 0;
 }
 
-/* content at start */
 .mfp-zoom-in.mfp-wrap .mfp-content {
   opacity: 0;
   transform: scale(0.8);
-  -webkit-transition: all 0.15s ease-out;
-  -moz-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition: all .15s ease-out;
 }
 
-/* content animate it */
 .mfp-zoom-in.mfp-wrap.mfp-ready .mfp-content {
   opacity: 1;
   transform: scale(1);
 }
 
-/* content animate out */
 .mfp-zoom-in.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
   transform: scale(0.8);
@@ -2617,7 +2549,6 @@ body::after {
   position: fixed;
   background: #0b0b0b;
   opacity: 0.8;
-  filter: alpha(opacity=80);
 }
 
 .mfp-wrap {
@@ -2639,8 +2570,6 @@ body::after {
   left: 0;
   top: 0;
   padding: 0 8px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -2674,16 +2603,13 @@ body::after {
   cursor: progress;
 }
 
-.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-  cursor: -moz-zoom-out;
-  cursor: -webkit-zoom-out;
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
   cursor: zoom-out;
 }
 
 .mfp-zoom {
   cursor: pointer;
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
   cursor: zoom-in;
 }
 
@@ -2695,8 +2621,6 @@ body::after {
 .mfp-arrow,
 .mfp-preloader,
 .mfp-counter {
-  -webkit-user-select: none;
-  -moz-user-select: none;
   user-select: none;
 }
 
@@ -2714,7 +2638,7 @@ body::after {
   top: 50%;
   width: auto;
   text-align: center;
-  margin-top: -0.8em;
+  margin-top: -.8em;
   left: 8px;
   right: 8px;
   z-index: 1044;
@@ -2741,18 +2665,11 @@ button.mfp-close, button.mfp-arrow {
   cursor: pointer;
   background: transparent;
   border: 0;
-  -webkit-appearance: none;
   display: block;
   outline: none;
   padding: 0;
   z-index: 1046;
-  -webkit-box-shadow: none;
   box-shadow: none;
-}
-
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
 }
 
 .mfp-close {
@@ -2765,7 +2682,6 @@ button::-moz-focus-inner {
   text-decoration: none;
   text-align: center;
   opacity: 0.65;
-  filter: alpha(opacity=65);
   padding: 0 0 18px 10px;
   color: #FFF;
   font-style: normal;
@@ -2775,7 +2691,6 @@ button::-moz-focus-inner {
 
 .mfp-close:hover, .mfp-close:focus {
   opacity: 1;
-  filter: alpha(opacity=100);
 }
 
 .mfp-close:active {
@@ -2808,14 +2723,12 @@ button::-moz-focus-inner {
 .mfp-arrow {
   position: absolute;
   opacity: 0.65;
-  filter: alpha(opacity=65);
   margin: 0;
   top: 50%;
   margin-top: -55px;
   padding: 0;
   width: 90px;
   height: 110px;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .mfp-arrow:active {
@@ -2824,7 +2737,6 @@ button::-moz-focus-inner {
 
 .mfp-arrow:hover, .mfp-arrow:focus {
   opacity: 1;
-  filter: alpha(opacity=100);
 }
 
 .mfp-arrow:before, .mfp-arrow:after,
@@ -2853,7 +2765,7 @@ button::-moz-focus-inner {
 .mfp-arrow .mfp-b {
   border-top-width: 21px;
   border-bottom-width: 21px;
-  opacity: 0.7;
+  opacity: .7;
 }
 
 .mfp-arrow-left {
@@ -2927,8 +2839,6 @@ img.mfp-img {
   height: auto;
   display: block;
   line-height: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 40px 0 40px;
   margin: 0 auto;
@@ -3016,8 +2926,6 @@ img.mfp-img {
     top: auto;
     padding: 3px 5px;
     position: fixed;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
   .mfp-img-mobile .mfp-bottom-bar:empty {
@@ -3042,47 +2950,18 @@ img.mfp-img {
 
 @media all and (max-width: 900px) {
   .mfp-arrow {
-    -webkit-transform: scale(0.75);
     transform: scale(0.75);
   }
   .mfp-arrow-left {
-    -webkit-transform-origin: 0;
     transform-origin: 0;
   }
   .mfp-arrow-right {
-    -webkit-transform-origin: 100%;
     transform-origin: 100%;
   }
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px;
   }
-}
-
-.mfp-ie7 .mfp-img {
-  padding: 0;
-}
-
-.mfp-ie7 .mfp-bottom-bar {
-  width: 600px;
-  left: 50%;
-  margin-left: -300px;
-  margin-top: 5px;
-  padding-bottom: 5px;
-}
-
-.mfp-ie7 .mfp-container {
-  padding: 0;
-}
-
-.mfp-ie7 .mfp-content {
-  padding-top: 44px;
-}
-
-.mfp-ie7 .mfp-close {
-  top: 0;
-  right: 0;
-  padding-top: 0;
 }
 
 main#index {
@@ -3202,14 +3081,14 @@ main#index .main-content {
 
 @media screen and (max-width: 58.75rem) {
   .widget-links .widget#project-galleries,
-  .widget-links .widget#plant-selection {
+.widget-links .widget#plant-selection {
     height: 400;
   }
 }
 
 @media screen and (max-width: 40.625rem) {
   .widget-links .widget#project-galleries,
-  .widget-links .widget#plant-selection {
+.widget-links .widget#plant-selection {
     float: left;
     display: block;
     margin-right: 2.8425860857%;
@@ -3217,7 +3096,7 @@ main#index .main-content {
     height: 230;
   }
   .widget-links .widget#project-galleries:last-child,
-  .widget-links .widget#plant-selection:last-child {
+.widget-links .widget#plant-selection:last-child {
     margin-right: 0;
   }
 }
@@ -3340,24 +3219,24 @@ main#index .main-content {
 
 @media screen and (max-width: 35.3125rem) {
   .index-verbiage #services-text,
-  .index-verbiage #contact-text {
+.index-verbiage #contact-text {
     float: left;
     display: block;
     margin-right: 2.8425860857%;
     width: 100%;
   }
   .index-verbiage #services-text:last-child,
-  .index-verbiage #contact-text:last-child {
+.index-verbiage #contact-text:last-child {
     margin-right: 0;
   }
   .index-verbiage #services-text a.big-green-button,
-  .index-verbiage #contact-text a.big-green-button {
+.index-verbiage #contact-text a.big-green-button {
     visibility: visible;
     display: inline-block;
     margin: 1.25rem 2.8125rem;
   }
   .index-verbiage #services-text a.big-green-button:hover,
-  .index-verbiage #contact-text a.big-green-button:hover {
+.index-verbiage #contact-text a.big-green-button:hover {
     margin: 1.3125rem 2.8125rem 1.125rem 2.8125rem;
   }
   .index-verbiage .row#standard-buttons {
@@ -3721,7 +3600,6 @@ section.page-header#contact {
   box-shadow: 0 0.0625rem 0.125rem 0 #333;
   background: #fff;
   padding: 0.625rem 0.5rem 0 0.5rem;
-  height: 19.6875rem;
 }
 
 .primary-contact-info:last-child {
@@ -3730,8 +3608,10 @@ section.page-header#contact {
 
 p#address,
 p#phone,
-p#email {
-  margin-bottom: 0.75rem;
+p#email,
+p#office-phone {
+  margin-bottom: 1.25rem;
+  line-height: 1.2;
 }
 
 .office-map {
@@ -3770,7 +3650,7 @@ p#email {
 
 @media screen and (max-width: 51.25rem) {
   .primary-contact-info,
-  .office-map {
+.office-map {
     float: left;
     display: block;
     margin-right: 2.8425860857%;
@@ -3778,7 +3658,7 @@ p#email {
     margin-left: 5.1421293043%;
   }
   .primary-contact-info:last-child,
-  .office-map:last-child {
+.office-map:last-child {
     margin-right: 0;
   }
   .primary-contact-info {
@@ -3788,14 +3668,14 @@ p#email {
     text-align: center;
   }
   .primary-contact-info p#address,
-  .primary-contact-info p#phone {
+.primary-contact-info p#phone {
     float: left;
     display: block;
     margin-right: 2.8425860857%;
     width: 48.5787069571%;
   }
   .primary-contact-info p#address:last-child,
-  .primary-contact-info p#phone:last-child {
+.primary-contact-info p#phone:last-child {
     margin-right: 0;
   }
   .primary-contact-info p#phone {
@@ -3814,8 +3694,8 @@ p#email {
 
 @media screen and (max-width: 35.3125rem) {
   .primary-contact-info p#address,
-  .primary-contact-info p#phone,
-  .primary-contact-info p#email {
+.primary-contact-info p#phone,
+.primary-contact-info p#email {
     float: left;
     display: block;
     margin-right: 3.5786642602%;
@@ -3823,8 +3703,8 @@ p#email {
     margin-bottom: 1rem;
   }
   .primary-contact-info p#address:last-child,
-  .primary-contact-info p#phone:last-child,
-  .primary-contact-info p#email:last-child {
+.primary-contact-info p#phone:last-child,
+.primary-contact-info p#email:last-child {
     margin-right: 0;
   }
 }
@@ -3939,7 +3819,7 @@ p#email {
 
 @media screen and (max-width: 40.625rem) {
   .row#plant-purchases .purchase-options .row#jdf .street-address,
-  .row#plant-purchases .purchase-options .row#jdf .web-address {
+.row#plant-purchases .purchase-options .row#jdf .web-address {
     float: left;
     display: block;
     margin-right: 2.8425860857%;
@@ -3948,14 +3828,14 @@ p#email {
     padding: 0;
   }
   .row#plant-purchases .purchase-options .row#jdf .street-address:last-child,
-  .row#plant-purchases .purchase-options .row#jdf .web-address:last-child {
+.row#plant-purchases .purchase-options .row#jdf .web-address:last-child {
     margin-right: 0;
   }
 }
 
 @media screen and (max-width: 35.3125rem) {
   .row#plant-purchases .purchase-options .row#jdf .street-address,
-  .row#plant-purchases .purchase-options .row#jdf .web-address {
+.row#plant-purchases .purchase-options .row#jdf .web-address {
     text-align: center;
   }
 }
@@ -3988,7 +3868,7 @@ p#email {
 
 @media screen and (max-width: 35.3125rem) {
   .office-map,
-  .jdf-map {
+.jdf-map {
     display: none;
     visibility: hidden;
   }

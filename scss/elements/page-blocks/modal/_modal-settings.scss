@@ -21,7 +21,7 @@ $mfp-controls-border-color:           #3F3F3F; 	                  // Border colo
 $mfp-inner-close-icon-color:          #333;                       // Color of close button when inside
 $mfp-controls-text-color:             #CCC;                       // Color of preloader and "1 of X" indicator
 $mfp-controls-text-color-hover:       #FFF;                       // Hover color of preloader and "1 of X" indicator
-$mfp-IE7support:                      true;                       // Very basic IE7 support
+$mfp-IE7support:                      false;                      // Very basic IE7 support
 
 // Iframe-type options
 $mfp-include-iframe-type:             true;                       // Enable Iframe-type popups
@@ -42,4 +42,4 @@ $mfp-caption-title-color:             #F3F3F3;                    // Caption tit
 $mfp-caption-subtitle-color:          #BDBDBD;                    // Caption subtitle color
 
 // A11y
-$mfp-use-visuallyhidden:              false; 
+$mfp-use-visuallyhidden:              false;

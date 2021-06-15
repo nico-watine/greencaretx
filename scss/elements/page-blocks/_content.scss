@@ -1,6 +1,6 @@
 main {
-	border-left: $ten solid $dark-brown;
-	border-right: $ten solid $dark-brown;
+	border-left: rem-calc(10) solid $dark-brown;
+	border-right: rem-calc(10) solid $dark-brown;
 	box-shadow: rem-calc(1) rem-calc(-2) rem-calc(2) 0 #000 inset;
 	background-size: cover;
 	background-color: $dark-brown;
