@@ -1627,8 +1627,8 @@ ol.no-bullet {
 }
 
 main {
-  border-left: 0.625em solid #4c3211;
-  border-right: 0.625em solid #4c3211;
+  border-left: 0.625rem solid #4c3211;
+  border-right: 0.625rem solid #4c3211;
   box-shadow: 0.0625rem -0.125rem 0.125rem 0 #000 inset;
   background-size: cover;
   background-color: #4c3211;
@@ -1737,39 +1737,39 @@ main .main-content {
   font-family: "Roboto", sans-serif;
 }
 
-#page-title #our-plants.h1-wrap {
+#page-title .h1-wrap#our-plants {
   padding-top: 25rem;
 }
 
-#page-title #our-plants.h1-wrap .vertical-title {
+#page-title .h1-wrap#our-plants .vertical-title {
   padding: 0;
   width: 15.625rem;
   margin-left: -4.0625rem;
 }
 
-#page-title #project-galleries.h1-wrap,
-#page-title #contact.h1-wrap {
+#page-title .h1-wrap#project-galleries,
+#page-title .h1-wrap#contact {
   padding-top: 16.875rem;
   margin-left: -9.375rem;
 }
 
 @media screen and (max-width: 66.875rem) {
-  #page-title #project-galleries.h1-wrap,
-#page-title #contact.h1-wrap {
+  #page-title .h1-wrap#project-galleries,
+#page-title .h1-wrap#contact {
     margin-left: -9.6875rem;
     padding-top: 20rem;
   }
 }
 
 @media screen and (max-width: 58.75rem) {
-  #page-title #project-galleries.h1-wrap,
-#page-title #contact.h1-wrap {
+  #page-title .h1-wrap#project-galleries,
+#page-title .h1-wrap#contact {
     margin-left: -10rem;
   }
 }
 
-#page-title #project-galleries.h1-wrap .vertical-title,
-#page-title #contact.h1-wrap .vertical-title {
+#page-title .h1-wrap#project-galleries .vertical-title,
+#page-title .h1-wrap#contact .vertical-title {
   padding: 0;
   width: 25rem;
 }
@@ -1858,7 +1858,7 @@ main .main-content {
 
 footer {
   background: #4c3211;
-  border-radius: 0 0 0.625em 0.625em;
+  border-radius: 0 0 0.625rem 0.625rem;
   behavior: url("/php/PIE.htc");
   height: auto;
   padding-top: 0.625rem;
@@ -1944,7 +1944,7 @@ footer #contact-info {
   margin-right: 2.0140610841%;
   width: 63.5664067557%;
   text-align: right;
-  padding: 0.625em 1.25em 0 0;
+  padding: 0.625rem 1.25em 0 0;
 }
 
 footer #contact-info:last-child {
@@ -1976,7 +1976,7 @@ footer #contact-info #contact-us a {
     width: 100%;
     margin: 0;
     text-align: center;
-    padding: 0.625em;
+    padding: 0.625rem;
   }
   footer #contact-info #address {
     margin-bottom: 0.625rem;
@@ -2477,10 +2477,10 @@ body::after {
 }
 
 @media screen and (max-width: 40.625rem) {
-  #index-cover.main-cover,
-#services-cover.main-cover,
-#project-galleries-cover.main-cover,
-#our-plants-cover.main-cover {
+  .main-cover#index-cover,
+.main-cover#services-cover,
+.main-cover#project-galleries-cover,
+.main-cover#our-plants-cover {
     background-image: none;
   }
 }
@@ -3063,8 +3063,8 @@ main#index .main-content {
   }
 }
 
-.widget-links #project-galleries.widget,
-.widget-links #plant-selection.widget {
+.widget-links .widget#project-galleries,
+.widget-links .widget#plant-selection {
   float: left;
   display: block;
   margin-right: 2.3576520234%;
@@ -3074,34 +3074,34 @@ main#index .main-content {
   box-shadow: 0 0.0625rem 0.125rem 0 #333;
 }
 
-.widget-links #project-galleries.widget:last-child,
-.widget-links #plant-selection.widget:last-child {
+.widget-links .widget#project-galleries:last-child,
+.widget-links .widget#plant-selection:last-child {
   margin-right: 0;
 }
 
 @media screen and (max-width: 58.75rem) {
-  .widget-links #project-galleries.widget,
-.widget-links #plant-selection.widget {
+  .widget-links .widget#project-galleries,
+.widget-links .widget#plant-selection {
     height: 400;
   }
 }
 
 @media screen and (max-width: 40.625rem) {
-  .widget-links #project-galleries.widget,
-.widget-links #plant-selection.widget {
+  .widget-links .widget#project-galleries,
+.widget-links .widget#plant-selection {
     float: left;
     display: block;
     margin-right: 2.8425860857%;
     width: 100%;
     height: 230;
   }
-  .widget-links #project-galleries.widget:last-child,
-.widget-links #plant-selection.widget:last-child {
+  .widget-links .widget#project-galleries:last-child,
+.widget-links .widget#plant-selection:last-child {
     margin-right: 0;
   }
 }
 
-.widget-links #project-galleries.widget {
+.widget-links .widget#project-galleries {
   background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg");
   background-size: auto 105%;
   background-repeat: no-repeat;
@@ -3109,7 +3109,7 @@ main#index .main-content {
 }
 
 @media screen and (max-width: 58.75rem) {
-  .widget-links #project-galleries.widget {
+  .widget-links .widget#project-galleries {
     background: url("/img/index/widgets/project-galleries/large/project-galleries.jpg");
     background-size: auto 100%;
     background-repeat: no-repeat;
@@ -3118,7 +3118,7 @@ main#index .main-content {
 }
 
 @media screen and (max-width: 40.625rem) {
-  .widget-links #project-galleries.widget {
+  .widget-links .widget#project-galleries {
     background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -3127,7 +3127,7 @@ main#index .main-content {
 }
 
 @media max-width {
-  .widget-links #project-galleries.widget {
+  .widget-links .widget#project-galleries {
     background: url("/img/index/widgets/project-galleries/default/project-galleries.jpg");
     background-size: auto 110%;
     background-repeat: no-repeat;
@@ -3135,7 +3135,7 @@ main#index .main-content {
   }
 }
 
-.widget-links #plant-selection.widget {
+.widget-links .widget#plant-selection {
   background: url("/img/index/widgets/plant-selection/default/plant-selection.jpg");
   background-size: auto 105%;
   background-repeat: no-repeat;
@@ -3143,19 +3143,19 @@ main#index .main-content {
 }
 
 @media screen and (max-width: 58.75rem) {
-  .widget-links #plant-selection.widget {
+  .widget-links .widget#plant-selection {
     background-size: auto 100%;
   }
 }
 
 @media screen and (max-width: 40.625rem) {
-  .widget-links #plant-selection.widget {
+  .widget-links .widget#plant-selection {
     background-size: 100% auto;
   }
 }
 
 @media max-width {
-  .widget-links #plant-selection.widget {
+  .widget-links .widget#plant-selection {
     background-size: auto 110%;
   }
 }
@@ -3212,7 +3212,7 @@ main#index .main-content {
   }
 }
 
-.index-verbiage #standard-buttons.row {
+.index-verbiage .row#standard-buttons {
   margin-bottom: 1.875rem;
   height: 2.8125rem;
 }
@@ -3239,7 +3239,7 @@ main#index .main-content {
 .index-verbiage #contact-text a.big-green-button:hover {
     margin: 1.3125rem 2.8125rem 1.125rem 2.8125rem;
   }
-  .index-verbiage #standard-buttons.row {
+  .index-verbiage .row#standard-buttons {
     display: none;
     visibility: hidden;
   }
@@ -3254,20 +3254,20 @@ main#services .main-content {
   background-size: cover;
 }
 
-#services-header.page-header {
+.page-header#services-header {
   padding: 0 1rem;
 }
 
-#services-header.page-header h1 {
+.page-header#services-header h1 {
   margin: 0.5rem 0 1rem;
 }
 
-#services-header.page-header p {
+.page-header#services-header p {
   margin: 0 0 1rem 0;
   font-size: 1.1875rem;
 }
 
-#services-header.page-header h3 {
+.page-header#services-header h3 {
   font-size: 1.4375rem;
 }
 
@@ -3587,7 +3587,7 @@ main#contact .page-header {
   }
 }
 
-section#contact.page-header {
+section.page-header#contact {
   margin-bottom: 0.75rem;
 }
 
@@ -3708,11 +3708,11 @@ p#email {
   }
 }
 
-#plant-purchases.row {
+.row#plant-purchases {
   padding-top: 1.3125rem;
 }
 
-#plant-purchases.row .purchase-options {
+.row#plant-purchases .purchase-options {
   float: left;
   display: block;
   margin-right: 2.8425860857%;
@@ -3720,11 +3720,11 @@ p#email {
   margin-left: 5.1421293043%;
 }
 
-#plant-purchases.row .purchase-options:last-child {
+.row#plant-purchases .purchase-options:last-child {
   margin-right: 0;
 }
 
-#plant-purchases.row .purchase-options .row {
+.row#plant-purchases .purchase-options .row {
   margin-bottom: 1.25rem;
   float: left;
   display: block;
@@ -3733,92 +3733,92 @@ p#email {
   margin-right: 0;
 }
 
-#plant-purchases.row .purchase-options .row:last-child {
+.row#plant-purchases .purchase-options .row:last-child {
   margin-right: 0;
 }
 
-#plant-purchases.row .purchase-options .row .logo {
+.row#plant-purchases .purchase-options .row .logo {
   float: left;
   display: block;
   margin-right: 2.8425860857%;
   width: 17.7259311314%;
 }
 
-#plant-purchases.row .purchase-options .row .logo:last-child {
+.row#plant-purchases .purchase-options .row .logo:last-child {
   margin-right: 0;
 }
 
-#plant-purchases.row .purchase-options .row .logo img {
+.row#plant-purchases .purchase-options .row .logo img {
   max-width: 8.75rem;
   width: 100%;
 }
 
-#plant-purchases.row .purchase-options .row .verbiage {
+.row#plant-purchases .purchase-options .row .verbiage {
   float: left;
   display: block;
   margin-right: 2.8425860857%;
   width: 79.4314827829%;
 }
 
-#plant-purchases.row .purchase-options .row .verbiage:last-child {
+.row#plant-purchases .purchase-options .row .verbiage:last-child {
   margin-right: 0;
 }
 
-#plant-purchases.row .purchase-options .row .verbiage p {
+.row#plant-purchases .purchase-options .row .verbiage p {
   margin: 0.625rem auto 0.75rem;
 }
 
 @media screen and (max-width: 35.3125rem) {
-  #plant-purchases.row .purchase-options .row .logo {
+  .row#plant-purchases .purchase-options .row .logo {
     float: left;
     display: block;
     margin-right: 3.5786642602%;
     width: 100%;
     margin-bottom: 0.625rem;
   }
-  #plant-purchases.row .purchase-options .row .logo:last-child {
+  .row#plant-purchases .purchase-options .row .logo:last-child {
     margin-right: 0;
   }
-  #plant-purchases.row .purchase-options .row .verbiage {
+  .row#plant-purchases .purchase-options .row .verbiage {
     float: left;
     display: block;
     margin-right: 3.5786642602%;
     width: 100%;
   }
-  #plant-purchases.row .purchase-options .row .verbiage:last-child {
+  .row#plant-purchases .purchase-options .row .verbiage:last-child {
     margin-right: 0;
   }
 }
 
-#plant-purchases.row .purchase-options #jdf.row #jdf-details.row {
+.row#plant-purchases .purchase-options .row#jdf .row#jdf-details {
   margin-bottom: 0;
 }
 
-#plant-purchases.row .purchase-options #jdf.row .street-address,
-#plant-purchases.row .purchase-options #jdf.row .web-address {
+.row#plant-purchases .purchase-options .row#jdf .street-address,
+.row#plant-purchases .purchase-options .row#jdf .web-address {
   float: left;
   display: block;
   margin-right: 2.8425860857%;
   width: 48.5787069571%;
 }
 
-#plant-purchases.row .purchase-options #jdf.row .street-address:last-child,
-#plant-purchases.row .purchase-options #jdf.row .web-address:last-child {
+.row#plant-purchases .purchase-options .row#jdf .street-address:last-child,
+.row#plant-purchases .purchase-options .row#jdf .web-address:last-child {
   margin-right: 0;
 }
 
-#plant-purchases.row .purchase-options #jdf.row .street-address {
+.row#plant-purchases .purchase-options .row#jdf .street-address {
   text-align: left;
 }
 
-#plant-purchases.row .purchase-options #jdf.row .web-address {
+.row#plant-purchases .purchase-options .row#jdf .web-address {
   text-align: right;
   padding-right: 1rem;
 }
 
 @media screen and (max-width: 40.625rem) {
-  #plant-purchases.row .purchase-options #jdf.row .street-address,
-#plant-purchases.row .purchase-options #jdf.row .web-address {
+  .row#plant-purchases .purchase-options .row#jdf .street-address,
+.row#plant-purchases .purchase-options .row#jdf .web-address {
     float: left;
     display: block;
     margin-right: 2.8425860857%;
@@ -3826,15 +3826,15 @@ p#email {
     text-align: left;
     padding: 0;
   }
-  #plant-purchases.row .purchase-options #jdf.row .street-address:last-child,
-#plant-purchases.row .purchase-options #jdf.row .web-address:last-child {
+  .row#plant-purchases .purchase-options .row#jdf .street-address:last-child,
+.row#plant-purchases .purchase-options .row#jdf .web-address:last-child {
     margin-right: 0;
   }
 }
 
 @media screen and (max-width: 35.3125rem) {
-  #plant-purchases.row .purchase-options #jdf.row .street-address,
-#plant-purchases.row .purchase-options #jdf.row .web-address {
+  .row#plant-purchases .purchase-options .row#jdf .street-address,
+.row#plant-purchases .purchase-options .row#jdf .web-address {
     text-align: center;
   }
 }
@@ -3904,7 +3904,7 @@ p#email {
   color: #444;
 }
 
-#about-us-cover.main-cover {
+.main-cover#about-us-cover {
   background-image: url("/img/about-us/bg.jpg");
 }
 
