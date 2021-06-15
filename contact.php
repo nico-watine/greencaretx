@@ -105,7 +105,7 @@
 				<div class="consultation-details">
 					<section class="consultations">
 						<h2>Consultations</h2>
-						<p>To schedule an appointment and next-day quote, please call or email our office administrator Lissette Martinez</p>
+						<p>To schedule an appointment and next-day quote, please call or email our office administrator Lissette&nbsp;Martinez</p>
 						<h4><a href="tel://713-864-5300" class="phone-number">713-864-5300</a> | <a href="mailto:lissette@greencaretx.com" target="_top">lissette@greencaretx.com</a></h4>
 					</section>
 				</div>
