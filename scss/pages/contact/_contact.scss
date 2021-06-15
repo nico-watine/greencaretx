@@ -45,13 +45,15 @@ section.page-header#contact {
 	box-shadow: 0 rem-calc(1) rem-calc(2) 0 #333;
 	background: #fff;
 	padding: rem-calc(10) rem-calc(8) 0 rem-calc(8);
-	height: rem-calc(315);
+	// height: rem-calc(315);
 }
 
 p#address,
 p#phone,
-p#email {
-	margin-bottom: rem-calc(12);
+p#email,
+p#office-phone {
+	margin-bottom: rem-calc(20);
+	line-height: 1.2;
 }
 
 .office-map {
