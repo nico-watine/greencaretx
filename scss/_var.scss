@@ -1,0 +1,99 @@
+// ---------------------------------------------------------------------- //
+// CSS Reset Options
+// -----------------
+
+$include-sub-sup: false;
+$include-pre-code: false;
+
+
+// ---------------------------------------------------------------------- //
+// Colors
+// ------
+$black: #0a0a0a;
+$white: #fefefe;
+$dark-brown: #4c3211;
+$lime-green: #a0cc39;
+$tan: #ded8cc;
+$logo-brown: #624011;
+$content-bg: #eee;
+
+// Typography Elements
+// $body-font-color: #333;
+$body-font-color: $black;
+$p-color: #333;
+$h-color: $black;
+$text-color: $p-color;
+$link-color: #222;
+$hr-color: #ccc;
+
+
+// ---------------------------------------------------------------------- //
+// Global
+// ------
+
+$global-font-size: 100%;
+$global-width: rem-calc(1200);
+$global-lineheight: 1.5;
+// $black: #0a0a0a;
+// $white: #fefefe;
+$body-background: $tan;
+$body-font-color: $black;
+// $body-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$p-font-family: 'inai', sans-serif;
+$p-lineheight: 1.6;
+$bold-font-family: 'Roboto', sans-serif;
+$global-weight: normal;
+$global-weight-bold: bold;
+
+
+// -------------------------------------
+// |            font-sizing            |
+// -------------------------------------
+
+$h1-size: rem-calc(38);
+$h2-size: rem-calc(32);
+$h3-size: rem-calc(28);
+$h4-size: rem-calc(23);
+$h5-size: rem-calc(16);
+$h6-size: rem-calc(12);
+
+
+// ---------------------------------------------------------------------- //
+// box-shadow Values
+// -----------------
+$z-1: 0 rem-calc(1) rem-calc(4) 0 rgba(0,0,0,.37);
+$z-2: 0 rem-calc(2) rem-calc(2) 0 rgba(0,0,0,.20), 0 rem-calc(6) rem-calc(10) 0 rgba(0,0,0,.30);
+$z-3: 0 rem-calc(11) rem-calc(7) 0 rgba(0,0,0,.19), 0 rem-calc(13) rem-calc(25) 0 rgba(0,0,0,.30);
+$z-4: 0 rem-calc(14) rem-calc(12) 0 rgba(0,0,0,.17), 0 rem-calc(20) rem-calc(40) 0 rgba(0,0,0,.30);
+$z-5: 0 rem-calc(17) rem-calc(17) 0 rgba(0,0,0,.15), 0 rem-calc(27) rem-calc(55) 0 rgba(0,0,0,.30);
+
+
+// ---------------------------------------------------------------------- //
+// Colors
+// ------
+
+$dark-brown: #4c3211;
+$lime-green: #a0cc39;
+$tan: #ded8cc;
+$logo-brown: #624011;
+$content-bg: #eee;
+
+// Typography Elements
+// $body-font-color: #333;
+$body-font-color: $black;
+$p-color: #333;
+$h-color: $black;
+$text-color: $p-color;
+$link-color: #222;
+$hr-color: #ccc;
+
+
+
+
+
+// -----------------------------------------
+// |            sort below code            |
+// -----------------------------------------
+$body-font-family: $p-font-family;
+$h-font-family: $p-font-family;
+// $baseline: 1.4em;
