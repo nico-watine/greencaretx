@@ -17,12 +17,6 @@
 	<link href="<?php autoVer('/css/opt/style.css'); ?>" rel="stylesheet">
 	<!-- <link href="<?php autoVer('/css/style.css'); ?>" rel="stylesheet"> -->
 
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<link rel="stylesheet" href="<?php autoVer('/css/ie8.css'); ?>"/>
-		<script src="<?php autoVer('/js/scripts-ie-min.js'); ?>"></script>
-	<![endif]-->
-
 </head>
 
 <body>
@@ -88,10 +82,10 @@
 					<br>Houston, TX 77009</a></p>
 					<p id="phone"><strong>Office Phone</strong>
 					<br><a href="tel://713-864-5300" class="phone-number">713-864-5300</a></p>
+					<!-- <p id="office-phone"><strong>Direct Sales Line</strong> -->
+					<!-- <br><a href="tel://713-864-5300" class="phone-number">713-864-5300</a></p> -->
 					<p id="email"><strong>Office Email</strong>
 					<br><a href="mailto:lissette@greencaretx.com" target="_top">lissette@greencaretx.com</a></p>
-					<p id="office-phone"><strong>Direct Sales Line</strong>
-					<br><a href="tel://713-864-5300" class="phone-number">713-864-5300</a></p>
 				</section>
 				<section class="office-map">
 					<h2>Office Map</h2>
@@ -105,7 +99,7 @@
 				<div class="consultation-details">
 					<section class="consultations">
 						<h2>Consultations</h2>
-						<p>To schedule an appointment and next-day quote, please call or email our office administrator Lissette Martinez</p>
+						<p>To schedule an appointment and next-day quote, please call or email our office administrator Lissette&nbsp;Martinez</p>
 						<h4><a href="tel://713-864-5300" class="phone-number">713-864-5300</a> | <a href="mailto:lissette@greencaretx.com" target="_top">lissette@greencaretx.com</a></h4>
 					</section>
 				</div>
